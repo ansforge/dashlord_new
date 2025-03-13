@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://ivan.esante.gouv.fr",
+        "size": 4498.083,
+        "nodes": 138,
+        "requests": 35,
+        "grade": "B",
+        "score": 72.0,
+        "ges": 1.56,
+        "water": 2.34,
+        "ecoindex_version": "5.4.2",
+        "date": "2025-03-13 16:55:46.704284",
+        "page_type": null
+    }
+]

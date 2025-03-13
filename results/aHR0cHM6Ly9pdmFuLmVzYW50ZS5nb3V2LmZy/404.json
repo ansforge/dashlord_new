@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "ivan.esante.gouv.fr",
+        "port": null,
+        "hostname": "ivan.esante.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://ivan.esante.gouv.fr/"
+      },
+      "link": "https://ivan.esante.gouv.fr/",
+      "line": "--2025-03-13 16:55:47--  https://ivan.esante.gouv.fr/",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
