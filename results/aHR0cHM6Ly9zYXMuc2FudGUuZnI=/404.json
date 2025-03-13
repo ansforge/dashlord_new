@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "sas.sante.fr",
+        "port": null,
+        "hostname": "sas.sante.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://sas.sante.fr/"
+      },
+      "link": "https://sas.sante.fr/",
+      "line": "--2025-03-13 17:39:57--  https://sas.sante.fr/",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
