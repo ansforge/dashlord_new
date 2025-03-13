@@ -1,7 +1,7 @@
-title: DashLord example
-description: Bonnes pratiques techniques
-entity: Votre entité
-footer: Powered by SocialGouv
+title: DashLord ANS
+description: Supervision de différentes métriques
+entity: Ministères sociaux
+footer: ANS powered by SocialGouv
 marianne: false
 tools:
   "404": true
@@ -17,7 +17,7 @@ tools:
   updownio: false
   dependabot: true
   codescan: true
-  stats: false
+  stats: true
   declaration-a11y: true
   ecoindex: true
   dsfr: true
@@ -29,9 +29,40 @@ updownioRecipients:
   - email:123456
   - email:789987
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-    docker:
-      - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
+  - url: https://annuaire.sante.fr
+  - url: https://www.connect.si-samu.fr/
+  - url: https://convergence.esante.gouv.fr
+  - url: https://cyberveille.esante.gouv.fr/
+  - url: https://diagcps.eservices.esante.gouv.fr
+  - url: https://ecoscore-appli.esante.gouv.fr
+  - url: https://esante.gouv.fr
+  - url: https://finess.esante.gouv.fr/
+  - url: https://gnius.esante.gouv.fr
+  - url: https://industriels.esante.gouv.fr
+  - url: http://igc-sante.esante.gouv.fr
+  - url: https://interop.esante.gouv.fr
+  - url: https://ivan.esante.gouv.fr
+  - url: https://ma-cps.esante.gouv.fr
+  - url: https://mailiz.mssante.fr
+  - url: https://meshabilitations.esante.gouv.fr
+  - url: https://moncompte-enreg.esante.gouv.fr
+  - url: https://mos.esante.gouv.fr
+  - url: https://mssante.fr
+  - url: https://portal.api.esante.gouv.fr
+  - url: https://pfc.eservices.esante.gouv.fr
+  - url: https://sante.fr
+  - url: https://sas.sante.fr
+  - url: https://service.annuaire.sante.fr
+  - url: https://sgc.esante.gouv.fr
+  - url: https://signalement.social-sante.gouv.fr
+  - url: https://si-vic.sante.gouv.fr
+  - url: https://smt.esante.gouv.fr
+  - url: https://sondage.esante.gouv.fr
+  - url: https://support.si-samu.fr/support
+  - url: http://testssl.eservices.esante.gouv.fr
+  - url: https://tom.eservices.esante.gouv.fr
+  - url: https://tops.eservices.esante.gouv.fr  
+  - url: https://ue.esante.gouv.fr
+  - url: https://validation-enreg.esante.gouv.fr
+  - url: https://wallet.esw.esante.gouv.fr
+  - url: https://ws.annuaire.sante.fr
