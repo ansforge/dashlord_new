@@ -30,13 +30,13 @@ updownioRecipients:
   - email:789987
 urls:
   - url: https://annuaire.sante.fr
-  - url: https://www.connect.si-samu.fr/
+  - url: https://www.connect.si-samu.fr
   - url: https://convergence.esante.gouv.fr
-  - url: https://cyberveille.esante.gouv.fr/
+  - url: https://cyberveille.esante.gouv.fr
   - url: https://diagcps.eservices.esante.gouv.fr
   - url: https://ecoscore-appli.esante.gouv.fr
   - url: https://esante.gouv.fr
-  - url: https://finess.esante.gouv.fr/
+  - url: https://finess.esante.gouv.fr
   - url: https://gnius.esante.gouv.fr
   - url: https://industriels.esante.gouv.fr
   - url: http://igc-sante.esante.gouv.fr
