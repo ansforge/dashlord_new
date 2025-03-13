@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://signalement.social-sante.gouv.fr",
+        "size": 2557.905,
+        "nodes": 145,
+        "requests": 16,
+        "grade": "B",
+        "score": 78.0,
+        "ges": 1.44,
+        "water": 2.16,
+        "ecoindex_version": "5.4.2",
+        "date": "2025-03-13 17:45:20.599695",
+        "page_type": null
+    }
+]
