@@ -15,8 +15,8 @@ tools:
   thirdparties: true
   nuclei: true
   updownio: false
-  dependabot: true
-  codescan: true
+  dependabot: false
+  codescan: false
   stats: true
   declaration-a11y: true
   ecoindex: true
