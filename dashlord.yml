@@ -21,7 +21,7 @@ tools:
   declaration-a11y: true
   ecoindex: true
   dsfr: true
-  betagouv: true
+  betagouv: false
 columns: # pour masquer des colonnes
   zap: false
 updownioStatusPage: https://updown.io/status_pages
