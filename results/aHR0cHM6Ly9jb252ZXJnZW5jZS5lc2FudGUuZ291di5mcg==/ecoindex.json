@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://convergence.esante.gouv.fr",
+        "size": 2717.338,
+        "nodes": 441,
+        "requests": 37,
+        "grade": "C",
+        "score": 62.0,
+        "ges": 1.76,
+        "water": 2.64,
+        "ecoindex_version": "5.4.2",
+        "date": "2025-03-13 16:01:46.252848",
+        "page_type": null
+    }
+]
