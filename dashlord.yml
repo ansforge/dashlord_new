@@ -29,7 +29,6 @@ updownioRecipients:
   - email:123456
   - email:789987
 urls:
-  - url: https://www.fabrique.social.gouv.fr
   - url: https://annuaire.sante.fr
   - url: https://www.connect.si-samu.fr/
   - url: https://convergence.esante.gouv.fr
