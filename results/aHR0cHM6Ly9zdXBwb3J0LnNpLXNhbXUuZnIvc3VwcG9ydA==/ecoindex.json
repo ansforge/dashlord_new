@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://support.si-samu.fr/support",
+        "size": 1992.963,
+        "nodes": 200,
+        "requests": 28,
+        "grade": "B",
+        "score": 75.0,
+        "ges": 1.5,
+        "water": 2.25,
+        "ecoindex_version": "5.4.2",
+        "date": "2025-03-13 18:01:04.052799",
+        "page_type": "website"
+    }
+]
