@@ -584,14 +584,14 @@
               "ip"           : "mssante.fr/51.178.173.194",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "mssante.fr/51.178.173.194",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741945683"
+              "finding"      : "1741975141"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -721,10 +721,8 @@
               "id"           : "ticketbleed",
               "ip"           : "mssante.fr/51.178.173.194",
               "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2016-9244",
-              "cwe"          : "CWE-200",
-              "finding"      : "not vulnerable"
+              "severity"     : "WARN",
+              "finding"      : "/home/testssl/bin/openssl.Linux.x86_64 unable to connect to 51.178.173.194:443 when testing for ticketbleed."
           }
 ,         {
               "id"           : "ROBOT",
@@ -823,15 +821,6 @@
               "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E3F5FEC74C9D0F9BB7DD8E880B40C848E9B929D0412B6780621AB19AE4DC9516"
           }
 ,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "mssante.fr/51.178.173.194",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "RFC3526/Oakley Group 14"
-          }
-,         {
               "id"           : "LOGJAM",
               "ip"           : "mssante.fr/51.178.173.194",
               "port"         : "443",
@@ -839,6 +828,15 @@
               "cve"          : "CVE-2015-4000",
               "cwe"          : "CWE-310",
               "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "mssante.fr/51.178.173.194",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
               "id"           : "BEAST",
@@ -1203,6 +1201,6 @@
               "ip"           : "mssante.fr/51.178.173.194",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "124"
+              "finding"      : "756"
           }
 ]
