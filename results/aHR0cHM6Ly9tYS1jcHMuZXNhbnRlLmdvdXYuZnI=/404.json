@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "ma-cps.esante.gouv.fr",
+        "port": null,
+        "hostname": "ma-cps.esante.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://ma-cps.esante.gouv.fr/"
+      },
+      "link": "https://ma-cps.esante.gouv.fr/",
+      "line": "--2025-03-14 09:15:20--  https://ma-cps.esante.gouv.fr/",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
