@@ -9,10 +9,10 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 13 Mar 2025 17:58:05 GMT",
+      "date": "Fri, 14 Mar 2025 10:21:35 GMT",
       "server": "Apache/2.4.52 (Ubuntu)",
       "set-cookie": [
-        "LS-VMTIPBHXPMHGODAL=r5u5a73l43d6a94a0ubttfmamp; path=/; secure; HttpOnly"
+        "LS-VMTIPBHXPMHGODAL=vov5lhdvsfrupju7go182526a6; path=/; secure; HttpOnly"
       ],
       "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "cache-control": "no-store, no-cache, must-revalidate",
