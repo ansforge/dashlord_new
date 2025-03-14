@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "mssante.fr",
+        "port": null,
+        "hostname": "mssante.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://mssante.fr/"
+      },
+      "link": "https://mssante.fr/",
+      "line": "--2025-03-14 09:45:20--  https://mssante.fr/",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
