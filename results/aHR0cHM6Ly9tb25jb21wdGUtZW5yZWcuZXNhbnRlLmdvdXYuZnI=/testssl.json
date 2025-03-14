@@ -339,7 +339,7 @@
               "ip"           : "moncompte-enreg.esante.gouv.fr/80.78.2.189",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "170 >= 60 days"
+              "finding"      : "169 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "moncompte-enreg.esante.gouv.fr/80.78.2.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741885999"
+              "finding"      : "1741944853"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1063,6 +1063,6 @@
               "ip"           : "moncompte-enreg.esante.gouv.fr/80.78.2.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "79"
+              "finding"      : "85"
           }
 ]
