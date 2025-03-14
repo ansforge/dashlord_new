@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://pfc.eservices.esante.gouv.fr",
-        "size": 2011.172,
+        "size": 2011.171,
         "nodes": 60,
         "requests": 46,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.46,
         "water": 2.19,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-13 17:26:52.786545",
+        "date": "2025-03-14 09:57:53.096679",
         "page_type": null
     }
 ]

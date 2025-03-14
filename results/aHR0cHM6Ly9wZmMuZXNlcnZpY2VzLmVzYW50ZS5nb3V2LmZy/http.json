@@ -11,12 +11,12 @@
     "responseHeaders": {
       "cache-control": "private",
       "set-cookie": [
-        "JSESSIONID=5E0FB00FB16AA124B4DA72808BD851F4.routePWASIPAPPT01IN; Path=/pfcng-ihm; Secure; HttpOnly",
-        "cookie-prd-asip=!MbgGwaz3krEopf/4RPZxpswqPbuilYgDRAXCs4D7pmEz4f9/H8DXrOvwCU3eeu6R2LDvKdhuwGO528k=; path=/; Httponly; Secure"
+        "JSESSIONID=C75181C29673EE4AEE48431AE57CC519.routePWASIPAPPT01IN; Path=/pfcng-ihm; Secure; HttpOnly",
+        "cookie-prd-asip=!viwRne/Hw5Zfg7L4RPZxpswqPbuilYp10LEW8gODfX7H27DyP/Oqcvf48Hc+dijlZHThQjZJhm/jmy0=; path=/; Httponly; Secure"
       ],
       "content-type": "text/html;charset=UTF-8",
       "transfer-encoding": "chunked",
-      "date": "Thu, 13 Mar 2025 17:28:19 GMT",
+      "date": "Fri, 14 Mar 2025 09:59:12 GMT",
       "server": "PFCNG",
       "connection": "close"
     }
