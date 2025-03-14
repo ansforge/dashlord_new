@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://portal.api.esante.gouv.fr",
-        "size": 1573.298,
+        "size": 1573.194,
         "nodes": 61,
         "requests": 39,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.4,
         "water": 2.1,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-14 09:46:59.611444",
+        "date": "2025-03-14 17:55:24.083607",
         "page_type": null
     }
 ]

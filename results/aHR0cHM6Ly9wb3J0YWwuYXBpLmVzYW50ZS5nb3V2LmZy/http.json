@@ -9,7 +9,7 @@
     "testsPassed": 9,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 14 Mar 2025 09:48:12 GMT",
+      "date": "Fri, 14 Mar 2025 17:57:51 GMT",
       "content-security-policy": "frame-ancestors 'self';",
       "content-type": "text/html; charset=utf-8",
       "vary": "Accept-Encoding",
