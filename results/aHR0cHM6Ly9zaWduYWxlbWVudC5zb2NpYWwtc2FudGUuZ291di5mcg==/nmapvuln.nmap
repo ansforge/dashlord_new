@@ -1,0 +1,61 @@
+# Nmap 7.92 scan initiated Fri Mar 14 18:35:36 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln signalement.social-sante.gouv.fr
+Nmap scan report for signalement.social-sante.gouv.fr (51.178.236.12)
+Host is up (0.086s latency).
+rDNS record for 51.178.236.12: ip12.ip-51-178-236.eu
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE  SERVICE   VERSION
+113/tcp closed ident
+443/tcp open   ssl/https
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Fri Mar 14 18:35:56 2025 GMT
+|     Content-Length: 56991
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff; } h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV
+|   HTTPOptions: 
+|     HTTP/1.1 503 Service Unavailable
+|     Date: Fri Mar 14 18:35:57 2025 GMT
+|     Content-Length: 56991
+|     Connection: close
+|     Content-Type: text/html
+|_    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd"><html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <style type="text/css"> html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; background-color: #ffffff; } h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; } div { margin: 0; padding: 0; } div.header { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/14%Time=67D4770C%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,2F70,"HTTP/1\.1\x20503\x20Service\x20Unavailable\r\n
+SF:Date:\x20Fri\x20Mar\x2014\x2018:35:56\x202025\x20GMT\r\nContent-Length:
+SF:\x2056991\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n
+SF:<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20Transi
+SF:tional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-html401-19991224/loo
+SF:se\.dtd\"><html>\x20<head>\x20<meta\x20http-equiv=\"Content-Type\"\x20c
+SF:ontent=\"text/html;\x20charset=UTF-8\">\x20<style\x20type=\"text/css\">
+SF:\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x200;\x20font-famil
+SF:y:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:\x2010pt;\x20backg
+SF:round-color:\x20#ffffff;\x20}\x20h1,\x20h2\x20{\x20height:\x2082px;\x20
+SF:text-indent:\x20-999em;\x20margin:\x200;\x20padding:\x200;\x20margin:\x
+SF:200;\x20}\x20div\x20{\x20margin:\x200;\x20padding:\x200;\x20}\x20div\.h
+SF:eader\x20{\x20background:\x20url\(data:image/png;base64,iVBORw0KGgoAAAA
+SF:NSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYW
+SF:R5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i7
+SF:7u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8\+IDx4OnhtcG1ldGEgeG1sbnM
+SF:6eD0iYWRvYmU6bnM6bWV")%r(HTTPOptions,2F70,"HTTP/1\.1\x20503\x20Service\
+SF:x20Unavailable\r\nDate:\x20Fri\x20Mar\x2014\x2018:35:57\x202025\x20GMT\
+SF:r\nContent-Length:\x2056991\r\nConnection:\x20close\r\nContent-Type:\x2
+SF:0text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\
+SF:x204\.01\x20Transitional//EN\"\x20\"http://www\.w3c\.org/TR/1999/REC-ht
+SF:ml401-19991224/loose\.dtd\"><html>\x20<head>\x20<meta\x20http-equiv=\"C
+SF:ontent-Type\"\x20content=\"text/html;\x20charset=UTF-8\">\x20<style\x20
+SF:type=\"text/css\">\x20html,\x20body\x20{\x20margin:\x200;\x20padding:\x
+SF:200;\x20font-family:\x20Verdana,\x20Arial,\x20sans-serif;\x20font-size:
+SF:\x2010pt;\x20background-color:\x20#ffffff;\x20}\x20h1,\x20h2\x20{\x20he
+SF:ight:\x2082px;\x20text-indent:\x20-999em;\x20margin:\x200;\x20padding:\
+SF:x200;\x20margin:\x200;\x20}\x20div\x20{\x20margin:\x200;\x20padding:\x2
+SF:00;\x20}\x20div\.header\x20{\x20background:\x20url\(data:image/png;base
+SF:64,iVBORw0KGgoAAAANSUhEUgAAAPMAAAFnCAMAAABEqI/sAAAAGXRFWHRTb2Z0d2FyZQBB
+SF:ZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHB
+SF:hY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8\+IDx4O
+SF:nhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 14 18:36:32 2025 -- 1 IP address (1 host up) scanned in 55.94 seconds
