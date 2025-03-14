@@ -1,13 +1,7 @@
-# DashLord
+# DashLord ANS
 
 Tableau de bord des bonnes pratiques techniques
-
-Exemples :
-
-- https://dashlord.incubateur.net
-- https://socialgouv.github.io/dashlord-fabrique
-- https://mtes-mct.github.io/dashlord
-- https://socialgouv.github.io/dnum-dashboard
+[ansforge.github.io/dashlord/](https://ansforge.github.io/dashlord/)
 
 ## Usage
 
