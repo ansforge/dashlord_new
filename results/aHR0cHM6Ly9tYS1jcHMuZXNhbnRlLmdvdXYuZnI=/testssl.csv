@@ -81,7 +81,7 @@
 "intermediate_cert_badOCSP","ma-cps.esante.gouv.fr/80.78.2.155","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","ma-cps.esante.gouv.fr/80.78.2.155","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","ma-cps.esante.gouv.fr/80.78.2.155","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","ma-cps.esante.gouv.fr/80.78.2.155","443","INFO","1741943825","",""
+"HTTP_headerTime","ma-cps.esante.gouv.fr/80.78.2.155","443","INFO","1741973001","",""
 "HSTS_time","ma-cps.esante.gouv.fr/80.78.2.155","443","OK","730 days (=63072000 seconds) > 15552000 seconds","",""
 "HSTS_subdomains","ma-cps.esante.gouv.fr/80.78.2.155","443","OK","includes subdomains","",""
 "HSTS_preload","ma-cps.esante.gouv.fr/80.78.2.155","443","OK","domain IS marked for preloading","",""
