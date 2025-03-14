@@ -367,7 +367,7 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "210 >= 60 days"
+              "finding"      : "209 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -528,7 +528,7 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741881916"
+              "finding"      : "1741939955"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -619,7 +619,7 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "max-age=59"
+              "finding"      : "max-age=40"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -1126,6 +1126,6 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "64"
           }
 ]

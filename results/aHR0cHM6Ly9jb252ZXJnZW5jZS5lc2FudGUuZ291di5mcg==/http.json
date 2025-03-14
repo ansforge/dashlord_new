@@ -9,22 +9,22 @@
     "testsPassed": 9,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 13 Mar 2025 16:04:12 GMT",
+      "date": "Fri, 14 Mar 2025 08:11:58 GMT",
       "server": "Apache",
       "strict-transport-security": "max-age=63072000; includeSubdomains;",
       "x-frame-options": "sameorigin",
       "content-length": "54302",
-      "expires": "Thu, 13 Mar 2025 16:05:00 GMT",
-      "cache-control": "max-age=48",
+      "expires": "Fri, 14 Mar 2025 08:12:14 GMT",
+      "cache-control": "max-age=16",
       "vary": "Accept-Language,Cookie",
       "content-language": "fr",
       "x-content-type-options": "nosniff",
       "referrer-policy": "same-origin",
       "content-type": "text/html; charset=utf-8",
       "set-cookie": [
-        "django_language=fr; expires=Fri, 13 Mar 2026 16:04:12 GMT; Max-Age=31536000; Path=/;HttpOnly;Secure",
-        "csrftoken=T4qNV4FMm9hE5BjOnmCO7Tyim60xUryzYlkKgYlDarH3ez21Zhdh4FhaPhcZhkyI; expires=Thu, 12 Mar 2026 16:04:12 GMT; Max-Age=31449600; Path=/; SameSite=Lax;HttpOnly;Secure",
-        "sessionid=m6tf2493f2yb3ol9w4ba1cnvhf4j2h2o; HttpOnly; Path=/; SameSite=Lax;HttpOnly;Secure"
+        "django_language=fr; expires=Sat, 14 Mar 2026 08:11:58 GMT; Max-Age=31536000; Path=/;HttpOnly;Secure",
+        "csrftoken=IPggEkEUfjwIzQtYNKE1kTS0NKDgwVX86TMqmO3mGSdH4w4KiJMoGCHWQNUOm2xe; expires=Fri, 13 Mar 2026 08:11:58 GMT; Max-Age=31449600; Path=/; SameSite=Lax;HttpOnly;Secure",
+        "sessionid=1aufmc1b4xdcixw2imfdc3k5izjndvq0; HttpOnly; Path=/; SameSite=Lax;HttpOnly;Secure"
       ],
       "connection": "close"
     }
@@ -49,7 +49,7 @@
       "data": {
         "django_language": {
           "domain": "convergence.esante.gouv.fr",
-          "expires": "2026-03-13T16:04:12.000Z",
+          "expires": "2026-03-14T08:11:58.000Z",
           "httponly": true,
           "max-age": 31536000,
           "path": "/",
@@ -58,7 +58,7 @@
         },
         "csrftoken": {
           "domain": "convergence.esante.gouv.fr",
-          "expires": "2026-03-12T16:04:12.000Z",
+          "expires": "2026-03-13T08:11:58.000Z",
           "httponly": true,
           "max-age": 31449600,
           "path": "/",
