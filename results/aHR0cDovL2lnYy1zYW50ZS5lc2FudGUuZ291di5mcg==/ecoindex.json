@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "http://igc-sante.esante.gouv.fr",
-        "size": 356.006,
+        "size": 355.977,
         "nodes": 504,
         "requests": 14,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.54,
         "water": 2.31,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-13 16:51:28.614333",
+        "date": "2025-03-14 09:00:13.904226",
         "page_type": null
     }
 ]
