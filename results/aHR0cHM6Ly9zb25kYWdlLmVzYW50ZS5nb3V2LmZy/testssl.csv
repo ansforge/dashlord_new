@@ -73,7 +73,7 @@
 "intermediate_cert_badOCSP","sondage.esante.gouv.fr/57.128.86.227","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","sondage.esante.gouv.fr/57.128.86.227","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","sondage.esante.gouv.fr/57.128.86.227","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","sondage.esante.gouv.fr/57.128.86.227","443","INFO","1741947746","",""
+"HTTP_headerTime","sondage.esante.gouv.fr/57.128.86.227","443","INFO","1741977634","",""
 "HSTS","sondage.esante.gouv.fr/57.128.86.227","443","LOW","not offered","",""
 "HPKP","sondage.esante.gouv.fr/57.128.86.227","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","sondage.esante.gouv.fr/57.128.86.227","443","INFO","Apache/2.4.52 (Ubuntu)","",""

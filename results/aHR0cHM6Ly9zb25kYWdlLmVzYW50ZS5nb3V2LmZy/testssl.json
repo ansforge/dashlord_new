@@ -528,7 +528,7 @@
               "ip"           : "sondage.esante.gouv.fr/57.128.86.227",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741947746"
+              "finding"      : "1741977634"
           }
 ,         {
               "id"           : "HSTS",
@@ -1105,6 +1105,6 @@
               "ip"           : "sondage.esante.gouv.fr/57.128.86.227",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "83"
+              "finding"      : "60"
           }
 ]
