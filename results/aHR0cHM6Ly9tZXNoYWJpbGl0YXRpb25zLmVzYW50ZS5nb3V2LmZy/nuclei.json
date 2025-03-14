@@ -1,0 +1,603 @@
+[
+  [
+    {
+      "template": "dns/caa-fingerprint.yaml",
+      "template-url": "https://templates.nuclei.sh/public/caa-fingerprint",
+      "template-id": "caa-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/caa-fingerprint.yaml",
+      "info": {
+        "name": "CAA Record",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "caa"
+        ],
+        "description": "A CAA record was discovered. A CAA record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.",
+        "reference": [
+          "https://support.dnsimple.com/articles/caa-record/#whats-a-caa-record"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "meshabilitations.esante.gouv.fr.",
+      "matched-at": "meshabilitations.esante.gouv.fr",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 9743\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;meshabilitations.esante.gouv.fr.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 9743\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;meshabilitations.esante.gouv.fr.\tIN\t CAA\n\n;; AUTHORITY SECTION:\nesante.gouv.fr.\t10800\tIN\tSOA\tns1.gandi.net. hostmaster.gandi.net. 1741960648 10800 3600 604800 10800\n",
+      "timestamp": "2025-03-14T17:40:36.518544947Z",
+      "matcher-status": true
+    },
+    {
+      "template": "http/miscellaneous/options-method.yaml",
+      "template-url": "https://templates.nuclei.sh/public/options-method",
+      "template-id": "options-method",
+      "template-path": "/home/runner/nuclei-templates/http/miscellaneous/options-method.yaml",
+      "info": {
+        "name": "Allowed Options Method",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "miscellaneous",
+          "misc",
+          "generic"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "extracted-results": [
+        "GET,HEAD,POST,OPTIONS"
+      ],
+      "request": "OPTIONS / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nAllow: GET,HEAD,POST,OPTIONS\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:40:44 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\nContent-Length: 0\r\n\r\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:40:44.489450054Z",
+      "curl-command": "curl -X 'OPTIONS' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/xss-deprecated-header.yaml",
+      "template-url": "https://templates.nuclei.sh/public/xss-deprecated-header",
+      "template-id": "xss-deprecated-header",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/xss-deprecated-header.yaml",
+      "info": {
+        "name": "XSS-Protection Header - Cross-Site Scripting",
+        "author": [
+          "joshlarsen"
+        ],
+        "tags": [
+          "xss",
+          "misconfig",
+          "generic"
+        ],
+        "description": "Setting the XSS-Protection header is deprecated. Setting the header to anything other than `0` can actually introduce an XSS vulnerability.",
+        "reference": [
+          "https://developer.mozilla.org/en-us/docs/web/http/headers/x-xss-protection",
+          "https://owasp.org/www-project-secure-headers/#x-xss-protection"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": null,
+          "cvss-metrics": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+        }
+      },
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "extracted-results": [
+        "1;mode=block"
+      ],
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:40:51 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:40:51.779753538Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/technologies/apache/apache-detect.yaml",
+      "template-url": "https://templates.nuclei.sh/public/apache-detect",
+      "template-id": "apache-detect",
+      "template-path": "/home/runner/nuclei-templates/http/technologies/apache/apache-detect.yaml",
+      "info": {
+        "name": "Apache Detection",
+        "author": [
+          "philippedelteil"
+        ],
+        "tags": [
+          "tech",
+          "apache"
+        ],
+        "description": "Some Apache servers have the version on the response header. The OpenSSL version can be also obtained",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "extracted-results": [
+        "Apache"
+      ],
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:40:51 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:40:51.781117469Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/technologies/fingerprinthub-web-fingerprints.yaml",
+      "template-url": "https://templates.nuclei.sh/public/fingerprinthub-web-fingerprints",
+      "template-id": "fingerprinthub-web-fingerprints",
+      "template-path": "/home/runner/nuclei-templates/http/technologies/fingerprinthub-web-fingerprints.yaml",
+      "info": {
+        "name": "FingerprintHub Technology Fingerprint",
+        "author": [
+          "pdteam",
+          "righettod"
+        ],
+        "tags": [
+          "tech"
+        ],
+        "description": "FingerprintHub Technology Fingerprint tests run in nuclei.",
+        "reference": [
+          "https://github.com/0x727/fingerprinthub"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "matcher-name": "qm-system",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:29 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:29.856159716Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:44 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:44.427380883Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-embedder-policy",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:44 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:44.427425146Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-opener-policy",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:44 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:44.42744371Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-resource-policy",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:44 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:44.42746538Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "content-security-policy",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:44 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:44.42748649Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "permissions-policy",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:44 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:44.427537635Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "referrer-policy",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr",
+      "request": "GET / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:41:44 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:41:44.427558574Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/technologies/waf-detect.yaml",
+      "template-url": "https://templates.nuclei.sh/public/waf-detect",
+      "template-id": "waf-detect",
+      "template-path": "/home/runner/nuclei-templates/http/technologies/waf-detect.yaml",
+      "info": {
+        "name": "WAF Detection",
+        "author": [
+          "dwisiswant0",
+          "lu4nx"
+        ],
+        "tags": [
+          "waf",
+          "tech",
+          "misc"
+        ],
+        "description": "A web application firewall was detected.",
+        "reference": [
+          "https://github.com/ekultek/whatwaf"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "matcher-name": "apachegeneric",
+      "type": "http",
+      "host": "https://meshabilitations.esante.gouv.fr",
+      "matched-at": "https://meshabilitations.esante.gouv.fr/",
+      "request": "POST / HTTP/1.1\r\nHost: meshabilitations.esante.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nContent-Length: 27\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept-Encoding: gzip\r\n\r\n_=<script>alert(1)</script>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 764\r\nAccept-Ranges: bytes\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Fri, 14 Mar 2025 17:42:19 GMT\r\nLast-Modified: Thu, 09 Jan 2025 11:22:41 GMT\r\nServer: Apache\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains; preload\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: SAMEORIGIN\r\nX-Frame-Options: SAMEORIGIN\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nX-Webkit-Csp: default-src 'self'\r\nX-Xss-Protection: 1;mode=block\r\n\r\n<!doctype html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"description\" content=\"\">\n    <base href=\"/\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <title>ANS - mesHabilitations</title>\n\n<link rel=\"stylesheet\" href=\"styles.css\"><link rel=\"modulepreload\" href=\"chunk-AMSDAFZX.js\"><link rel=\"modulepreload\" href=\"chunk-V3IEDJKU.js\"><link rel=\"modulepreload\" href=\"chunk-IN3KQEES.js\"><link rel=\"modulepreload\" href=\"chunk-RAAA4X7J.js\"></head>\n\n<body>\n    <app-root></app-root>\n<script src=\"polyfills.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\n\n</html>\n",
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:42:19.796773329Z",
+      "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: meshabilitations.esante.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://meshabilitations.esante.gouv.fr/'",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/detect-ssl-issuer.yaml",
+      "template-url": "https://templates.nuclei.sh/public/ssl-issuer",
+      "template-id": "ssl-issuer",
+      "template-path": "/home/runner/nuclei-templates/ssl/detect-ssl-issuer.yaml",
+      "info": {
+        "name": "Detect SSL Certificate Issuer",
+        "author": [
+          "lingtren"
+        ],
+        "tags": [
+          "ssl",
+          "tls"
+        ],
+        "description": "Extract the issuer's organization from the target's certificate. Issuers are entities which sign and distribute certificates.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "meshabilitations.esante.gouv.fr",
+      "matched-at": "meshabilitations.esante.gouv.fr:443",
+      "extracted-results": [
+        "DigiCert Inc"
+      ],
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:44:20.580953988Z",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/ssl-dns-names.yaml",
+      "template-url": "https://templates.nuclei.sh/public/ssl-dns-names",
+      "template-id": "ssl-dns-names",
+      "template-path": "/home/runner/nuclei-templates/ssl/ssl-dns-names.yaml",
+      "info": {
+        "name": "SSL DNS Names",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "ssl",
+          "tls"
+        ],
+        "description": "Extract the Subject Alternative Name (SAN) from the target's certificate. SAN facilitates the usage of additional hostnames with the same certificate.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "meshabilitations.esante.gouv.fr",
+      "matched-at": "meshabilitations.esante.gouv.fr:443",
+      "extracted-results": [
+        "meshabilitations.esante.gouv.fr"
+      ],
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:44:20.58111664Z",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/tls-version.yaml",
+      "template-url": "https://templates.nuclei.sh/public/tls-version",
+      "template-id": "tls-version",
+      "template-path": "/home/runner/nuclei-templates/ssl/tls-version.yaml",
+      "info": {
+        "name": "TLS Version - Detect",
+        "author": [
+          "pdteam",
+          "pussycat0x"
+        ],
+        "tags": [
+          "ssl",
+          "tls"
+        ],
+        "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 4
+        }
+      },
+      "type": "ssl",
+      "host": "meshabilitations.esante.gouv.fr",
+      "matched-at": "meshabilitations.esante.gouv.fr:443",
+      "extracted-results": [
+        "tls12"
+      ],
+      "ip": "80.78.2.228",
+      "timestamp": "2025-03-14T17:44:21.740614947Z",
+      "matcher-status": true
+    }
+  ]
+]
