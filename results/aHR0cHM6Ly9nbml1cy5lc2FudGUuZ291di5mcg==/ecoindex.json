@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://gnius.esante.gouv.fr",
-        "size": 3489.763,
+        "size": 3489.726,
         "nodes": 1142,
         "requests": 54,
         "grade": "E",
@@ -11,7 +11,7 @@
         "ges": 2.26,
         "water": 3.39,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-14 08:39:44.964451",
+        "date": "2025-03-14 16:36:10.457943",
         "page_type": "homepage"
     }
 ]
