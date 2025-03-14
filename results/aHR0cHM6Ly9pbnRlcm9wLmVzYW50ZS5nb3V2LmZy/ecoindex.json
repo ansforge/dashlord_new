@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://interop.esante.gouv.fr",
-        "size": 255.507,
+        "size": 255.501,
         "nodes": 225,
         "requests": 30,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.36,
         "water": 2.04,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-13 16:55:26.100671",
+        "date": "2025-03-14 09:04:19.111530",
         "page_type": null
     }
 ]
