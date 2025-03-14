@@ -9,7 +9,7 @@
     "testsPassed": 9,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 13 Mar 2025 16:37:27 GMT",
+      "date": "Fri, 14 Mar 2025 08:46:09 GMT",
       "server": "Apache",
       "cache-control": "must-revalidate, no-cache, private",
       "x-drupal-dynamic-cache": "UNCACHEABLE",
@@ -18,7 +18,7 @@
       "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
       "x-generator": "Drupal 10 (https://www.drupal.org)",
       "vary": "Accept-Encoding",
-      "content-length": "18998",
+      "content-length": "18986",
       "content-type": "text/html; charset=UTF-8",
       "strict-transport-security": "max-age=31536000; preload",
       "x-xss-protection": "1; mode=block",
