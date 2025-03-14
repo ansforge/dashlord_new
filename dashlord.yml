@@ -17,20 +17,20 @@ tools:
   updownio: false
   dependabot: false
   codescan: false
-  stats: true
+  stats: false
   declaration-a11y: true
   ecoindex: true
   dsfr: true
   betagouv: false
 columns: # pour masquer des colonnes
   zap: false
+  stats: false
 updownioStatusPage: https://updown.io/status_pages
 updownioRecipients:
   - email:123456
   - email:789987
 urls:
   - url: https://annuaire.sante.fr
-  - url: https://www.connect.si-samu.fr
   - url: https://convergence.esante.gouv.fr
   - url: https://cyberveille.esante.gouv.fr
   - url: https://diagcps.eservices.esante.gouv.fr
@@ -52,7 +52,6 @@ urls:
   - url: https://pfc.eservices.esante.gouv.fr
   - url: https://sante.fr
   - url: https://sas.sante.fr
-  - url: https://service.annuaire.sante.fr
   - url: https://sgc.esante.gouv.fr
   - url: https://signalement.social-sante.gouv.fr
   - url: https://si-vic.sante.gouv.fr
@@ -62,7 +61,5 @@ urls:
   - url: http://testssl.eservices.esante.gouv.fr
   - url: https://tom.eservices.esante.gouv.fr
   - url: https://tops.eservices.esante.gouv.fr  
-  - url: https://ue.esante.gouv.fr
   - url: https://validation-enreg.esante.gouv.fr
   - url: https://wallet.esw.esante.gouv.fr
-  - url: https://ws.annuaire.sante.fr
