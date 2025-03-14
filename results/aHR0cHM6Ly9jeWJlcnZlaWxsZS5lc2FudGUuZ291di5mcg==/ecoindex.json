@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cyberveille.esante.gouv.fr",
-        "size": 934.121,
+        "size": 934.116,
         "nodes": 777,
         "requests": 27,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-14 08:10:10.395973",
+        "date": "2025-03-14 16:03:48.256568",
         "page_type": null
     }
 ]
