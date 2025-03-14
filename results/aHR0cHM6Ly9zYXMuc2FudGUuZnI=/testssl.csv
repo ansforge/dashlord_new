@@ -70,7 +70,7 @@
 "intermediate_cert_badOCSP","sas.sante.fr/185.231.164.110","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","sas.sante.fr/185.231.164.110","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","sas.sante.fr/185.231.164.110","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","sas.sante.fr/185.231.164.110","443","INFO","1741946551","",""
+"HTTP_headerTime","sas.sante.fr/185.231.164.110","443","INFO","1741976595","",""
 "HSTS_time","sas.sante.fr/185.231.164.110","443","OK","730 days (=63072000 seconds) > 15552000 seconds","",""
 "HSTS_subdomains","sas.sante.fr/185.231.164.110","443","INFO","only for this domain","",""
 "HSTS_preload","sas.sante.fr/185.231.164.110","443","INFO","domain is NOT marked for preloading","",""

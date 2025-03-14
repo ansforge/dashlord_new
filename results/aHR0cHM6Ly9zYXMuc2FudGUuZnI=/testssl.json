@@ -507,7 +507,7 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741946551"
+              "finding"      : "1741976595"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "64"
+              "finding"      : "63"
           }
 ]
