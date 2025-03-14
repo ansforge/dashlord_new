@@ -521,14 +521,14 @@
               "ip"           : "ivan.esante.gouv.fr/80.78.2.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "ivan.esante.gouv.fr/80.78.2.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741943626"
+              "finding"      : "1741972738"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "ivan.esante.gouv.fr/80.78.2.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "64"
+              "finding"      : "102"
           }
 ]
