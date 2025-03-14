@@ -997,6 +997,6 @@
               "ip"           : "testssl.eservices.esante.gouv.fr/135.125.232.117",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "80"
+              "finding"      : "51"
           }
 ]

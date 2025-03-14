@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Mar 14 18:58:57 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln testssl.eservices.esante.gouv.fr
+Host: 135.125.232.117 (vps-c4a3f657.vps.ovh.net)	Status: Up
+Host: 135.125.232.117 (vps-c4a3f657.vps.ovh.net)	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1g)/, 389/closed/tcp//ldap///, 443/open/tcp//ssl|http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1g)/, 636/closed/tcp//ldapssl///, 9090/closed/tcp//zeus-admin///	Ignored State: filtered (994)
+# Nmap done at Fri Mar 14 18:59:18 2025 -- 1 IP address (1 host up) scanned in 20.81 seconds
