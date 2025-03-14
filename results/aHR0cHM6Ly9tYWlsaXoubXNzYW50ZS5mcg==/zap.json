@@ -1,0 +1,2363 @@
+{
+	"@programName": "ZAP",
+	"@version": "2.16.0",
+	"@generated": "Fri, 14 Mar 2025 17:36:13",
+	"site":[ 
+		{
+			"@name": "https://mailiz.mssante.fr",
+			"@host": "mailiz.mssante.fr",
+			"@port": "443",
+			"@ssl": "true",
+			"alerts": [ 
+				{
+					"pluginid": "10202",
+					"alertRef": "10202",
+					"alert": "Absence of Anti-CSRF Tokens",
+					"name": "Absence of Anti-CSRF Tokens",
+					"riskcode": "2",
+					"confidence": "1",
+					"riskdesc": "Medium (Low)",
+					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
+					"instances":[ 
+						{
+							"id": "46",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "103",
+							"uri": "https://mailiz.mssante.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "95",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "121",
+							"uri": "https://mailiz.mssante.fr/ca",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "106",
+							"uri": "https://mailiz.mssante.fr/cgu",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "65",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "124",
+							"uri": "https://mailiz.mssante.fr/fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "113",
+							"uri": "https://mailiz.mssante.fr/politique-confidentialite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "66",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "81",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "116",
+							"uri": "https://mailiz.mssante.fr/zh",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						}
+					],
+					"count": "11",
+					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
+					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ].</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10038",
+					"alertRef": "10038-1",
+					"alert": "Content Security Policy (CSP) Header Not Set",
+					"name": "Content Security Policy (CSP) Header Not Set",
+					"riskcode": "2",
+					"confidence": "3",
+					"riskdesc": "Medium (High)",
+					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+					"instances":[ 
+						{
+							"id": "36",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "102",
+							"uri": "https://mailiz.mssante.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "94",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "120",
+							"uri": "https://mailiz.mssante.fr/ca",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "105",
+							"uri": "https://mailiz.mssante.fr/cgu",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "62",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "109",
+							"uri": "https://mailiz.mssante.fr/politique-confidentialite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "6",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "63",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "80",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "112",
+							"uri": "https://mailiz.mssante.fr/zh",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "11",
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10003",
+					"alertRef": "10003",
+					"alert": "Vulnerable JS Library",
+					"name": "Vulnerable JS Library",
+					"riskcode": "2",
+					"confidence": "2",
+					"riskdesc": "Medium (Medium)",
+					"desc": "<p>The identified library appears to be vulnerable.</p>",
+					"instances":[ 
+						{
+							"id": "133",
+							"uri": "https://mailiz.mssante.fr/mss-theme/js/jquery-1.4.4.min.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "jquery-1.4.4.min.js",
+							"otherinfo": "The identified library jquery, version 1.4.4 is vulnerable.\nCVE-2011-4969\nCVE-2020-11023\nCVE-2020-11022\nCVE-2015-9251\nCVE-2019-11358\nCVE-2020-7656\nCVE-2012-6708\nhttps://nvd.nist.gov/vuln/detail/CVE-2012-6708\nhttps://github.com/jquery/jquery/issues/2432\nhttp://research.insecurelabs.org/jquery/test/\nhttps://nvd.nist.gov/vuln/detail/CVE-2019-11358\nhttps://github.com/advisories/GHSA-rmxg-73gg-4p98\nhttps://bugs.jquery.com/ticket/11974\nhttps://github.com/jquery/jquery.com/issues/162\nhttps://nvd.nist.gov/vuln/detail/CVE-2020-7656\nhttps://bugs.jquery.com/ticket/9521\nhttp://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/\nhttp://bugs.jquery.com/ticket/11290\nhttps://research.insecurelabs.org/jquery/test/\nhttps://blog.jquery.com/2019/04/10/jquery-3-4-0-released/\nhttps://nvd.nist.gov/vuln/detail/CVE-2015-9251\nhttps://github.com/advisories/GHSA-q4m3-2j7h-f7xw\nhttps://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\nhttps://nvd.nist.gov/vuln/detail/CVE-2011-4969\n"
+						},
+						{
+							"id": "169",
+							"uri": "https://mailiz.mssante.fr/sugestions-portlet/js/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "jquery-1.10.2.js",
+							"otherinfo": "The identified library jquery, version 1.10.2 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nCVE-2015-9251\nCVE-2019-11358\nhttps://github.com/jquery/jquery/issues/2432\nhttp://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/\nhttp://research.insecurelabs.org/jquery/test/\nhttps://blog.jquery.com/2019/04/10/jquery-3-4-0-released/\nhttps://nvd.nist.gov/vuln/detail/CVE-2019-11358\nhttps://github.com/advisories/GHSA-rmxg-73gg-4p98\nhttps://nvd.nist.gov/vuln/detail/CVE-2015-9251\nhttps://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b\nhttps://bugs.jquery.com/ticket/11974\nhttps://github.com/jquery/jquery.com/issues/162\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
+						},
+						{
+							"id": "167",
+							"uri": "https://mailiz.mssante.fr/sugestions-portlet/js/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/*! jQuery UI - v1.10.4",
+							"otherinfo": "The identified library jquery-ui, version 1.10.4 is vulnerable.\nCVE-2021-41184\nCVE-2021-41183\nCVE-2021-41182\nCVE-2022-31160\nhttps://github.com/advisories/GHSA-h6gj-6jjq-h8g9\nhttps://bugs.jqueryui.com/ticket/15284\nhttps://github.com/jquery/jquery-ui/commit/8cc5bae1caa1fcf96bf5862c5646c787020ba3f9\nhttps://nvd.nist.gov/vuln/detail/CVE-2022-31160\nhttps://github.com/jquery/jquery-ui/security/advisories/GHSA-gpqq-952q-5327\nhttps://nvd.nist.gov/vuln/detail/CVE-2021-41184\nhttps://nvd.nist.gov/vuln/detail/CVE-2021-41183\nhttps://github.com/jquery/jquery-ui/security/advisories/GHSA-9gj3-hwp5-pmwc\nhttps://nvd.nist.gov/vuln/detail/CVE-2021-41182\nhttps://github.com/jquery/jquery-ui/issues/2101\n"
+						}
+					],
+					"count": "3",
+					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
+					"otherinfo": "<p>The identified library jquery, version 1.4.4 is vulnerable.</p><p>CVE-2011-4969</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>CVE-2015-9251</p><p>CVE-2019-11358</p><p>CVE-2020-7656</p><p>CVE-2012-6708</p><p>https://nvd.nist.gov/vuln/detail/CVE-2012-6708</p><p>https://github.com/jquery/jquery/issues/2432</p><p>http://research.insecurelabs.org/jquery/test/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2019-11358</p><p>https://github.com/advisories/GHSA-rmxg-73gg-4p98</p><p>https://bugs.jquery.com/ticket/11974</p><p>https://github.com/jquery/jquery.com/issues/162</p><p>https://nvd.nist.gov/vuln/detail/CVE-2020-7656</p><p>https://bugs.jquery.com/ticket/9521</p><p>http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/</p><p>http://bugs.jquery.com/ticket/11290</p><p>https://research.insecurelabs.org/jquery/test/</p><p>https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2015-9251</p><p>https://github.com/advisories/GHSA-q4m3-2j7h-f7xw</p><p>https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2011-4969</p><p></p>",
+					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
+					"cweid": "1395",
+					"wascid": "-1",
+					"sourceid": "399"
+				},
+				{
+					"pluginid": "90022",
+					"alertRef": "90022",
+					"alert": "Application Error Disclosure",
+					"name": "Application Error Disclosure",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>",
+					"instances":[ 
+						{
+							"id": "4",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "HTTP/1.1 500",
+							"otherinfo": ""
+						}
+					],
+					"count": "1",
+					"solution": "<p>Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.</p>",
+					"otherinfo": "",
+					"reference": "",
+					"cweid": "550",
+					"wascid": "13",
+					"sourceid": "6"
+				},
+				{
+					"pluginid": "10011",
+					"alertRef": "10011",
+					"alert": "Cookie Without Secure Flag",
+					"name": "Cookie Without Secure Flag",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
+					"instances":[ 
+						{
+							"id": "44",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						},
+						{
+							"id": "23",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						},
+						{
+							"id": "21",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Ensure that the secure flag is set for cookies containing such sensitive information.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
+					"cweid": "614",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10054",
+					"alertRef": "10054-1",
+					"alert": "Cookie without SameSite Attribute",
+					"name": "Cookie without SameSite Attribute",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
+					"instances":[ 
+						{
+							"id": "39",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						},
+						{
+							"id": "40",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "GUEST_LANGUAGE_ID",
+							"attack": "",
+							"evidence": "Set-Cookie: GUEST_LANGUAGE_ID",
+							"otherinfo": ""
+						},
+						{
+							"id": "38",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "Set-Cookie: PAUTSESSIONID",
+							"otherinfo": ""
+						},
+						{
+							"id": "43",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "ROUTEID",
+							"attack": "",
+							"evidence": "Set-Cookie: ROUTEID",
+							"otherinfo": ""
+						},
+						{
+							"id": "16",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						},
+						{
+							"id": "18",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "GUEST_LANGUAGE_ID",
+							"attack": "",
+							"evidence": "Set-Cookie: GUEST_LANGUAGE_ID",
+							"otherinfo": ""
+						},
+						{
+							"id": "10",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "Set-Cookie: PAUTSESSIONID",
+							"otherinfo": ""
+						},
+						{
+							"id": "22",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "ROUTEID",
+							"attack": "",
+							"evidence": "Set-Cookie: ROUTEID",
+							"otherinfo": ""
+						},
+						{
+							"id": "17",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						},
+						{
+							"id": "19",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "GUEST_LANGUAGE_ID",
+							"attack": "",
+							"evidence": "Set-Cookie: GUEST_LANGUAGE_ID",
+							"otherinfo": ""
+						},
+						{
+							"id": "9",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "Set-Cookie: PAUTSESSIONID",
+							"otherinfo": ""
+						},
+						{
+							"id": "20",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "ROUTEID",
+							"attack": "",
+							"evidence": "Set-Cookie: ROUTEID",
+							"otherinfo": ""
+						}
+					],
+					"count": "12",
+					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
+					"cweid": "1275",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10110",
+					"alertRef": "10110",
+					"alert": "Dangerous JS Functions",
+					"name": "Dangerous JS Functions",
+					"riskcode": "1",
+					"confidence": "1",
+					"riskdesc": "Low (Low)",
+					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
+					"instances":[ 
+						{
+							"id": "152",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=ca_ES&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "158",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=de_DE&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "138",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "156",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=fi_FI&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "154",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=fr_FR&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "164",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=hu_HU&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "160",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=iw_IL&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "163",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=ja_JP&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "166",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=pt_BR&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "150",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=zh_CN&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "137",
+							"uri": "https://mailiz.mssante.fr/mss-theme/js/jquery-ui-1.8.11.custom.min.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "136",
+							"uri": "https://mailiz.mssante.fr/mss-theme/lib/tarteaucitron/tarteaucitron.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						}
+					],
+					"count": "12",
+					"solution": "<p>See the references for security advice on the use of these functions.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://angular.io/guide/security</p>",
+					"cweid": "749",
+					"wascid": "-1",
+					"sourceid": "815"
+				},
+				{
+					"pluginid": "90004",
+					"alertRef": "90004-2",
+					"alert": "Insufficient Site Isolation Against Spectre Vulnerability",
+					"name": "Insufficient Site Isolation Against Spectre Vulnerability",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
+					"instances":[ 
+						{
+							"id": "50",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "99",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "75",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "85",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "90",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "51",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "100",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "76",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "86",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "91",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "10",
+					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Embedder-Policy header appropriately, and that it sets the Cross-Origin-Embedder-Policy header to 'require-corp' for documents.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Embedder-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-embedder-policy).</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy</p>",
+					"cweid": "693",
+					"wascid": "14",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10063",
+					"alertRef": "10063-1",
+					"alert": "Permissions Policy Header Not Set",
+					"name": "Permissions Policy Header Not Set",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
+					"instances":[ 
+						{
+							"id": "49",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "110",
+							"uri": "https://mailiz.mssante.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "98",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "126",
+							"uri": "https://mailiz.mssante.fr/ca",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "115",
+							"uri": "https://mailiz.mssante.fr/cgu",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "70",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "118",
+							"uri": "https://mailiz.mssante.fr/politique-confidentialite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "34",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "84",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "89",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "123",
+							"uri": "https://mailiz.mssante.fr/zh",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "11",
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10094",
+					"alertRef": "10094-3",
+					"alert": "Base64 Disclosure",
+					"name": "Base64 Disclosure",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
+					"instances":[ 
+						{
+							"id": "47",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "108",
+							"uri": "https://mailiz.mssante.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "96",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "aide_WAR_aideportlet_INSTANCE_Dih3",
+							"otherinfo": "j'^\uFFFD`\\x0011\uFFFD\uFFFD\uFFFDz\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFD\uFFFD"
+						},
+						{
+							"id": "125",
+							"uri": "https://mailiz.mssante.fr/ca",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "114",
+							"uri": "https://mailiz.mssante.fr/cgu",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "68",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "127",
+							"uri": "https://mailiz.mssante.fr/fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "117",
+							"uri": "https://mailiz.mssante.fr/politique-confidentialite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "82",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						},
+						{
+							"id": "87",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "aide_WAR_aideportlet_INSTANCE_Dih3",
+							"otherinfo": "j'^\uFFFD`\\x0011\uFFFD\uFFFD\uFFFDz\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFD\uFFFD"
+						},
+						{
+							"id": "122",
+							"uri": "https://mailiz.mssante.fr/zh",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
+							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
+						}
+					],
+					"count": "11",
+					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD</p>",
+					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
+					"cweid": "319",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "90011",
+					"alertRef": "90011",
+					"alert": "Charset Mismatch (Header Versus Meta Content-Type Charset)",
+					"name": "Charset Mismatch (Header Versus Meta Content-Type Charset)",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>",
+					"instances":[ 
+						{
+							"id": "148",
+							"uri": "https://mailiz.mssante.fr/aide",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "93",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "145",
+							"uri": "https://mailiz.mssante.fr/aide?type=application_mobile_autoriser_bloquer_appareil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "144",
+							"uri": "https://mailiz.mssante.fr/aide?type=application_mobile_telecharger",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "143",
+							"uri": "https://mailiz.mssante.fr/aide?type=application_mobile_utiliser",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "141",
+							"uri": "https://mailiz.mssante.fr/aide?type=service_creer_activer_compte",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "142",
+							"uri": "https://mailiz.mssante.fr/aide?type=service_fermer_compte",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "140",
+							"uri": "https://mailiz.mssante.fr/aide?type=service_se_connecter",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "139",
+							"uri": "https://mailiz.mssante.fr/aide?type=service_utiliser",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "146",
+							"uri": "https://mailiz.mssante.fr/ca/aide",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "79",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "147",
+							"uri": "https://mailiz.mssante.fr/zh/aide",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						}
+					],
+					"count": "12",
+					"solution": "<p>Force UTF-8 for all text content in both the HTTP header and meta tags in HTML or encoding declarations in XML.</p>",
+					"otherinfo": "<p>There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match.</p>",
+					"reference": "<p>https://code.google.com/p/browsersec/wiki/Part2#Character_set_handling_and_detection</p>",
+					"cweid": "436",
+					"wascid": "15",
+					"sourceid": "648"
+				},
+				{
+					"pluginid": "10024",
+					"alertRef": "10024",
+					"alert": "Information Disclosure - Sensitive Information in URL",
+					"name": "Information Disclosure - Sensitive Information in URL",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The request appeared to contain sensitive information leaked in the URL. This can violate PCI and most organizational compliance policies. You can configure the list of strings for this check to add or remove values specific to your environment.</p>",
+					"instances":[ 
+						{
+							"id": "422",
+							"uri": "https://mailiz.mssante.fr/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "GET",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "424",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "GET",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "414",
+							"uri": "https://mailiz.mssante.fr/ca/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "418",
+							"uri": "https://mailiz.mssante.fr/de/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "416",
+							"uri": "https://mailiz.mssante.fr/fi/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "415",
+							"uri": "https://mailiz.mssante.fr/fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "419",
+							"uri": "https://mailiz.mssante.fr/hu/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "420",
+							"uri": "https://mailiz.mssante.fr/iw/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "421",
+							"uri": "https://mailiz.mssante.fr/ja/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "423",
+							"uri": "https://mailiz.mssante.fr/pt/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "168",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						},
+						{
+							"id": "417",
+							"uri": "https://mailiz.mssante.fr/zh/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"attack": "",
+							"evidence": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken"
+						}
+					],
+					"count": "12",
+					"solution": "<p>Do not pass sensitive information in URIs.</p>",
+					"otherinfo": "<p>The URL contains potentially sensitive information. The following string was found via the pattern: token</p><p>_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken</p>",
+					"reference": "",
+					"cweid": "598",
+					"wascid": "13",
+					"sourceid": "2015"
+				},
+				{
+					"pluginid": "10027",
+					"alertRef": "10027",
+					"alert": "Information Disclosure - Suspicious Comments",
+					"name": "Information Disclosure - Suspicious Comments",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
+					"instances":[ 
+						{
+							"id": "151",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=ca_ES&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "157",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=de_DE&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "135",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "155",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=fi_FI&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "153",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=fr_FR&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "162",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=hu_HU&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "159",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=iw_IL&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "161",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=ja_JP&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "165",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=pt_BR&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "149",
+							"uri": "https://mailiz.mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=zh_CN&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "132",
+							"uri": "https://mailiz.mssante.fr/mss-theme/js/jquery-1.4.4.min.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "username",
+							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected in likely comment: \"/*\"}},ajax:function(a){var b=c.extend(true,{},c.ajaxSettings,a),d,e,f,h=b.type.toUpperCase(),l=qb.test(h);b.url=b.url.replace(ub\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "134",
+							"uri": "https://mailiz.mssante.fr/mss-theme/lib/tarteaucitron/tarteaucitron.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "TODO",
+							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in likely comment: \"// css for the middle bar TODO: add it on the css file\", see evidence field for the suspicious comment/snippet."
+						}
+					],
+					"count": "12",
+					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet.</p>",
+					"reference": "",
+					"cweid": "615",
+					"wascid": "13",
+					"sourceid": "815"
+				},
+				{
+					"pluginid": "90033",
+					"alertRef": "90033",
+					"alert": "Loosely Scoped Cookie",
+					"name": "Loosely Scoped Cookie",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>Cookies can be scoped by domain or path. This check is only concerned with domain scope.The domain scope applied to a cookie determines which domains can access it. For example, a cookie can be scoped strictly to a subdomain e.g. www.nottrusted.com, or loosely scoped to a parent domain e.g. nottrusted.com. In the latter case, any subdomain of nottrusted.com can access the cookie. Loosely scoped cookies are common in mega-applications like google.com and live.com. Cookies set from a subdomain like app.foo.bar are transmitted only to that domain by the browser. However, cookies scoped to a parent-level domain may be transmitted to the parent, or any subdomain of the parent.</p>",
+					"instances":[ 
+						{
+							"id": "57",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "The origin domain used for comparison was:\nmailiz.mssante.fr\nPAUTSESSIONID=759DB345482D6AD3BEEF5383C6827650.PAUT_1\nROUTEID=.PAUT_2\n"
+						},
+						{
+							"id": "37",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "The origin domain used for comparison was:\nmailiz.mssante.fr\nPAUTSESSIONID=E7B0A176973ED5F41DC581F1F6E9030B.PAUT_1\nROUTEID=.PAUT_2\n"
+						},
+						{
+							"id": "131",
+							"uri": "https://mailiz.mssante.fr/mss-login-portlet/css/main.css?b=6203&browserId=other&languageId=en_US&minifierType=css&t=1741919510000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "The origin domain used for comparison was:\nmailiz.mssante.fr\nPAUTSESSIONID=759DB345482D6AD3BEEF5383C6827650.PAUT_1\n"
+						},
+						{
+							"id": "129",
+							"uri": "https://mailiz.mssante.fr/mss-theme/css/aui.css?b=6203&browserId=other&languageId=en_US&minifierType=css&t=1734556542000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "The origin domain used for comparison was:\nmailiz.mssante.fr\nPAUTSESSIONID=759DB345482D6AD3BEEF5383C6827650.PAUT_1\n"
+						},
+						{
+							"id": "8",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "The origin domain used for comparison was:\nmailiz.mssante.fr\nPAUTSESSIONID=7DC1F7756F0E6DCF06CAD9B26148A673.PAUT_1\nROUTEID=.PAUT_2\n"
+						},
+						{
+							"id": "7",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "The origin domain used for comparison was:\nmailiz.mssante.fr\nPAUTSESSIONID=70FFD2B1944DC6F7EBCC4D7BED9C07AF.PAUT_1\nROUTEID=.PAUT_2\n"
+						}
+					],
+					"count": "6",
+					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
+					"otherinfo": "<p>The origin domain used for comparison was:</p><p>mailiz.mssante.fr</p><p>PAUTSESSIONID=759DB345482D6AD3BEEF5383C6827650.PAUT_1</p><p>ROUTEID=.PAUT_2</p><p></p>",
+					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>https://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
+					"cweid": "565",
+					"wascid": "15",
+					"sourceid": "15"
+				},
+				{
+					"pluginid": "10049",
+					"alertRef": "10049",
+					"alert": "Non-Storable Content",
+					"name": "Non-Storable Content",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
+					"instances":[ 
+						{
+							"id": "15",
+							"uri": "https://mailiz.mssante.fr/c",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "302",
+							"otherinfo": ""
+						},
+						{
+							"id": "67",
+							"uri": "https://mailiz.mssante.fr/c/portal/layout",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "302",
+							"otherinfo": ""
+						},
+						{
+							"id": "28",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "33",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "500",
+							"otherinfo": ""
+						}
+					],
+					"count": "4",
+					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).</p>",
+					"otherinfo": "",
+					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
+					"cweid": "524",
+					"wascid": "13",
+					"sourceid": "9"
+				},
+				{
+					"pluginid": "10015",
+					"alertRef": "10015",
+					"alert": "Re-examine Cache-control Directives",
+					"name": "Re-examine Cache-control Directives",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
+					"instances":[ 
+						{
+							"id": "35",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "101",
+							"uri": "https://mailiz.mssante.fr/",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "92",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "119",
+							"uri": "https://mailiz.mssante.fr/ca",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "104",
+							"uri": "https://mailiz.mssante.fr/cgu",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "60",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "107",
+							"uri": "https://mailiz.mssante.fr/politique-confidentialite",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "5",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "61",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "111",
+							"uri": "https://mailiz.mssante.fr/zh",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "11",
+					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
+					"otherinfo": "",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
+					"cweid": "525",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "90005",
+					"alertRef": "90005-3",
+					"alert": "Sec-Fetch-Dest Header is Missing",
+					"name": "Sec-Fetch-Dest Header is Missing",
+					"riskcode": "0",
+					"confidence": "3",
+					"riskdesc": "Informational (High)",
+					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
+					"instances":[ 
+						{
+							"id": "13",
+							"uri": "https://mailiz.mssante.fr/c",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "26",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "31",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "9"
+				},
+				{
+					"pluginid": "90005",
+					"alertRef": "90005-2",
+					"alert": "Sec-Fetch-Mode Header is Missing",
+					"name": "Sec-Fetch-Mode Header is Missing",
+					"riskcode": "0",
+					"confidence": "3",
+					"riskdesc": "Informational (High)",
+					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
+					"instances":[ 
+						{
+							"id": "12",
+							"uri": "https://mailiz.mssante.fr/c",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "25",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "30",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "9"
+				},
+				{
+					"pluginid": "90005",
+					"alertRef": "90005-1",
+					"alert": "Sec-Fetch-Site Header is Missing",
+					"name": "Sec-Fetch-Site Header is Missing",
+					"riskcode": "0",
+					"confidence": "3",
+					"riskdesc": "Informational (High)",
+					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
+					"instances":[ 
+						{
+							"id": "11",
+							"uri": "https://mailiz.mssante.fr/c",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "24",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "29",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "9"
+				},
+				{
+					"pluginid": "90005",
+					"alertRef": "90005-4",
+					"alert": "Sec-Fetch-User Header is Missing",
+					"name": "Sec-Fetch-User Header is Missing",
+					"riskcode": "0",
+					"confidence": "3",
+					"riskdesc": "Informational (High)",
+					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
+					"instances":[ 
+						{
+							"id": "14",
+							"uri": "https://mailiz.mssante.fr/c",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "27",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "32",
+							"uri": "https://mailiz.mssante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "9"
+				},
+				{
+					"pluginid": "10112",
+					"alertRef": "10112",
+					"alert": "Session Management Response Identified",
+					"name": "Session Management Response Identified",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
+					"instances":[ 
+						{
+							"id": "52",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "759DB345482D6AD3BEEF5383C6827650.PAUT_1",
+							"otherinfo": "\ncookie:PAUTSESSIONID"
+						},
+						{
+							"id": "130",
+							"uri": "https://mailiz.mssante.fr/mss-login-portlet/css/main.css?b=6203&browserId=other&languageId=en_US&minifierType=css&t=1741919510000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "759DB345482D6AD3BEEF5383C6827650.PAUT_1",
+							"otherinfo": "\ncookie:PAUTSESSIONID"
+						},
+						{
+							"id": "128",
+							"uri": "https://mailiz.mssante.fr/mss-theme/css/aui.css?b=6203&browserId=other&languageId=en_US&minifierType=css&t=1734556542000&themeId=mss_WAR_msstheme",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "759DB345482D6AD3BEEF5383C6827650.PAUT_1",
+							"otherinfo": "\ncookie:PAUTSESSIONID"
+						},
+						{
+							"id": "0",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "7DC1F7756F0E6DCF06CAD9B26148A673.PAUT_1",
+							"otherinfo": "\ncookie:PAUTSESSIONID"
+						},
+						{
+							"id": "3",
+							"uri": "https://mailiz.mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "7DC1F7756F0E6DCF06CAD9B26148A673.PAUT_1",
+							"otherinfo": "\ncookie:PAUTSESSIONID"
+						}
+					],
+					"count": "5",
+					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
+					"otherinfo": "<p></p><p>cookie:PAUTSESSIONID</p>",
+					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
+					"cweid": "-1",
+					"wascid": "-1",
+					"sourceid": "15"
+				},
+				{
+					"pluginid": "10049",
+					"alertRef": "10049",
+					"alert": "Storable and Cacheable Content",
+					"name": "Storable and Cacheable Content",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
+					"instances":[ 
+						{
+							"id": "48",
+							"uri": "https://mailiz.mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "97",
+							"uri": "https://mailiz.mssante.fr/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "69",
+							"uri": "https://mailiz.mssante.fr/essentiel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "54",
+							"uri": "https://mailiz.mssante.fr/mss-theme/images/favicon.ico",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "max-age=315360000",
+							"otherinfo": ""
+						},
+						{
+							"id": "83",
+							"uri": "https://mailiz.mssante.fr/web/mss/1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "53",
+							"uri": "https://mailiz.mssante.fr/web/mss/accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "88",
+							"uri": "https://mailiz.mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						}
+					],
+					"count": "7",
+					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
+					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
+					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
+					"cweid": "524",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10031",
+					"alertRef": "10031",
+					"alert": "User Controllable HTML Element Attribute (Potential XSS)",
+					"name": "User Controllable HTML Element Attribute (Potential XSS)",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
+					"instances":[ 
+						{
+							"id": "180",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_captchaText",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\n_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_captchaText=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "181",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "autreDenomination",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nautreDenomination=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "182",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "autreDenominationEtablissement",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nautreDenominationEtablissement=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "183",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "autreDenominationIndustriel",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nautreDenominationIndustriel=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "393",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "connecte",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nconnecte=false\n\nThe user-controlled value was:\nfalse"
+						},
+						{
+							"id": "392",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "connecte",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [textarea] tag [draggable] attribute\n\nThe user input found was:\nconnecte=false\n\nThe user-controlled value was:\nfalse"
+						},
+						{
+							"id": "173",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "csrfToken",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\ncsrfToken=f7eaf6e08938e791163aad3fc19dd7358331d4b34e8986b064a3c04cc48b3acb\n\nThe user-controlled value was:\nf7eaf6e08938e791163aad3fc19dd7358331d4b34e8986b064a3c04cc48b3acb"
+						},
+						{
+							"id": "175",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "demande",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [option] tag [value] attribute\n\nThe user input found was:\ndemande=Service Mailiz (Webmail)\n\nThe user-controlled value was:\nservice mailiz (webmail)"
+						},
+						{
+							"id": "177",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "demandeAnnuaireMSSante",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [option] tag [value] attribute\n\nThe user input found was:\ndemandeAnnuaireMSSante=Utiliser l\u2019annuaire\n\nThe user-controlled value was:\nutiliser l\u2019annuaire"
+						},
+						{
+							"id": "176",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "demandeServiceMSSante",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [option] tag [value] attribute\n\nThe user input found was:\ndemandeServiceMSSante=Se connecter au service Mailiz\n\nThe user-controlled value was:\nse connecter au service mailiz"
+						},
+						{
+							"id": "178",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "demandeThunderbirdMSSante",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [option] tag [value] attribute\n\nThe user input found was:\ndemandeThunderbirdMSSante=Configurer un compte Mailiz pour Thunderbird\n\nThe user-controlled value was:\nconfigurer un compte mailiz pour thunderbird"
+						},
+						{
+							"id": "184",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "etablissementAdresse",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\netablissementAdresse=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "185",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "etablissementIdentifiant",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\netablissementIdentifiant=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "171",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [form] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion"
+						},
+						{
+							"id": "172",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [form] tag [name] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion"
+						},
+						{
+							"id": "404",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_autrebrowser"
+						},
+						{
+							"id": "411",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_connecte"
+						},
+						{
+							"id": "174",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_csrftoken"
+						},
+						{
+							"id": "407",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_lectcarte"
+						},
+						{
+							"id": "408",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_marquelectcarte"
+						},
+						{
+							"id": "409",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_modelelectcarte"
+						},
+						{
+							"id": "398",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_paramaction"
+						},
+						{
+							"id": "397",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_sessionid"
+						},
+						{
+							"id": "403",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_typebrowser"
+						},
+						{
+							"id": "399",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_typeordi"
+						},
+						{
+							"id": "400",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_typeos"
+						},
+						{
+							"id": "394",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_verrouiller"
+						},
+						{
+							"id": "405",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_versionbrowser"
+						},
+						{
+							"id": "406",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_versionjava"
+						},
+						{
+							"id": "401",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_versionos"
+						},
+						{
+							"id": "402",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [id] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyersugestion_versionsp"
+						},
+						{
+							"id": "412",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "formulaireboutton",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nformulaireboutton=Envoyer\n\nThe user-controlled value was:\nenvoyer"
+						},
+						{
+							"id": "186",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "industrielAdresse",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nindustrielAdresse=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "187",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "industrielIdentifiant",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nindustrielIdentifiant=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "170",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "p_p_col_id",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [div] tag [id] attribute\n\nThe user input found was:\np_p_col_id=column-1\n\nThe user-controlled value was:\ncolumn-1"
+						},
+						{
+							"id": "188",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "proCarteMSSante",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nproCarteMSSante=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "195",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "profession",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [option] tag [value] attribute\n\nThe user input found was:\nprofession=M\u00E9decin \n\nThe user-controlled value was:\nm\u00E9decin "
+						},
+						{
+							"id": "179",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "profil",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [option] tag [value] attribute\n\nThe user input found was:\nprofil=Professionnel de sant\u00E9\n\nThe user-controlled value was:\nprofessionnel de sant\u00E9"
+						},
+						{
+							"id": "331",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "ps.civilite",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [option] tag [value] attribute\n\nThe user input found was:\nps.civilite=M.\n\nThe user-controlled value was:\nm."
+						},
+						{
+							"id": "190",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "ps.emailExterne",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nps.emailExterne=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "189",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "ps.EmailMSS",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nps.EmailMSS=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "191",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "ps.idNat",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nps.idNat=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "192",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "ps.nom",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nps.nom=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "193",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "ps.prenom",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nps.prenom=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "194",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "ps.telephone",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nps.telephone=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "396",
+							"uri": "https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "sessionId",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nsessionId=759DB345482D6AD3BEEF5383C6827650.PAUT_1\n\nThe user-controlled value was:\n759db345482d6ad3beef5383c6827650.paut_1"
+						}
+					],
+					"count": "46",
+					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
+					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://mailiz.mssante.fr/web/mss/formulaire-contact?_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_dynamicAttributes=%7B%7D&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_expandTheme=%7E%7E%7Esimple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.action=%2Fsugestions%2Fenvoyersugestion&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_struts.portlet.mode=view&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_template=form-close&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_templateDir=template&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_theme=simple&_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_themeExpansionToken=%7E%7E%7E&p_p_col_count=1&p_p_col_id=column-1&p_p_id=sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal</p><p></p><p>appears to include user input in:</p><p>a(n) [input] tag [value] attribute</p><p></p><p>The user input found was:</p><p>_sugestions_WAR_sugestionsportlet_INSTANCE_8Ukm_captchaText=ZAP</p><p></p><p>The user-controlled value was:</p><p>zap</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
+					"cweid": "20",
+					"wascid": "20",
+					"sourceid": "1517"
+				}
+			]
+		}
+	],
+	"sequences":[
+	]
+
+}

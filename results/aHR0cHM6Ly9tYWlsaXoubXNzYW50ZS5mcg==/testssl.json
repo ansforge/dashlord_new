@@ -584,14 +584,14 @@
               "ip"           : "mailiz.mssante.fr/51.178.173.194",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "mailiz.mssante.fr/51.178.173.194",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741944559"
+              "finding"      : "1741973886"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1203,6 +1203,6 @@
               "ip"           : "mailiz.mssante.fr/51.178.173.194",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "125"
+              "finding"      : "327"
           }
 ]
