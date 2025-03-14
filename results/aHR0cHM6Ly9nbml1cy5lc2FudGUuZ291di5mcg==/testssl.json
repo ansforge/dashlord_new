@@ -199,7 +199,7 @@
               "ip"           : "gnius.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "gnius.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "170 >= 60 days"
+              "finding"      : "169 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "gnius.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-51 seconds from localtime"
+              "finding"      : "-22 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "gnius.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741884151"
+              "finding"      : "1741942303"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1091,6 +1091,6 @@
               "ip"           : "gnius.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "54"
           }
 ]
