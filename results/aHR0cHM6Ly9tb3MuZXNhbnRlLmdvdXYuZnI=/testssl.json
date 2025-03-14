@@ -199,7 +199,7 @@
               "ip"           : "mos.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "mos.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "170 >= 60 days"
+              "finding"      : "169 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "mos.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741886841"
+              "finding"      : "1741945518"
           }
 ,         {
               "id"           : "HSTS_time",
