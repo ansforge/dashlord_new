@@ -75,7 +75,7 @@
 "intermediate_cert_badOCSP","tops.eservices.esante.gouv.fr/80.78.2.173","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","tops.eservices.esante.gouv.fr/80.78.2.173","443","INFO","302 Found ('/')","",""
 "HTTP_clock_skew","tops.eservices.esante.gouv.fr/80.78.2.173","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","tops.eservices.esante.gouv.fr/80.78.2.173","443","INFO","1741949797","",""
+"HTTP_headerTime","tops.eservices.esante.gouv.fr/80.78.2.173","443","INFO","1741979722","",""
 "HSTS","tops.eservices.esante.gouv.fr/80.78.2.173","443","LOW","not offered","",""
 "HPKP","tops.eservices.esante.gouv.fr/80.78.2.173","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","tops.eservices.esante.gouv.fr/80.78.2.173","443","INFO","Apache","",""
