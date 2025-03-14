@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "mailiz.mssante.fr",
+        "port": null,
+        "hostname": "mailiz.mssante.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://mailiz.mssante.fr/"
+      },
+      "link": "https://mailiz.mssante.fr/",
+      "line": "--2025-03-14 09:26:43--  https://mailiz.mssante.fr/",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
