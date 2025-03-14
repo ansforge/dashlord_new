@@ -9,7 +9,7 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 13 Mar 2025 16:09:38 GMT",
+      "date": "Fri, 14 Mar 2025 08:14:08 GMT",
       "server": "Apache",
       "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
       "x-content-type-options": "nosniff",
@@ -20,9 +20,9 @@
       "liferay-portal": "Liferay Digital Experience Platform 7.0.10 GA1 (Wilberforce / Build 7010 / June 15, 2016)",
       "content-type": "text/html;charset=UTF-8",
       "set-cookie": [
-        "JSESSIONID=FF79F7DD6D83056E3CB87F718982B972; Path=/; Secure; HttpOnly;HttpOnly;Secure",
-        "COOKIE_SUPPORT=true; Expires=Fri, 13-Mar-2026 16:09:38 GMT; Path=/; Secure; HttpOnly;HttpOnly;Secure",
-        "GUEST_LANGUAGE_ID=fr_FR; Domain=.sante.fr; Expires=Fri, 13-Mar-2026 16:09:38 GMT; Path=/; Secure; HttpOnly;HttpOnly;Secure"
+        "JSESSIONID=DFA2808F5487BD531E33E58CF780F22D; Path=/; Secure; HttpOnly;HttpOnly;Secure",
+        "COOKIE_SUPPORT=true; Expires=Sat, 14-Mar-2026 08:14:08 GMT; Path=/; Secure; HttpOnly;HttpOnly;Secure",
+        "GUEST_LANGUAGE_ID=fr_FR; Domain=.sante.fr; Expires=Sat, 14-Mar-2026 08:14:08 GMT; Path=/; Secure; HttpOnly;HttpOnly;Secure"
       ],
       "x-webkit-csp": "default-src 'self'",
       "x-permitted-cross-domain-policies": "master-only",
@@ -57,7 +57,7 @@
         },
         "COOKIE_SUPPORT": {
           "domain": "annuaire.sante.fr",
-          "expires": "2026-03-13T16:09:38.000Z",
+          "expires": "2026-03-14T08:14:08.000Z",
           "httponly": true,
           "path": "/",
           "port": null,
@@ -65,7 +65,7 @@
         },
         "GUEST_LANGUAGE_ID": {
           "domain": "sante.fr",
-          "expires": "2026-03-13T16:09:38.000Z",
+          "expires": "2026-03-14T08:14:08.000Z",
           "httponly": true,
           "path": "/",
           "port": null,

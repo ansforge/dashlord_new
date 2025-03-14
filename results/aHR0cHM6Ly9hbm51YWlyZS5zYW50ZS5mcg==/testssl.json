@@ -339,7 +339,7 @@
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "149 >= 60 days"
+              "finding"      : "148 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741882235"
+              "finding"      : "1741940077"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "140"
+              "finding"      : "82"
           }
 ]
