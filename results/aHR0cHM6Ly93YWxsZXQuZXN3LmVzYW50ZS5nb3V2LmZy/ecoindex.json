@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://wallet.esw.esante.gouv.fr",
-        "size": 1504.214,
+        "size": 1504.212,
         "nodes": 92,
         "requests": 50,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.48,
         "water": 2.22,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-13 18:31:02.614075",
+        "date": "2025-03-14 10:59:35.956130",
         "page_type": null
     }
 ]
