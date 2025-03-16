@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Mar 14 16:38:59 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln finess.esante.gouv.fr
+# Nmap 7.92 scan initiated Sun Mar 16 02:00:27 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln finess.esante.gouv.fr
 Host: 80.78.2.234 ()	Status: Up
-Host: 80.78.2.234 ()	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///	Ignored State: filtered (997)
-# Nmap done at Fri Mar 14 16:41:48 2025 -- 1 IP address (1 host up) scanned in 169.11 seconds
+Host: 80.78.2.234 ()	Ports: 32/closed/tcp//unknown///, 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///, 555/closed/tcp//dsf///, 1057/closed/tcp//startron///, 1114/closed/tcp//mini-sql///, 1124/closed/tcp//hpvmmcontrol///, 1183/closed/tcp//llsurfup-http///, 1501/closed/tcp//sas-3///, 2702/closed/tcp//sms-xfer///, 2910/closed/tcp//tdaccess///, 3737/closed/tcp//xpanel///, 5214/closed/tcp//unknown///, 8649/closed/tcp//unknown///, 49157/closed/tcp//unknown///, 50800/closed/tcp//unknown///	Ignored State: filtered (983)
+# Nmap done at Sun Mar 16 02:04:14 2025 -- 1 IP address (1 host up) scanned in 227.27 seconds
