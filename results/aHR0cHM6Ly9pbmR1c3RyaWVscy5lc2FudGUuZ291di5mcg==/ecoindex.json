@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://industriels.esante.gouv.fr",
-        "size": 2093.112,
-        "nodes": 933,
-        "requests": 53,
+        "size": 2088.606,
+        "nodes": 932,
+        "requests": 51,
         "grade": "D",
         "score": 44.0,
         "ges": 2.12,
         "water": 3.18,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-14 16:53:43.138197",
+        "date": "2025-03-16 02:16:36.328553",
         "page_type": null
     }
 ]

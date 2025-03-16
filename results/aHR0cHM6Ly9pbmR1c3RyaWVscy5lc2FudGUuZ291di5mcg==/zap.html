@@ -212,7 +212,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Fri, 14 Mar 2025 17:06:12
+		Generated on Sun, 16 Mar 2025 02:29:04
 	</h3>
 
 	<h3>
@@ -253,7 +253,7 @@ td {
 					<div>Low</div>
 				</td>
 				<td align="center">
-					<div>8</div>
+					<div>7</div>
 				</td>
 			</tr>
 			<tr>
@@ -261,7 +261,7 @@ td {
 					<div>Informational</div>
 				</td>
 				<td align="center">
-					<div>10</div>
+					<div>9</div>
 				</td>
 			</tr>
 			<tr>
@@ -303,22 +303,22 @@ td {
 			<tr>
 				<td><a href="#10055">CSP: Wildcard Directive</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">4</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-eval</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">4</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">4</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: style-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">4</td>
 			</tr>
 			<tr>
 				<td><a href="#10038">Content Security Policy (CSP) Header Not Set</a></td>
@@ -338,17 +338,12 @@ td {
 			<tr>
 				<td><a href="#10055">CSP: Notices</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">3</td>
+				<td align="center">4</td>
 			</tr>
 			<tr>
 				<td><a href="#10017">Cross-Domain JavaScript Source File Inclusion</a></td>
 				<td align="center" class="risk-1">Low</td>
 				<td align="center">11</td>
-			</tr>
-			<tr>
-				<td><a href="#10110">Dangerous JS Functions</a></td>
-				<td align="center" class="risk-1">Low</td>
-				<td align="center">1</td>
 			</tr>
 			<tr>
 				<td><a href="#110009">Full Path Disclosure</a></td>
@@ -368,17 +363,12 @@ td {
 			<tr>
 				<td><a href="#10096">Timestamp Disclosure - Unix</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">2</td>
+				<td align="center">1</td>
 			</tr>
 			<tr>
 				<td><a href="#10094">Base64 Disclosure</a></td>
 				<td align="center" class="risk-0">Informational</td>
 				<td align="center">11</td>
-			</tr>
-			<tr>
-				<td><a href="#10027">Information Disclosure - Suspicious Comments</a></td>
-				<td align="center" class="risk-0">Informational</td>
-				<td align="center">2</td>
 			</tr>
 			<tr>
 				<td><a href="#10109">Modern Web Application</a></td>
@@ -973,9 +963,43 @@ frame-ancestors, form-action
 The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.js">https://industriels.esante.gouv.fr/core/*.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39; &#39;unsafe-inline&#39; www.youtube-nocookie.com www.google-analytics.com; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; code.jquery.com stackpath.bootstrapcdn.com cdn.jsdelivr.net www.googletagmanager.com tagmanager.google.com tag.aticdn.net www.gstatic.com cdnjs.cloudflare.com js/intlTelInput.js www.google.com static.hotjar.com script.hotjar.com static.hotjar.com/c/hotjar-3253247.js script.hotjar.com/modules.bd615e91f206bba6c106.js; object-src &#39;self&#39; &#39;unsafe-inline&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net stackpath.bootstrapcdn.com www.googletagmanager.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com p.typekit.net fonts.googleapis.com tagmanager.google.com ton.twimg.com www.gstatic.com/charts/ css/intlTelInput.css static.hotjar.com script.hotjar.com cdnjs.cloudflare.com static.piste.gouv.fr; img-src &#39;self&#39; &#39;unsafe-inline&#39; data: i.ytimg.com www.googletagmanager.com pbs.twimg.com logs1412.xiti.com www.google-analytics.com/g/collect static.hotjar.com script.hotjar.com cdn.jsdelivr.net static.piste.gouv.fr; media-src &#39;self&#39; &#39;unsafe-inline&#39;; frame-src &#39;self&#39; www.youtube-nocookie.com www.youtube.com view.genial.ly www.google.com vars.hotjar.com view.genially.com; child-src &#39;self&#39; www.youtube-nocookie.com; font-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net *.bootstrapcdn.com cdn.jsdelivr.net themes.googleusercontent.com fonts.gstatic.com data: script.hotjar.com cdnjs.cloudflare.com; connect-src &#39;self&#39; logs1412.xiti.com www.google-analytics.com/g/collect *.hotjar.com *.hotjar.io wss://*.hotjar.com; report-uri /report-csp-violation</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:
+frame-ancestors, form-action
+
+The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">4</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1131,9 +1155,40 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 						<td width="80%">script-src includes unsafe-eval.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.js">https://industriels.esante.gouv.fr/core/*.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39; &#39;unsafe-inline&#39; www.youtube-nocookie.com www.google-analytics.com; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; code.jquery.com stackpath.bootstrapcdn.com cdn.jsdelivr.net www.googletagmanager.com tagmanager.google.com tag.aticdn.net www.gstatic.com cdnjs.cloudflare.com js/intlTelInput.js www.google.com static.hotjar.com script.hotjar.com static.hotjar.com/c/hotjar-3253247.js script.hotjar.com/modules.bd615e91f206bba6c106.js; object-src &#39;self&#39; &#39;unsafe-inline&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net stackpath.bootstrapcdn.com www.googletagmanager.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com p.typekit.net fonts.googleapis.com tagmanager.google.com ton.twimg.com www.gstatic.com/charts/ css/intlTelInput.css static.hotjar.com script.hotjar.com cdnjs.cloudflare.com static.piste.gouv.fr; img-src &#39;self&#39; &#39;unsafe-inline&#39; data: i.ytimg.com www.googletagmanager.com pbs.twimg.com logs1412.xiti.com www.google-analytics.com/g/collect static.hotjar.com script.hotjar.com cdn.jsdelivr.net static.piste.gouv.fr; media-src &#39;self&#39; &#39;unsafe-inline&#39;; frame-src &#39;self&#39; www.youtube-nocookie.com www.youtube.com view.genial.ly www.google.com vars.hotjar.com view.genially.com; child-src &#39;self&#39; www.youtube-nocookie.com; font-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net *.bootstrapcdn.com cdn.jsdelivr.net themes.googleusercontent.com fonts.gstatic.com data: script.hotjar.com cdnjs.cloudflare.com; connect-src &#39;self&#39; logs1412.xiti.com www.google-analytics.com/g/collect *.hotjar.com *.hotjar.io wss://*.hotjar.com; report-uri /report-csp-violation</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-eval.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">4</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1289,9 +1344,40 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 						<td width="80%">script-src includes unsafe-inline.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.js">https://industriels.esante.gouv.fr/core/*.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39; &#39;unsafe-inline&#39; www.youtube-nocookie.com www.google-analytics.com; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; code.jquery.com stackpath.bootstrapcdn.com cdn.jsdelivr.net www.googletagmanager.com tagmanager.google.com tag.aticdn.net www.gstatic.com cdnjs.cloudflare.com js/intlTelInput.js www.google.com static.hotjar.com script.hotjar.com static.hotjar.com/c/hotjar-3253247.js script.hotjar.com/modules.bd615e91f206bba6c106.js; object-src &#39;self&#39; &#39;unsafe-inline&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net stackpath.bootstrapcdn.com www.googletagmanager.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com p.typekit.net fonts.googleapis.com tagmanager.google.com ton.twimg.com www.gstatic.com/charts/ css/intlTelInput.css static.hotjar.com script.hotjar.com cdnjs.cloudflare.com static.piste.gouv.fr; img-src &#39;self&#39; &#39;unsafe-inline&#39; data: i.ytimg.com www.googletagmanager.com pbs.twimg.com logs1412.xiti.com www.google-analytics.com/g/collect static.hotjar.com script.hotjar.com cdn.jsdelivr.net static.piste.gouv.fr; media-src &#39;self&#39; &#39;unsafe-inline&#39;; frame-src &#39;self&#39; www.youtube-nocookie.com www.youtube.com view.genial.ly www.google.com vars.hotjar.com view.genially.com; child-src &#39;self&#39; www.youtube-nocookie.com; font-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net *.bootstrapcdn.com cdn.jsdelivr.net themes.googleusercontent.com fonts.gstatic.com data: script.hotjar.com cdnjs.cloudflare.com; connect-src &#39;self&#39; logs1412.xiti.com www.google-analytics.com/g/collect *.hotjar.com *.hotjar.io wss://*.hotjar.com; report-uri /report-csp-violation</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-inline.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">4</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1447,9 +1533,40 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 						<td width="80%">style-src includes unsafe-inline.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.js">https://industriels.esante.gouv.fr/core/*.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39; &#39;unsafe-inline&#39; www.youtube-nocookie.com www.google-analytics.com; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; code.jquery.com stackpath.bootstrapcdn.com cdn.jsdelivr.net www.googletagmanager.com tagmanager.google.com tag.aticdn.net www.gstatic.com cdnjs.cloudflare.com js/intlTelInput.js www.google.com static.hotjar.com script.hotjar.com static.hotjar.com/c/hotjar-3253247.js script.hotjar.com/modules.bd615e91f206bba6c106.js; object-src &#39;self&#39; &#39;unsafe-inline&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net stackpath.bootstrapcdn.com www.googletagmanager.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com p.typekit.net fonts.googleapis.com tagmanager.google.com ton.twimg.com www.gstatic.com/charts/ css/intlTelInput.css static.hotjar.com script.hotjar.com cdnjs.cloudflare.com static.piste.gouv.fr; img-src &#39;self&#39; &#39;unsafe-inline&#39; data: i.ytimg.com www.googletagmanager.com pbs.twimg.com logs1412.xiti.com www.google-analytics.com/g/collect static.hotjar.com script.hotjar.com cdn.jsdelivr.net static.piste.gouv.fr; media-src &#39;self&#39; &#39;unsafe-inline&#39;; frame-src &#39;self&#39; www.youtube-nocookie.com www.youtube.com view.genial.ly www.google.com vars.hotjar.com view.genially.com; child-src &#39;self&#39; www.youtube-nocookie.com; font-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net *.bootstrapcdn.com cdn.jsdelivr.net themes.googleusercontent.com fonts.gstatic.com data: script.hotjar.com cdnjs.cloudflare.com; connect-src &#39;self&#39; logs1412.xiti.com www.google-analytics.com/g/collect *.hotjar.com *.hotjar.io wss://*.hotjar.com; report-uri /report-csp-violation</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">4</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1896,7 +2013,7 @@ The directive(s): frame-ancestors, form-action are among the directives that do 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/node/add/">https://industriels.esante.gouv.fr/node/add/</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/filter/tips">https://industriels.esante.gouv.fr/filter/tips</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2516,9 +2633,42 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 </td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.js">https://industriels.esante.gouv.fr/core/*.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39; &#39;unsafe-inline&#39; www.youtube-nocookie.com www.google-analytics.com; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; code.jquery.com stackpath.bootstrapcdn.com cdn.jsdelivr.net www.googletagmanager.com tagmanager.google.com tag.aticdn.net www.gstatic.com cdnjs.cloudflare.com js/intlTelInput.js www.google.com static.hotjar.com script.hotjar.com static.hotjar.com/c/hotjar-3253247.js script.hotjar.com/modules.bd615e91f206bba6c106.js; object-src &#39;self&#39; &#39;unsafe-inline&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net stackpath.bootstrapcdn.com www.googletagmanager.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com p.typekit.net fonts.googleapis.com tagmanager.google.com ton.twimg.com www.gstatic.com/charts/ css/intlTelInput.css static.hotjar.com script.hotjar.com cdnjs.cloudflare.com static.piste.gouv.fr; img-src &#39;self&#39; &#39;unsafe-inline&#39; data: i.ytimg.com www.googletagmanager.com pbs.twimg.com logs1412.xiti.com www.google-analytics.com/g/collect static.hotjar.com script.hotjar.com cdn.jsdelivr.net static.piste.gouv.fr; media-src &#39;self&#39; &#39;unsafe-inline&#39;; frame-src &#39;self&#39; www.youtube-nocookie.com www.youtube.com view.genial.ly www.google.com vars.hotjar.com view.genially.com; child-src &#39;self&#39; www.youtube-nocookie.com; font-src &#39;self&#39; &#39;unsafe-inline&#39; use.typekit.net *.bootstrapcdn.com cdn.jsdelivr.net themes.googleusercontent.com fonts.gstatic.com data: script.hotjar.com cdnjs.cloudflare.com; connect-src &#39;self&#39; logs1412.xiti.com www.google-analytics.com/g/collect *.hotjar.com *.hotjar.io wss://*.hotjar.com; report-uri /report-csp-violation</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Warnings:
+The report-uri directive has been deprecated in favor of the new report-to directive
+</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">4</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2801,7 +2951,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/node/add/">https://industriels.esante.gouv.fr/node/add/</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/filter/tips">https://industriels.esante.gouv.fr/filter/tips</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2950,90 +3100,6 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/10017/">10017</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
-		
-			<table class="results">
-				<tr height="24">
-					<th width="20%" class="risk-1"><a
-						id="10110"></a>
-						<div>Low</div></th>
-					<th class="risk-1">Dangerous JS Functions</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>A dangerous JS function seems to be in use that would leave the site vulnerable.</div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/sites/default/files/js/js_c4xEVNgOUmwbf7w0MAHEsiv003E0G8XicOi2uKBlYFw.js?delta=2&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans">https://industriels.esante.gouv.fr/sites/default/files/js/js_c4xEVNgOUmwbf7w0MAHEsiv003E0G8XicOi2uKBlYFw.js?delta=2&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">eval(</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					<td width="80%">1</td>
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>See the references for security advice on the use of these functions.</div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%">
-							<a href="https://angular.io/guide/security">https://angular.io/guide/security</a>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/749.html">749</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%"></td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/10110/">10110</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
@@ -4321,40 +4387,9 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 						<td width="80%">2020220915, which evaluates to: 2034-01-07 04:28:35.</td>
 					</tr>
 				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/sites/default/files/js/js_c4xEVNgOUmwbf7w0MAHEsiv003E0G8XicOi2uKBlYFw.js?delta=2&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans">https://industriels.esante.gouv.fr/sites/default/files/js/js_c4xEVNgOUmwbf7w0MAHEsiv003E0G8XicOi2uKBlYFw.js?delta=2&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">1544617177</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">1544617177, which evaluates to: 2018-12-12 12:19:37.</td>
-					</tr>
-				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">1</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -4594,7 +4629,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/node/add/">https://industriels.esante.gouv.fr/node/add/</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/filter/tips">https://industriels.esante.gouv.fr/filter/tips</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4777,118 +4812,6 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/10094/">10094</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
-		
-			<table class="results">
-				<tr height="24">
-					<th width="20%" class="risk-0"><a
-						id="10027"></a>
-						<div>Informational</div></th>
-					<th class="risk-0">Information Disclosure - Suspicious Comments</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>The response appears to contain suspicious comments which may help an attacker.</div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/sites/default/files/js/js_c4xEVNgOUmwbf7w0MAHEsiv003E0G8XicOi2uKBlYFw.js?delta=2&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans">https://industriels.esante.gouv.fr/sites/default/files/js/js_c4xEVNgOUmwbf7w0MAHEsiv003E0G8XicOi2uKBlYFw.js?delta=2&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">user</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bUSER\b and was detected in likely comment: &quot;//www.&quot;==t.trim(t(this).find(&quot;a&quot;).text())&amp;&amp;t(&quot;.form-user.custom .field--name-field-site-internet&quot;).hide();}),t(&quot;.form-user .form&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/sites/default/files/js/js_IVvvUbetPs3NF59VtEd7s-YACLspYXq7BqkvUdxEfdA.js?delta=0&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans">https://industriels.esante.gouv.fr/sites/default/files/js/js_IVvvUbetPs3NF59VtEd7s-YACLspYXq7BqkvUdxEfdA.js?delta=0&amp;include=eJxdjWsSwiAMhC_UwpGcFNKKpg2TBGs9vQxSZ_RHdvbLayFG4yuvqEEQNw-_PPyxV7RLyQNs6muNC_EE1HBiNjWBPNbVlE1bNxQ1XgeDcFPf9OvFEEpIJry5WVydPBLu6ps6uMFzmAheh2_aPTHEbjPTMSeijoFAlZLaORZek2Ingbm7Had8Pk78yal34e6bupYQWNBHKRnIxQTES1t8A4HedF0&amp;language=fr&amp;scope=footer&amp;theme=ans</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">username</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bUSERNAME\b and was detected in likely comment: &quot;//,Bt={},_t={},zt=&quot;*/&quot;.concat(&quot;*&quot;),Xt=C.createElement(&quot;a&quot;);function Ut(o){return function(e,t){&quot;string&quot;!=typeof e&amp;&amp;(t=e,e=&quot;*&quot;);v&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					<td width="80%">2</td>
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%"></td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%">13</td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/10027/">10027</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
@@ -5151,7 +5074,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/node/add/">https://industriels.esante.gouv.fr/node/add/</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/filter/tips">https://industriels.esante.gouv.fr/filter/tips</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6316,7 +6239,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/liste-solutions-en-cours-evaluation-conformite-referentiel-teleconsultation">https://industriels.esante.gouv.fr/liste-solutions-en-cours-evaluation-conformite-referentiel-teleconsultation</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/actualites/reussir-le-financement-segur-du-numerique-en-sante">https://industriels.esante.gouv.fr/actualites/reussir-le-financement-segur-du-numerique-en-sante</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6336,7 +6259,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">5Cguma2qb0wFRA2a4PBQsayecY9RS3VTHGOGnChPaeWCC%2CuA</td>
+						<td width="80%">N3-RV-n652Pt1%2Cay2WB9%2CP5iZoIB4riWWdcPHo2PfcbYvk6Z</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6348,7 +6271,7 @@ cookie:SSESS26ea3c4a5aa14cb21810bf2d76e100e3</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/webinaires/exporter-international-opportunites-enjeux-marche-suedois-e-sante">https://industriels.esante.gouv.fr/webinaires/exporter-international-opportunites-enjeux-marche-suedois-e-sante</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/actualites/segur-du-numerique-en-sante-le-portail-radiologie-evolue-partir-du-16-septembre-2022">https://industriels.esante.gouv.fr/actualites/segur-du-numerique-en-sante-le-portail-radiologie-evolue-partir-du-16-septembre-2022</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6368,7 +6291,7 @@ cookie:SSESS26ea3c4a5aa14cb21810bf2d76e100e3</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">GjzYaP78AwdgO7SD6vLoBr7XxNdw2xpfE6Jyv-FUrIKp94jM</td>
+						<td width="80%">uYnu2fRMlAwG4D46RZ6ZyDLU0gGciPkYCcT5FM8wL83-5T74</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6649,7 +6572,7 @@ cookie:SSESS26ea3c4a5aa14cb21810bf2d76e100e3</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.png">https://industriels.esante.gouv.fr/core/*.png</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.js$">https://industriels.esante.gouv.fr/core/*.js$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6680,7 +6603,7 @@ cookie:SSESS26ea3c4a5aa14cb21810bf2d76e100e3</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://industriels.esante.gouv.fr/profiles/*.css">https://industriels.esante.gouv.fr/profiles/*.css</a></td>
+						<td width="80%"><a href="https://industriels.esante.gouv.fr/core/*.png">https://industriels.esante.gouv.fr/core/*.png</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
