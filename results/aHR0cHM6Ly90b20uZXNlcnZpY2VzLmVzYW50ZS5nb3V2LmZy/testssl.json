@@ -339,7 +339,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "217 >= 60 days"
+              "finding"      : "215 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -626,7 +626,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741979141"
+              "finding"      : "1742099164"
           }
 ,         {
               "id"           : "HSTS",
