@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Fri, 14 Mar 2025 17:57:28",
+	"@generated": "Sun, 16 Mar 2025 03:17:36",
 	"site":[ 
 		{
 			"@name": "https://mssante.fr",
@@ -20,7 +20,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "56",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -29,7 +29,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "140",
+							"id": "151",
 							"uri": "https://mssante.fr/",
 							"method": "GET",
 							"param": "",
@@ -38,7 +38,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "111",
+							"id": "125",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -47,7 +47,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "146",
+							"id": "154",
 							"uri": "https://mssante.fr/cgu",
 							"method": "GET",
 							"param": "",
@@ -56,7 +56,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "171",
+							"id": "177",
 							"uri": "https://mssante.fr/en/web/mss/1",
 							"method": "GET",
 							"param": "",
@@ -74,7 +74,16 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "179",
+							"id": "181",
+							"uri": "https://mssante.fr/essentiel/eligibilite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
+						},
+						{
+							"id": "182",
 							"uri": "https://mssante.fr/essentiel/service",
 							"method": "GET",
 							"param": "",
@@ -83,7 +92,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "143",
+							"id": "133",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "",
@@ -92,7 +101,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "169",
+							"id": "174",
 							"uri": "https://mssante.fr/telechargements/mobilite",
 							"method": "GET",
 							"param": "",
@@ -101,18 +110,9 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "116",
+							"id": "127",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
-						},
-						{
-							"id": "176",
-							"uri": "https://mssante.fr/",
-							"method": "POST",
 							"param": "",
 							"attack": "",
 							"evidence": "<form action=\"#\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
@@ -138,7 +138,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "34",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -147,7 +147,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "139",
+							"id": "150",
 							"uri": "https://mssante.fr/",
 							"method": "GET",
 							"param": "",
@@ -156,7 +156,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "121",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -165,7 +165,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "145",
+							"id": "153",
 							"uri": "https://mssante.fr/cgu",
 							"method": "GET",
 							"param": "",
@@ -174,7 +174,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "170",
+							"id": "176",
 							"uri": "https://mssante.fr/en/web/mss/1",
 							"method": "GET",
 							"param": "",
@@ -183,7 +183,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "113",
+							"id": "116",
 							"uri": "https://mssante.fr/essentiel",
 							"method": "GET",
 							"param": "",
@@ -192,7 +192,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "142",
+							"id": "129",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "",
@@ -210,7 +210,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
+							"id": "171",
 							"uri": "https://mssante.fr/telechargements/mobilite",
 							"method": "GET",
 							"param": "",
@@ -219,7 +219,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "159",
+							"id": "163",
 							"uri": "https://mssante.fr/telechargements/thunderbird",
 							"method": "GET",
 							"param": "",
@@ -228,7 +228,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "114",
+							"id": "123",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -256,7 +256,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "71",
+							"id": "96",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -265,7 +265,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "105",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -274,7 +274,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "86",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "84",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -292,7 +292,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "90",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -301,7 +301,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "87",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -310,7 +310,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "95",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -319,7 +319,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "88",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -328,7 +328,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "89",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -337,7 +337,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "92",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -346,7 +346,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "91",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -355,7 +355,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "93",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -364,7 +364,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "94",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -373,7 +373,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "85",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -382,129 +382,57 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "101",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/document_library/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" rel=\"stylesheet\" type=\"text/css\" />",
+							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/document_library/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" rel=\"stylesheet\" type=\"text/css\" />",
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "102",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" rel=\"stylesheet\" type=\"text/css\" />",
+							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" rel=\"stylesheet\" type=\"text/css\" />",
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "98",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/journal/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" rel=\"stylesheet\" type=\"text/css\" />",
+							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/journal/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" rel=\"stylesheet\" type=\"text/css\" />",
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "97",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/journal_content/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" rel=\"stylesheet\" type=\"text/css\" />",
+							"evidence": "<link href=\"https://mailiz.mssante.fr/html/portlet/journal_content/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" rel=\"stylesheet\" type=\"text/css\" />",
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "100",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://mailiz.mssante.fr/mss-lien-aide-portlet/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" rel=\"stylesheet\" type=\"text/css\" />",
+							"evidence": "<link href=\"https://mailiz.mssante.fr/mss-lien-aide-portlet/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1742093165000\" rel=\"stylesheet\" type=\"text/css\" />",
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "99",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://mailiz.mssante.fr/mss-login-portlet/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" rel=\"stylesheet\" type=\"text/css\" />",
-							"otherinfo": ""
-						},
-						{
-							"id": "58",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link href=\"https://mailiz.mssante.fr/mss-theme/images/favicon.ico\" rel=\"Shortcut Icon\" />",
-							"otherinfo": ""
-						},
-						{
-							"id": "87",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "88",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/upload.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "85",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_lists/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "86",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "78",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "79",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/navigation.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "84",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" type=\"text/javascript\"></script>",
+							"evidence": "<link href=\"https://mailiz.mssante.fr/mss-login-portlet/css/main.css?browserId=other&amp;themeId=mss_WAR_msstheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6203&amp;t=1742093165000\" rel=\"stylesheet\" type=\"text/css\" />",
 							"otherinfo": ""
 						},
 						{
@@ -513,11 +441,83 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" type=\"text/javascript\"></script>",
+							"evidence": "<link href=\"https://mailiz.mssante.fr/mss-theme/images/favicon.ico\" rel=\"Shortcut Icon\" />",
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "112",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "113",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/upload.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "110",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_lists/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "111",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "103",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "104",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/navigation.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "109",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093165000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "108",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093165000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "106",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -526,7 +526,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "107",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -535,7 +535,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "114",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -563,7 +563,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "197",
+							"id": "202",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js",
 							"method": "GET",
 							"param": "",
@@ -572,7 +572,7 @@
 							"otherinfo": "The identified library jquery, version 1.10.2 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nCVE-2015-9251\nCVE-2019-11358\nhttps://github.com/jquery/jquery/issues/2432\nhttp://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/\nhttp://research.insecurelabs.org/jquery/test/\nhttps://blog.jquery.com/2019/04/10/jquery-3-4-0-released/\nhttps://nvd.nist.gov/vuln/detail/CVE-2019-11358\nhttps://github.com/advisories/GHSA-rmxg-73gg-4p98\nhttps://nvd.nist.gov/vuln/detail/CVE-2015-9251\nhttps://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b\nhttps://bugs.jquery.com/ticket/11974\nhttps://github.com/jquery/jquery.com/issues/162\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "195",
+							"id": "197",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js",
 							"method": "GET",
 							"param": "",
@@ -587,7 +587,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "302"
+					"sourceid": "315"
 				},
 				{
 					"pluginid": "90022",
@@ -615,7 +615,7 @@
 					"reference": "",
 					"cweid": "550",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10011",
@@ -628,7 +628,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "42",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "COOKIE_SUPPORT",
@@ -637,7 +637,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "16",
 							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "COOKIE_SUPPORT",
@@ -646,7 +646,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "20",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "COOKIE_SUPPORT",
@@ -674,7 +674,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "36",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "COOKIE_SUPPORT",
@@ -683,7 +683,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "37",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "GUEST_LANGUAGE_ID",
@@ -692,7 +692,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "35",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "PAUTSESSIONID",
@@ -701,44 +701,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "41",
 							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "ROUTEID",
-							"attack": "",
-							"evidence": "Set-Cookie: ROUTEID",
-							"otherinfo": ""
-						},
-						{
-							"id": "8",
-							"uri": "https://mssante.fr/robots.txt",
-							"method": "GET",
-							"param": "COOKIE_SUPPORT",
-							"attack": "",
-							"evidence": "Set-Cookie: COOKIE_SUPPORT",
-							"otherinfo": ""
-						},
-						{
-							"id": "10",
-							"uri": "https://mssante.fr/robots.txt",
-							"method": "GET",
-							"param": "GUEST_LANGUAGE_ID",
-							"attack": "",
-							"evidence": "Set-Cookie: GUEST_LANGUAGE_ID",
-							"otherinfo": ""
-						},
-						{
-							"id": "7",
-							"uri": "https://mssante.fr/robots.txt",
-							"method": "GET",
-							"param": "PAUTSESSIONID",
-							"attack": "",
-							"evidence": "Set-Cookie: PAUTSESSIONID",
-							"otherinfo": ""
-						},
-						{
-							"id": "12",
-							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "ROUTEID",
 							"attack": "",
@@ -747,6 +711,42 @@
 						},
 						{
 							"id": "9",
+							"uri": "https://mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						},
+						{
+							"id": "12",
+							"uri": "https://mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "GUEST_LANGUAGE_ID",
+							"attack": "",
+							"evidence": "Set-Cookie: GUEST_LANGUAGE_ID",
+							"otherinfo": ""
+						},
+						{
+							"id": "8",
+							"uri": "https://mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "Set-Cookie: PAUTSESSIONID",
+							"otherinfo": ""
+						},
+						{
+							"id": "14",
+							"uri": "https://mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "ROUTEID",
+							"attack": "",
+							"evidence": "Set-Cookie: ROUTEID",
+							"otherinfo": ""
+						},
+						{
+							"id": "10",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "COOKIE_SUPPORT",
@@ -773,7 +773,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "13",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "ROUTEID",
@@ -801,143 +801,89 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
+							"id": "53",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "https://mailiz.mssante.fr/html/portlet/document_library/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093159000",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "54",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "https://mailiz.mssante.fr/html/portlet/document_library/js/upload.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093159000",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/upload.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "51",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "https://mailiz.mssante.fr/html/portlet/dynamic_data_lists/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093159000",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_lists/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "52",
+							"uri": "https://mssante.fr",
+							"method": "GET",
+							"param": "https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093159000",
+							"attack": "",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
+							"otherinfo": ""
+						},
+						{
 							"id": "45",
 							"uri": "https://mssante.fr",
 							"method": "GET",
-							"param": "https://mailiz.mssante.fr/html/portlet/document_library/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918025000",
+							"param": "https://mailiz.mssante.fr/html/portlet/journal/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093159000",
 							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"id": "46",
 							"uri": "https://mssante.fr",
 							"method": "GET",
-							"param": "https://mailiz.mssante.fr/html/portlet/document_library/js/upload.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918025000",
+							"param": "https://mailiz.mssante.fr/html/portlet/journal/js/navigation.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093159000",
 							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/document_library/js/upload.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/navigation.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093159000\" type=\"text/javascript\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "50",
 							"uri": "https://mssante.fr",
 							"method": "GET",
-							"param": "https://mailiz.mssante.fr/html/portlet/dynamic_data_lists/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918025000",
+							"param": "https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093165000",
 							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_lists/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093165000\" type=\"text/javascript\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "49",
 							"uri": "https://mssante.fr",
 							"method": "GET",
-							"param": "https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918025000",
+							"param": "https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1742093165000",
 							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "37",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/html/portlet/journal/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918025000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "38",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/html/portlet/journal/js/navigation.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918025000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/html/portlet/journal/js/navigation.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918025000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "42",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918033000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "41",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918033000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "39",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/mss-theme/js/jquery-1.4.4.min.js",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-theme/js/jquery-1.4.4.min.js\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "40",
-							"uri": "https://mssante.fr",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/mss-theme/js/jquery-ui-1.8.11.custom.min.js",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-theme/js/jquery-ui-1.8.11.custom.min.js\" type=\"text/javascript\"></script>",
+							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1742093165000\" type=\"text/javascript\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"id": "47",
 							"uri": "https://mssante.fr",
 							"method": "GET",
-							"param": "https://mailiz.mssante.fr/mss-theme/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1734556426000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1734556426000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "103",
-							"uri": "https://mssante.fr/aide?type=accueil",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/aide-portlet/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918047000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/aide-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918047000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "105",
-							"uri": "https://mssante.fr/aide?type=accueil",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918033000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-lien-aide-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "104",
-							"uri": "https://mssante.fr/aide?type=accueil",
-							"method": "GET",
-							"param": "https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1741918033000",
-							"attack": "",
-							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-login-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6203&amp;t=1741918033000\" type=\"text/javascript\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "101",
-							"uri": "https://mssante.fr/aide?type=accueil",
-							"method": "GET",
 							"param": "https://mailiz.mssante.fr/mss-theme/js/jquery-1.4.4.min.js",
 							"attack": "",
 							"evidence": "<script src=\"https://mailiz.mssante.fr/mss-theme/js/jquery-1.4.4.min.js\" type=\"text/javascript\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
-							"uri": "https://mssante.fr/aide?type=accueil",
+							"id": "48",
+							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "https://mailiz.mssante.fr/mss-theme/js/jquery-ui-1.8.11.custom.min.js",
 							"attack": "",
@@ -945,8 +891,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
-							"uri": "https://mssante.fr/aide?type=accueil",
+							"id": "55",
+							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "https://mailiz.mssante.fr/mss-theme/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6203&t=1734556426000",
 							"attack": "",
@@ -954,7 +900,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "17",
+					"count": "11",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -973,7 +919,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "177",
+							"id": "179",
 							"uri": "https://mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
 							"method": "GET",
 							"param": "",
@@ -982,7 +928,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "211",
+							"id": "214",
 							"uri": "https://mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mssunifie_WAR_MSSunifietheme",
 							"method": "GET",
 							"param": "",
@@ -1000,7 +946,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "208",
+							"id": "211",
 							"uri": "https://mssante.fr/MSS-unifie-theme/lib/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "",
@@ -1009,7 +955,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "191",
+							"id": "196",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery.MetaData.js",
 							"method": "GET",
 							"param": "",
@@ -1018,7 +964,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "194",
+							"id": "199",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery.MultiFile.pack.js",
 							"method": "GET",
 							"param": "",
@@ -1033,7 +979,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "78"
+					"sourceid": "73"
 				},
 				{
 					"pluginid": "90004",
@@ -1046,7 +992,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "56",
+							"id": "76",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -1055,7 +1001,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "123",
+							"id": "140",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -1073,7 +1019,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "150",
+							"id": "147",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -1082,7 +1028,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "127",
+							"id": "142",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -1091,7 +1037,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "77",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -1100,7 +1046,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "125",
+							"id": "141",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -1118,7 +1064,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "151",
+							"id": "148",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -1127,7 +1073,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "128",
+							"id": "143",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -1155,7 +1101,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "75",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -1164,7 +1110,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "154",
+							"id": "160",
 							"uri": "https://mssante.fr/",
 							"method": "GET",
 							"param": "",
@@ -1173,7 +1119,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "122",
+							"id": "138",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -1182,7 +1128,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "157",
+							"id": "159",
 							"uri": "https://mssante.fr/cgu",
 							"method": "GET",
 							"param": "",
@@ -1209,7 +1155,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "149",
+							"id": "146",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "",
@@ -1218,7 +1164,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "32",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1227,7 +1173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "175",
+							"id": "178",
 							"uri": "https://mssante.fr/telechargements/mobilite",
 							"method": "GET",
 							"param": "",
@@ -1236,7 +1182,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "160",
+							"id": "164",
 							"uri": "https://mssante.fr/telechargements/thunderbird",
 							"method": "GET",
 							"param": "",
@@ -1245,7 +1191,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "124",
+							"id": "139",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -1273,7 +1219,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "201",
+							"id": "204",
 							"uri": "https://mssante.fr/chantiers-segur",
 							"method": "GET",
 							"param": "",
@@ -1282,7 +1228,7 @@
 							"otherinfo": "1671095226, which evaluates to: 2022-12-15 09:07:06."
 						},
 						{
-							"id": "203",
+							"id": "206",
 							"uri": "https://mssante.fr/chantiers-segur",
 							"method": "GET",
 							"param": "",
@@ -1291,7 +1237,7 @@
 							"otherinfo": "1864552688, which evaluates to: 2029-01-31 11:18:08."
 						},
 						{
-							"id": "215",
+							"id": "218",
 							"uri": "https://mssante.fr/chantiers-segur",
 							"method": "POST",
 							"param": "",
@@ -1300,7 +1246,7 @@
 							"otherinfo": "1671095226, which evaluates to: 2022-12-15 09:07:06."
 						},
 						{
-							"id": "217",
+							"id": "220",
 							"uri": "https://mssante.fr/chantiers-segur",
 							"method": "POST",
 							"param": "",
@@ -1315,7 +1261,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "410"
+					"sourceid": "409"
 				},
 				{
 					"pluginid": "10094",
@@ -1328,7 +1274,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "49",
+							"id": "73",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -1337,7 +1283,7 @@
 							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
 						},
 						{
-							"id": "152",
+							"id": "157",
 							"uri": "https://mssante.fr/",
 							"method": "GET",
 							"param": "",
@@ -1346,7 +1292,7 @@
 							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
 						},
 						{
-							"id": "118",
+							"id": "134",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -1364,7 +1310,16 @@
 							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
 						},
 						{
-							"id": "161",
+							"id": "166",
+							"uri": "https://mssante.fr/documents/16106/0/Echec+de+connexion+CPS+PSC.pdf/fbeaa5b1-e6c4-47d4-b603-f7661452e0f8",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/Encoding/WinAnsiEncoding/Subtype/Type1",
+							"otherinfo": "\uFFFDI\u0721\u0627\uFFFD\uFFFD\uFFFD\uFFFD\t\uFFFDI\u0721\u0627\uFFFD\uFFFD\uFFFDn\u0729{\uFFFD\uFFFD\uFFFD"
+						},
+						{
+							"id": "162",
 							"uri": "https://mssante.fr/documents/16106/0/LOGO_ANS_2020_Largeur_Fond_Blanc.png/35e4c69f-4353-444e-9694-706a2f40e890?t=1603130475000",
 							"method": "GET",
 							"param": "",
@@ -1373,7 +1328,7 @@
 							"otherinfo": ",\uFFFD\uFFFD\\x0003R\uFFFDm6\uFFFD\uFFFD\u06AE\\x0007\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "164",
+							"id": "168",
 							"uri": "https://mssante.fr/documents/16106/68413/Banniere_645x300px-V2.jpg/ad5b1fc3-1c27-4d2c-87a2-1ca03b983ca3?t=1519736557000",
 							"method": "GET",
 							"param": "",
@@ -1382,7 +1337,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\\x0000\\x0010JFIF\\x0000\\x0001\\x0002\\x0001\\x0000H\\x0000H\\x0000\\x0000\uFFFD\uFFFD\\x0000,Photoshop 3.0\\x00008BIM\\x0003\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\\x0010\\x0000H\\x0000\\x0000\\x0000\\x0001\\x0000"
 						},
 						{
-							"id": "126",
+							"id": "124",
 							"uri": "https://mssante.fr/essentiel",
 							"method": "GET",
 							"param": "",
@@ -1391,7 +1346,7 @@
 							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
 						},
 						{
-							"id": "166",
+							"id": "169",
 							"uri": "https://mssante.fr/mss-theme/lib/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "",
@@ -1400,7 +1355,7 @@
 							"otherinfo": "\uFFFDPNG\r\n\\x001a\n\\x0000\\x0000\\x0000\rIHDR\\x0000\\x0000\\x0000w\\x0000\\x0000\\x0000\\x001e\\x0008\\x0006\\x0000\\x0000\\x0000\\x0016\u0081\\x0018\\x0000\\x0000\\x0003\uFFFDIDATh\uFFFD\uFFFDX\uFFFDm\uFFFD@\\x000c}\n2\uFFFDFP\uFFFD\uFFFDeT\uFFFD\uFFFD\uFFFD\\x0004q&\uFFFD<\uFFFD\uFFFD\t\\x001cO\\x0010g\uFFFD\uFFFD\\x0013\u011D \uFFFD\\x0004\\x0016\uFFFD/\uFFFDi\uFFFD\uFFFD\\x0013\uFFFD8\uFFFD4(\uFFFDN\uFFFD\uFFFD\\x0016\uFFFD\uFFFD\\x0003\uFFFDD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFDx\uFFFD\uFFFD`0\\x0018\\x000c\\x0006\uFFFD\uFFFD`0\\x0018\\x000c\\x0006\uFFFD\uFFFD\uFFFD_\\x00115\\x0015\uFFFD\uFFFD\\x0008D)\uFFFD\uFFFD\u07E6B\\x0001\uFFFD\uFFFD\uFFFD/Q\uFFFD\r\uFFFDQ\uFFFD$>\\x0000,\uFFFD\\x0014\uFFFDCv\\x0000\uFFFD\\x0000<\\x000f\uFFFD\uFFFDa\uFFFD\uFFFD\u04D9\\x0001(\uFFFD\uFFFD\uFFFD\uFFFDd\uFFFD\uFFFD\uFFFD\uFFFDR\uFFFD\\x0002z\uFFFD\\x0001\uFFFD\uFFFD\uFFFD\\x0000j\\x0000\uFFFD(E-\uFFFD\uFFFD\uFFFD\\x0006\uFFFDss\uFFFD\\x0001\uFFFD\\\uFFFDVN'\\x000bv\uFFFDV\uFFFD\\x0014\uFFFD\\x0018@\\x000c\uFFFD\uFFFD\uFFFD\uFFFD#l\\x00057\uFFFDw\uFFFDK\uFFFD\uFFFD\uFFFD\\x0000n{HI\uFFFD\\x0001$\uFFFD\uFFFD\\x0006\\x0019I@\uFFFD\uFFFDM\uFFFD\n\uFFFD\tv\uFFFD3\uFFFD\uFFFD\uFFFD-\uFFFD\u8576>\uFFFD\uFFFD\uFFFDj\uFFFD\uFFFD\uFFFD\uFFFD\\x0011x\uFFFD\uFFFD\uFFFD\uFFFDD\uFFFDz\uFFFD\uFFFD\\x001f\uFFFD\uFFFD[\uFFFD\u077E]\uFFFD7\\x0000\uFFFD\uFFFD\uFFFD\uFFFD1\uFFFD\uFFFD=\\x0016\uFFFD\\x0008Ke\uFDA9\uFFFD3J\uFFFD\uFFFD\\x001fnq9\\x001bb\uFFFDL)\uFFFD;g\uFFFD\"x\\x000e\uFFFD\uFFFD\uFFFD(m\uFFFDi\uFFFD\u0704\\x001e\uFFFD\uFFFD\\x0008\u0629\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u00D9\uFFFDN\uFFFD\\pt\uFFFD\uFFFDh\\x0017%2.\\x001e\uFFFD\\x0010~\uFFFD8j.\uFFFD\\x0018M\uFFFD\uFFFD\\x0001x\uFFFD\uFFFD\uFFFD~L\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\uFFFD\uFFFD\uFFFDySa\\x001b\uFFFD]\uFFFD\uFFFD+)T\uFFFDfB>\\x0013r\\x0004J\uFFFD4\uFFFD\uFFFD\uFFFD=Ha\uFFFD\uFFFDZ\uFFFDa\uFFFD\\x0014,~6\\x0008\uFFFD\uFFFD\u0260\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFDqe/JqC\uFFFDs_\uFFFD\\x0008?\uFFFD:\\x0016\uFFFDl\uFFFD\\x0018\uFFFDB\uFFFDQ\\x0002AU\\x000c(\uFFFD}\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD$9\uFFFD\uFFFD\uFFFD\uFFFD\tltEY\uFFFD\u078B\uFFFDjI\uFFFDL~l\uFFFD\uFFFD4|\\x0015\uFFFDP\uFFFD\uFFFDP\uFFFD\\x0000\uFFFD\\x0016\uFFFD\uFFFD\uFFFDU\uFFFD6\uFFFDx\\x0008q;\\x00151\uFFFD+\uFFFD\uFFFD(=\uFFFD\uFFFD?\\x0005\uFFFD\uFFFD\uFFFDS\\x0012\uFFFDZ,\uFFFDR\uFFFD\uFFFDq`\uFFFD\uFFFD\u06DB\\x0014\\x000c.\uFFFD\uFFFD\\x0005\uFFFDp\uFFFD\uFFFD5\\x001cOj|\uFFFD\uFFFDKJ\uFFFDs\uFFFD\uFFFDu\uFFFD\uFFFD\uFFFD\uFFFDP\uFFFD-\uFFFD\\x0019\\x001bB|\uFFFD\uFFFDS\uFFFD\uFFFD\u04428K\uFFFDc\uFFFD\\x001f|\uFFFD\uFFFD\uFFFD\u060AE\uFFFD,\uFFFDU\\x001f\\x0011j,$\uFFFD\uFFFDj\n|\uFFFDT;ur\uFFFD\\x000e:\uFFFD\uFFFD@Y\uFFFDq+\\x0006\uFFFD%t>\uFFFDo>n\uFFFDX\\x0019u\uFFFD\u039Ek\\~4\uFFFDQ2_\\x0002\\x001d\uFFFD\\x0005\uFFFDh\uFFFD\uFFFD0Q\uFFFD15f\\x001aw>?z\\x0017Wd\\x000e\uFFFD\\x0010\uFFFD\uFFFD\uFFFD|B\uFFFD\\x0010\t\uFFFD\\x0010\\x0013\uFFFD\uFFFDz\uFFFD\uFFFDAh\u0523;\uFFFDS\uFFFD\uFFFDUc\uFFFD\u03A5F%\uFFFD\uFFFD<\uFFFD\uFFFD\uFFFDLs\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uDBA5\uDE29\uFFFD\uFFFD\u0648\uFFFDQ\uFFFD}\\x0019H\uFFFD\uFFFD1\uFFFDG\uFFFDU\uFFFD\\x0012\uFFFDA\u02C7\\x0016W\uFFFD\uFFFD\\x0007\uFFFD4HEG\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\uFFFD/e{\\x001f\uFFFD\uFFFD\\x0000\uFFFD)]\\x0011B\r\uFFFDD\uFFFD/\\x0019\uFFFD\\x0012\uFFFD\uFFFD\\x000c\u074B\uFFFD\\x0001u\uFFFD|\uFFFD'\u0521#\\x001f\uFFFD\\x000b\uFFFD\uFFFDk\uFFFD\uFFFD\u07BECp\u07AA\uFFFDD\uFFFD\uFFFDP\uFFFD;\\\uFFFD\u81C7C\uFFFD\uFFFD\\x001d\uFFFD\uFFFDI\uFFFDl\uFFFDin\uFFFD\uFFFD\uFFFD6]\uFFFDk\\x000e\uFFFD\\x001e\uFFFDA\uFFFD\uFFFD9\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0498\uFFFDq\uFFFD\uFFFD*=\u0720\uFFFD\\x0015h#\uFFFDf\\x001cxy\\x0005\uFFFD9\uFFFDX\uFFFD\uFFFD\uFFFD\\x001b#\uFFFD\uFFFD!\uFFFD\\x0013'\uFFFD\uFFFD>\\x001f;\uFFFD\\x000by\uFFFDo\\x0006\uFFFD\uFFFD`0\\x0018\\x000c\\x0006\uFFFD\uFFFD`0\\x0018\\x000c\\x0006\uFFFD?\\x0006\uFFFD_,\uFFFDp\uFFFDn\uFFFD\uFFFD\uFFFD\\x0000\\x0000\\x0000\\x0000IEND\uFFFDB`\uFFFD"
 						},
 						{
-							"id": "147",
+							"id": "144",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "",
@@ -1409,16 +1364,7 @@
 							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
 						},
 						{
-							"id": "174",
-							"uri": "https://mssante.fr/telechargements/mobilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "msslogin_WAR_mssloginportlet_INSTANCE_xyz1",
-							"otherinfo": "\uFFFD\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD`\\x0011\uFFFDk,\uFFFD\uFFFD\"\uFFFD\uFFFD+\uFFFDW\uFFFD\uFFFD\uFFFDRL\\x0003B\\x0013\uFFFDr\uFFFD"
-						},
-						{
-							"id": "120",
+							"id": "136",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -1446,71 +1392,8 @@
 					"desc": "<p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>",
 					"instances":[ 
 						{
-							"id": "97",
+							"id": "120",
 							"uri": "https://mssante.fr/aide?type=accueil",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "186",
-							"uri": "https://mssante.fr/aide?type=application_mobile_autoriser_bloquer_appareil",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "183",
-							"uri": "https://mssante.fr/aide?type=application_mobile_telecharger",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "185",
-							"uri": "https://mssante.fr/aide?type=application_mobile_utiliser",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "181",
-							"uri": "https://mssante.fr/aide?type=service_creer_activer_compte",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "184",
-							"uri": "https://mssante.fr/aide?type=service_fermer_compte",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "180",
-							"uri": "https://mssante.fr/aide?type=service_se_connecter",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "182",
-							"uri": "https://mssante.fr/aide?type=service_utiliser",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1519,16 +1402,7 @@
 						},
 						{
 							"id": "189",
-							"uri": "https://mssante.fr/en/web/mss/aide?type=accueil",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
-						},
-						{
-							"id": "112",
-							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
+							"uri": "https://mssante.fr/aide?type=application_mobile_autoriser_bloquer_appareil",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1537,6 +1411,78 @@
 						},
 						{
 							"id": "187",
+							"uri": "https://mssante.fr/aide?type=application_mobile_telecharger",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "188",
+							"uri": "https://mssante.fr/aide?type=application_mobile_utiliser",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "183",
+							"uri": "https://mssante.fr/aide?type=service_creer_activer_compte",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "186",
+							"uri": "https://mssante.fr/aide?type=service_fermer_compte",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "184",
+							"uri": "https://mssante.fr/aide?type=service_se_connecter",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "185",
+							"uri": "https://mssante.fr/aide?type=service_utiliser",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "192",
+							"uri": "https://mssante.fr/en/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "122",
+							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
+						},
+						{
+							"id": "191",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "POST",
 							"param": "",
@@ -1545,7 +1491,7 @@
 							"otherinfo": "There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [ISO-8859-1] do not match."
 						},
 						{
-							"id": "188",
+							"id": "190",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "POST",
 							"param": "",
@@ -1560,7 +1506,7 @@
 					"reference": "<p>https://code.google.com/p/browsersec/wiki/Part2#Character_set_handling_and_detection</p>",
 					"cweid": "436",
 					"wascid": "15",
-					"sourceid": "40"
+					"sourceid": "53"
 				},
 				{
 					"pluginid": "10027",
@@ -1573,7 +1519,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "163",
+							"id": "161",
 							"uri": "https://mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mss_WAR_msstheme",
 							"method": "GET",
 							"param": "",
@@ -1582,7 +1528,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "209",
+							"id": "212",
 							"uri": "https://mssante.fr/html/js/barebone.jsp?b=6203&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.barebone.files&minifierType=js&t=1429195226000&themeId=mssunifie_WAR_MSSunifietheme",
 							"method": "GET",
 							"param": "",
@@ -1591,7 +1537,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//yui.yahooapis.com/\",u=\"yui3-js-enabled\",d=\"yui3-css-stamp\",m=function(){},h=Array.prototype.slice,s={\"io.xdrReady\":1,\"io.xdrRe\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "162",
+							"id": "167",
 							"uri": "https://mssante.fr/mss-theme/lib/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "",
@@ -1600,7 +1546,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in likely comment: \"// css for the middle bar TODO: add it on the css file\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "207",
+							"id": "210",
 							"uri": "https://mssante.fr/MSS-unifie-theme/lib/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "",
@@ -1609,7 +1555,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in likely comment: \"// css for the middle bar TODO: add it on the css file\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "196",
+							"id": "201",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js",
 							"method": "GET",
 							"param": "",
@@ -1618,7 +1564,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"// Handle the case where IE and Opera return items\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "192",
+							"id": "193",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery.blockUI.js",
 							"method": "GET",
 							"param": "",
@@ -1627,7 +1573,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// be default blockUI will supress tab navigation from leaving blocking content;\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "193",
+							"id": "194",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery.form.js",
 							"method": "GET",
 							"param": "",
@@ -1636,7 +1582,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"// data is the query string for 'post'\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "190",
+							"id": "195",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery.MetaData.js",
 							"method": "GET",
 							"param": "",
@@ -1645,7 +1591,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"/**\r\n * Sets the type of metadata to use. Metadata is encoded in JSON, and each property\r\n * in the JSON will become a property \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "198",
+							"id": "200",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery.MultiFile.js",
 							"method": "GET",
 							"param": "",
@@ -1654,7 +1600,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// BUG 1251 FIX: http://plugins.jquery.com/project/comments/add/1251\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "199",
+							"id": "198",
 							"uri": "https://mssante.fr/sugestions-portlet/js/jquery.validate.js",
 							"method": "GET",
 							"param": "",
@@ -1669,7 +1615,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "78"
+					"sourceid": "73"
 				},
 				{
 					"pluginid": "10109",
@@ -1682,7 +1628,16 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "200",
+							"id": "227",
+							"uri": "https://mssante.fr/ets/compiegne-noyon",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a class=\"nobr\" style=\"color: rgb(69, 62, 65); white-space: nowrap; vertical-align: middle; background-image: url(https://www.mssante.fr/MSS-unifie-theme/images/portlet/options_borderless.png); background-repeat: initial;\">ptions</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "203",
 							"uri": "https://mssante.fr/ets/decouvrir",
 							"method": "GET",
 							"param": "",
@@ -1691,7 +1646,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "213",
+							"id": "216",
 							"uri": "https://mssante.fr/ets/doc-technique",
 							"method": "GET",
 							"param": "",
@@ -1700,7 +1655,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "212",
+							"id": "215",
 							"uri": "https://mssante.fr/ets/rejoindre",
 							"method": "GET",
 							"param": "",
@@ -1709,7 +1664,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "210",
+							"id": "213",
 							"uri": "https://mssante.fr/home/etab-operateurs",
 							"method": "GET",
 							"param": "",
@@ -1718,7 +1673,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "222",
+							"id": "224",
 							"uri": "https://mssante.fr/home/etab-operateurs/es",
 							"method": "GET",
 							"param": "",
@@ -1727,16 +1682,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "220",
-							"uri": "https://mssante.fr/home/etab-operateurs/gcs",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"\" target=\"_blank\"></a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "221",
+							"id": "223",
 							"uri": "https://mssante.fr/home/etab-operateurs/is",
 							"method": "GET",
 							"param": "",
@@ -1745,7 +1691,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "205",
+							"id": "208",
 							"uri": "https://mssante.fr/is/doc-technique",
 							"method": "GET",
 							"param": "",
@@ -1754,7 +1700,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "214",
+							"id": "217",
 							"uri": "https://mssante.fr/ets/decouvrir",
 							"method": "POST",
 							"param": "",
@@ -1763,7 +1709,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "223",
+							"id": "226",
 							"uri": "https://mssante.fr/ets/rejoindre",
 							"method": "POST",
 							"param": "",
@@ -1772,7 +1718,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "224",
+							"id": "225",
 							"uri": "https://mssante.fr/home/etab-operateurs",
 							"method": "POST",
 							"param": "",
@@ -1781,7 +1727,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "219",
+							"id": "222",
 							"uri": "https://mssante.fr/is/doc-technique",
 							"method": "POST",
 							"param": "",
@@ -1792,11 +1738,11 @@
 					],
 					"count": "12",
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
-					"otherinfo": "<p>Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload.</p>",
+					"otherinfo": "<p>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</p>",
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "340"
+					"sourceid": "1828"
 				},
 				{
 					"pluginid": "10049",
@@ -1809,7 +1755,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "95",
+							"id": "21",
 							"uri": "https://mssante.fr/c",
 							"method": "GET",
 							"param": "",
@@ -1818,7 +1764,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "26",
 							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1827,7 +1773,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "31",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1855,7 +1801,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "33",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "cache-control",
@@ -1864,7 +1810,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "138",
+							"id": "149",
 							"uri": "https://mssante.fr/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1873,7 +1819,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
+							"id": "118",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "cache-control",
@@ -1882,7 +1828,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "144",
+							"id": "152",
 							"uri": "https://mssante.fr/cgu",
 							"method": "GET",
 							"param": "cache-control",
@@ -1891,7 +1837,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "168",
+							"id": "175",
 							"uri": "https://mssante.fr/en/web/mss/1",
 							"method": "GET",
 							"param": "cache-control",
@@ -1900,7 +1846,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "110",
+							"id": "115",
 							"uri": "https://mssante.fr/essentiel",
 							"method": "GET",
 							"param": "cache-control",
@@ -1909,8 +1855,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "178",
-							"uri": "https://mssante.fr/essentiel/service",
+							"id": "180",
+							"uri": "https://mssante.fr/essentiel/eligibilite",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1918,7 +1864,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "141",
+							"id": "128",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "cache-control",
@@ -1927,7 +1873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "7",
 							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "cache-control",
@@ -1936,7 +1882,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "165",
+							"id": "170",
 							"uri": "https://mssante.fr/telechargements/mobilite",
 							"method": "GET",
 							"param": "cache-control",
@@ -1945,7 +1891,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "109",
+							"id": "119",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
 							"param": "cache-control",
@@ -1973,8 +1919,8 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "52",
-							"uri": "https://mssante.fr",
+							"id": "18",
+							"uri": "https://mssante.fr/c",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1982,7 +1928,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "24",
 							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1991,7 +1937,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "29",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -2006,7 +1952,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "90005",
@@ -2019,8 +1965,8 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "51",
-							"uri": "https://mssante.fr",
+							"id": "17",
+							"uri": "https://mssante.fr/c",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -2028,7 +1974,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "23",
 							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -2037,7 +1983,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "28",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -2052,7 +1998,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "90005",
@@ -2065,8 +2011,8 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "50",
-							"uri": "https://mssante.fr",
+							"id": "15",
+							"uri": "https://mssante.fr/c",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -2074,7 +2020,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "22",
 							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2083,7 +2029,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "27",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2098,7 +2044,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "90005",
@@ -2111,8 +2057,8 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "53",
-							"uri": "https://mssante.fr",
+							"id": "19",
+							"uri": "https://mssante.fr/c",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -2120,7 +2066,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "25",
 							"uri": "https://mssante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2129,7 +2075,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "30",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2144,7 +2090,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "9"
 				},
 				{
 					"pluginid": "10112",
@@ -2157,48 +2103,48 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "90",
+							"id": "38",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "PAUTSESSIONID",
 							"attack": "",
-							"evidence": "D88238DDFF9198A376E05A99CC5220F7.PAUT_2",
+							"evidence": "EB8594E08DBE7B86B17EC02460ECAA33.PAUT_2",
 							"otherinfo": "\ncookie:PAUTSESSIONID"
 						},
 						{
-							"id": "158",
+							"id": "165",
 							"uri": "https://mssante.fr/mss-theme/lib/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "PAUTSESSIONID",
 							"attack": "",
-							"evidence": "D88238DDFF9198A376E05A99CC5220F7.PAUT_2",
+							"evidence": "EB8594E08DBE7B86B17EC02460ECAA33.PAUT_2",
 							"otherinfo": "\ncookie:PAUTSESSIONID"
 						},
 						{
-							"id": "206",
+							"id": "209",
 							"uri": "https://mssante.fr/MSS-unifie-theme/lib/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "PAUTSESSIONID",
 							"attack": "",
-							"evidence": "D88238DDFF9198A376E05A99CC5220F7.PAUT_2",
+							"evidence": "EB8594E08DBE7B86B17EC02460ECAA33.PAUT_2",
 							"otherinfo": "\ncookie:PAUTSESSIONID"
 						},
 						{
-							"id": "2",
+							"id": "0",
+							"uri": "https://mssante.fr/robots.txt",
+							"method": "GET",
+							"param": "PAUTSESSIONID",
+							"attack": "",
+							"evidence": "F216362C3EABA2B8BC444943E8001151.PAUT_2",
+							"otherinfo": "\ncookie:PAUTSESSIONID"
+						},
+						{
+							"id": "5",
 							"uri": "https://mssante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "PAUTSESSIONID",
 							"attack": "",
-							"evidence": "34B7069C45D64504CD1C4BAA2794589F.PAUT_2",
-							"otherinfo": "\ncookie:PAUTSESSIONID"
-						},
-						{
-							"id": "91",
-							"uri": "https://mssante.fr/mss-theme/lib/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "PAUTSESSIONID",
-							"attack": "",
-							"evidence": "D88238DDFF9198A376E05A99CC5220F7.PAUT_2",
+							"evidence": "58A7F169CBCE6E6280B29F5E598D7857.PAUT_2",
 							"otherinfo": "\ncookie:PAUTSESSIONID"
 						}
 					],
@@ -2221,7 +2167,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "54",
+							"id": "74",
 							"uri": "https://mssante.fr",
 							"method": "GET",
 							"param": "",
@@ -2230,7 +2176,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "153",
+							"id": "158",
 							"uri": "https://mssante.fr/",
 							"method": "GET",
 							"param": "",
@@ -2239,7 +2185,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "119",
+							"id": "135",
 							"uri": "https://mssante.fr/aide?type=accueil",
 							"method": "GET",
 							"param": "",
@@ -2257,7 +2203,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "129",
+							"id": "126",
 							"uri": "https://mssante.fr/essentiel",
 							"method": "GET",
 							"param": "",
@@ -2266,7 +2212,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "148",
+							"id": "145",
 							"uri": "https://mssante.fr/politique-confidentialite",
 							"method": "GET",
 							"param": "",
@@ -2275,7 +2221,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "94",
+							"id": "44",
 							"uri": "https://mssante.fr/web/mss/accueil",
 							"method": "GET",
 							"param": "",
@@ -2284,7 +2230,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "121",
+							"id": "137",
 							"uri": "https://mssante.fr/web/mss/aide?type=accueil",
 							"method": "GET",
 							"param": "",

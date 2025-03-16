@@ -9,7 +9,7 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 14 Mar 2025 17:58:18 GMT",
+      "date": "Sun, 16 Mar 2025 03:18:23 GMT",
       "server": "Apache",
       "strict-transport-security": "max-age=63072000; includeSubDomains",
       "x-xss-protection": "1; mode = block, 1",
@@ -18,14 +18,14 @@
       "content-type": "text/html;charset=UTF-8",
       "access-control-allow-origin": "https://mssante.fr",
       "set-cookie": [
-        "PAUTSESSIONID=C4C32755B9E8F13A61A40CCAB39363F7.PAUT_1; Domain=.mssante.fr; Path=/; Secure; HttpOnly",
-        "COOKIE_SUPPORT=true; Expires=Tue, 27-Oct-2071 20:40:26 GMT; Path=/; HttpOnly",
-        "GUEST_LANGUAGE_ID=en_US; Expires=Tue, 27-Oct-2071 20:40:26 GMT; Path=/; HttpOnly;HttpOnly;Secure",
-        "GUEST_LANGUAGE_ID=en_US; Expires=Tue, 27-Oct-2071 20:40:26 GMT; Path=/; HttpOnly;HttpOnly;Secure",
-        "COOKIE_SUPPORT=true; Expires=Tue, 27-Oct-2071 20:40:26 GMT; Path=/; HttpOnly",
+        "PAUTSESSIONID=F7474A0DB95481057E58D66D2E166C3A.PAUT_1; Domain=.mssante.fr; Path=/; Secure; HttpOnly",
+        "COOKIE_SUPPORT=true; Expires=Thu, 29-Oct-2071 06:00:30 GMT; Path=/; HttpOnly",
+        "GUEST_LANGUAGE_ID=en_US; Expires=Thu, 29-Oct-2071 06:00:30 GMT; Path=/; HttpOnly;HttpOnly;Secure",
+        "GUEST_LANGUAGE_ID=en_US; Expires=Thu, 29-Oct-2071 06:00:31 GMT; Path=/; HttpOnly;HttpOnly;Secure",
+        "COOKIE_SUPPORT=true; Expires=Thu, 29-Oct-2071 06:00:31 GMT; Path=/; HttpOnly",
         "ROUTEID=.PAUT_2; HttpOnly; Secure; path=/; DOMAIN=.mssante.fr"
       ],
-      "ssl_session_id": "973d6178919b2eab24b53fff352db9c880c453202dc3183071cdbc42edeb2e56",
+      "ssl_session_id": "f96b2cb49455c24f533bf6a2aed5e6aa15ae38345c924ce6ca98e65f632677b1",
       "gipcardid": "02C848A1BD4F554C0B0765796AA8EBB7",
       "connection": "close",
       "transfer-encoding": "chunked"
@@ -58,14 +58,14 @@
         },
         "COOKIE_SUPPORT": {
           "domain": "mssante.fr",
-          "expires": "2071-10-27T20:40:26.000Z",
+          "expires": "2071-10-29T06:00:31.000Z",
           "httponly": true,
           "path": "/",
           "port": null
         },
         "GUEST_LANGUAGE_ID": {
           "domain": "mssante.fr",
-          "expires": "2071-10-27T20:40:26.000Z",
+          "expires": "2071-10-29T06:00:31.000Z",
           "httponly": true,
           "path": "/",
           "port": null,
