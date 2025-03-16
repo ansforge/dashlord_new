@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Mar 14 16:24:26 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln diagcps.eservices.esante.gouv.fr
+# Nmap 7.92 scan initiated Sun Mar 16 01:47:02 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln diagcps.eservices.esante.gouv.fr
 Nmap scan report for diagcps.eservices.esante.gouv.fr (135.125.232.117)
-Host is up (0.091s latency).
+Host is up (0.16s latency).
 rDNS record for 135.125.232.117: vps-c4a3f657.vps.ovh.net
 Not shown: 994 filtered tcp ports (no-response)
 PORT     STATE  SERVICE    VERSION
@@ -384,4 +384,4 @@ PORT     STATE  SERVICE    VERSION
 9090/tcp closed zeus-admin
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Mar 14 16:24:48 2025 -- 1 IP address (1 host up) scanned in 22.53 seconds
+# Nmap done at Sun Mar 16 01:47:28 2025 -- 1 IP address (1 host up) scanned in 26.20 seconds
