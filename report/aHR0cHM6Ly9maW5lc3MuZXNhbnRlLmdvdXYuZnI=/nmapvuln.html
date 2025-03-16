@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln finess.esante.gouv.fr</pre>
-<p class="lead">Fri Mar 14 16:38:59 2025 – Fri Mar 14 16:41:48 2025<br>1 hosts scanned.
+<p class="lead">Sun Mar 16 02:00:27 2025 – Sun Mar 16 02:04:14 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -107,6 +107,15 @@
 <th>Extra Info</th>
 </tr></thead>
 <tbody>
+<tr class="active">
+<td>32</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
@@ -121,7 +130,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    Date: Fri, 14 Mar 2025 16:39:47 GMT
+    Date: Sun, 16 Mar 2025 02:02:08 GMT
     Content-Length: 199
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -134,7 +143,7 @@
     &lt;/body&gt;&lt;/html&gt;
   Help, SSLSessionReq: 
     HTTP/1.1 400 Bad Request
-    Date: Fri, 14 Mar 2025 16:40:18 GMT
+    Date: Sun, 16 Mar 2025 02:02:40 GMT
     Content-Length: 226
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -148,7 +157,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Fri, 14 Mar 2025 16:39:47 GMT
+    Date: Sun, 16 Mar 2025 02:02:09 GMT
     Content-Length: 226
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -184,9 +193,9 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, HTTPOptions: 
+  FourOhFourRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Fri, 14 Mar 2025 16:39:54 GMT
+    Date: Sun, 16 Mar 2025 02:02:16 GMT
     Strict-Transport-Security: max-age=3600; includeSubDomains; preload
     Content-Length: 226
     Connection: close
@@ -199,9 +208,9 @@
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
+  GetRequest, HTTPOptions: 
     HTTP/1.1 400 Bad Request
-    Date: Fri, 14 Mar 2025 16:39:53 GMT
+    Date: Sun, 16 Mar 2025 02:02:15 GMT
     Strict-Transport-Security: max-age=3600; includeSubDomains; preload
     Content-Length: 226
     Connection: close
@@ -216,7 +225,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Fri, 14 Mar 2025 16:40:05 GMT
+    Date: Sun, 16 Mar 2025 02:02:27 GMT
     Strict-Transport-Security: max-age=3600; includeSubDomains; preload
     Content-Length: 226
     Connection: close
@@ -230,6 +239,123 @@
     &lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
+<tr class="active">
+<td>555</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>dsf</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>1057</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>startron</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>1114</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>mini-sql</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>1124</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>hpvmmcontrol</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>1183</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>llsurfup-http</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>1501</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>sas-3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>2702</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>sms-xfer</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>2910</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>tdaccess</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>3737</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>xpanel</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>5214</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>8649</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>49157</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="active">
+<td>50800</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table></div>
 </div>
