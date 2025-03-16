@@ -339,7 +339,7 @@
               "ip"           : "support.si-samu.fr/164.132.235.17",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "67 >= 30 days"
+              "finding"      : "66 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "support.si-samu.fr/164.132.235.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741978377"
+              "finding"      : "1742098248"
           }
 ,         {
               "id"           : "HSTS",
@@ -1091,6 +1091,6 @@
               "ip"           : "support.si-samu.fr/164.132.235.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "57"
           }
 ]
