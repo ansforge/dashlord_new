@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Mar 14 17:59:42 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln portal.api.esante.gouv.fr
+# Nmap 7.92 scan initiated Sun Mar 16 03:20:26 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln portal.api.esante.gouv.fr
 Host: 80.78.2.231 ()	Status: Up
 Host: 80.78.2.231 ()	Ports: 113/closed/tcp//ident///, 443/open/tcp//ssl|https///	Ignored State: filtered (998)
-# Nmap done at Fri Mar 14 18:01:56 2025 -- 1 IP address (1 host up) scanned in 133.85 seconds
+# Nmap done at Sun Mar 16 03:22:58 2025 -- 1 IP address (1 host up) scanned in 151.45 seconds
