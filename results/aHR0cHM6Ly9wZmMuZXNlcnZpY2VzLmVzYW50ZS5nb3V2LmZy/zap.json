@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Fri, 14 Mar 2025 18:11:15",
+	"@generated": "Sun, 16 Mar 2025 03:24:41",
 	"site":[ 
 		{
 			"@name": "https://pfc.eservices.esante.gouv.fr",
@@ -29,7 +29,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"j_id1:javax.faces.ViewState:0\" \"j_idt34\" ]."
 						},
 						{
-							"id": "31",
+							"id": "34",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
@@ -38,7 +38,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"j_id1:javax.faces.ViewState:0\" \"j_idt34\" ]."
 						},
 						{
-							"id": "83",
+							"id": "84",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "",
@@ -75,7 +75,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "29",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
@@ -84,7 +84,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "83",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "",
@@ -121,7 +121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "25",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -130,7 +130,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "82",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "x-frame-options",
@@ -176,7 +176,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "31",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "cookie-prd-asip",
@@ -185,7 +185,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "30",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "JSESSIONID",
@@ -222,7 +222,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "73",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/core.js.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -237,7 +237,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "74"
+					"sourceid": "71"
 				},
 				{
 					"pluginid": "90004",
@@ -250,7 +250,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "49",
+							"id": "39",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -259,35 +259,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "51",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "56",
-							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/bootstrap2/css/bootstrap-responsive.css.xhtml",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "62",
-							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/images/favicon.ico.xhtml",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "54",
-							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng-base.css.xhtml?ln=styles",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -296,6 +269,24 @@
 						},
 						{
 							"id": "58",
+							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/images/favicon.ico.xhtml",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "57",
+							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng-base.css.xhtml?ln=styles",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "61",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng.css.xhtml?ln=styles",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -304,7 +295,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "38",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/primeicons/primeicons.css.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -313,7 +304,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "62",
+							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/styles/pfcng-ie7.css.xhtml",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "46",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/theme.css.xhtml?ln=primefaces-bootstrap&v=12.0.0",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -322,7 +322,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "40",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -331,7 +331,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "52",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -340,7 +340,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "41",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -349,7 +349,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "53",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -377,7 +377,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "36",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -386,7 +386,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "50",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
@@ -395,7 +395,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "70",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/bootstrap2/js/bootstrap.js.xhtml",
 							"method": "GET",
 							"param": "",
@@ -404,7 +404,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "64",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/bowser.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -413,7 +413,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "79",
+							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/changeFontSize.js.xhtml?ln=js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "71",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/checkConfig.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -422,7 +431,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "75",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/core.js.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -431,7 +440,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "77",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/html5shiv.js.xhtml?ln=html5shiv",
 							"method": "GET",
 							"param": "",
@@ -440,7 +449,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "69",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -449,16 +458,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/nprogress.js.xhtml?ln=js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "66",
+							"id": "68",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng-ff.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -467,7 +467,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "74",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng-ie7.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -476,7 +476,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "78",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -504,7 +504,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "28",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -513,7 +513,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "44",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
@@ -522,7 +522,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "88",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "",
@@ -550,7 +550,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "32",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -559,7 +559,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "38",
+							"id": "47",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -568,7 +568,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "101",
+							"id": "103",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "x-content-type-options",
@@ -596,25 +596,25 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "33",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Jgqx0mrIhSlIegf4RPZxpswqPbuildmDsYDB5OSNdUn6EPSoe713l+kLNuLx3uaVmuRUpgO578uY1Z8=",
-							"otherinfo": "&\n\uFFFD\uFFFDj\u0205)Hz\\x0007\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\u0643\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDuI\uFFFD\\x0010\uFFFD\uFFFD{\uFFFDw\uFFFD\uFFFD\\x000b6\uFFFD\uFFFD\uFFFD\u655A\uFFFDT\uFFFD\\x0003\uFFFD\uFFFD\u02D8\u055F"
+							"evidence": "ZGZ3hmSOCjELugH4RPZxpswqPbuilUG4j0jzsQS165bEl1BAO+4NHpep97XWUQ5h/1JxJs+H3HyZQnM=",
+							"otherinfo": "dfw\uFFFDd\uFFFD\n1\\x000b\uFFFD\\x0001\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFDA\uFFFD\uFFFDH\uFFFD\\x0004\uFFFD\uFFFD\u0117P@;\uFFFD\r\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDQ\\x000ea\uFFFDRq&\u03C7\uFFFD|\uFFFDBs"
 						},
 						{
-							"id": "39",
+							"id": "48",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ZiLVwG5z2+Hexw/4RPZxpswqPbuilcmPIu0mjPM97MPuKhbcHARqDEATMUGzE/ITE/Vw5rO0wlis4vM=",
-							"otherinfo": "f\"\uFFFD\uFFFDns\uFFFD\uFFFD\uFFFD\uFFFD\\x000f\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\u024F\"\uFFFD&\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0016\uFFFD\\x001c\\x0004j\\x000c@\\x00131A\uFFFD\\x0013\uFFFD\\x0013\\x0013\uFFFDp\u6CF4\uFFFDX\uFFFD\uFFFD\uFFFD"
+							"evidence": "IREYs+IzzPoIWD34RPZxpswqPbuilVHtiPXSsdUt1ptl/S2vGxqyLUgV9aqiw2/NqvcLhZRHR20yPXU=",
+							"otherinfo": "!\\x0011\\x0018\uFFFD\uFFFD3\uFFFD\uFFFD\\x0008X=\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFDQ\uFFFD\uFFFD\u04B1\uFFFD-\u059Be\uFFFD-\uFFFD\\x001b\\x001a\uFFFD-H\\x0015\uFFFD\uFFFD\uFFFD\uFFFDo\u036A\uFFFD\\x000b\uFFFD\uFFFDGGm2=u"
 						},
 						{
-							"id": "69",
+							"id": "66",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/components.css.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -623,7 +623,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\uFFFD\uFFFD\uFFFD\\x0000\\x0000\\x0000!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0002D\\x0001\\x0000;"
 						},
 						{
-							"id": "71",
+							"id": "72",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/core.js.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -632,7 +632,7 @@
 							"otherinfo": "z\u03DAn\uFFFDki\uFFFD\uFFFDM\uFFFD\uFFFDg\uFFFDJ\uFFFD\uFFFD+n\uFFFD*'"
 						},
 						{
-							"id": "129",
+							"id": "125",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/jquery-ui.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -641,7 +641,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\uFFFD\uFFFD\uFFFD\uFFFD\u587F\uFFFD\uFFFD[i\uFFFD\uFFFD{\uFFFD\uFFFDm\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFDF\uFFFD{\uFFFD=u\u01B6\uFFFD\u03BF\uFFFD\uFFFD?\uFFFD\uFFFD^r\uFFFD+\uFFFD\uFFFD\\x001cj\uFFFD\uFFFDzW\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "52",
+							"id": "54",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng-base.css.xhtml?ln=styles",
 							"method": "GET",
 							"param": "",
@@ -650,7 +650,7 @@
 							"otherinfo": "<?xml version=\"1.0\" ?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 1 1\" preserveAspectRatio=\"none\">\n  <linearGradient id=\"grad-ucgg-generated\" gradientUnits=\"userSpaceOnUse\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n    <stop offset=\"1%\" stop-color=\"#63b3f0\" stop-opacity=\"1\"/>\n    <stop offset=\"100%\" stop-color=\"#2a76b1\" stop-opacity=\"1\"/>\n  </linearGradient>\n  <rect x=\"0\" y=\"0\" width=\"1\" height=\"1\" fill=\"url(#grad-ucgg-generated)\" />\n</svg>"
 						},
 						{
-							"id": "112",
+							"id": "81",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/resources/images/PSC_button.png?pfdrid_c=true",
 							"method": "GET",
 							"param": "",
@@ -659,7 +659,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\\x0000\\x0010JFIF\\x0000\\x0001\\x0002\\x0001\\x0001,\\x0001,\\x0000\\x0000\uFFFD\uFFFD\\x0000,Photoshop 3.0\\x00008BIM\\x0003\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\\x0010\\x0001,\\x0000\\x0000\\x0000\\x0001\\x0000"
 						},
 						{
-							"id": "102",
+							"id": "104",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "",
@@ -670,7 +670,7 @@
 					],
 					"count": "8",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>&</p><p>\uFFFD\uFFFDj\u0205)Hz\\x0007\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\u0643\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDuI\uFFFD\\x0010\uFFFD\uFFFD{\uFFFDw\uFFFD\uFFFD\\x000b6\uFFFD\uFFFD\uFFFD\u655A\uFFFDT\uFFFD\\x0003\uFFFD\uFFFD\u02D8\u055F</p>",
+					"otherinfo": "<p>dfw\uFFFDd\uFFFD</p><p>1\\x000b\uFFFD\\x0001\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFDA\uFFFD\uFFFDH\uFFFD\\x0004\uFFFD\uFFFD\u0117P@;\uFFFD\r\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDQ\\x000ea\uFFFDRq&\u03C7\uFFFD|\uFFFDBs</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -687,7 +687,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "22",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -696,7 +696,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"// Check if the user already accepted it\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "34",
+							"id": "42",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
@@ -714,7 +714,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"// WTF: version is not part of user agent in web apps\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "104",
+							"id": "85",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/jquery-ui.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -723,7 +723,7 @@
 							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"// redefine the widget later\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "68",
+							"id": "65",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -732,7 +732,7 @@
 							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected in likely comment: \"//,Rt={},Mt={},It=\"*/\".concat(\"*\"),Wt=E.createElement(\"a\");function Ft(o){return function(e,t){\"string\"!=typeof e&&(t=e,e=\"*\");v\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "79",
+							"id": "80",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/nprogress.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -741,7 +741,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"/**\r\n   * Sets the progress bar status, where `n` is a number from `0.0` to `1.0`.\r\n   *\r\n   *     NProgress.set(0.4);\r\n   *    \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "64",
+							"id": "67",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng-ff.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -750,7 +750,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// Bug was fixed in Firefox 35: https://gist.github.com/joaocunha/6273016/ \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "74",
+							"id": "76",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng.js.xhtml?ln=js",
 							"method": "GET",
 							"param": "",
@@ -759,7 +759,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// Copy value from email to actor email and bind actor email values when\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "84",
+							"id": "86",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "",
@@ -787,7 +787,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "23",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -796,7 +796,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "35",
+							"id": "43",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
@@ -805,7 +805,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "85",
+							"id": "87",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "",
@@ -833,7 +833,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "16",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -842,7 +842,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "35",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -851,7 +851,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "26",
 							"uri": "https://pfc.eservices.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -860,7 +860,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "49",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "",
@@ -870,15 +870,6 @@
 						},
 						{
 							"id": "55",
-							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/bootstrap2/css/bootstrap-responsive.css.xhtml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
-							"id": "61",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/images/favicon.ico.xhtml",
 							"method": "GET",
 							"param": "",
@@ -887,7 +878,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "56",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng-base.css.xhtml?ln=styles",
 							"method": "GET",
 							"param": "",
@@ -896,7 +887,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "59",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/pfcng.css.xhtml?ln=styles",
 							"method": "GET",
 							"param": "",
@@ -905,7 +896,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "37",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/primeicons/primeicons.css.xhtml?ln=primefaces&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -914,7 +905,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "60",
+							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/styles/pfcng-ie7.css.xhtml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "45",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/javax.faces.resource/theme.css.xhtml?ln=primefaces-bootstrap&v=12.0.0",
 							"method": "GET",
 							"param": "",
@@ -923,7 +923,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "14",
 							"uri": "https://pfc.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -947,7 +947,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10015",
@@ -969,7 +969,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "27",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "cache-control",
@@ -997,7 +997,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "12",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1006,7 +1006,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "9",
 							"uri": "https://pfc.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1015,7 +1015,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "5",
 							"uri": "https://pfc.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1030,7 +1030,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -1043,7 +1043,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "11",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1052,7 +1052,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "6",
 							"uri": "https://pfc.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1061,7 +1061,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "3",
 							"uri": "https://pfc.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1076,7 +1076,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -1089,7 +1089,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "7",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1107,7 +1107,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "2",
 							"uri": "https://pfc.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1122,7 +1122,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -1135,7 +1135,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "13",
 							"uri": "https://pfc.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1144,7 +1144,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "10",
 							"uri": "https://pfc.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1153,7 +1153,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "8",
 							"uri": "https://pfc.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1168,7 +1168,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10112",
@@ -1186,16 +1186,16 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "EB51673F0BCFDBE5629E84BCC467491B.routePWASIPAPPT01IN",
+							"evidence": "0249B0A4DB29BEAEEB9D0D49FE37DFF1.routePWASIPAPPT01IN",
 							"otherinfo": "\ncookie:JSESSIONID\ncookie:cookie-prd-asip"
 						},
 						{
-							"id": "22",
+							"id": "24",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "CD0A2E99387786503FB0FC519B2F64CA.routePWASIPAPPT01IN",
+							"evidence": "94E69B22F43EC84E76398F5D0D32A2D2.routePWASIPAPPT01IN",
 							"otherinfo": "\ncookie:JSESSIONID\ncookie:cookie-prd-asip"
 						}
 					],
@@ -1218,7 +1218,7 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "94",
+							"id": "96",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1227,7 +1227,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [a] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt60"
 						},
 						{
-							"id": "91",
+							"id": "93",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1236,7 +1236,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [button] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt44"
 						},
 						{
-							"id": "97",
+							"id": "99",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1245,7 +1245,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [button] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt63"
 						},
 						{
-							"id": "92",
+							"id": "94",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1254,7 +1254,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [button] tag [name] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt44"
 						},
 						{
-							"id": "98",
+							"id": "100",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1263,7 +1263,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [button] tag [name] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt63"
 						},
 						{
-							"id": "87",
+							"id": "89",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1272,7 +1272,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [form] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34"
 						},
 						{
-							"id": "88",
+							"id": "90",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1281,7 +1281,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [form] tag [name] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34"
 						},
 						{
-							"id": "95",
+							"id": "97",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1290,7 +1290,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [img] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt61"
 						},
 						{
-							"id": "89",
+							"id": "91",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1299,7 +1299,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [input] tag [name] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34"
 						},
 						{
-							"id": "90",
+							"id": "92",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1308,7 +1308,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34"
 						},
 						{
-							"id": "93",
+							"id": "95",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1317,7 +1317,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [script] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt44_s"
 						},
 						{
-							"id": "96",
+							"id": "98",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1326,7 +1326,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [script] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt60_s"
 						},
 						{
-							"id": "99",
+							"id": "101",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1335,7 +1335,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml\n\nappears to include user input in:\na(n) [script] tag [id] attribute\n\nThe user input found was:\nj_idt34=j_idt34\n\nThe user-controlled value was:\nj_idt34:j_idt63_s"
 						},
 						{
-							"id": "100",
+							"id": "102",
 							"uri": "https://pfc.eservices.esante.gouv.fr/pfcng-ihm/authentication.xhtml",
 							"method": "POST",
 							"param": "j_idt34",
@@ -1350,7 +1350,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "70"
+					"sourceid": "77"
 				}
 			]
 		}

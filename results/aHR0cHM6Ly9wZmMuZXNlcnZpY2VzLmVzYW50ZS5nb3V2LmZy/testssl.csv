@@ -46,7 +46,7 @@
 "cert_trust","pfc.eservices.esante.gouv.fr/212.234.100.215","443","OK","Ok via SAN (same w/o SNI)","",""
 "cert_chain_of_trust","pfc.eservices.esante.gouv.fr/212.234.100.215","443","OK","passed.","",""
 "cert_certificatePolicies_EV","pfc.eservices.esante.gouv.fr/212.234.100.215","443","INFO","no","",""
-"cert_expirationStatus","pfc.eservices.esante.gouv.fr/212.234.100.215","443","OK","169 >= 60 days","",""
+"cert_expirationStatus","pfc.eservices.esante.gouv.fr/212.234.100.215","443","OK","167 >= 60 days","",""
 "cert_notBefore","pfc.eservices.esante.gouv.fr/212.234.100.215","443","INFO","2024-07-30 00:00","",""
 "cert_notAfter","pfc.eservices.esante.gouv.fr/212.234.100.215","443","OK","2025-08-30 23:59","",""
 "cert_extlifeSpan","pfc.eservices.esante.gouv.fr/212.234.100.215","443","OK","certificate has no extended life time according to browser forum","",""
