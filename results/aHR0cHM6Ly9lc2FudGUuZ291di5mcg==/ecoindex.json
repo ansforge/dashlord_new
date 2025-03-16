@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://esante.gouv.fr",
-        "size": 2530.431,
+        "size": 2488.713,
         "nodes": 861,
-        "requests": 110,
+        "requests": 108,
         "grade": "E",
         "score": 33.0,
         "ges": 2.34,
         "water": 3.51,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-14 16:30:44.946170",
+        "date": "2025-03-16 01:53:55.400753",
         "page_type": "article"
     }
 ]

@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Fri, 14 Mar 2025 16:43:35",
+	"@generated": "Sun, 16 Mar 2025 02:06:28",
 	"site":[ 
 		{
 			"@name": "https://esante.gouv.fr",
@@ -20,7 +20,7 @@
 					"desc": "<p>The response contains Personally Identifiable Information, such as CC number, SSN and similar sensitive data.</p>",
 					"instances":[ 
 						{
-							"id": "116",
+							"id": "114",
 							"uri": "https://esante.gouv.fr/actualites/13e-edition-de-luniversite-dete-de-la-e-sante",
 							"method": "GET",
 							"param": "",
@@ -35,7 +35,7 @@
 					"reference": "",
 					"cweid": "359",
 					"wascid": "13",
-					"sourceid": "2178"
+					"sourceid": "2172"
 				},
 				{
 					"pluginid": "10202",
@@ -48,7 +48,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "92",
+							"id": "93",
 							"uri": "https://esante.gouv.fr/user/login",
 							"method": "GET",
 							"param": "",
@@ -57,7 +57,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"edit-openid-connect-client-generic-login\" \"edit-url\" \"form_build_id\" \"form_id\" \"honeypot_time\" ]."
 						},
 						{
-							"id": "93",
+							"id": "94",
 							"uri": "https://esante.gouv.fr/user/login",
 							"method": "GET",
 							"param": "",
@@ -66,7 +66,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 3: \"edit-name\" \"edit-pass\" \"edit-submit\" \"form_build_id\" \"form_id\" ]."
 						},
 						{
-							"id": "90",
+							"id": "92",
 							"uri": "https://esante.gouv.fr/user/password",
 							"method": "GET",
 							"param": "",
@@ -81,7 +81,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1972"
+					"sourceid": "1967"
 				},
 				{
 					"pluginid": "10038",
@@ -103,7 +103,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "21",
 							"uri": "https://esante.gouv.fr/core/*.css",
 							"method": "GET",
 							"param": "",
@@ -112,7 +112,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "29",
 							"uri": "https://esante.gouv.fr/core/*.css$",
 							"method": "GET",
 							"param": "",
@@ -121,7 +121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "2",
 							"uri": "https://esante.gouv.fr/core/*.gif",
 							"method": "GET",
 							"param": "",
@@ -130,7 +130,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "30",
 							"uri": "https://esante.gouv.fr/core/*.jpeg",
 							"method": "GET",
 							"param": "",
@@ -139,7 +139,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "22",
 							"uri": "https://esante.gouv.fr/core/*.jpg",
 							"method": "GET",
 							"param": "",
@@ -148,7 +148,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "36",
 							"uri": "https://esante.gouv.fr/core/*.js$",
 							"method": "GET",
 							"param": "",
@@ -157,7 +157,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "33",
 							"uri": "https://esante.gouv.fr/core/*.png",
 							"method": "GET",
 							"param": "",
@@ -166,7 +166,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "48",
 							"uri": "https://esante.gouv.fr/core/*.svg",
 							"method": "GET",
 							"param": "",
@@ -175,7 +175,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "45",
 							"uri": "https://esante.gouv.fr/profiles/*.css",
 							"method": "GET",
 							"param": "",
@@ -184,7 +184,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "51",
 							"uri": "https://esante.gouv.fr/profiles/*.css$",
 							"method": "GET",
 							"param": "",
@@ -212,7 +212,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "122",
+							"id": "119",
 							"uri": "https://esante.gouv.fr/actualites/premiere-journee-regionale-dechanges-sur-lethique-appliquee-au-numerique-en-sante-toulouse",
 							"method": "GET",
 							"param": "",
@@ -221,7 +221,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "119",
+							"id": "116",
 							"uri": "https://esante.gouv.fr/actualites/retrouvez-nous-aux-journees-nationales-des-industriels-2019",
 							"method": "GET",
 							"param": "",
@@ -230,7 +230,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "134",
+							"id": "124",
 							"uri": "https://esante.gouv.fr/actualites/santexpo-2021-retour-sur-3-jours-au-village-de-la-e-sante",
 							"method": "GET",
 							"param": "",
@@ -245,7 +245,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "2267"
+					"sourceid": "2270"
 				},
 				{
 					"pluginid": "90022",
@@ -258,7 +258,7 @@
 					"desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>",
 					"instances":[ 
 						{
-							"id": "70",
+							"id": "75",
 							"uri": "https://esante.gouv.fr/filter/tips",
 							"method": "GET",
 							"param": "",
@@ -273,7 +273,7 @@
 					"reference": "",
 					"cweid": "550",
 					"wascid": "13",
-					"sourceid": "1948"
+					"sourceid": "1950"
 				},
 				{
 					"pluginid": "10044",
@@ -286,22 +286,22 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "124",
-							"uri": "https://esante.gouv.fr/accueil",
+							"id": "146",
+							"uri": "https://esante.gouv.fr/actualites/avis-aux-innovateurs-lancez-vous-pour-cette-5eme-edition-des-talents-de-la-e-sante",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 23 [https://esante.gouv.fr/].\nPredicted response size: 323.\nResponse Body Length: 338."
+							"otherinfo": "Location header URI length: 45 [https://esante.gouv.fr/lagence/talents-esante].\nPredicted response size: 345.\nResponse Body Length: 426."
 						},
 						{
-							"id": "130",
-							"uri": "https://esante.gouv.fr/ans/les-webinaires",
+							"id": "145",
+							"uri": "https://esante.gouv.fr/actualites/ouverture-des-candidatures-pour-la-5eme-edition-des-talents-de-la-e-sante",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 33 [https://esante.gouv.fr/webinaires].\nPredicted response size: 333.\nResponse Body Length: 378."
+							"otherinfo": "Location header URI length: 45 [https://esante.gouv.fr/lagence/talents-esante].\nPredicted response size: 345.\nResponse Body Length: 426."
 						},
 						{
 							"id": "87",
@@ -313,7 +313,7 @@
 							"otherinfo": "Location header URI length: 34 [https://esante.gouv.fr/filter/tips].\nPredicted response size: 334.\nResponse Body Length: 382."
 						},
 						{
-							"id": "103",
+							"id": "100",
 							"uri": "https://esante.gouv.fr/index.php/media/oembed",
 							"method": "GET",
 							"param": "",
@@ -322,7 +322,7 @@
 							"otherinfo": "Location header URI length: 35 [https://esante.gouv.fr/media/oembed].\nPredicted response size: 335.\nResponse Body Length: 386."
 						},
 						{
-							"id": "102",
+							"id": "89",
 							"uri": "https://esante.gouv.fr/index.php/user/login",
 							"method": "GET",
 							"param": "",
@@ -331,7 +331,7 @@
 							"otherinfo": "Location header URI length: 33 [https://esante.gouv.fr/user/login].\nPredicted response size: 333.\nResponse Body Length: 378."
 						},
 						{
-							"id": "101",
+							"id": "99",
 							"uri": "https://esante.gouv.fr/index.php/user/logout",
 							"method": "GET",
 							"param": "",
@@ -349,25 +349,16 @@
 							"otherinfo": "Location header URI length: 36 [https://esante.gouv.fr/user/password].\nPredicted response size: 336.\nResponse Body Length: 390."
 						},
 						{
-							"id": "129",
-							"uri": "https://esante.gouv.fr/marches-publics",
+							"id": "147",
+							"uri": "https://esante.gouv.fr/interoperabilite/ci-sis",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 46 [https://esante.gouv.fr/lagence/marches-publics].\nPredicted response size: 346.\nResponse Body Length: 430."
+							"otherinfo": "Location header URI length: 47 [https://esante.gouv.fr/produits-services/ci-sis].\nPredicted response size: 347.\nResponse Body Length: 434."
 						},
 						{
-							"id": "128",
-							"uri": "https://esante.gouv.fr/nousrejoindre",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 45 [https://esante.gouv.fr/lagence/nous-rejoindre].\nPredicted response size: 345.\nResponse Body Length: 426."
-						},
-						{
-							"id": "104",
+							"id": "101",
 							"uri": "https://esante.gouv.fr/recherche/",
 							"method": "GET",
 							"param": "",
@@ -376,7 +367,16 @@
 							"otherinfo": "Location header URI length: 32 [https://esante.gouv.fr/recherche].\nPredicted response size: 332.\nResponse Body Length: 374."
 						},
 						{
-							"id": "105",
+							"id": "148",
+							"uri": "https://esante.gouv.fr/securite/annuaire-sante/rpps-adeli",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 56 [https://esante.gouv.fr/produits-services/repertoire-rpps].\nPredicted response size: 356.\nResponse Body Length: 470."
+						},
+						{
+							"id": "102",
 							"uri": "https://esante.gouv.fr/segur/solutions-referencees",
 							"method": "GET",
 							"param": "",
@@ -396,11 +396,11 @@
 					],
 					"count": "12",
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
-					"otherinfo": "<p>Location header URI length: 23 [https://esante.gouv.fr/].</p><p>Predicted response size: 323.</p><p>Response Body Length: 338.</p>",
+					"otherinfo": "<p>Location header URI length: 45 [https://esante.gouv.fr/lagence/talents-esante].</p><p>Predicted response size: 345.</p><p>Response Body Length: 426.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "2452"
+					"sourceid": "3169"
 				},
 				{
 					"pluginid": "10017",
@@ -413,7 +413,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "120",
+							"id": "117",
 							"uri": "https://esante.gouv.fr/actualites/premiere-journee-regionale-dechanges-sur-lethique-appliquee-au-numerique-en-sante-toulouse",
 							"method": "GET",
 							"param": "https://platform.twitter.com/widgets.js",
@@ -422,7 +422,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "118",
+							"id": "115",
 							"uri": "https://esante.gouv.fr/actualites/retrouvez-nous-aux-journees-nationales-des-industriels-2019",
 							"method": "GET",
 							"param": "https://platform.twitter.com/widgets.js",
@@ -431,7 +431,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "131",
+							"id": "121",
 							"uri": "https://esante.gouv.fr/actualites/santexpo-2021-retour-sur-3-jours-au-village-de-la-e-sante",
 							"method": "GET",
 							"param": "https://platform.twitter.com/widgets.js",
@@ -446,7 +446,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "2267"
+					"sourceid": "2270"
 				},
 				{
 					"pluginid": "90004",
@@ -459,7 +459,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "55",
 							"uri": "https://esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -468,7 +468,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "17",
 							"uri": "https://esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -477,55 +477,10 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "67",
 							"uri": "https://esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "97",
-							"uri": "https://esante.gouv.fr/user/login",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "95",
-							"uri": "https://esante.gouv.fr/user/password",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "35",
-							"uri": "https://esante.gouv.fr",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "40",
-							"uri": "https://esante.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "99",
-							"uri": "https://esante.gouv.fr/user/login",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
@@ -534,13 +489,40 @@
 							"id": "96",
 							"uri": "https://esante.gouv.fr/user/password",
 							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "56",
+							"uri": "https://esante.gouv.fr",
+							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "68",
+							"uri": "https://esante.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "97",
+							"uri": "https://esante.gouv.fr/user/password",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "57",
 							"uri": "https://esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -549,17 +531,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "69",
 							"uri": "https://esante.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Cross-Origin-Opener-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "100",
-							"uri": "https://esante.gouv.fr/user/login",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -576,7 +549,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "13",
+					"count": "10",
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy</p>",
@@ -595,7 +568,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "33",
+							"id": "54",
 							"uri": "https://esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -604,7 +577,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "26",
 							"uri": "https://esante.gouv.fr/core/*.css",
 							"method": "GET",
 							"param": "",
@@ -613,7 +586,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "41",
 							"uri": "https://esante.gouv.fr/core/*.css$",
 							"method": "GET",
 							"param": "",
@@ -622,7 +595,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "20",
 							"uri": "https://esante.gouv.fr/core/*.gif",
 							"method": "GET",
 							"param": "",
@@ -631,7 +604,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "32",
 							"uri": "https://esante.gouv.fr/core/*.jpeg",
 							"method": "GET",
 							"param": "",
@@ -640,7 +613,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "24",
 							"uri": "https://esante.gouv.fr/core/*.jpg",
 							"method": "GET",
 							"param": "",
@@ -649,7 +622,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "19",
 							"uri": "https://esante.gouv.fr/core/*.js",
 							"method": "GET",
 							"param": "",
@@ -658,7 +631,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "49",
 							"uri": "https://esante.gouv.fr/core/*.js$",
 							"method": "GET",
 							"param": "",
@@ -667,7 +640,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "35",
 							"uri": "https://esante.gouv.fr/core/*.png",
 							"method": "GET",
 							"param": "",
@@ -676,7 +649,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "61",
 							"uri": "https://esante.gouv.fr/core/*.svg",
 							"method": "GET",
 							"param": "",
@@ -685,7 +658,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "47",
 							"uri": "https://esante.gouv.fr/profiles/*.css",
 							"method": "GET",
 							"param": "",
@@ -694,7 +667,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "64",
 							"uri": "https://esante.gouv.fr/profiles/*.css$",
 							"method": "GET",
 							"param": "",
@@ -722,7 +695,7 @@
 					"desc": "<p>The page includes mixed content, that is content accessed via HTTP instead of HTTPS.</p>",
 					"instances":[ 
 						{
-							"id": "117",
+							"id": "113",
 							"uri": "https://esante.gouv.fr/actualites/le-centre-de-gestion-des-terminologies-de-sante-de-lasip-sante-ajoute-la-cisp-son-catalogue",
 							"method": "GET",
 							"param": "",
@@ -737,7 +710,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html</p>",
 					"cweid": "311",
 					"wascid": "4",
-					"sourceid": "2181"
+					"sourceid": "2182"
 				},
 				{
 					"pluginid": "10096",
@@ -750,7 +723,169 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "110",
+							"id": "139",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1446733730",
+							"otherinfo": "1446733730, which evaluates to: 2015-11-05 14:28:50."
+						},
+						{
+							"id": "134",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1610312820",
+							"otherinfo": "1610312820, which evaluates to: 2021-01-10 21:07:00."
+						},
+						{
+							"id": "135",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1681974031",
+							"otherinfo": "1681974031, which evaluates to: 2023-04-20 07:00:31."
+						},
+						{
+							"id": "141",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1682534137",
+							"otherinfo": "1682534137, which evaluates to: 2023-04-26 18:35:37."
+						},
+						{
+							"id": "140",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1716718856",
+							"otherinfo": "1716718856, which evaluates to: 2024-05-26 10:20:56."
+						},
+						{
+							"id": "138",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1878606900",
+							"otherinfo": "1878606900, which evaluates to: 2029-07-13 03:15:00."
+						},
+						{
+							"id": "133",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1922516669",
+							"otherinfo": "1922516669, which evaluates to: 2030-12-03 08:24:29."
+						},
+						{
+							"id": "136",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1945015465",
+							"otherinfo": "1945015465, which evaluates to: 2031-08-20 18:04:25."
+						},
+						{
+							"id": "144",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1952521967",
+							"otherinfo": "1952521967, which evaluates to: 2031-11-15 15:12:47."
+						},
+						{
+							"id": "137",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1992815727",
+							"otherinfo": "1992815727, which evaluates to: 2033-02-23 23:55:27."
+						},
+						{
+							"id": "142",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2006847596",
+							"otherinfo": "2006847596, which evaluates to: 2033-08-05 09:39:56."
+						},
+						{
+							"id": "132",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2016796663",
+							"otherinfo": "2016796663, which evaluates to: 2033-11-28 13:17:43."
+						},
+						{
+							"id": "143",
+							"uri": "https://esante.gouv.fr/actualites/15-laureats-lappel-projets-hospiconnect-alpha-lancement-de-la-phase-de-la-mise-en-oeuvre",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2023435992",
+							"otherinfo": "2023435992, which evaluates to: 2034-02-13 09:33:12."
+						},
+						{
+							"id": "130",
+							"uri": "https://esante.gouv.fr/actualites/lans-lance-sa-chaine-whatsapp",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1593329742",
+							"otherinfo": "1593329742, which evaluates to: 2020-06-28 07:35:42."
+						},
+						{
+							"id": "127",
+							"uri": "https://esante.gouv.fr/actualites/lans-lance-sa-chaine-whatsapp",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1830794772",
+							"otherinfo": "1830794772, which evaluates to: 2028-01-06 18:06:12."
+						},
+						{
+							"id": "129",
+							"uri": "https://esante.gouv.fr/actualites/lans-lance-sa-chaine-whatsapp",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1873834322",
+							"otherinfo": "1873834322, which evaluates to: 2029-05-18 21:32:02."
+						},
+						{
+							"id": "128",
+							"uri": "https://esante.gouv.fr/actualites/lans-lance-sa-chaine-whatsapp",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1956189382",
+							"otherinfo": "1956189382, which evaluates to: 2031-12-28 01:56:22."
+						},
+						{
+							"id": "131",
+							"uri": "https://esante.gouv.fr/actualites/lans-lance-sa-chaine-whatsapp",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1979365725",
+							"otherinfo": "1979365725, which evaluates to: 2032-09-21 07:48:45."
+						},
+						{
+							"id": "107",
 							"uri": "https://esante.gouv.fr/actualites/retour-sur-la-paris-healthcare-week-lasip-sante-au-rdv-du-numerique-en-sante",
 							"method": "GET",
 							"param": "",
@@ -759,7 +894,7 @@
 							"otherinfo": "2020210823, which evaluates to: 2034-01-07 01:40:23."
 						},
 						{
-							"id": "115",
+							"id": "112",
 							"uri": "https://esante.gouv.fr/actualites/salon-hit-paris-healthcare-week-programme-de-lagence",
 							"method": "GET",
 							"param": "",
@@ -768,7 +903,7 @@
 							"otherinfo": "1554128571, which evaluates to: 2019-04-01 14:22:51."
 						},
 						{
-							"id": "114",
+							"id": "111",
 							"uri": "https://esante.gouv.fr/actualites/salon-hit-paris-healthcare-week-programme-de-lagence",
 							"method": "GET",
 							"param": "",
@@ -777,49 +912,22 @@
 							"otherinfo": "1557391598, which evaluates to: 2019-05-09 08:46:38."
 						},
 						{
-							"id": "113",
+							"id": "110",
 							"uri": "https://esante.gouv.fr/actualites/salon-hit-paris-healthcare-week-programme-de-lagence",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "1964952956",
 							"otherinfo": "1964952956, which evaluates to: 2032-04-07 12:15:56."
-						},
-						{
-							"id": "125",
-							"uri": "https://esante.gouv.fr/essms",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1645208193",
-							"otherinfo": "1645208193, which evaluates to: 2022-02-18 18:16:33."
-						},
-						{
-							"id": "126",
-							"uri": "https://esante.gouv.fr/essms",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1646240472",
-							"otherinfo": "1646240472, which evaluates to: 2022-03-02 17:01:12."
-						},
-						{
-							"id": "127",
-							"uri": "https://esante.gouv.fr/essms",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1695220989",
-							"otherinfo": "1695220989, which evaluates to: 2023-09-20 14:43:09."
 						}
 					],
-					"count": "7",
+					"count": "22",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>2020210823, which evaluates to: 2034-01-07 01:40:23.</p>",
+					"otherinfo": "<p>1446733730, which evaluates to: 2015-11-05 14:28:50.</p>",
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "2058"
+					"sourceid": "3113"
 				},
 				{
 					"pluginid": "10094",
@@ -832,7 +940,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "52",
 							"uri": "https://esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -841,7 +949,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\uFFFD\uFFFDW\uFFFDEL\\x001a\uFFFD/7\\x001c\u07144\uFFFD\\x000e\uB381\uFFFDpJ\uFFFD\\x001fG\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "83",
+							"id": "82",
 							"uri": "https://esante.gouv.fr/admin/",
 							"method": "GET",
 							"param": "",
@@ -859,7 +967,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\"\uFFFD\\x001f@(\u0521\uFFFD\uFFFD[u\uFFFD))\uFFFD J\uFFFDD@\uFFFD/\uFFFDv\uFFFD2\uFFFD\\x000e\uFFFDt"
 						},
 						{
-							"id": "51",
+							"id": "39",
 							"uri": "https://esante.gouv.fr/core/*.css$",
 							"method": "GET",
 							"param": "",
@@ -868,7 +976,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\"\uFFFD\\x001f@(\u0521\uFFFD\uFFFD[u\uFFFD))\uFFFD J\uFFFDD@\uFFFD/\uFFFDv\uFFFD2\uFFFD\\x000e\uFFFDt"
 						},
 						{
-							"id": "57",
+							"id": "43",
 							"uri": "https://esante.gouv.fr/core/*.js$",
 							"method": "GET",
 							"param": "",
@@ -877,7 +985,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\"\uFFFD\\x001f@(\u0521\uFFFD\uFFFD[u\uFFFD))\uFFFD J\uFFFDD@\uFFFD/\uFFFDv\uFFFD2\uFFFD\\x000e\uFFFDt"
 						},
 						{
-							"id": "66",
+							"id": "59",
 							"uri": "https://esante.gouv.fr/core/*.svg",
 							"method": "GET",
 							"param": "",
@@ -886,7 +994,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\"\uFFFD\\x001f@(\u0521\uFFFD\uFFFD[u\uFFFD))\uFFFD J\uFFFDD@\uFFFD/\uFFFDv\uFFFD2\uFFFD\\x000e\uFFFDt"
 						},
 						{
-							"id": "79",
+							"id": "77",
 							"uri": "https://esante.gouv.fr/profiles/",
 							"method": "GET",
 							"param": "",
@@ -895,7 +1003,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\"\uFFFD\\x001f@(\u0521\uFFFD\uFFFD[u\uFFFD))\uFFFD J\uFFFDD@\uFFFD/\uFFFDv\uFFFD2\uFFFD\\x000e\uFFFDt"
 						},
 						{
-							"id": "64",
+							"id": "63",
 							"uri": "https://esante.gouv.fr/profiles/*.css$",
 							"method": "GET",
 							"param": "",
@@ -913,7 +1021,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\"\uFFFD\\x001f@(\u0521\uFFFD\uFFFD[u\uFFFD))\uFFFD J\uFFFDD@\uFFFD/\uFFFDv\uFFFD2\uFFFD\\x000e\uFFFDt"
 						},
 						{
-							"id": "75",
+							"id": "72",
 							"uri": "https://esante.gouv.fr/profiles/*.svg",
 							"method": "GET",
 							"param": "",
@@ -922,7 +1030,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD\"\uFFFD\\x001f@(\u0521\uFFFD\uFFFD[u\uFFFD))\uFFFD J\uFFFDD@\uFFFD/\uFFFDv\uFFFD2\uFFFD\\x000e\uFFFDt"
 						},
 						{
-							"id": "37",
+							"id": "66",
 							"uri": "https://esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -950,7 +1058,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "50",
 							"uri": "https://esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -959,7 +1067,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "82",
+							"id": "83",
 							"uri": "https://esante.gouv.fr/comment/reply/",
 							"method": "GET",
 							"param": "",
@@ -968,7 +1076,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "50",
+							"id": "38",
 							"uri": "https://esante.gouv.fr/core/*.css$",
 							"method": "GET",
 							"param": "",
@@ -977,7 +1085,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "52",
+							"id": "42",
 							"uri": "https://esante.gouv.fr/core/*.js$",
 							"method": "GET",
 							"param": "",
@@ -986,7 +1094,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "65",
+							"id": "58",
 							"uri": "https://esante.gouv.fr/core/*.svg",
 							"method": "GET",
 							"param": "",
@@ -1004,7 +1112,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "63",
+							"id": "62",
 							"uri": "https://esante.gouv.fr/profiles/*.css$",
 							"method": "GET",
 							"param": "",
@@ -1013,7 +1121,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "71",
+							"id": "70",
 							"uri": "https://esante.gouv.fr/profiles/*.js$",
 							"method": "GET",
 							"param": "",
@@ -1022,7 +1130,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "74",
+							"id": "71",
 							"uri": "https://esante.gouv.fr/profiles/*.svg",
 							"method": "GET",
 							"param": "",
@@ -1040,7 +1148,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "94",
+							"id": "95",
 							"uri": "https://esante.gouv.fr/user/password",
 							"method": "GET",
 							"param": "",
@@ -1068,7 +1176,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "53",
 							"uri": "https://esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -1077,7 +1185,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "25",
 							"uri": "https://esante.gouv.fr/core/*.css",
 							"method": "GET",
 							"param": "",
@@ -1086,7 +1194,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "40",
 							"uri": "https://esante.gouv.fr/core/*.css$",
 							"method": "GET",
 							"param": "",
@@ -1095,7 +1203,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "15",
 							"uri": "https://esante.gouv.fr/core/*.gif",
 							"method": "GET",
 							"param": "",
@@ -1104,7 +1212,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "31",
 							"uri": "https://esante.gouv.fr/core/*.jpeg",
 							"method": "GET",
 							"param": "",
@@ -1113,7 +1221,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "23",
 							"uri": "https://esante.gouv.fr/core/*.jpg",
 							"method": "GET",
 							"param": "",
@@ -1122,7 +1230,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "18",
 							"uri": "https://esante.gouv.fr/core/*.js",
 							"method": "GET",
 							"param": "",
@@ -1131,7 +1239,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "44",
 							"uri": "https://esante.gouv.fr/core/*.js$",
 							"method": "GET",
 							"param": "",
@@ -1140,7 +1248,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "34",
 							"uri": "https://esante.gouv.fr/core/*.png",
 							"method": "GET",
 							"param": "",
@@ -1149,8 +1257,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
-							"uri": "https://esante.gouv.fr/profiles/*.css",
+							"id": "60",
+							"uri": "https://esante.gouv.fr/core/*.svg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1158,8 +1266,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
-							"uri": "https://esante.gouv.fr/sitemap.xml",
+							"id": "46",
+							"uri": "https://esante.gouv.fr/profiles/*.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1186,7 +1294,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "27",
 							"uri": "https://esante.gouv.fr",
 							"method": "GET",
 							"param": "cache-control",
@@ -1195,35 +1303,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "109",
-							"uri": "https://esante.gouv.fr/actualites/retour-sur-la-paris-healthcare-week-lasip-sante-au-rdv-du-numerique-en-sante",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
 							"id": "108",
-							"uri": "https://esante.gouv.fr/actualites/service-de-gestion-des-ressources-terminologiques-du-secteur-sante-social-organisation-dun-sourcing",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "112",
-							"uri": "https://esante.gouv.fr/actualites/si-mdph-les-trois-editeurs-confirment-leur-labellisation",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "111",
-							"uri": "https://esante.gouv.fr/actualites/vers-la-dematerialisation-de-la-commande-publique-en-2018",
+							"uri": "https://esante.gouv.fr/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1232,6 +1313,33 @@
 						},
 						{
 							"id": "106",
+							"uri": "https://esante.gouv.fr/actualites/retour-sur-la-paris-healthcare-week-lasip-sante-au-rdv-du-numerique-en-sante",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "105",
+							"uri": "https://esante.gouv.fr/actualites/service-de-gestion-des-ressources-terminologiques-du-secteur-sante-social-organisation-dun-sourcing",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "109",
+							"uri": "https://esante.gouv.fr/actualites/vers-la-dematerialisation-de-la-commande-publique-en-2018",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "104",
 							"uri": "https://esante.gouv.fr/actus/interoperabilite/retour-d-experience-en-matiere-d-interoperabilite-des-projets-pilotes",
 							"method": "GET",
 							"param": "cache-control",
@@ -1240,7 +1348,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "103",
 							"uri": "https://esante.gouv.fr/actus/regions/chd-vendee-plus-de-5000-professionnels-utilisent-",
 							"method": "GET",
 							"param": "cache-control",
@@ -1249,7 +1357,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "37",
 							"uri": "https://esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1267,7 +1375,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "90",
 							"uri": "https://esante.gouv.fr/user/password",
 							"method": "GET",
 							"param": "cache-control",
@@ -1295,7 +1403,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "5",
 							"uri": "https://esante.gouv.fr/core/*.gif",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1304,7 +1412,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "13",
 							"uri": "https://esante.gouv.fr/core/*.js",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1313,7 +1421,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "9",
 							"uri": "https://esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1341,7 +1449,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "4",
 							"uri": "https://esante.gouv.fr/core/*.gif",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1359,7 +1467,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "8",
 							"uri": "https://esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1387,7 +1495,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "3",
 							"uri": "https://esante.gouv.fr/core/*.gif",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1405,7 +1513,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "6",
 							"uri": "https://esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1433,7 +1541,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "7",
 							"uri": "https://esante.gouv.fr/core/*.gif",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1442,7 +1550,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "14",
 							"uri": "https://esante.gouv.fr/core/*.js",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1451,7 +1559,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "10",
 							"uri": "https://esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1479,7 +1587,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "16",
 							"uri": "https://esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
