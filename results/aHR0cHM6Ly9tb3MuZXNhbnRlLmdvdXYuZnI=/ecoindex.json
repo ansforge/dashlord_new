@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mos.esante.gouv.fr",
-        "size": 74.189,
+        "size": 75.205,
         "nodes": 73,
         "requests": 12,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.18,
         "water": 1.77,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-14 17:52:07.056762",
+        "date": "2025-03-16 03:09:57.047255",
         "page_type": null
     }
 ]
