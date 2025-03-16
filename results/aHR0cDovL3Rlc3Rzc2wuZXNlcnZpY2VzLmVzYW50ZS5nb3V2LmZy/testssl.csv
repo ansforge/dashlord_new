@@ -50,7 +50,7 @@
 "cert_trust","testssl.eservices.esante.gouv.fr/135.125.232.117","443","OK","Ok via SAN (same w/o SNI)","",""
 "cert_chain_of_trust","testssl.eservices.esante.gouv.fr/135.125.232.117","443","OK","passed.","",""
 "cert_certificatePolicies_EV","testssl.eservices.esante.gouv.fr/135.125.232.117","443","INFO","no","",""
-"cert_expirationStatus","testssl.eservices.esante.gouv.fr/135.125.232.117","443","OK","70 >= 30 days","",""
+"cert_expirationStatus","testssl.eservices.esante.gouv.fr/135.125.232.117","443","OK","68 >= 30 days","",""
 "cert_notBefore","testssl.eservices.esante.gouv.fr/135.125.232.117","443","INFO","2025-02-23 03:15","",""
 "cert_notAfter","testssl.eservices.esante.gouv.fr/135.125.232.117","443","OK","2025-05-24 03:15","",""
 "cert_extlifeSpan","testssl.eservices.esante.gouv.fr/135.125.232.117","443","OK","certificate has no extended life time according to browser forum","",""
