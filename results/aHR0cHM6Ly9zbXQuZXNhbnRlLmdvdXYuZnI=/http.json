@@ -12,14 +12,14 @@
       "content-type": "text/html; charset=UTF-8",
       "content-length": "16763",
       "connection": "close",
-      "date": "Fri, 14 Mar 2025 18:42:23 GMT",
+      "date": "Sun, 16 Mar 2025 04:03:47 GMT",
       "x-frame-options": "DENY",
       "link": "<https://smt.esante.gouv.fr/wp-json/>; rel=\"https://api.w.org/\"",
       "vary": "Accept-Encoding",
       "x-cache": "Miss from cloudfront",
-      "via": "1.1 663f2425a3138c20ed99538fc8652f3c.cloudfront.net (CloudFront)",
-      "x-amz-cf-pop": "IAD12-P2",
-      "x-amz-cf-id": "bRpal4rliafMgAjMPdUZ4aIEZmW7h8ZNXqFpkGClqxrnUeNCce60Dg=="
+      "via": "1.1 172c5fb61e3c25c3999628de323ae63c.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "LAX54-P1",
+      "x-amz-cf-id": "m0-wOXOJaawCxRQ-B-Mv0q3-I0MoKs4LS3BaZYfz-xrwjpXJn77BHQ=="
     }
   },
   "tests": {

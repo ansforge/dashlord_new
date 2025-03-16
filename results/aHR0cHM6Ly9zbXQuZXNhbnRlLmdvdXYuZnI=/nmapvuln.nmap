@@ -1,8 +1,8 @@
-# Nmap 7.92 scan initiated Fri Mar 14 18:48:17 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln smt.esante.gouv.fr
-Nmap scan report for smt.esante.gouv.fr (108.138.85.50)
-Host is up (0.0020s latency).
-Other addresses for smt.esante.gouv.fr (not scanned): 108.138.85.90 108.138.85.123 108.138.85.91
-rDNS record for 108.138.85.50: server-108-138-85-50.iad12.r.cloudfront.net
+# Nmap 7.92 scan initiated Sun Mar 16 04:10:21 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln smt.esante.gouv.fr
+Nmap scan report for smt.esante.gouv.fr (65.8.161.100)
+Host is up (0.0018s latency).
+Other addresses for smt.esante.gouv.fr (not scanned): 65.8.161.84 65.8.161.87 65.8.161.29
+rDNS record for 65.8.161.100: server-65-8-161-100.sfo53.r.cloudfront.net
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE  VERSION
 80/tcp  open  http     Amazon CloudFront httpd
@@ -11,4 +11,4 @@ PORT    STATE SERVICE  VERSION
 |_http-server-header: CloudFront
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Mar 14 18:48:35 2025 -- 1 IP address (1 host up) scanned in 18.14 seconds
+# Nmap done at Sun Mar 16 04:10:39 2025 -- 1 IP address (1 host up) scanned in 18.05 seconds
