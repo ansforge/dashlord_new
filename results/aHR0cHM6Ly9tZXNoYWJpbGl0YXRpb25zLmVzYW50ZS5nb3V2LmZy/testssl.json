@@ -339,7 +339,7 @@
               "ip"           : "meshabilitations.esante.gouv.fr/80.78.2.228",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (14)"
+              "finding"      : "expires < 30 days (13)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "meshabilitations.esante.gouv.fr/80.78.2.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742094038"
+              "finding"      : "1742227286"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1091,6 +1091,6 @@
               "ip"           : "meshabilitations.esante.gouv.fr/80.78.2.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "79"
+              "finding"      : "141"
           }
 ]
