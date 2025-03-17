@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Sun, 16 Mar 2025 04:09:29",
+	"@generated": "Mon, 17 Mar 2025 17:09:14",
 	"site":[ 
 		{
 			"@name": "https://support.si-samu.fr",
@@ -20,7 +20,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "69",
+							"id": "10",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -29,7 +29,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "89",
+							"id": "137",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -38,7 +38,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "151",
+							"id": "156",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -47,7 +47,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "197",
+							"id": "229",
 							"uri": "https://support.si-samu.fr/course/index.php?categoryid=3",
 							"method": "GET",
 							"param": "",
@@ -56,7 +56,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "183",
+							"id": "212",
 							"uri": "https://support.si-samu.fr/course/search.php?context=1&q=ZAP",
 							"method": "GET",
 							"param": "",
@@ -65,7 +65,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "186",
+							"id": "222",
 							"uri": "https://support.si-samu.fr/course/search.php?context=2&q=ZAP",
 							"method": "GET",
 							"param": "",
@@ -74,7 +74,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "129",
+							"id": "181",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "",
@@ -83,7 +83,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "5",
+							"id": "9",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -92,7 +92,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"logintoken\" ]."
 						},
 						{
-							"id": "193",
+							"id": "217",
 							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "POST",
 							"param": "",
@@ -120,7 +120,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "66",
+							"id": "3",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -129,7 +129,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "132",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -138,7 +138,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "150",
+							"id": "146",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -147,7 +147,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "182",
+							"id": "211",
 							"uri": "https://support.si-samu.fr/course/search.php?context=1&q=ZAP",
 							"method": "GET",
 							"param": "",
@@ -156,7 +156,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "185",
+							"id": "221",
 							"uri": "https://support.si-samu.fr/course/search.php?context=2&q=ZAP",
 							"method": "GET",
 							"param": "",
@@ -165,7 +165,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "86",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "",
@@ -174,7 +174,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "128",
+							"id": "178",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "",
@@ -183,7 +183,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "209",
+							"uri": "https://support.si-samu.fr/matomo/piwik.php?idsite=1",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "4",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -192,7 +201,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "192",
+							"id": "215",
 							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "POST",
 							"param": "",
@@ -201,7 +210,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "9",
+					"count": "10",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
@@ -220,7 +229,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "81",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -229,7 +238,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "2",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -257,7 +266,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "93",
+							"id": "75",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -266,16 +275,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "121",
-							"uri": "https://support.si-samu.fr/?redirect=0",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link href=\"https://fonts.googleapis.com/css?family=Roboto:400,400i\" rel=\"stylesheet\" type=\"text/css\">",
-							"otherinfo": ""
-						},
-						{
-							"id": "38",
+							"id": "78",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -284,7 +284,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
@@ -303,7 +303,34 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "139",
+							"id": "269",
+							"uri": "https://support.si-samu.fr/course/view.php?id=2",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 47 [https://support.si-samu.fr/enrol/index.php?id=2].\nPredicted response size: 347.\nResponse Body Length: 1,533."
+						},
+						{
+							"id": "268",
+							"uri": "https://support.si-samu.fr/course/view.php?id=33",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=33].\nPredicted response size: 348.\nResponse Body Length: 1,534."
+						},
+						{
+							"id": "274",
+							"uri": "https://support.si-samu.fr/course/view.php?id=49",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=49].\nPredicted response size: 348.\nResponse Body Length: 1,534."
+						},
+						{
+							"id": "111",
 							"uri": "https://support.si-samu.fr/course/view.php?id=50",
 							"method": "GET",
 							"param": "",
@@ -312,7 +339,7 @@
 							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=50].\nPredicted response size: 348.\nResponse Body Length: 1,534."
 						},
 						{
-							"id": "217",
+							"id": "276",
 							"uri": "https://support.si-samu.fr/course/view.php?id=51",
 							"method": "GET",
 							"param": "",
@@ -321,7 +348,7 @@
 							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=51].\nPredicted response size: 348.\nResponse Body Length: 1,534."
 						},
 						{
-							"id": "221",
+							"id": "277",
 							"uri": "https://support.si-samu.fr/course/view.php?id=52",
 							"method": "GET",
 							"param": "",
@@ -330,7 +357,7 @@
 							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=52].\nPredicted response size: 348.\nResponse Body Length: 1,534."
 						},
 						{
-							"id": "226",
+							"id": "278",
 							"uri": "https://support.si-samu.fr/course/view.php?id=53",
 							"method": "GET",
 							"param": "",
@@ -339,7 +366,7 @@
 							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=53].\nPredicted response size: 348.\nResponse Body Length: 1,534."
 						},
 						{
-							"id": "131",
+							"id": "121",
 							"uri": "https://support.si-samu.fr/course/view.php?id=54",
 							"method": "GET",
 							"param": "",
@@ -348,7 +375,16 @@
 							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=54].\nPredicted response size: 348.\nResponse Body Length: 1,534."
 						},
 						{
-							"id": "208",
+							"id": "264",
+							"uri": "https://support.si-samu.fr/course/view.php?id=56",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=56].\nPredicted response size: 348.\nResponse Body Length: 1,534."
+						},
+						{
+							"id": "213",
 							"uri": "https://support.si-samu.fr/enrol/index.php?id=50",
 							"method": "GET",
 							"param": "",
@@ -357,7 +393,7 @@
 							"otherinfo": "Location header URI length: 42 [https://support.si-samu.fr/login/index.php].\nPredicted response size: 342.\nResponse Body Length: 1,528."
 						},
 						{
-							"id": "207",
+							"id": "218",
 							"uri": "https://support.si-samu.fr/enrol/index.php?id=54",
 							"method": "GET",
 							"param": "",
@@ -366,43 +402,7 @@
 							"otherinfo": "Location header URI length: 42 [https://support.si-samu.fr/login/index.php].\nPredicted response size: 342.\nResponse Body Length: 1,528."
 						},
 						{
-							"id": "227",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=198",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=53].\nPredicted response size: 348.\nResponse Body Length: 1,534."
-						},
-						{
-							"id": "232",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=199",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=53].\nPredicted response size: 348.\nResponse Body Length: 1,534."
-						},
-						{
-							"id": "235",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=200",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=53].\nPredicted response size: 348.\nResponse Body Length: 1,534."
-						},
-						{
-							"id": "236",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=201",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=53].\nPredicted response size: 348.\nResponse Body Length: 1,534."
-						},
-						{
-							"id": "216",
+							"id": "243",
 							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "POST",
 							"param": "",
@@ -413,11 +413,11 @@
 					],
 					"count": "12",
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
-					"otherinfo": "<p>Location header URI length: 48 [https://support.si-samu.fr/enrol/index.php?id=50].</p><p>Predicted response size: 348.</p><p>Response Body Length: 1,534.</p>",
+					"otherinfo": "<p>Location header URI length: 47 [https://support.si-samu.fr/enrol/index.php?id=2].</p><p>Predicted response size: 347.</p><p>Response Body Length: 1,533.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "56"
+					"sourceid": "239"
 				},
 				{
 					"pluginid": "10010",
@@ -430,7 +430,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "67",
+							"id": "5",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -439,7 +439,34 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "140",
+							"id": "149",
+							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "Set-Cookie: MoodleSession",
+							"otherinfo": ""
+						},
+						{
+							"id": "252",
+							"uri": "https://support.si-samu.fr/course/info.php?id=37",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "Set-Cookie: MoodleSession",
+							"otherinfo": ""
+						},
+						{
+							"id": "250",
+							"uri": "https://support.si-samu.fr/course/info.php?id=55",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "Set-Cookie: MoodleSession",
+							"otherinfo": ""
+						},
+						{
+							"id": "112",
 							"uri": "https://support.si-samu.fr/course/view.php?id=50",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -448,34 +475,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "218",
-							"uri": "https://support.si-samu.fr/course/view.php?id=51",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "Set-Cookie: MoodleSession",
-							"otherinfo": ""
-						},
-						{
-							"id": "222",
-							"uri": "https://support.si-samu.fr/course/view.php?id=52",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "Set-Cookie: MoodleSession",
-							"otherinfo": ""
-						},
-						{
-							"id": "228",
-							"uri": "https://support.si-samu.fr/course/view.php?id=53",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "Set-Cookie: MoodleSession",
-							"otherinfo": ""
-						},
-						{
-							"id": "132",
+							"id": "122",
 							"uri": "https://support.si-samu.fr/course/view.php?id=54",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -484,8 +484,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "229",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=198",
+							"id": "248",
+							"uri": "https://support.si-samu.fr/course/view.php?id=55",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
@@ -493,8 +493,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "233",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=199",
+							"id": "179",
+							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
@@ -502,7 +502,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
+							"id": "183",
 							"uri": "https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -511,7 +511,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "6",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -539,7 +539,7 @@
 					"desc": "<p>A cookie has been set with its SameSite attribute set to \"none\", which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "68",
+							"id": "8",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -548,7 +548,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "7",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -576,7 +576,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "81",
+							"id": "118",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -585,7 +585,34 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "141",
+							"id": "150",
+							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "Set-Cookie: MoodleSession",
+							"otherinfo": ""
+						},
+						{
+							"id": "253",
+							"uri": "https://support.si-samu.fr/course/info.php?id=37",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "Set-Cookie: MoodleSession",
+							"otherinfo": ""
+						},
+						{
+							"id": "251",
+							"uri": "https://support.si-samu.fr/course/info.php?id=55",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "Set-Cookie: MoodleSession",
+							"otherinfo": ""
+						},
+						{
+							"id": "113",
 							"uri": "https://support.si-samu.fr/course/view.php?id=50",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -594,34 +621,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "219",
-							"uri": "https://support.si-samu.fr/course/view.php?id=51",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "Set-Cookie: MoodleSession",
-							"otherinfo": ""
-						},
-						{
-							"id": "223",
-							"uri": "https://support.si-samu.fr/course/view.php?id=52",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "Set-Cookie: MoodleSession",
-							"otherinfo": ""
-						},
-						{
-							"id": "230",
-							"uri": "https://support.si-samu.fr/course/view.php?id=53",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "Set-Cookie: MoodleSession",
-							"otherinfo": ""
-						},
-						{
-							"id": "133",
+							"id": "123",
 							"uri": "https://support.si-samu.fr/course/view.php?id=54",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -630,8 +630,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "231",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=198",
+							"id": "249",
+							"uri": "https://support.si-samu.fr/course/view.php?id=55",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
@@ -639,8 +639,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "234",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=199",
+							"id": "180",
+							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
@@ -648,7 +648,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "168",
+							"id": "185",
 							"uri": "https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -657,7 +657,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "128",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "MoodleSession",
@@ -672,7 +672,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "21"
+					"sourceid": "34"
 				},
 				{
 					"pluginid": "10017",
@@ -685,7 +685,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "257",
+							"id": "281",
 							"uri": "https://support.si-samu.fr/course/info.php?comment_area=page_comments&comment_component=block_comments&comment_context=33&comment_itemid=0&id=2&nonjscomment=1",
 							"method": "GET",
 							"param": "//platform.linkedin.com/in.js",
@@ -694,7 +694,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "258",
+							"id": "282",
 							"uri": "https://support.si-samu.fr/course/info.php?comment_area=page_comments&comment_component=block_comments&comment_context=33&comment_itemid=0&id=2&nonjscomment=1",
 							"method": "GET",
 							"param": "https://apis.google.com/js/platform.js",
@@ -703,7 +703,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "252",
+							"id": "270",
 							"uri": "https://support.si-samu.fr/course/info.php?id=2",
 							"method": "GET",
 							"param": "//platform.linkedin.com/in.js",
@@ -712,7 +712,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "253",
+							"id": "271",
 							"uri": "https://support.si-samu.fr/course/info.php?id=2",
 							"method": "GET",
 							"param": "https://apis.google.com/js/platform.js",
@@ -721,7 +721,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "250",
+							"id": "272",
 							"uri": "https://support.si-samu.fr/course/info.php?id=33",
 							"method": "GET",
 							"param": "//platform.linkedin.com/in.js",
@@ -730,7 +730,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "251",
+							"id": "273",
 							"uri": "https://support.si-samu.fr/course/info.php?id=33",
 							"method": "GET",
 							"param": "https://apis.google.com/js/platform.js",
@@ -739,7 +739,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "255",
+							"id": "279",
 							"uri": "https://support.si-samu.fr/enrol/index.php?id=33",
 							"method": "GET",
 							"param": "//platform.linkedin.com/in.js",
@@ -748,7 +748,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "256",
+							"id": "280",
 							"uri": "https://support.si-samu.fr/enrol/index.php?id=33",
 							"method": "GET",
 							"param": "https://apis.google.com/js/platform.js",
@@ -776,7 +776,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "179",
+							"id": "208",
 							"uri": "https://support.si-samu.fr/lib/javascript.php/1653123294/lib/requirejs/require.min.js",
 							"method": "GET",
 							"param": "",
@@ -791,7 +791,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "89"
+					"sourceid": "91"
 				},
 				{
 					"pluginid": "110009",
@@ -804,7 +804,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "260",
+							"id": "284",
 							"uri": "https://support.si-samu.fr/course/jumpto.php",
 							"method": "POST",
 							"param": "",
@@ -819,7 +819,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "493"
+					"sourceid": "503"
 				},
 				{
 					"pluginid": "90004",
@@ -832,7 +832,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "83",
+							"id": "68",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -841,7 +841,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "102",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -850,7 +850,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "72",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -859,7 +859,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "109",
+							"uri": "https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "69",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -868,7 +877,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "103",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -877,7 +886,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "73",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -886,7 +895,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "71",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -895,7 +904,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "104",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -904,7 +913,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "74",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -913,7 +922,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "9",
+					"count": "10",
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy</p>",
@@ -932,7 +941,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "82",
+							"id": "67",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -941,7 +950,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "120",
+							"id": "161",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -950,7 +959,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "162",
+							"id": "172",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -959,7 +968,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "101",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "",
@@ -968,7 +977,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "152",
+							"id": "198",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "",
@@ -977,7 +986,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "175",
+							"id": "203",
 							"uri": "https://support.si-samu.fr/lib/javascript.php/1653123294/lib/babel-polyfill/polyfill.min.js",
 							"method": "GET",
 							"param": "",
@@ -986,7 +995,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "165",
+							"id": "193",
 							"uri": "https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js",
 							"method": "GET",
 							"param": "",
@@ -995,7 +1004,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "70",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1004,8 +1013,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "174",
-							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-easing-min.js",
+							"id": "204",
+							"uri": "https://support.si-samu.fr/theme/jquery.php/core/jquery-3.5.1.min.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1013,8 +1022,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "173",
-							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/pace-min.js",
+							"id": "201",
+							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1041,7 +1050,7 @@
 					"desc": "<p>The web/application server is leaking information via one or more \"X-Powered-By\" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>",
 					"instances":[ 
 						{
-							"id": "78",
+							"id": "52",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -1050,7 +1059,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "109",
+							"id": "157",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -1059,7 +1068,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "158",
+							"id": "169",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -1068,7 +1077,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "143",
+							"id": "114",
 							"uri": "https://support.si-samu.fr/course/view.php?id=50",
 							"method": "GET",
 							"param": "",
@@ -1077,7 +1086,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "134",
+							"id": "125",
 							"uri": "https://support.si-samu.fr/course/view.php?id=54",
 							"method": "GET",
 							"param": "",
@@ -1086,7 +1095,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "98",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "",
@@ -1095,16 +1104,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "146",
-							"uri": "https://support.si-samu.fr/formation",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "X-Powered-By: PHP/7.4",
-							"otherinfo": ""
-						},
-						{
-							"id": "164",
+							"id": "188",
 							"uri": "https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js",
 							"method": "GET",
 							"param": "",
@@ -1113,7 +1113,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "191",
+							"uri": "https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: PHP/7.4",
+							"otherinfo": ""
+						},
+						{
+							"id": "55",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1122,7 +1131,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "118",
+							"id": "107",
 							"uri": "https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css",
 							"method": "GET",
 							"param": "",
@@ -1150,7 +1159,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "71",
+							"id": "14",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -1159,7 +1168,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "148",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -1168,7 +1177,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "156",
+							"id": "167",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -1177,7 +1186,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "91",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "",
@@ -1186,7 +1195,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "142",
+							"id": "195",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "",
@@ -1195,7 +1204,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "161",
+							"id": "186",
 							"uri": "https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js",
 							"method": "GET",
 							"param": "",
@@ -1204,7 +1213,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "169",
+							"id": "189",
 							"uri": "https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico",
 							"method": "GET",
 							"param": "",
@@ -1213,7 +1222,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "13",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1222,8 +1231,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "171",
-							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/pace-min.js",
+							"id": "199",
+							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1231,7 +1240,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "115",
+							"id": "105",
 							"uri": "https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css",
 							"method": "GET",
 							"param": "",
@@ -1259,7 +1268,25 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "18",
+							"uri": "https://support.si-samu.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1653123294",
+							"otherinfo": "1653123294, which evaluates to: 2022-05-21 08:54:54."
+						},
+						{
+							"id": "15",
+							"uri": "https://support.si-samu.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1653132927",
+							"otherinfo": "1653132927, which evaluates to: 2022-05-21 11:35:27."
+						},
+						{
+							"id": "23",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1268,7 +1295,7 @@
 							"otherinfo": "1653123294, which evaluates to: 2022-05-21 08:54:54."
 						},
 						{
-							"id": "8",
+							"id": "16",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1277,13 +1304,13 @@
 							"otherinfo": "1653132927, which evaluates to: 2022-05-21 11:35:27."
 						}
 					],
-					"count": "2",
+					"count": "4",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>1653123294, which evaluates to: 2022-05-21 08:54:54.</p>",
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "10021",
@@ -1296,7 +1323,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "76",
+							"id": "51",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1305,7 +1332,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "106",
+							"id": "155",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1314,7 +1341,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "157",
+							"id": "168",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1323,7 +1350,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "59",
+							"id": "96",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1332,7 +1359,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "145",
+							"id": "196",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1341,7 +1368,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "163",
+							"id": "187",
 							"uri": "https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1350,7 +1377,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "170",
+							"id": "190",
 							"uri": "https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1359,7 +1386,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "26",
+							"id": "53",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1368,8 +1395,8 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "172",
-							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/pace-min.js",
+							"id": "200",
+							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1377,7 +1404,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "117",
+							"id": "106",
 							"uri": "https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1405,31 +1432,31 @@
 					"desc": "<p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to \"Auto-Detect\" then this rule will change the authentication to match the request identified.</p>",
 					"instances":[ 
 						{
-							"id": "214",
+							"id": "242",
 							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "POST",
 							"param": "logintoken",
 							"attack": "",
 							"evidence": "password",
-							"otherinfo": "userParam=logintoken\nuserValue=SG6BkE3u3AdoGiez338eJ4VHffAm0UY7\npasswordParam=password\nreferer=https://support.si-samu.fr/login/index.php"
+							"otherinfo": "userParam=logintoken\nuserValue=au07fTV3n8rxBm8H3zbeBQSYpxiB8nXe\npasswordParam=password\nreferer=https://support.si-samu.fr/login/index.php"
 						},
 						{
-							"id": "259",
+							"id": "283",
 							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "POST",
 							"param": "logintoken",
 							"attack": "",
 							"evidence": "password",
-							"otherinfo": "userParam=logintoken\nuserValue=WLOL9O4tcflBDq3f8GFOqArcreaQACl2\npasswordParam=password\nreferer=https://support.si-samu.fr/login/index.php"
+							"otherinfo": "userParam=logintoken\nuserValue=DfGKYdBHxxqhk7DM3RmjDMY18J9hcAsK\npasswordParam=password\nreferer=https://support.si-samu.fr/login/index.php"
 						}
 					],
 					"count": "2",
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>userParam=logintoken</p><p>userValue=SG6BkE3u3AdoGiez338eJ4VHffAm0UY7</p><p>passwordParam=password</p><p>referer=https://support.si-samu.fr/login/index.php</p>",
+					"otherinfo": "<p>userParam=logintoken</p><p>userValue=au07fTV3n8rxBm8H3zbeBQSYpxiB8nXe</p><p>passwordParam=password</p><p>referer=https://support.si-samu.fr/login/index.php</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "154"
+					"sourceid": "155"
 				},
 				{
 					"pluginid": "10094",
@@ -1442,7 +1469,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "79",
+							"id": "54",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -1451,7 +1478,7 @@
 							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFDazg\uFFFDi\u05A9\uFFFD\uFFFD\uFFFD{\uFFFD\u06BE'(\uFFFD\uFFFDz\uFFFD}w\uFFFD\u077B\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFDO\u03EE)\u070A\uFFFD\uFFFD"
 						},
 						{
-							"id": "112",
+							"id": "158",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -1460,7 +1487,7 @@
 							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFDazg\uFFFDi\u05A9\uFFFD\uFFFD\uFFFD{\uFFFD\u06BE'(\uFFFD\uFFFDz\uFFFD}w\uFFFD\u077B\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFDO\u03EE)\u070A\uFFFD\uFFFD"
 						},
 						{
-							"id": "159",
+							"id": "170",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -1469,7 +1496,7 @@
 							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFDazg\uFFFDi\u05A9\uFFFD\uFFFD\uFFFD{\uFFFD\u06BE'(\uFFFD\uFFFDz\uFFFD}w\uFFFD\u077B\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFDO\u03EE)\u070A\uFFFD\uFFFD"
 						},
 						{
-							"id": "190",
+							"id": "219",
 							"uri": "https://support.si-samu.fr/course/search.php?context=1&q=ZAP",
 							"method": "GET",
 							"param": "",
@@ -1478,7 +1505,7 @@
 							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFDazg\uFFFDi\u05A9\uFFFD\uFFFD\uFFFD{\uFFFD\u06BE'(\uFFFD\uFFFDz\uFFFD}w\uFFFD\u077B\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFDO\u03EE)\u070A\uFFFD\uFFFD"
 						},
 						{
-							"id": "191",
+							"id": "225",
 							"uri": "https://support.si-samu.fr/course/search.php?context=2&q=ZAP",
 							"method": "GET",
 							"param": "",
@@ -1487,7 +1514,7 @@
 							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFDazg\uFFFDi\u05A9\uFFFD\uFFFD\uFFFD{\uFFFD\u06BE'(\uFFFD\uFFFDz\uFFFD}w\uFFFD\u077B\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFDO\u03EE)\u070A\uFFFD\uFFFD"
 						},
 						{
-							"id": "147",
+							"id": "197",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "",
@@ -1496,7 +1523,7 @@
 							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFDazg\uFFFDi\u05A9\uFFFD\uFFFD\uFFFD{\uFFFD\u06BE'(\uFFFD\uFFFDz\uFFFD}w\uFFFD\u077B\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFDO\u03EE)\u070A\uFFFD\uFFFD"
 						},
 						{
-							"id": "28",
+							"id": "58",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1505,7 +1532,7 @@
 							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFDazg\uFFFDi\u05A9\uFFFD\uFFFD\uFFFD{\uFFFD\u06BE'(\uFFFD\uFFFDz\uFFFD}w\uFFFD\u077B\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFDO\u03EE)\u070A\uFFFD\uFFFD"
 						},
 						{
-							"id": "176",
+							"id": "206",
 							"uri": "https://support.si-samu.fr/theme/styles.php/_s/adaptable/1653132927_1/all",
 							"method": "GET",
 							"param": "",
@@ -1514,7 +1541,7 @@
 							"otherinfo": "wOFF\\x0000\\x0001\\x0000\\x0000\\x0000\\x0000\\x0010\uFFFD\\x0000\\x000b\\x0000\\x0000\\x0000\\x0000\\x001b\uFFFD\\x0000\\x0001\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000GSUB\\x0000\\x0000\\x0001\\x0008\\x0000\\x0000\\x0000;\\x0000\\x0000\\x0000T \uFFFD%zOS/2\\x0000\\x0000\\x0001D\\x0000\\x0000\\x0000>\\x0000\\x0000\\x0000VQ\uFFFD]\uFFFDcmap\\x0000\\x0000\\x0001\uFFFD\\x0000\\x0000\\x0000\uFFFD\\x0000\\x0000\\x0003>\uFFFD\uFFFD\uFFFD\uFFFDglyf\\x0000\\x0000\\x0002`\\x0000\\x0000\\x000bp\\x0000\\x0000\\x0011\uFFFDf\\x000e\uFFFDqhead\\x0000\\x0000\r\uFFFD\\x0000\\x0000\\x0000+\\x0000\\x0000\\x00006\\x0019\uFFFDnuhhea\\x0000\\x0000\r\uFFFD\\x0000\\x0000\\x0000\\x001d\\x0000\\x0000\\x0000$\\x000f\uFFFD\\x0008\uFFFDhmtx\\x0000\\x0000\\x000e\\x001c\\x0000\\x0000\\x0000\\x0013\\x0000\\x0000\\x0000\uFFFD\uFFFD\\x0000\\x0000loca\\x0000\\x0000\\x000e0\\x0000\\x0000\\x0000H\\x0000\\x0000\\x0000HE\uFFFDJ\uFFFDmaxp\\x0000\\x0000\\x000ex\\x0000\\x0000\\x0000\\x001f\\x0000\\x0000\\x0000 \\x00014\\x0000\uFFFDname\\x0000\\x0000\\x000e\uFFFD\\x0000\\x0000\\x0001%\\x0000\\x0000\\x0002\n\uFFFD\uFFFD\uFFFD\uFFFDpost\\x0000\\x0000\\x000f\uFFFD\\x0000\\x0000\\x0001$\\x0000\\x0000\\x0001\uFFFD\uFFFD\u014B\uFFFDx\uFFFDc`d``\uFFFDb0`\uFFFDc`rq\uFFFD\ta\uFFFD\uFFFDI,\uFFFDc\uFFFDb`a\uFFFD\\x0000\uFFFD<2\uFFFD1'3=\uFFFD\uFFFD\\x0003\uFFFD\\x0003\u02B1\uFFFDi\\x000e f\uFFFD\uFFFD\\x0002\\x0000&;\\x0005H\\x0000x\uFFFDc`d\uFFFD\uFFFD8\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0019\\x0003\\x0003\uFFFD/\\x0008\uFFFD\\x001c\uFFFD\\x0010\uFFFDx\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0001+\\x0008HsMap\uFFFD\uFFFD\uFFFDQ\uFFFD\\x001d\uFFFD]\uFFFD\\x000e\\x0011f\\x0004\\x0011\\x00002\uFFFD\\x000b\\x0011\\x0000\\x0000x\uFFFD\uFFFD\uFFFDYn\uFFFD \\x0000E\uFFFDKL\uFFFD\u0259\uFFFD9\uFFFD\uFFFD\uFFFD\uFFFD5t{\uFFFD \uFFFD\uFFFDZ:\\\\x0019ad\\x0001\uFFFD\\x0007\uFFFD\u2AC8\\x0010\uFFFD\\x0004\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD\r\uFFFD:\\x001f\uFFFD\uFFFDk\uFFFD\uFFFDs\uFFFD|\uFFFD\\x00184\uFFFD\uFFFDX\uFFFD^Y\\x001b\u02CE-\\x0003\uFFFD\uFFFD\uFFFDw\\x0013:\uFFFD\u0318\uFFFD`\u024A5\\x001b\uFFFD\uFFFD\uFFFDs\uFFFD\u02093\\x0017\uFFFD\u0738\uFFFD\uFFFDI*\uFFFD\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDt\uFFFDVO\uFFFDg\uFFFD\uFFFD\uFFFD\\x0006s4\uFFFDE\uFFFDn7\uFFFD\uFFFD:0\u0521\uFFFD\uFFFD\\x000cul\uFFFD\uFFFD<1\uFFFD\uFFFD\uFFFDwyj\uFFFD3C\uFFFD\\x001b\uFFFD\uFFFDP\uFFFD\uFFFD\uFFFD2\u0535\uFFFDn\\x000cuk\uFFFD;C\uFFFD\\x001b\uFFFD\uFFFDP\uFFFD\uFFFDz2\u0533\uFFFD^\\x000c\uFFFDj\uFFFD7C\uFFFD\\x001b\uFFFD\uFFFDP\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000bt\uFFFDR\uFFFD\\x0000\\x0000x\uFFFD\uFFFDX\rpSU\\x0016~\uFFFD\uFFFD\uFFFDMII\uFFFD\\x0007\uFFFD\uFFFDyI\uFFFD\uFFFDI\uFFFD\uFFFD\\x0017h\uFFFD\\x0013)\uFFFDH\uFFFD)\u0162\uFFFDSlikp\u028F@\uFFFD\uFFFD\u0348[\uFFFD\uFFFD)*$\"\uFFFD\uFFFD\u02AC\uFFFD\u03B8\uFFFD\uFFFD\uFFFDt\uFFFDYu\u05F1\uFFFDj\uFFFD\\x000e\uFFFDqWgVXY\\\uFFFD\\x0015\uFFFD<\uFFFD\u0717\uFFFD\uFFFDPg\uFFFD$\uFFFD{\uFFFD=\uFFFD\uFFFDs\uFFFD9\uFFFD|\uFFFD\\x0002\n?\\/\uFFFDK\uFFFD\\x0014\\x0005:\uFFFD\uFFFD\\x0018\uFFFD\uFFFD\\x001d\uFFFDDk(\uFFFD!c|\uFFFD\\x000f\uFFFDX\\x0016\u58E8TZo\\x0013\uFFFD \uFFFD\\x0013\uFFFD\\x00160\uFFFD\uFFFD\uFFFD*\uFFFD\uFFFD\\x0013\uFFFD\uFFFD\uFFFDt06\uFFFD\uFFFDSI\\x001eu\u0620\uFFFD\u0497\uFFFD_\tF\\x000e\uFFFDv\\x000fL\\x000f\\x0004\uFFFD\\x000ft\uFFFDB\uFFFD\uFFFD\uFFFDm\uFFFD\uFFFDcE%%E\uFFFDB\uFFFD\uFFFD\uFFFD\u0564K\uFFFD\\x0001\uFFFD\u03EB<\u02B9\uFFFD\u07BD\uFFFD\uFFFD\uFFFD7\\x0012M\uFFFD\uFFFD\\x0002\uFFFD\\x0013\uFFFD\uFFFD0\uFFFD\uFFFD+\\x0012u\\x0005\uFFFD\\x0013u\uFFFD\\x000fne\uFFFDn\\x00027lfM\u00D7X\\x0013\uFFFD\uFFFD\uFFFD\uFFFDD\u078A\uFFFDf\uFFFDI\uFFFD\uFFFD\uFFFD\uFFFDt8\uFFFDf\uFFFDo\\x0010\u0332\uFFFD#k2\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDD\uFFFD\\x000f/\\x0018e\uFFFD\uFFFD\\x000f\uFFFD\uFFFD=\uFFFD\uFFFD4\uFFFD\uFFFD\uFFFD.\uFFFD0\uFFFD\uFFFD\uFFFDJd\uFFFD\uFFFD\uFFFD\u07EC\uFFFDf\uFFFD(\uFFFD\\x0004\uFFFD\\x001a\uFFFD<\uFFFD\uFFFD\uFFFDU\uFFFD\u0547\\x000f3\uFFFD\uFFFD\uFFFD\\x0006\uFFFD\uFFFDoL\uFFFD\uFFFD\uFFFD\r\u03FCtd\uFFFDgl\uFFFD\uFFFD\uFFFD[;\uFFFD\uFFFDU\uFFFDQ%\uFFFD\uFFFD\uFFFDu\uFFFD\u02ACC\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u00E8\uFFFD\uFFFD\\x0017\uFFFD\\x00047Dq\uFFFD/djZ\\x0003.\u0622\uFFFD\uFFFD\uFFFD\uFFFD+\uFFFDq\uFFFD\uFFFD\\x001a]\uFFFDZ\uFFFDK\uFFFD\uFFFDI\uFFFDu\uFFFD_N\uFFFD\u00B5\uFFFD<\\x000f<\uFFFD\uFFFDL$:)\uFFFD\tM\uFFFD\uFFFD\\\r\uFFFDp\u07D8\uFFFD\uFFFD\uFFFD\uFFFD|\\x0006\u03A5\uFFFDl\\x0014\uFFFDO\uFFFD<*\uFFFD1\uFFFD\uFFFD\uFFFD8\uFFFD\uFFFDXB \uFFFD{4B\uFFFD\uFFFDw\uFFFD,\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0215\uFFFDZ4\uFFFD-\\x001dcc3\uFFFDW\uFFFDE\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\uFFFD\uFFFD\u0313{\uFFFD\\x001c-1\uFFFD\\x00075\\x00069JC\uFFFD\uFFFD\\x0017\\x0014\uFFFDu\uFFFDdg\uFFFD\uFFFDW\\x0012\uFFFDn\\x0014uv\uFFFD\uFFFD5zu\uFFFD&\n[b\uFFFDhL\uFFFDa\uFFFD1\uFFFD\\x0012\uFFFD\u0162\uFFFDe\uFFFD'J\uFFFD\u0162#a\\x001c\uFFFD\\x001aE\uFFFD=e\\x0012\\x0001\uFFFD^\uFFFD\\x0006\uFFFDd\uFFFDD\uFFFD\uFFFD\u0371\uFFFD\uFFFD\\x0013#\u04A0\uFFFDH\uFFFD\\x00121M\uFFFD\uFFFD.l\\x0019\uFFFD\\x0014C:!Sc\uFFFD\\x001eB{\uFFFDU\uFFFD\uFFFDM\\x000bF\uFFFD\uFFFD\\x0002^\uFFFDS\\x0005\uFFFD\uFFFDW\\x000c\\x000cF\n\\x0017\\x001c\t\\x0017\uFFFD\uFFFD\u03DFY\uFFFD$\uFFFD#a&\uFFFD\r\uFFFD\uFFFD\uFFFD\\x0006\uFFFD/3a\uFFFD\\x001f\uFFFDg)\uFFFD\\x0004\uFFFDHY(;U\uFFFD\uFFFD\r\\x001cv\uFFFD\uFFFD\\x000b\uFFFD\uFFFDQ\\x0008\uFFFD\\x0008\uFFFD\n\uFFFD\uFFFDa\\x0008\uFFFDF\uFFFDY\uFFFD\uFFFD)\uFFFD\\x0005\uFFFD\uFFFD\uFFFD\uFFFD@\uFFFD\t-\uFFFD\rO\uFFFD\uFFFD\uFFFD0d2}\uFFFD/\uFFFD*W\uFFFD\uFFFD\uFFFD\uFFFD`\uFFFD\n\uFFFD4\uFFFD\uFFFD\\\uFFFDG\\x0006]\\x001a\uFFFD\\x0014G \uFFFDK\uFFFD\uFFFDh\\x0001\uFFFDU\uFFFD0W\uFFFDv}\uFFFD{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0015\uFFFD\uFFFD>\uFFFDi\uD3DF\uFFFDW_\\x000f\u07E8\uFFFD9\uFFFDH\uFFFD\\x000bJ\na\uFFFD\\x000b$\\x001a\uFFFD\uFFFD\uFFFD\uFFFDgQ9\uFFFD\uFFFD=\uFFFD\\x0000\uFFFDQ\\x0004Q\\x00129\uFFFD\u0217\\x001b\\x001c^\\P\uFFFD\uFFFD_[\uFFFD\\x001eW\uFFFD\uFFFDE\uFFFDR\uFFFD\uFFFDKq\\x0013}\tS\uFFFD\\x0010\uFFFDH\uFFFDn\\x0013\uFFFDOD\uFFFD\uFFFDH$\\x0012\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDj\u0199\uFFFD.\u064D\uFFFDa\uFFFD\uFFFDw\uFFFD\u034149\\x0000\\x001e\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\t/\uFFFD\uFFFD\u03DA\uFFFDg\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDzwN,\uFFFD\uFFFD\\x0010onZC\uFFFDjS%\uFFFDC\uFFFD\uFFFDy\uFFFD\uFFFD9\uFFFD\\x001d\\\uFFFD>\uFFFD\uFFFDn\uFFFD\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD4TF\"~\uFFFD^\\x000c\uFFFD\uFFFDE\uFFFD\uFFFD#\uFFFDQ\uFFFDb\\x0011\uFFFD\\x0003n\uFFFD8|9q1R\\x0014\uFFFD(\uFFFDG\uFFFD i\uFFFDM\uFFFD\uFFFDh\uFFFD\uFFFD\\x001c\uFFFD\uFFFD*\u00CE\r\uFFFDE\uFFFD9\\x0001\uFFFD\uFFFD\uFFFD@K\\x0010\uFFFD\\x0018\uFFFDP\\x000cvl\\x0011\\x001by0V0|,\uFFFD\\x0018\u70AEzK\uFFFD\uFFFD\uFFFD@gX\\x0016\uFFFD+\uFFFD**\u06B6\uFFFDU\\x0008\uFFFD/G{\uFFFD\uFFFD\\x0005\\x0016\uFFFD\uFFFD\\x0007Z\uFFFD\uFFFD\\x0004\\x0002-\uFFFD\\x0002K6\uFFFD\uFFFD<Y\uFFFD\uFFFDjUY\uFFFDcr\uFFFD\uFFFD~v\uFFFDg\uFFFDV\uFFFD8yR\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0017~\t\uFFFDv\r\u0540\\x001a\uFFFDv\\x0008\\x0011N\uFFFD\\x00182\uFFFDQB\\x0014\\x0013m|\\x0006\u01B4\uFFFD\uFFFD\\x000b\\x000co\uFFFD\\x0001\uFFFD`\uFFFDLc\uFFFD[\uFFFD\\x001a\uFFFD\uFFFD\uFFFDU\uFFFD\uFFFD\uFFFD7\uFFFDd\uFFFD^v89[1\uFFFD\uFFFD\uFFFDc\\x0001\uFFFD\\x0016\uFFFD\\x0013\\x001c\uFFFDB\\x001a/D\uFFFD)\uFFFD*fd3F\uFFFD2\uFFFD5\uFFFD\uFFFD3\uFFFDOM\uFFFD\"D\\x0004Ns\uFFFD\uFFFDh8lN\uFFFDp*P\uFFFDM\\x001b\uFFFD\u0E93#>\uFFFD\uFFFDk\u05AC\uFFFD>rc\uFFFD\uFFFD*\u05CE\u052Ct`\uFFFDS\uFFFD\uFFFD\u2B37\uFFFD\uFFFD\uFFFD\u06B7\uFFFD\uFFFD\uFFFD\uFFFDt%\uFFFD\uFFFD\uFFFD\uFFFD#\u0240\uFFFD\uFFFD\\x0018\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000f\uFFFD\u06D3\uFFFD\u06C6\uFFFDp\u04EA\uFFFDd\uFFFD.`L\uFFFD\\x001e\\x0013\\x001e\\x00078o\uFFFD6![\uFFFD\uFFFD\\x000f\uFFFD\uFFFDq\uFFFD\uFFFD\\x0003\uFFFD|\uFFFD\\x0007\\x00032s\uFFFD\uFFFDU\uFFFD\uFFFD\uFFFDzt\uFFFD\uFFFDQ\uFFFD\uFFFDd\uFFFD\uFFFD=Pz\uFFFD=\uFFFD\uFFFDm\uFFFD(\uFFFD\\x001b\uFFFD\\x001e\\x0019\uFFFDsw\t\\x0018O{\uFFFDitGT\uFFFD\uFFFD\uFFFD\\x000bV^\u013D\uFFFDC\\x0015PE\u07D3}pGc\uFFFD\t\uFFFD\uFFFD\uFFFDEg\uFFFD\uFFFD\\x001fw\uFFFD=\uFFFD\uFFFDz\uFFFDE\\x0013YB\\x0019\uFFFD4\uFFFD[q\uFFFD\\x000e\uFFFD\uFFFD0f\uFFFD\uFFFD\u04E7\tCN\uFFFD\uFFFD\uFFFDw}\uFFFD\uFFFD=V\uFFFD\\x000b\uFFFD\uFFFDL\\x0005*\uFFFD\u0178\uFFFD\u0621\\S\uFFFDu\uFFFDF\uFFFD\uFFFD\\x0003\uFFFD!\uFFFDC\uFFFDz|W\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\\x001a|9\uFFFD\uFFFD\uFFFD!\uFFFD$\uFFFDQX\uFFFD\uFFFD\uFFFD\uFFFDc6\\x0011\\x000f\"Z\u0670\uFFFDpH\uFFFDD\uFFFD{T\uFFFD|\t\uFFFD\uFFFD\uFFFD\uFFFD\u067C\uFFFD}m\uFFFD\uFFFD2\uFFFD\uFFFD\uFFFD\\x001aiDJ\uFFFD^\\x000eu^\uFFFD\\x000c\uFFFDL\\\uFFFDM\uFFFD\\x0017q\uFFFD\\x0017\\x0019]\uFFFD\u7ACE\u058A\uFFFD\u028A\u058Em\uFFFD\uFFFD\uFFFD+\uFFFD..I\uFFFDP\uFFFDe\uFFFD\uFFFD\uFFFD`\uFFFD\uFFFDSAd\\x0010\uFFFDu$\uFFFD\uFFFDd\uFFFD\uFFFD\uFFFD>\uFFFD\uFFFD\\x0002\uFFFD2\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD_S\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD\uFFFDx*\uFFFD\\x001f\uFFFD\uFFFD\u02E9\uFFFD\uFFFD1?\uFFFD\uFFFD\uFFFDR\uFFFD\uFFFDZM\uFFFDCi\\x0006\\x000bc\uFFFD\u0170v\\x001bY\uFFFD\\x000f\uFFFD\\x0018QY\uFFFD\uFFFDy$\uFFFDn\\x0015\\x0006\uFFFD`\uFFFD`\uFFFD\uFFFD2N\uFFFD\uFFFD\uFFFD\uFFFD4j@\uFFFD\uFFFD\uFFFD\uFFFD=U4\\x0012\uFFFD\\x0004s\\x001e\uFFFD\uFFFD\uFFFDEa\\x0016\\x001a\\x000b\\x0012\\x000c\\x0014\u024E\uFFFD\uFFFD\uFFFD\uFFFD\t.[\\x001a,\uFFFD\uFFFD\\:\uFFFD\uFFFDg\uFFFD\uFFFD\uFFFD\uFFFD\r:k\uFFFD\uFFFD\uFFFDt\uFFFD\uFFFD\uFFFD\uFFFD>X\\x000f/\uFFFD\uFFFD3\uFFFD\uFFFDvV\uFFFD3\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\uFFFD\\x0012\uFFFD\uFFFDr\uFFFD\\\\x001eZ\uFFFD\uFFFDf\uFFFD-i\uFFFDy\uFFFD'Z\uFFFD\uFFFD\uFFFDE\uFFFD\r;\uFFFD\uFFFD\uFFFD`\u01C7\\x001fv0\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFD/]\uFFFD}\u04E2\uFFFD\\x0015u\\x000b{\uFFFD\\x001b3]\uFFFD\uFFFD\uFFFD2\uFFFDw\\x0007\\x001a\\x000f\uFFFD3\uFFFD\\x000fU\uFFFD]:{S] X%fM_[\u07BD\uFFFD\uFFFD)\\x0006Z\uFFFD\uFFFD\uFFFD\\x001a}#\uFFFDN\uD976\uDF1A\\\uFFFD;\u026E1O\uFFFDFks\uFFFD\uFFFD\\x0008\uFFFD\n\\x0005\uFFFD2\uFFFD\uFFFD}\uFFFD\uFFFD\\x000b\uFFFD\uFFFD\\x001dF\uFFFDa\uFFFDvt\uFFFD\uFFFD\uFFFD\\x000eL*\uFFFD\uFFFDd\uFFFD\uFFFDt}\uFFFD\uFFFD!tb\uFFFD\uFFFD\\x0012\uFFFD\\x000b\uFFFDU\uFFFD\\x0017G.*'a\\x0015\uFFFD=@7\uFFFD\uFFFD\\x001dka\uFFFD)\uFFFD/\\\\\uFFFDd\uFFFD(\uFFFD\uFFFD\\x0000p?mp\u0575U\uFFFD8\uFFFD\uFFFD\\x001b\\x0011\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD5k\uFFFD77\uFFFD\\\uFFFD\uFFFDKgvl\uFFFD\uFFFDZ\uFFFD\uFFFD`\\x001f\\--}\uFFFDZ:-\uFFFD\uFFFDXx\\x0000\uFFFD\uFFFDdC^0\\x0019\r\uFFFD\\x0016X\uFFFD\uFFFDI\uFFFD$\\x000c\uFFFD\u0123\\x0012Lf\uFFFDw&\uFFFD\uFFFDP\uFFFD\\x0002\uFFFD}^\uFFFD\uFFFD\\x00035\uFFFD`\uFFFD\uFFFDC\u029F~\uFFFD|\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDk\\x001d\uFFFDr\uFFFDl\uFFFDk\uFFFD\uFFFD\uFFFD\uFFFDg\uFFFD/\uFFFD\\x0006\uFFFD\uFFFDN9\u04FDw\uFFFD\uFFFD\uFFFD\uFFFD:Vp\uFFFDkj\uFFFD\u064F+\uFFFD+\uFFFD?\uFFFD4\uFFFDC\uFFFDl\uFFFD4\uFFFD_nf\\x001dLa\u07E2\uFFFD\uFFFD#\uFFFDNs\uFFFDv\uFFFDYk\uFFFD\uFFFD\uFFFD:m\\x0014\uFFFD\uFFFD0\uFFFD\\x0014\uFFFD\uFFFD`&\uFFFD\uFFFD\uFFFD\uFFFDtv\uFFFD\uFFFD\uFFFD\uFFFD\t\uFFFD\uFFFD\uFFFD,\u0158\uFFFD\uFFFD\\i\uFFFD\uFFFD\uFFFD%\uFFFD\uFFFD/\uFFFD|\uFFFD\u0199\uFFFD\\x0006\\x000e\\x0004\uFFFD\\x001a\uFFFDS~5\uFFFDZS:\\x001f\uFFFD~a\uFFFD\\x0002z\uFFFD\uFFFDr\uFFFD\uFFFD\u0454\\x0007Wt>X\uFFFD\t\uFFFDC#\uFFFD\\x0016\uFFFDd\\x0001:i\uFFFD0\\x001f\uFFFD\uFFFD\u02251h\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDa\"\\x0000q{\\x0012X\uFFFD\uFFFD\t#\uFFFD\uFFFDH0\uFFFDI\uFFFD\\x0012\uFFFDa\uFFFD\uFFFD\uFFFDf\\x0007\uFFFD2s\uFFFDl&\\x001f\\x001eP\uFFFD\uFFFD\uFFFD\\x000c\\x0005\uFFFD\uFFFD\uFFFD\uFFFDmo\uFFFDo\uFFFD[_\uFFFD\uFFFD\\x001f/s7\u0333\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD*\uFFFDhS\uFFFD\u0332\uFFFDj\uFFFD\uFFFDu\uFFFD2\\x0000\uFFFD\uFFFD\"4\\x000f0\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\uB2BA\\x000f\uFFFD\uFFFD\uFFFD\\\uFFFDn|wW\uFFFD\uFFFD\uFFFD5\uFFFD/X\u04ED9\uFFFDx\uFFFD\uFFFDr\uFFFD\\x0017^\uFFFD}\uFFFD\u0283\uFFFD\uFFFD\uFFFDKr<366\uFFFD_\uFFFD\uFFFD\uFFFD\\x0015Z\\x0006?\uFFFD\uFFFD<\n\uFFFD\uFFFD)r\uFFFD\uFFFD\\x001b\uFFFDg\uFFFDz\\x0012\uFFFDi\uFFFD\\x0002j-\uFFFD\uFFFDz\uFFFD\u011DW&\\x0019\uFFFD|\uFFFD\\(\uFFFDN,0\\x001c~\uFFFD\\x001a\uFFFDb\\x0010t\\x0006\uFFFD\uFFFDW\uFFFD\\x0008Y\uFFFD\uFFFDv\u078C\uFFFD\\x0005a6\uFFFDG\uFFFD\uFFFD\uFFFD\uFFFDF\uFFFD8d\uFFFD[\rx\uFFFD\uFFFD\uFFFD\\x001a\\x0000\uFFFD\uFFFD\uFFFD\uFFFDn/\uFFFD\uFFFD,\uFFFD\uFFFD.I\\x0013\uFFFDf\uFFFD-\uFFFD\uFFFD%\\x0017\uFFFD'\\x001aC\uFFFDB\uFFFD \uC692\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD%\u062E\uFFFD\uFFFD\uFFFD<\uFFFD4gAn\uFFFDh\\x0002\uFFFDe\\x0001\uFFFD\uFFFDXB\uFFFDO\uFFFD\u07C3z\uFFFD\uFFFD\uFFFD}\uFFFD\\x001c\u0097\uFFFD\uFFFDM}\uFFFD\\x0007:Nc\uFFFD\uFFFD\uFFFD\uFFFD_\u07BAm\uFFFD\uFFFD\uFFFD\uFFFD\\x0014\\x0016\uFFFDf\u0637\uFFFD\uFFFDsg\uFFFD\uFFFD8%\"\uFFFD%\uFFFD5VC\uFFFDn\uFFFD\uFFFDw^MI\uFFFDR\uFFFD\uFFFD\uFFFD\u02D7\uFFFD\uFFFD\uFFFD\\x0001\uFFFD\uFFFD\\x0016he\u048D\uFFFDn\uFFFD\\x001b\uFFFD7\uFFFDV\uFFFDy\uFFFD\uFFFDJ\uFFFDH\uFFFDb\\x001e\t[\uFFFDv\uFFFD\uFFFD|\uFFFD\uFFFD&p0\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:\u5570J\uFFFD)\uFFFD\\x0005\uFFFDO\uFFFDl\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\\x0005\uFFFD`\\x000c\uFFFDU\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD=\u0775sO\uFFFD:R\uFFFD\uFFFD\r5\uFFFD|*\uFFFD\uFFFD \uFFFD\uFFFD\uFFFD\u0361H\uFFFD\\x0004\uFFFDJ\uFFFD\uFFFD\uFFFD\uFFFD^\u07ED\uFFFDW\uFFFD\\x000bb\uFFFD'\uFFFDH\uFFFD\uFFFDx\uFFFD\uFFFDw\uFFFDB_F\uFFFD$_r\u053A\uFFFD\uFFFD!\uFFFD\uFFFDnC\\\uFFFD\n:\\x0002\\x001c\uFFFD\uFFFD\\x001c\uFFFD\uFFFD_\\x0013\t\uFFFDD\\x001e;\uFFFD[\uFFFDE\uFFFD5\uFFFD\\x0003\uFFFD#pn\uFFFD\\x0013\u2744\uFFFD\\x001b?N/\\x0006\\x0017b\uFFFD\uFFFD\uFFFD\\x0004PsA\uFFFDEn\uFFFDsA\uFFFD=,\uFFFDYsAM~~M\uFFFD\uFFFD\uFFFD\uAC13\uFFFD<:G\uFFFD>\uFFFD\uFFFD_\uFFFD\\x0010\uFFFD\uFFFD}\uFFFDF\u84D6\uFFFD7(y\uFFFD\uFFFD?\uFFFD<\u07F9\uFFFD{\uFFFD\uFFFD8\uFFFD\uFFFD\\x000e\uFFFD\uFFFD\uFFFDT\uFFFD\uFFFD\uFFFD7\uFFFD\uFFFD\uFFFD>n+E\uFFFD\\x0017xvwUx\uFFFDc`d``\\x0000\uFFFD]\uFFBE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0000\\x00027\uFFFD\\x0005\uFFFD \uFFFD\\x001c\uFFFD`q\\x000e\\x0006&\\x0010\\x0005\\x0000<\\x0015\tE\\x0000x\uFFFDc`d``g\\x0000\\x0001\uFFFD>\\x0006\uFFFD\uFFFD\uFFFD9\uFFFD\\x0019\\x0018\\x0019P\uFFFD2\\x0000F\\x001b\\x0003X\\x0000\\x0000\\x0000x\uFFFDc````\\x001f\\x0004\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\\x0000CN\\x0001~\\x0000\\x0000\\x0000\\x0000\\x0000\\x0000\\x000e\\x0000h\\x0000~\\x0000\uFFFD\\x0000\uFFFD\\x0001\\x0002\\x0001B\\x0001l\\x0001\uFFFD\\x0001\uFFFD\\x0002\\x0018\\x0002X\\x0002\uFFFD\\x0002\uFFFD\\x00030\\x0003\uFFFD\\x0003\uFFFD\\x00040\\x0004\uFFFD\\x0004\uFFFD\\x0005$\\x0005f\\x0005\uFFFD\\x0006 \\x0006f\\x0006\uFFFD\\x0006\uFFFD\\x0007X\\x0008\\x0012\\x0008X\\x0008n\\x0008\uFFFD\\x0008\uFFFD\\x0008\uFFFDx\uFFFDc`d``Pf(e`g\\x0000\\x0001& \uFFFD\\x0002B\\x0006\uFFFD\uFFFD`>\\x0003\\x0000\\x0018\t\\x0001\uFFFD\\x0000x\uFFFD]\uFFFDMj\uFFFD@\\x0018\uFFFD_\\x0013\uFFFD\uFFFD\\x0008\uFFFDP\uFFFDU)\uFFFDj\\x0017\\x0005\uFFFD\uFFFD\\x0001\\x0012\uFFFD2\uFFFD@\uFFFDFGcPGt\\x0012HO\uFFFD\\x0013\uFFFD\\x0004=E\\x000fPz\uFFFD\uFFFD\uFFFD\u05CD30\uFFFD|\u03FC\uFFFD\r\n\uFFFD\\x0016?p\uFFFD\\x000c\\x0007\uFFFDvmF\uFFFD<\\x0012\uFFFD&\uFFFD.\uFFFD^x\\x0000\\x000f\uFFFD\uFFFDC\uFFFD\\x0017\uFFFD1^\uFFFD\\x000b{\uFFFD\uFFFD\\x001b;8\uFFFD\r\uFFFD\\x0004\uFFFDp\uFFFD\uFFFD.\uFFFD'\\x0008\uFFFD\uFFFDO\uFFFD\\x0001\\x001e\uFFFD%<\uFFFD\uFFFD\\x0016\\x001ec\uFFFD_a\\x000f\uFFFD\uFFFD\uFFFD>\uFFFD\uFFFD\uFFFD\uFFFD:9gA%\uFFFD\uFFFD\uFFFD\uFFFD:5\uFFFD\uFFFD\uFFFD31k]\uFFFD*\uFFFD:R\uFFFD\uFFFD\uFFFD/\uFFFD\uFFFD\uFFFDX\u0155\uFFFD\uFFFD\uFFFD\\x0014Vg\uFFFDQeeN:\uFFFD\uFFFD\uFFFD\uFFFDr9\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD|;E\\x0004\r\uFFFD\rv\u0612\\x0012\uFFFD\uFFFD]\\x0001\uFFFD\uFFFDY\uFFFD\uFFFDL\uFFFDt\\x0006\\x0005\\x0014\uFFFD\uFFFDG\uFFFDNfM*\uFFFD\\\\x0000\uFFFD=b\uFFFD+\uFFFD\\x001a\\x0017\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDY\uFFFD\uFFFD\\x0018\uFFFDU\u06EFIg\uFFFD\uFFFD\uFFFDl\uFFFDN4!\uFFFD\uFFFDc{\uFFFD\uFFFD\\x0012S\u03B8\uFFFD\uFFFD\uFFFDb\uFFFD?\uFFFD7W\uFFFD\\x0000\\x0000\\x0000x\uFFFDm\uFFFD\uFFFDv\uFFFD0\\x000cE\uFFFD\\x0000e*m\uFFFD\uFFFD@\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\uFFFD\uFFFDc\uFFFD\\x001e\uFFFD\uFFFD}M\uFFFDs\uFFFD@\\x000b\uFFFD=Y\uFFFD\uFFFD\\x001c\uFFFD\uFFFDSL\uFFFD\uFFFDD\\x000bmt\\x0010#A\\x0017)z\uFFFDc\uFFFD\\x001b\\x000c1\uFFFD\\x0018\\x0013Lq\uFFFD\\x0019\uFFFDp\uFFFD\\x0007\u0331\uFFFD#\uFFFD\uFFFD\uFFFD\\x0017\uFFFD\uFFFD\r\uFFFD\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFDw\u0529e\uFFFD;8.\uFFFD`#$\uFFFDu\uFFFD-\rvZ\uFFFD\uFFFD\uFFFD\uFFFD;\uA7F5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\uFFFD\uFFFD)'k/\uFFFD\\x0015\uFFFDHe\uFFFD\\x001c\uFFFD\uFFFD\uFFFD\u0101]b|n\uFFFDkkV\uFFFDL\uFFFD\uFFFD\uFFFDc'\u0266\"\uFFFD\\x001dk\\x0015D\\x0019\\x0014\\x0019\\x001b\uFFFD2T\uFFFD\uFFFD\uFFFD$'\uFFFD\uFFFDi\u02F4w\uFFFD\\x0015\uFFFD\u03B6\uFFFD\uFFFD\uFFFD\uFFFD*\uFFFDD\uFFFDJ\uFFFDL\\x000c\\x001dgI\u05F9\uFFFD\uFFFD\uFFFD\uFFFDxSKo\uFFFD\u0438\uFFFD\uFFFDU\uFFFD\uFFFD\u0645W\\x0012\u7AD54\uFFFD\uFFFD\\x0013\\x001cY7\uFFFD}\uFFFD:+(@sC\\x00147\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDQ5\uFFFD\r\uFFFDX{\u06F8E\uFFFD\uFFFDys\uFFFD\uFFFD.\uFFFD\uFFFD|~\uFFFD \uFFFD@\\x0014\uFFFD\\x0001\uFFFD\uFFFD\uFFFD<"
 						},
 						{
-							"id": "198",
+							"id": "223",
 							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "POST",
 							"param": "",
@@ -1542,7 +1569,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "70",
+							"id": "11",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -1551,7 +1578,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "92",
+							"id": "144",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -1560,7 +1587,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "153",
+							"id": "162",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -1569,7 +1596,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "187",
+							"id": "214",
 							"uri": "https://support.si-samu.fr/course/search.php?context=1&q=ZAP",
 							"method": "GET",
 							"param": "",
@@ -1578,7 +1605,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "136",
+							"id": "192",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "",
@@ -1587,7 +1614,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "160",
+							"id": "184",
 							"uri": "https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js",
 							"method": "GET",
 							"param": "",
@@ -1596,7 +1623,7 @@
 							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected in likely comment: \"//a\");e.pathname=\"c d\";return e.href===\"http://a/c%20d\"&&e.searchParams}catch(e){return!1}};var t=function(){var t=u.URL;var e=f\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "6",
+							"id": "12",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1605,7 +1632,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"// Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "178",
+							"id": "202",
 							"uri": "https://support.si-samu.fr/theme/jquery.php/core/jquery-3.5.1.min.js",
 							"method": "GET",
 							"param": "",
@@ -1614,7 +1641,7 @@
 							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected in likely comment: \"//,Rt={},Mt={},It=\"*/\".concat(\"*\"),Wt=E.createElement(\"a\");function Ft(o){return function(e,t){\"string\"!=typeof e&&(t=e,e=\"*\");v\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "177",
+							"id": "207",
 							"uri": "https://support.si-samu.fr/theme/jquery.php/theme_adaptable/adaptable_v2_1_1_2.js",
 							"method": "GET",
 							"param": "",
@@ -1623,7 +1650,7 @@
 							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"// (at your option) any later version.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "181",
+							"id": "205",
 							"uri": "https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js",
 							"method": "GET",
 							"param": "",
@@ -1651,7 +1678,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "154",
+							"id": "163",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "",
@@ -1660,7 +1687,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "202",
+							"id": "233",
 							"uri": "https://support.si-samu.fr/course/index.php",
 							"method": "GET",
 							"param": "",
@@ -1669,7 +1696,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "199",
+							"id": "230",
 							"uri": "https://support.si-samu.fr/course/index.php?categoryid=3",
 							"method": "GET",
 							"param": "",
@@ -1678,7 +1705,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "248",
+							"id": "265",
 							"uri": "https://support.si-samu.fr/course/view.php?id=34",
 							"method": "GET",
 							"param": "",
@@ -1687,7 +1714,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "247",
+							"id": "262",
 							"uri": "https://support.si-samu.fr/course/view.php?id=35",
 							"method": "GET",
 							"param": "",
@@ -1696,7 +1723,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "243",
+							"id": "258",
 							"uri": "https://support.si-samu.fr/course/view.php?id=36",
 							"method": "GET",
 							"param": "",
@@ -1705,7 +1732,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "240",
+							"id": "257",
 							"uri": "https://support.si-samu.fr/course/view.php?id=37",
 							"method": "GET",
 							"param": "",
@@ -1714,7 +1741,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "244",
+							"id": "261",
 							"uri": "https://support.si-samu.fr/course/view.php?id=41",
 							"method": "GET",
 							"param": "",
@@ -1723,7 +1750,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "249",
+							"id": "267",
 							"uri": "https://support.si-samu.fr/course/view.php?id=47",
 							"method": "GET",
 							"param": "",
@@ -1732,7 +1759,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "238",
+							"id": "254",
 							"uri": "https://support.si-samu.fr/course/view.php?id=55",
 							"method": "GET",
 							"param": "",
@@ -1741,7 +1768,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "254",
+							"id": "275",
 							"uri": "https://support.si-samu.fr/course/view.php?id=57",
 							"method": "GET",
 							"param": "",
@@ -1750,7 +1777,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "138",
+							"id": "194",
 							"uri": "https://support.si-samu.fr/formation",
 							"method": "GET",
 							"param": "",
@@ -1765,7 +1792,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "52"
+					"sourceid": "47"
 				},
 				{
 					"pluginid": "10049",
@@ -1778,7 +1805,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "80",
+							"id": "62",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "",
@@ -1787,7 +1814,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "114",
+							"id": "159",
 							"uri": "https://support.si-samu.fr/?redirect=0",
 							"method": "GET",
 							"param": "",
@@ -1796,7 +1823,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "144",
+							"id": "171",
+							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "115",
 							"uri": "https://support.si-samu.fr/course/view.php?id=50",
 							"method": "GET",
 							"param": "",
@@ -1805,7 +1841,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "135",
+							"id": "129",
 							"uri": "https://support.si-samu.fr/course/view.php?id=54",
 							"method": "GET",
 							"param": "",
@@ -1814,16 +1850,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "148",
-							"uri": "https://support.si-samu.fr/formation",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
-							"id": "53",
+							"id": "97",
 							"uri": "https://support.si-samu.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1832,7 +1859,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "93",
 							"uri": "https://support.si-samu.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1841,7 +1868,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "66",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "",
@@ -1869,7 +1896,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "149",
+							"id": "145",
 							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "cache-control",
@@ -1878,7 +1905,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "201",
+							"id": "232",
 							"uri": "https://support.si-samu.fr/course/index.php",
 							"method": "GET",
 							"param": "cache-control",
@@ -1887,7 +1914,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "195",
+							"id": "228",
 							"uri": "https://support.si-samu.fr/course/index.php?categoryid=3",
 							"method": "GET",
 							"param": "cache-control",
@@ -1896,7 +1923,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "204",
+							"id": "231",
 							"uri": "https://support.si-samu.fr/course/index.php?categoryid=5",
 							"method": "GET",
 							"param": "cache-control",
@@ -1905,7 +1932,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "203",
+							"id": "234",
 							"uri": "https://support.si-samu.fr/course/index.php?categoryid=6",
 							"method": "GET",
 							"param": "cache-control",
@@ -1914,7 +1941,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "209",
+							"id": "241",
+							"uri": "https://support.si-samu.fr/course/search.php",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "private, pre-check=0, post-check=0, max-age=0, no-transform",
+							"otherinfo": ""
+						},
+						{
+							"id": "238",
 							"uri": "https://support.si-samu.fr/course/search.php?areaids=core_course-course&q=ZAP",
 							"method": "GET",
 							"param": "cache-control",
@@ -1923,7 +1959,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "180",
+							"id": "210",
 							"uri": "https://support.si-samu.fr/course/search.php?context=1&q=ZAP",
 							"method": "GET",
 							"param": "cache-control",
@@ -1932,7 +1968,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "184",
+							"id": "220",
 							"uri": "https://support.si-samu.fr/course/search.php?context=2&q=ZAP",
 							"method": "GET",
 							"param": "cache-control",
@@ -1941,7 +1977,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "205",
+							"id": "235",
 							"uri": "https://support.si-samu.fr/course/search.php?context=24&q=ZAP",
 							"method": "GET",
 							"param": "cache-control",
@@ -1950,7 +1986,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "83",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "cache-control",
@@ -1959,17 +1995,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "127",
+							"id": "177",
 							"uri": "https://support.si-samu.fr/formation",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "private, pre-check=0, post-check=0, max-age=0, no-transform",
-							"otherinfo": ""
-						},
-						{
-							"id": "213",
-							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1983,7 +2010,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "52"
+					"sourceid": "47"
 				},
 				{
 					"pluginid": "90005",
@@ -1996,7 +2023,16 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "46",
+							"id": "59",
+							"uri": "https://support.si-samu.fr/",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "94",
 							"uri": "https://support.si-samu.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -2005,7 +2041,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "88",
 							"uri": "https://support.si-samu.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -2014,7 +2050,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "64",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -2023,13 +2059,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "90005",
@@ -2042,7 +2078,16 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "57",
+							"uri": "https://support.si-samu.fr/",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "92",
 							"uri": "https://support.si-samu.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -2051,7 +2096,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "87",
 							"uri": "https://support.si-samu.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -2060,7 +2105,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "63",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -2069,13 +2114,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "90005",
@@ -2088,7 +2133,16 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "56",
+							"uri": "https://support.si-samu.fr/",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "90",
 							"uri": "https://support.si-samu.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2097,7 +2151,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "85",
 							"uri": "https://support.si-samu.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2106,7 +2160,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "60",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2115,13 +2169,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "90005",
@@ -2134,7 +2188,16 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "61",
+							"uri": "https://support.si-samu.fr/",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "95",
 							"uri": "https://support.si-samu.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2143,7 +2206,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "89",
 							"uri": "https://support.si-samu.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2152,7 +2215,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "65",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2161,13 +2224,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "10112",
@@ -2180,111 +2243,111 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "41",
+							"id": "99",
 							"uri": "https://support.si-samu.fr/",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "5a2992be6aff321ddf59b1a73da93443",
+							"evidence": "61093f8f0530e0b660a8d6a71bb9720f",
 							"otherinfo": "\ncookie:MoodleSession"
 						},
 						{
-							"id": "56",
-							"uri": "https://support.si-samu.fr/",
+							"id": "133",
+							"uri": "https://support.si-samu.fr/admin/tool/dataprivacy/summary.php",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "95432e7bdb3dc960c4157eaec412d93f",
+							"evidence": "2509eea9856fc29522946978e5b7ffc4",
 							"otherinfo": "\ncookie:MoodleSession"
 						},
 						{
-							"id": "137",
+							"id": "246",
+							"uri": "https://support.si-samu.fr/course/info.php?id=37",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "df31fe3f2e3e28222155b692039bf568",
+							"otherinfo": "\ncookie:MoodleSession"
+						},
+						{
+							"id": "245",
+							"uri": "https://support.si-samu.fr/course/info.php?id=55",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "05dedc223cff654b11c5bed1a5600687",
+							"otherinfo": "\ncookie:MoodleSession"
+						},
+						{
+							"id": "247",
+							"uri": "https://support.si-samu.fr/course/view.php?id=37",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "a396de4dca7bed831e8fed1d3a92337b",
+							"otherinfo": "\ncookie:MoodleSession"
+						},
+						{
+							"id": "110",
 							"uri": "https://support.si-samu.fr/course/view.php?id=50",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "eb2cf3dcce8d473538fb6a3b79b04203",
+							"evidence": "964ee0bb973b84ff9a26ab89d84dac05",
 							"otherinfo": "\ncookie:MoodleSession"
 						},
 						{
-							"id": "215",
-							"uri": "https://support.si-samu.fr/course/view.php?id=51",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "0029020256304d4c3356a7391601a124",
-							"otherinfo": "\ncookie:MoodleSession"
-						},
-						{
-							"id": "220",
-							"uri": "https://support.si-samu.fr/course/view.php?id=52",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "72bf563c91ca84d7f4eae223050e20f2",
-							"otherinfo": "\ncookie:MoodleSession"
-						},
-						{
-							"id": "225",
-							"uri": "https://support.si-samu.fr/course/view.php?id=53",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "8dd98237591728f4035c115f80ec0c5f",
-							"otherinfo": "\ncookie:MoodleSession"
-						},
-						{
-							"id": "130",
+							"id": "119",
 							"uri": "https://support.si-samu.fr/course/view.php?id=54",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "2fc8c6120f3f5d929e8c14053c4a64f7",
+							"evidence": "dc174fe09b925d92b8d4d3a8dc910a0f",
 							"otherinfo": "\ncookie:MoodleSession"
 						},
 						{
-							"id": "224",
-							"uri": "https://support.si-samu.fr/mod/resource/view.php?id=198",
+							"id": "244",
+							"uri": "https://support.si-samu.fr/course/view.php?id=55",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "a31051dcc6ed8cfba9a0222aa48e8b56",
+							"evidence": "aa2c5cfd309569c73681a521f10ccbcb",
 							"otherinfo": "\ncookie:MoodleSession"
 						},
 						{
-							"id": "166",
+							"id": "173",
+							"uri": "https://support.si-samu.fr/formation",
+							"method": "GET",
+							"param": "MoodleSession",
+							"attack": "",
+							"evidence": "967954c5851717a5aff44226174e43c6",
+							"otherinfo": "\ncookie:MoodleSession"
+						},
+						{
+							"id": "182",
 							"uri": "https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "1cc99fcef82736fd2a3a2eaa5cc3bd90",
+							"evidence": "1757fcc7dfe299ca57a1fd6488d25791",
 							"otherinfo": "\ncookie:MoodleSession"
 						},
 						{
-							"id": "57",
+							"id": "82",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "2ea91fa7c2289208df25bfdbd19ef5f9",
+							"evidence": "7a7692ac2759939ee5f532b3f29744ac",
 							"otherinfo": "\ncookie:MoodleSession"
 						},
 						{
-							"id": "0",
+							"id": "1",
 							"uri": "https://support.si-samu.fr/support",
 							"method": "GET",
 							"param": "MoodleSession",
 							"attack": "",
-							"evidence": "539d26e03571d89ec97cc2a12fdfd662",
-							"otherinfo": "\ncookie:MoodleSession"
-						},
-						{
-							"id": "155",
-							"uri": "https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico",
-							"method": "GET",
-							"param": "MoodleSession",
-							"attack": "",
-							"evidence": "1cc99fcef82736fd2a3a2eaa5cc3bd90",
+							"evidence": "fdcfba1be7a72010eff664b58c38d65c",
 							"otherinfo": "\ncookie:MoodleSession"
 						}
 					],
@@ -2294,7 +2357,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "3"
+					"sourceid": "34"
 				},
 				{
 					"pluginid": "10049",
@@ -2307,7 +2370,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "61",
+							"id": "100",
 							"uri": "https://support.si-samu.fr/error.php",
 							"method": "GET",
 							"param": "",
@@ -2316,7 +2379,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "119",
+							"id": "108",
 							"uri": "https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css",
 							"method": "GET",
 							"param": "",
@@ -2344,7 +2407,7 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "245",
+							"id": "263",
 							"uri": "https://support.si-samu.fr/course/info.php?id=35",
 							"method": "GET",
 							"param": "id",
@@ -2353,7 +2416,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/info.php?id=35\n\nappears to include user input in:\na(n) [div] tag [data-courseid] attribute\n\nThe user input found was:\nid=35\n\nThe user-controlled value was:\n35"
 						},
 						{
-							"id": "242",
+							"id": "259",
 							"uri": "https://support.si-samu.fr/course/info.php?id=36",
 							"method": "GET",
 							"param": "id",
@@ -2362,7 +2425,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/info.php?id=36\n\nappears to include user input in:\na(n) [div] tag [data-courseid] attribute\n\nThe user input found was:\nid=36\n\nThe user-controlled value was:\n36"
 						},
 						{
-							"id": "241",
+							"id": "256",
 							"uri": "https://support.si-samu.fr/course/info.php?id=37",
 							"method": "GET",
 							"param": "id",
@@ -2371,7 +2434,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/info.php?id=37\n\nappears to include user input in:\na(n) [div] tag [data-courseid] attribute\n\nThe user input found was:\nid=37\n\nThe user-controlled value was:\n37"
 						},
 						{
-							"id": "246",
+							"id": "260",
 							"uri": "https://support.si-samu.fr/course/info.php?id=41",
 							"method": "GET",
 							"param": "id",
@@ -2380,7 +2443,16 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/info.php?id=41\n\nappears to include user input in:\na(n) [div] tag [data-courseid] attribute\n\nThe user input found was:\nid=41\n\nThe user-controlled value was:\n41"
 						},
 						{
-							"id": "239",
+							"id": "266",
+							"uri": "https://support.si-samu.fr/course/info.php?id=47",
+							"method": "GET",
+							"param": "id",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/info.php?id=47\n\nappears to include user input in:\na(n) [div] tag [data-courseid] attribute\n\nThe user input found was:\nid=47\n\nThe user-controlled value was:\n47"
+						},
+						{
+							"id": "255",
 							"uri": "https://support.si-samu.fr/course/info.php?id=55",
 							"method": "GET",
 							"param": "id",
@@ -2389,7 +2461,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/info.php?id=55\n\nappears to include user input in:\na(n) [div] tag [data-courseid] attribute\n\nThe user input found was:\nid=55\n\nThe user-controlled value was:\n55"
 						},
 						{
-							"id": "211",
+							"id": "239",
 							"uri": "https://support.si-samu.fr/course/search.php?areaids=core_course-course&q=ZAP",
 							"method": "GET",
 							"param": "areaids",
@@ -2398,7 +2470,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/search.php?areaids=core_course-course&q=ZAP\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nareaids=core_course-course\n\nThe user-controlled value was:\ncore_course-course"
 						},
 						{
-							"id": "212",
+							"id": "240",
 							"uri": "https://support.si-samu.fr/course/search.php?areaids=core_course-course&q=ZAP",
 							"method": "GET",
 							"param": "q",
@@ -2407,7 +2479,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/search.php?areaids=core_course-course&q=ZAP\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nq=ZAP\n\nThe user-controlled value was:\nzap"
 						},
 						{
-							"id": "188",
+							"id": "216",
 							"uri": "https://support.si-samu.fr/course/search.php?context=1&q=ZAP",
 							"method": "GET",
 							"param": "q",
@@ -2416,16 +2488,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/search.php?context=1&q=ZAP\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nq=ZAP\n\nThe user-controlled value was:\nzap"
 						},
 						{
-							"id": "237",
-							"uri": "https://support.si-samu.fr/course/search.php?context=1360&q=ZAP",
-							"method": "GET",
-							"param": "q",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/search.php?context=1360&q=ZAP\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nq=ZAP\n\nThe user-controlled value was:\nzap"
-						},
-						{
-							"id": "189",
+							"id": "224",
 							"uri": "https://support.si-samu.fr/course/search.php?context=2&q=ZAP",
 							"method": "GET",
 							"param": "q",
@@ -2434,7 +2497,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/search.php?context=2&q=ZAP\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nq=ZAP\n\nThe user-controlled value was:\nzap"
 						},
 						{
-							"id": "206",
+							"id": "236",
 							"uri": "https://support.si-samu.fr/course/search.php?context=24&q=ZAP",
 							"method": "GET",
 							"param": "q",
@@ -2443,13 +2506,13 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/course/search.php?context=24&q=ZAP\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nq=ZAP\n\nThe user-controlled value was:\nzap"
 						},
 						{
-							"id": "210",
+							"id": "237",
 							"uri": "https://support.si-samu.fr/login/index.php",
 							"method": "POST",
 							"param": "logintoken",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/login/index.php\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nlogintoken=SG6BkE3u3AdoGiez338eJ4VHffAm0UY7\n\nThe user-controlled value was:\nsg6bke3u3adogiez338ej4vhffam0uy7"
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://support.si-samu.fr/login/index.php\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nlogintoken=au07fTV3n8rxBm8H3zbeBQSYpxiB8nXe\n\nThe user-controlled value was:\nau07ftv3n8rxbm8h3zbebqsypxib8nxe"
 						}
 					],
 					"count": "12",
@@ -2458,7 +2521,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "233"
+					"sourceid": "213"
 				}
 			]
 		}
