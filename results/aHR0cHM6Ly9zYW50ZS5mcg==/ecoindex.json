@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sante.fr",
-        "size": 3198.699,
-        "nodes": 805,
+        "size": 3199.206,
+        "nodes": 807,
         "requests": 59,
         "grade": "D",
         "score": 43.0,
         "ges": 2.14,
         "water": 3.21,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-16 03:33:19.294478",
+        "date": "2025-03-17 16:33:15.113578",
         "page_type": "website"
     }
 ]
