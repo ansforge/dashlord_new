@@ -10,16 +10,16 @@
     "testsQuantity": 10,
     "responseHeaders": {
       "content-type": "text/html; charset=UTF-8",
-      "content-length": "16763",
+      "content-length": "16773",
       "connection": "close",
-      "date": "Sun, 16 Mar 2025 04:03:47 GMT",
+      "date": "Mon, 17 Mar 2025 17:05:08 GMT",
       "x-frame-options": "DENY",
       "link": "<https://smt.esante.gouv.fr/wp-json/>; rel=\"https://api.w.org/\"",
       "vary": "Accept-Encoding",
       "x-cache": "Miss from cloudfront",
-      "via": "1.1 172c5fb61e3c25c3999628de323ae63c.cloudfront.net (CloudFront)",
-      "x-amz-cf-pop": "LAX54-P1",
-      "x-amz-cf-id": "m0-wOXOJaawCxRQ-B-Mv0q3-I0MoKs4LS3BaZYfz-xrwjpXJn77BHQ=="
+      "via": "1.1 bf4d82ed0541e8e80440125c2f76d772.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "ORD58-P10",
+      "x-amz-cf-id": "KM-8GlbpZyimKDlfX29iAexkfjwIBG3WxXC5kKAJIVKYlEj3GEPpeQ=="
     }
   },
   "tests": {
