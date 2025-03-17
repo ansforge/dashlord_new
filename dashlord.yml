@@ -22,6 +22,7 @@ tools:
   ecoindex: true
   dsfr: true
   betagouv: false
+depth: 5
 columns: # pour masquer des colonnes
   zap: false
   stats: false
