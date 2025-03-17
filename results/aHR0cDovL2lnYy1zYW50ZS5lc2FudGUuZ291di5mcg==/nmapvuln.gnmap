@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Mar 16 02:24:09 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igc-sante.esante.gouv.fr
+# Nmap 7.92 scan initiated Mon Mar 17 15:24:10 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igc-sante.esante.gouv.fr
 Host: 185.231.164.125 ()	Status: Up
 Host: 185.231.164.125 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (998)
-# Nmap done at Sun Mar 16 02:25:10 2025 -- 1 IP address (1 host up) scanned in 61.28 seconds
+# Nmap done at Mon Mar 17 15:25:24 2025 -- 1 IP address (1 host up) scanned in 73.76 seconds
