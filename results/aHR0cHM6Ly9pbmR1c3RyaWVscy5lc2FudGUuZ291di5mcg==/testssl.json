@@ -346,7 +346,7 @@
               "ip"           : "industriels.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "167 >= 60 days"
+              "finding"      : "166 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "industriels.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-118611 seconds from localtime"
+              "finding"      : "-2550 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "industriels.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1741973612"
+              "finding"      : "1742222716"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1112,6 +1112,6 @@
               "ip"           : "industriels.esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "62"
           }
 ]
