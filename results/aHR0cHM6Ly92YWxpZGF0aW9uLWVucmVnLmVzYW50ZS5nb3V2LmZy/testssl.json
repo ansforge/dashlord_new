@@ -339,7 +339,7 @@
               "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "167 >= 60 days"
+              "finding"      : "166 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742099603"
+              "finding"      : "1742232968"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1063,6 +1063,6 @@
               "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "138"
+              "finding"      : "82"
           }
 ]
