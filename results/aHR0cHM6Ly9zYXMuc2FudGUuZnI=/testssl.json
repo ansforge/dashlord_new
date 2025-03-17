@@ -346,7 +346,7 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "78 >= 60 days"
+              "finding"      : "77 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742096453"
+              "finding"      : "1742229707"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "99"
           }
 ]
