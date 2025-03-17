@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Sun, 16 Mar 2025 01:32:34",
+	"@generated": "Mon, 17 Mar 2025 14:35:03",
 	"site":[ 
 		{
 			"@name": "https://annuaire.sante.fr",
@@ -20,25 +20,25 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "72",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=MYE9PLAD\">",
+							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7\">",
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"_rechercheportlet_INSTANCE_blk14HrIzEMS_adresse\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_texttofind\" \"cordonneesGeo\" \"typeRecherche\" ]."
 						},
 						{
-							"id": "56",
+							"id": "42",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=v7xpguO5\">",
+							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=dGeZ3iUN\">",
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"_rechercheportlet_INSTANCE_blk14HrIzEMS_adresse\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_texttofind\" \"cordonneesGeo\" \"typeRecherche\" ]."
 						},
 						{
-							"id": "45",
+							"id": "43",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -47,17 +47,17 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"\" ]."
 						},
 						{
-							"id": "149",
-							"uri": "https://annuaire.sante.fr/es/web/site-pro",
+							"id": "151",
+							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/es/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=v7xpguO5\">",
+							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/nl/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=9tMkyI1k\">",
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"_rechercheportlet_INSTANCE_blk14HrIzEMS_adresse\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_texttofind\" \"cordonneesGeo\" \"typeRecherche\" ]."
 						},
 						{
-							"id": "150",
-							"uri": "https://annuaire.sante.fr/es/web/site-pro",
+							"id": "153",
+							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -65,34 +65,16 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"\" ]."
 						},
 						{
-							"id": "135",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=v7xpguO5\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"_rechercheportlet_INSTANCE_blk14HrIzEMS_adresse\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_texttofind\" \"cordonneesGeo\" \"typeRecherche\" ]."
-						},
-						{
-							"id": "136",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form action=\"#\" class=\"hide\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"\" ]."
-						},
-						{
-							"id": "109",
+							"id": "97",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=v7xpguO5\">",
+							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=9tMkyI1k\">",
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"_rechercheportlet_INSTANCE_blk14HrIzEMS_adresse\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_texttofind\" \"cordonneesGeo\" \"typeRecherche\" ]."
 						},
 						{
-							"id": "110",
+							"id": "98",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -101,7 +83,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"\" ]."
 						},
 						{
-							"id": "106",
+							"id": "83",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -110,17 +92,35 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "116",
+							"id": "117",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=v7xpguO5\">",
+							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=9tMkyI1k\">",
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"_rechercheportlet_INSTANCE_blk14HrIzEMS_adresse\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_texttofind\" \"cordonneesGeo\" \"typeRecherche\" ]."
 						},
 						{
 							"id": "118",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"#\" class=\"hide\" id=\"hrefFm\" method=\"post\" name=\"hrefFm\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"\" ]."
+						},
+						{
+							"id": "138",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form name=\"fmRecherche\" id=\"fmRecherche\" method=\"POST\" action=\"https://annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=9tMkyI1k\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"_rechercheportlet_INSTANCE_blk14HrIzEMS_adresse\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite\" \"_rechercheportlet_INSTANCE_blk14HrIzEMS_texttofind\" \"cordonneesGeo\" \"typeRecherche\" ]."
+						},
+						{
+							"id": "139",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -134,7 +134,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10038",
@@ -156,16 +156,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "130",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "103",
+							"id": "87",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -174,7 +165,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
+							"id": "76",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -183,8 +174,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "112",
+							"id": "107",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "132",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -211,7 +211,7 @@
 					"desc": "<p>X-Frame-Options (XFO) headers were found, a response with multiple XFO header entries may not be predictably treated by all user-agents.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "4",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -220,7 +220,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "173",
+							"id": "171",
 							"uri": "https://annuaire.sante.fr/ca/web/site-pro",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -229,7 +229,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "144",
+							"id": "169",
 							"uri": "https://annuaire.sante.fr/es/web/site-pro",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -238,8 +238,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "163",
-							"uri": "https://annuaire.sante.fr/fi/web/site-pro",
+							"id": "140",
+							"uri": "https://annuaire.sante.fr/iw/web/site-pro",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -256,7 +256,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "178",
+							"id": "137",
 							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -265,7 +265,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "125",
+							"id": "173",
 							"uri": "https://annuaire.sante.fr/web/site-pro",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -274,7 +274,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "56",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "57",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -292,7 +292,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
+							"id": "93",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -301,8 +301,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "162",
-							"uri": "https://annuaire.sante.fr/zh/web/site-pro",
+							"id": "130",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -329,7 +329,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "74",
+							"id": "53",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -338,7 +338,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "187",
+							"id": "186",
 							"uri": "https://annuaire.sante.fr/ca/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -347,7 +347,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "170",
+							"id": "185",
 							"uri": "https://annuaire.sante.fr/es/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -356,8 +356,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "177",
-							"uri": "https://annuaire.sante.fr/fi/web/site-pro",
+							"id": "174",
+							"uri": "https://annuaire.sante.fr/iw/web/site-pro",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -365,7 +365,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "175",
+							"id": "168",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -374,7 +374,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "188",
+							"id": "170",
 							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -383,16 +383,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "160",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://cdn.alloyui.com/1.5.1/aui/aui-min.js\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "141",
+							"id": "131",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -401,7 +392,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "139",
+							"id": "126",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -410,7 +401,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "156",
+							"id": "135",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "",
@@ -419,7 +410,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "179",
+							"id": "167",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://cdn.alloyui.com/1.5.1/aui/aui-min.js\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "188",
 							"uri": "https://annuaire.sante.fr/zh/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -447,8 +447,8 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "212",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ca_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "220",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ca_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -456,8 +456,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "222",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "230",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=de_DE&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -465,8 +465,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "206",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=es_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "228",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -474,8 +474,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "210",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fi_FI&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "217",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=es_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -483,8 +483,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "202",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fr_FR&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "224",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fi_FI&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -492,8 +492,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "218",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=hu_HU&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "197",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fr_FR&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -501,17 +501,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "216",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=iw_IL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "{jquery:\"3.4.0\"",
-							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
-						},
-						{
-							"id": "204",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ja_JP&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "226",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=hu_HU&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -520,7 +511,7 @@
 						},
 						{
 							"id": "214",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=nl_NL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=iw_IL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -528,8 +519,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "221",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=pt_BR&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "218",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ja_JP&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -537,8 +528,8 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "208",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=zh_CN&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "212",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=nl_NL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -546,7 +537,16 @@
 							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "189",
+							"id": "222",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=zh_CN&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "{jquery:\"3.4.0\"",
+							"otherinfo": "The identified library jquery, version 3.4.0 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
+						},
+						{
+							"id": "190",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/js/jquery.js",
 							"method": "GET",
 							"param": "",
@@ -561,7 +561,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "594"
+					"sourceid": "572"
 				},
 				{
 					"pluginid": "10055",
@@ -583,8 +583,8 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "145",
-							"uri": "https://annuaire.sante.fr/es/web/site-pro",
+							"id": "148",
+							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
 							"attack": "",
@@ -592,8 +592,8 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "132",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
+							"id": "144",
+							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
 							"attack": "",
@@ -601,7 +601,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "105",
+							"id": "90",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -610,7 +610,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "99",
+							"id": "78",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -619,7 +619,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "83",
+							"id": "70",
 							"uri": "https://annuaire.sante.fr/web/site-pro/aide-et-support-menu",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -628,7 +628,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "79",
+							"id": "58",
 							"uri": "https://annuaire.sante.fr/web/site-pro/extractions-mss-menu",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -637,7 +637,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "78",
+							"id": "74",
 							"uri": "https://annuaire.sante.fr/web/site-pro/extractions-publiques-menu",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -646,7 +646,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "114",
+							"id": "109",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -655,8 +655,8 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "120",
-							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=v7xpguO5&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"id": "134",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
 							"attack": "",
@@ -664,7 +664,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "82",
+							"id": "60",
 							"uri": "https://annuaire.sante.fr/web/site-pro/nomenclature-menu",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -719,35 +719,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
-							"uri": "https://annuaire.sante.fr/robots.txt",
-							"method": "GET",
-							"param": "COOKIE_SUPPORT",
-							"attack": "",
-							"evidence": "Set-Cookie: COOKIE_SUPPORT",
-							"otherinfo": ""
-						},
-						{
 							"id": "10",
 							"uri": "https://annuaire.sante.fr/robots.txt",
-							"method": "GET",
-							"param": "GUEST_LANGUAGE_ID",
-							"attack": "",
-							"evidence": "Set-Cookie: GUEST_LANGUAGE_ID",
-							"otherinfo": ""
-						},
-						{
-							"id": "8",
-							"uri": "https://annuaire.sante.fr/robots.txt",
-							"method": "GET",
-							"param": "JSESSIONID",
-							"attack": "",
-							"evidence": "Set-Cookie: JSESSIONID",
-							"otherinfo": ""
-						},
-						{
-							"id": "11",
-							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "COOKIE_SUPPORT",
 							"attack": "",
@@ -756,7 +729,7 @@
 						},
 						{
 							"id": "12",
-							"uri": "https://annuaire.sante.fr/sitemap.xml",
+							"uri": "https://annuaire.sante.fr/robots.txt",
 							"method": "GET",
 							"param": "GUEST_LANGUAGE_ID",
 							"attack": "",
@@ -765,6 +738,33 @@
 						},
 						{
 							"id": "7",
+							"uri": "https://annuaire.sante.fr/robots.txt",
+							"method": "GET",
+							"param": "JSESSIONID",
+							"attack": "",
+							"evidence": "Set-Cookie: JSESSIONID",
+							"otherinfo": ""
+						},
+						{
+							"id": "9",
+							"uri": "https://annuaire.sante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "COOKIE_SUPPORT",
+							"attack": "",
+							"evidence": "Set-Cookie: COOKIE_SUPPORT",
+							"otherinfo": ""
+						},
+						{
+							"id": "11",
+							"uri": "https://annuaire.sante.fr/sitemap.xml",
+							"method": "GET",
+							"param": "GUEST_LANGUAGE_ID",
+							"attack": "",
+							"evidence": "Set-Cookie: GUEST_LANGUAGE_ID",
+							"otherinfo": ""
+						},
+						{
+							"id": "8",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "JSESSIONID",
@@ -801,7 +801,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "176",
+							"id": "177",
 							"uri": "https://annuaire.sante.fr/ca/web/site-pro",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -810,7 +810,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "148",
+							"id": "175",
 							"uri": "https://annuaire.sante.fr/es/web/site-pro",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -819,8 +819,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "165",
-							"uri": "https://annuaire.sante.fr/fi/web/site-pro",
+							"id": "156",
+							"uri": "https://annuaire.sante.fr/iw/web/site-pro",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
 							"attack": "",
@@ -828,7 +828,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "151",
+							"id": "152",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -837,7 +837,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "182",
+							"id": "147",
 							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -846,7 +846,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "133",
+							"id": "178",
 							"uri": "https://annuaire.sante.fr/web/site-pro",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -855,7 +855,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "94",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -864,7 +864,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "82",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -873,7 +873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "115",
+							"id": "113",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
@@ -882,8 +882,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
-							"uri": "https://annuaire.sante.fr/zh/web/site-pro",
+							"id": "136",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js",
 							"attack": "",
@@ -910,8 +910,8 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "211",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ca_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "219",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ca_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -919,8 +919,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "220",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "229",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=de_DE&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -928,35 +928,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "205",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=es_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "209",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fi_FI&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "201",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fr_FR&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "217",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=hu_HU&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "227",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=en_US&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -965,7 +938,7 @@
 						},
 						{
 							"id": "215",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=iw_IL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=es_ES&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -973,8 +946,26 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "203",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ja_JP&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "223",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fi_FI&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "196",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=fr_FR&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "225",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=hu_HU&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -983,7 +974,7 @@
 						},
 						{
 							"id": "213",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=nl_NL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=iw_IL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -991,8 +982,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "219",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=pt_BR&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "216",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=ja_JP&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1000,8 +991,26 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "207",
-							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=zh_CN&minifierBundleId=javascript.everything.files&minifierType=js&t=1742020532543&themeId=rasspro_WAR_rassprotheme",
+							"id": "211",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=nl_NL&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "231",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=pt_BR&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "221",
+							"uri": "https://annuaire.sante.fr/o/frontend-js-web/everything.jsp?b=7010&browserId=other&colorSchemeId=01&languageId=zh_CN&minifierBundleId=javascript.everything.files&minifierType=js&t=1742193331619&themeId=rasspro_WAR_rassprotheme",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1009,13 +1018,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>See the references for security advice on the use of these functions.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "594"
+					"sourceid": "572"
 				},
 				{
 					"pluginid": "90004",
@@ -1028,7 +1037,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "64",
+							"id": "50",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -1037,7 +1046,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "81",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt-zin.png",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -1046,7 +1055,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
+							"id": "92",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt-zout.png",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -1055,7 +1064,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
+							"id": "86",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt_bloc_recherche_ok.png",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -1073,7 +1082,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "33",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -1082,7 +1091,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "28",
 							"uri": "https://annuaire.sante.fr/sitemap.xml?amp;groupId=20142&amp;layoutUuid=310a26af-2209-a396-e3eb-211f7a790151&amp;privateLayout=false&p_l_id=20145",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -1091,7 +1100,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "111",
+							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "51",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -1100,8 +1118,26 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "112",
+							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "52",
 							"uri": "https://annuaire.sante.fr",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "114",
+							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -1109,7 +1145,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "9",
+					"count": "12",
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy</p>",
@@ -1128,7 +1164,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "63",
+							"id": "49",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -1146,7 +1182,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "158",
+							"id": "180",
 							"uri": "https://annuaire.sante.fr/es/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1155,8 +1191,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "169",
-							"uri": "https://annuaire.sante.fr/fi/web/site-pro",
+							"id": "166",
+							"uri": "https://annuaire.sante.fr/iw/web/site-pro",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1164,7 +1200,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "161",
+							"id": "163",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1173,7 +1209,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "185",
+							"id": "164",
 							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1182,7 +1218,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "142",
+							"id": "184",
 							"uri": "https://annuaire.sante.fr/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1191,7 +1227,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "126",
+							"id": "121",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -1200,7 +1236,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "123",
+							"id": "110",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1209,7 +1245,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "134",
+							"id": "125",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "",
@@ -1218,8 +1254,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "172",
-							"uri": "https://annuaire.sante.fr/zh/web/site-pro",
+							"id": "155",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1246,7 +1282,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "58",
+							"id": "46",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -1255,8 +1291,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
-							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/css/ie.css",
+							"id": "128",
+							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/css/ie7.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1264,34 +1300,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
-							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/css/ie9.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "108",
-							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/css/ol.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "101",
-							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/css/safari.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "86",
+							"id": "79",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt-zin.png",
 							"method": "GET",
 							"param": "",
@@ -1300,7 +1309,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "88",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt-zout.png",
 							"method": "GET",
 							"param": "",
@@ -1309,7 +1318,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "84",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt_bloc_recherche_ok.png",
 							"method": "GET",
 							"param": "",
@@ -1327,7 +1336,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "14",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1336,8 +1345,35 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "15",
 							"uri": "https://annuaire.sante.fr/sitemap.xml?amp;groupId=20142&amp;layoutUuid=310a26af-2209-a396-e3eb-211f7a790151&amp;privateLayout=false&p_l_id=20145",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "115",
+							"uri": "https://annuaire.sante.fr/web/site-pro/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "101",
+							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "123",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1364,7 +1400,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "59",
+							"id": "47",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -1373,7 +1409,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
 						},
 						{
-							"id": "180",
+							"id": "182",
 							"uri": "https://annuaire.sante.fr/ca/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1382,7 +1418,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
 						},
 						{
-							"id": "157",
+							"id": "179",
 							"uri": "https://annuaire.sante.fr/es/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1391,8 +1427,8 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
 						},
 						{
-							"id": "168",
-							"uri": "https://annuaire.sante.fr/fi/web/site-pro",
+							"id": "165",
+							"uri": "https://annuaire.sante.fr/iw/web/site-pro",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1400,7 +1436,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
 						},
 						{
-							"id": "159",
+							"id": "161",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1409,7 +1445,16 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
 						},
 						{
-							"id": "122",
+							"id": "162",
+							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_h8O1E7i4H7ta",
+							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
+						},
+						{
+							"id": "129",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/css/ie7.css",
 							"method": "GET",
 							"param": "",
@@ -1418,16 +1463,7 @@
 							"otherinfo": "\uFFFD_\uFFFD\\x0001$\uFFFD\uFFFD\uFFFD,\uFFFDs\uFFFDj\uFFFDaz{b\uFFFD\\x001ej\uFFFD!\uFFFD\u01AB\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\uFFFD-"
 						},
 						{
-							"id": "140",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_h8O1E7i4H7ta",
-							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
-						},
-						{
-							"id": "124",
+							"id": "119",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -1436,7 +1472,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
 						},
 						{
-							"id": "121",
+							"id": "102",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1445,7 +1481,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\u066C\\x00163\\x0011\uFFFD8\uFFFD"
 						},
 						{
-							"id": "129",
+							"id": "124",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "",
@@ -1454,8 +1490,8 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD'\u07AD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFDz{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD{^\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\rI0\r\\x0008O\uFFFD\uFFFD\uFFFDD\uFFFD.\\x0007\uFFFD\uFFFD"
 						},
 						{
-							"id": "171",
-							"uri": "https://annuaire.sante.fr/zh/web/site-pro",
+							"id": "150",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1482,7 +1518,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "49",
+							"id": "44",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -1491,16 +1527,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode=vi\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "154",
-							"uri": "https://annuaire.sante.fr/es/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/es/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "152",
+							"id": "157",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1509,16 +1536,16 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/ja/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "137",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
+							"id": "159",
+							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode=vi\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/nl/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "117",
+							"id": "104",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -1527,7 +1554,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode=vi\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "127",
+							"id": "120",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
 							"method": "GET",
 							"param": "",
@@ -1536,7 +1563,16 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode=vi\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "50",
+							"id": "141",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//annuaire.sante.fr/web/site-pro/home?p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=2&p_p_state=normal&p_p_mode=vi\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "45",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -1545,16 +1581,7 @@
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"<!-- \n\n\n\n\n\n\n<portlet:defineObjects />\n\n\n\n\n\n\n<div style=\"display: none;\" id=\"WebServiceExceptionId\">\n\t\n</div>\n\n<div style=\"displa\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "155",
-							"uri": "https://annuaire.sante.fr/es/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"<!-- \n\n\n\n\n\n\n<portlet:defineObjects />\n\n\n\n\n\n\n<div style=\"display: none;\" id=\"WebServiceExceptionId\">\n\t\n</div>\n\n<div style=\"displa\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "153",
+							"id": "158",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1563,8 +1590,8 @@
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"<!-- \n\n\n\n\n\n\n<portlet:defineObjects />\n\n\n\n\n\n\n<div style=\"display: none;\" id=\"WebServiceExceptionId\">\n\t\n</div>\n\n<div style=\"displa\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "138",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
+							"id": "160",
+							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1572,7 +1599,7 @@
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"<!-- \n\n\n\n\n\n\n<portlet:defineObjects />\n\n\n\n\n\n\n<div style=\"display: none;\" id=\"WebServiceExceptionId\">\n\t\n</div>\n\n<div style=\"displa\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "119",
+							"id": "105",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -1581,8 +1608,17 @@
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"<!-- \n\n\n\n\n\n\n<portlet:defineObjects />\n\n\n\n\n\n\n<div style=\"display: none;\" id=\"WebServiceExceptionId\">\n\t\n</div>\n\n<div style=\"displa\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "128",
+							"id": "122",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "select",
+							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"<!-- \n\n\n\n\n\n\n<portlet:defineObjects />\n\n\n\n\n\n\n<div style=\"display: none;\" id=\"WebServiceExceptionId\">\n\t\n</div>\n\n<div style=\"displa\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "142",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1618,7 +1654,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=fr_FR\n"
 						},
 						{
-							"id": "174",
+							"id": "176",
 							"uri": "https://annuaire.sante.fr/ca/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1627,7 +1663,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=ca_ES\n"
 						},
 						{
-							"id": "146",
+							"id": "172",
 							"uri": "https://annuaire.sante.fr/es/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1636,7 +1672,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=es_ES\n"
 						},
 						{
-							"id": "164",
+							"id": "187",
 							"uri": "https://annuaire.sante.fr/fi/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1645,7 +1681,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=fi_FI\n"
 						},
 						{
-							"id": "186",
+							"id": "189",
 							"uri": "https://annuaire.sante.fr/hu/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1654,7 +1690,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=hu_HU\n"
 						},
 						{
-							"id": "184",
+							"id": "154",
 							"uri": "https://annuaire.sante.fr/iw/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1663,7 +1699,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=iw_IL\n"
 						},
 						{
-							"id": "147",
+							"id": "149",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1672,7 +1708,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=ja_JP\n"
 						},
 						{
-							"id": "181",
+							"id": "146",
 							"uri": "https://annuaire.sante.fr/nl/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1681,7 +1717,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=nl_NL\n"
 						},
 						{
-							"id": "6",
+							"id": "5",
 							"uri": "https://annuaire.sante.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1690,7 +1726,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=fr_FR\n"
 						},
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1699,7 +1735,7 @@
 							"otherinfo": "The origin domain used for comparison was:\nannuaire.sante.fr\nGUEST_LANGUAGE_ID=fr_FR\n"
 						},
 						{
-							"id": "166",
+							"id": "181",
 							"uri": "https://annuaire.sante.fr/zh/web/site-pro",
 							"method": "GET",
 							"param": "",
@@ -1727,7 +1763,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "199",
+							"id": "195",
 							"uri": "https://annuaire.sante.fr/ca/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1736,7 +1772,16 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "195",
+							"id": "203",
+							"uri": "https://annuaire.sante.fr/de/web/site-pro/accedez-a-votre-compte",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a onclick=\"javascript:connectpsc();\" style=\"cursor: pointer;\" title=\"Connexion ProSanteConnect\" web=\"\"><span style=\"color: white;font-weight: bold;\">Connexion ProSant\u00E9Connect</span></a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "199",
 							"uri": "https://annuaire.sante.fr/en/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1745,7 +1790,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "191",
+							"id": "192",
 							"uri": "https://annuaire.sante.fr/es/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1763,7 +1808,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "198",
+							"id": "200",
 							"uri": "https://annuaire.sante.fr/hu/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1772,7 +1817,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "197",
+							"id": "193",
 							"uri": "https://annuaire.sante.fr/iw/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1781,7 +1826,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "192",
+							"id": "202",
 							"uri": "https://annuaire.sante.fr/ja/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1790,7 +1835,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "193",
+							"id": "198",
 							"uri": "https://annuaire.sante.fr/nl/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1799,7 +1844,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "196",
+							"id": "201",
 							"uri": "https://annuaire.sante.fr/pt/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1808,7 +1853,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "111",
+							"id": "99",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1817,18 +1862,9 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "190",
+							"id": "191",
 							"uri": "https://annuaire.sante.fr/zh/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a onclick=\"javascript:connectpsc();\" style=\"cursor: pointer;\" title=\"Connexion ProSanteConnect\" web=\"\"><span style=\"color: white;font-weight: bold;\">Connexion ProSant\u00E9Connect</span></a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "200",
-							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
-							"method": "POST",
 							"param": "",
 							"attack": "",
 							"evidence": "<a onclick=\"javascript:connectpsc();\" style=\"cursor: pointer;\" title=\"Connexion ProSanteConnect\" web=\"\"><span style=\"color: white;font-weight: bold;\">Connexion ProSant\u00E9Connect</span></a>",
@@ -1841,7 +1877,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "412"
+					"sourceid": "423"
 				},
 				{
 					"pluginid": "10049",
@@ -1854,7 +1890,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "60",
+							"id": "48",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "",
@@ -1863,7 +1899,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "29",
 							"uri": "https://annuaire.sante.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1872,7 +1908,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "32",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1881,7 +1917,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "23",
 							"uri": "https://annuaire.sante.fr/sitemap.xml?amp;groupId=20142&amp;layoutUuid=310a26af-2209-a396-e3eb-211f7a790151&amp;privateLayout=false&p_l_id=20145",
 							"method": "GET",
 							"param": "",
@@ -1890,7 +1926,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "71",
 							"uri": "https://annuaire.sante.fr/web/site-pro/aide-et-support-menu",
 							"method": "GET",
 							"param": "",
@@ -1899,7 +1935,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "59",
 							"uri": "https://annuaire.sante.fr/web/site-pro/extractions-mss-menu",
 							"method": "GET",
 							"param": "",
@@ -1908,7 +1944,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "75",
 							"uri": "https://annuaire.sante.fr/web/site-pro/extractions-publiques-menu",
 							"method": "GET",
 							"param": "",
@@ -1917,7 +1953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "61",
 							"uri": "https://annuaire.sante.fr/web/site-pro/nomenclature-menu",
 							"method": "GET",
 							"param": "",
@@ -1954,16 +1990,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "131",
-							"uri": "https://annuaire.sante.fr/web/site-pro",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "104",
+							"id": "89",
 							"uri": "https://annuaire.sante.fr/web/site-pro/",
 							"method": "GET",
 							"param": "",
@@ -1972,7 +1999,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "77",
 							"uri": "https://annuaire.sante.fr/web/site-pro/accedez-a-votre-compte",
 							"method": "GET",
 							"param": "",
@@ -1981,8 +2008,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "113",
+							"id": "108",
 							"uri": "https://annuaire.sante.fr/web/site-pro/home",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "133",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2009,7 +2045,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "25",
 							"uri": "https://annuaire.sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -2018,7 +2054,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "27",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -2027,7 +2063,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "20",
 							"uri": "https://annuaire.sante.fr/sitemap.xml?amp;groupId=20142&amp;layoutUuid=310a26af-2209-a396-e3eb-211f7a790151&amp;privateLayout=false&p_l_id=20145",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -2055,7 +2091,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "24",
 							"uri": "https://annuaire.sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -2073,7 +2109,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "17",
 							"uri": "https://annuaire.sante.fr/sitemap.xml?amp;groupId=20142&amp;layoutUuid=310a26af-2209-a396-e3eb-211f7a790151&amp;privateLayout=false&p_l_id=20145",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -2101,7 +2137,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "19",
 							"uri": "https://annuaire.sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2110,7 +2146,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "18",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2119,7 +2155,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "16",
 							"uri": "https://annuaire.sante.fr/sitemap.xml?amp;groupId=20142&amp;layoutUuid=310a26af-2209-a396-e3eb-211f7a790151&amp;privateLayout=false&p_l_id=20145",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -2156,7 +2192,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "30",
 							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2165,7 +2201,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "21",
 							"uri": "https://annuaire.sante.fr/sitemap.xml?amp;groupId=20142&amp;layoutUuid=310a26af-2209-a396-e3eb-211f7a790151&amp;privateLayout=false&p_l_id=20145",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2193,30 +2229,30 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "54",
 							"uri": "https://annuaire.sante.fr",
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "969B80FC7144207CB5D7797DAA521B2F",
-							"otherinfo": "\ncookie:JSESSIONID"
-						},
-						{
-							"id": "42",
-							"uri": "https://annuaire.sante.fr",
-							"method": "GET",
-							"param": "JSESSIONID",
-							"attack": "",
-							"evidence": "D20B9D3FBD015DA82A00F7973A9F884E",
+							"evidence": "3B9ECCFB44EFE89484010A87A578F641",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
 							"id": "0",
+							"uri": "https://annuaire.sante.fr",
+							"method": "GET",
+							"param": "JSESSIONID",
+							"attack": "",
+							"evidence": "DBA4721A4DF2E167840233DD1331117B",
+							"otherinfo": "\ncookie:JSESSIONID"
+						},
+						{
+							"id": "2",
 							"uri": "https://annuaire.sante.fr/robots.txt",
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "D498A4231B79C4A0EB00401D1C978F24",
+							"evidence": "BF5C69E2819F2A0F5716E9B078004DD2",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
@@ -2225,16 +2261,16 @@
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "46689CD43C2E70F2833177736CB6BF6A",
+							"evidence": "9BBEF3C5014E0592C4C772C779E16ACD",
 							"otherinfo": "\ncookie:JSESSIONID"
 						},
 						{
-							"id": "4",
-							"uri": "https://annuaire.sante.fr",
+							"id": "3",
+							"uri": "https://annuaire.sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "D20B9D3FBD015DA82A00F7973A9F884E",
+							"evidence": "9BBEF3C5014E0592C4C772C779E16ACD",
 							"otherinfo": "\ncookie:JSESSIONID"
 						}
 					],
@@ -2244,7 +2280,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10049",
@@ -2257,7 +2293,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "88",
+							"id": "80",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt-zin.png",
 							"method": "GET",
 							"param": "",
@@ -2266,7 +2302,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "90",
+							"id": "91",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt-zout.png",
 							"method": "GET",
 							"param": "",
@@ -2275,7 +2311,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "93",
+							"id": "85",
 							"uri": "https://annuaire.sante.fr/o/rass-pro-theme/images/bt_bloc_recherche_ok.png",
 							"method": "GET",
 							"param": "",
@@ -2290,7 +2326,98 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "93"
+					"sourceid": "90"
+				},
+				{
+					"pluginid": "10031",
+					"alertRef": "10031",
+					"alert": "User Controllable HTML Element Attribute (Potential XSS)",
+					"name": "User Controllable HTML Element Attribute (Potential XSS)",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
+					"instances":[ 
+						{
+							"id": "145",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "GET",
+							"param": "p_p_mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [meta] tag [name] attribute\n\nThe user input found was:\np_p_mode=view\n\nThe user-controlled value was:\nviewport"
+						},
+						{
+							"id": "207",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\n_rechercheportlet_INSTANCE_blk14HrIzEMS_integralite=active_only\n\nThe user-controlled value was:\nactive_only"
+						},
+						{
+							"id": "206",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\n_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite=active\n\nThe user-controlled value was:\nactive"
+						},
+						{
+							"id": "208",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\n_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite=active\n\nThe user-controlled value was:\nactive_only"
+						},
+						{
+							"id": "205",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [li] tag [class] attribute\n\nThe user input found was:\n_rechercheportlet_INSTANCE_blk14HrIzEMS_rechercheProximite=active\n\nThe user-controlled value was:\nactive"
+						},
+						{
+							"id": "209",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "_rechercheportlet_INSTANCE_blk14HrIzEMS_typeRecherche",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\n_rechercheportlet_INSTANCE_blk14HrIzEMS_typeRecherche=textLibre\n\nThe user-controlled value was:\ntextlibre"
+						},
+						{
+							"id": "204",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "p_p_mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [meta] tag [name] attribute\n\nThe user input found was:\np_p_mode=view\n\nThe user-controlled value was:\nviewport"
+						},
+						{
+							"id": "210",
+							"uri": "https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal",
+							"method": "POST",
+							"param": "p_p_mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal\n\nappears to include user input in:\na(n) [meta] tag [name] attribute\n\nThe user input found was:\np_p_mode=view\n\nThe user-controlled value was:\nviewport"
+						}
+					],
+					"count": "8",
+					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
+					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://annuaire.sante.fr/web/site-pro/home?_rechercheportlet_INSTANCE_blk14HrIzEMS_javax.portlet.action=rechercheDetailleeAction&p_auth=88rKftc7&p_p_id=rechercheportlet_INSTANCE_blk14HrIzEMS&p_p_lifecycle=1&p_p_mode=view&p_p_state=normal</p><p></p><p>appears to include user input in:</p><p>a(n) [meta] tag [name] attribute</p><p></p><p>The user input found was:</p><p>p_p_mode=view</p><p></p><p>The user-controlled value was:</p><p>viewport</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
+					"cweid": "20",
+					"wascid": "20",
+					"sourceid": "108"
 				}
 			]
 		}
