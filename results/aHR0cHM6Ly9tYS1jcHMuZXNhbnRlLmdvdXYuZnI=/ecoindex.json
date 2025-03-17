@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://ma-cps.esante.gouv.fr",
-        "size": 1802.053,
-        "nodes": 148,
-        "requests": 22,
+        "size": 1890.02,
+        "nodes": 161,
+        "requests": 27,
         "grade": "B",
-        "score": 79.0,
-        "ges": 1.42,
-        "water": 2.13,
+        "score": 77.0,
+        "ges": 1.46,
+        "water": 2.19,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-16 02:43:35.866445",
+        "date": "2025-03-17 15:40:52.265318",
         "page_type": null
     }
 ]
