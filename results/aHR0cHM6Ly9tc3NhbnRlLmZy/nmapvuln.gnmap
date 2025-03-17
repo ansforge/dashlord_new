@@ -1,2 +1,4 @@
-# Nmap 7.92 scan initiated Sun Mar 16 03:24:52 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln mssante.fr
-# Nmap done at Sun Mar 16 03:24:55 2025 -- 1 IP address (0 hosts up) scanned in 3.48 seconds
+# Nmap 7.92 scan initiated Mon Mar 17 16:20:53 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln mssante.fr
+Host: 51.178.173.194 (mssante.fr)	Status: Up
+Host: 51.178.173.194 (mssante.fr)	Ports: 80/open/tcp//http//Apache/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+# Nmap done at Mon Mar 17 16:21:18 2025 -- 1 IP address (1 host up) scanned in 25.50 seconds
