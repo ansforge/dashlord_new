@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln gnius.esante.gouv.fr</pre>
-<p class="lead">Mon Mar 17 15:13:31 2025 – Mon Mar 17 15:14:08 2025<br>1 hosts scanned.
+<p class="lead">Thu Mar 20 11:16:46 2025 – Thu Mar 20 11:17:35 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -152,13 +152,31 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, GetRequest, HTTPOptions: 
+  FourOhFourRequest: 
     HTTP/1.1 503 Service Unavailable
-    date: Mon, 17 Mar 2025 15:13:51 GMT
+    date: Thu, 20 Mar 2025 11:17:10 GMT
+    server: Apache
+    content-length: 299
+    content-type: text/html; charset=iso-8859-1
+    strict-transport-security: max-age=31536000; preload
+    x-xss-protection: 1; mode=block
+    x-content-type-options: nosniff
+    x-permitted-cross-domain-policies: none
+    connection: close
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;503 Service Unavailable&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Service Unavailable&lt;/h1&gt;
+    &lt;p&gt;The server is temporarily unable to service your
+    request due to maintenance downtime or capacity
+    problems. Please try again later.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 503 Service Unavailable
+    date: Thu, 20 Mar 2025 11:17:09 GMT
     server: Apache
     content-length: 299
     content-type: text/html; charset=iso-8859-1
@@ -176,6 +194,8 @@
     request due to maintenance downtime or capacity
     problems. Please try again later.&lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;</pre>
+<h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 <tr class="active">
 <td>1025</td>
