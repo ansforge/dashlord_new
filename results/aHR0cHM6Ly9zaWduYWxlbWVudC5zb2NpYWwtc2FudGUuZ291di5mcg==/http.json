@@ -9,13 +9,13 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Mon, 17 Mar 2025 16:51:44 GMT",
+      "date": "Thu, 20 Mar 2025 12:53:35 GMT",
       "content-type": "text/html",
       "content-length": "1296",
       "connection": "close",
       "last-modified": "Wed, 19 Feb 2025 09:06:57 GMT",
       "etag": "\"67b59f31-510\"",
-      "expires": "Mon, 17 Mar 2025 16:51:43 GMT",
+      "expires": "Thu, 20 Mar 2025 12:53:34 GMT",
       "cache-control": "no-cache",
       "x-frame-options": "SAMEORIGIN",
       "x-xss-protection": "1; mode=block",
@@ -23,7 +23,7 @@
       "accept-ranges": "bytes",
       "strict-transport-security": "max-age=15724800; includeSubDomains",
       "set-cookie": [
-        "cookiesession1=678A3E1E66CA9FB9838F0660766BFA52;Expires=Tue, 17 Mar 2026 16:51:44 GMT;Path=/;HttpOnly"
+        "cookiesession1=678A3E1E1A0C049DA3F68D30BD8763D7;Expires=Fri, 20 Mar 2026 12:53:35 GMT;Path=/;HttpOnly"
       ]
     }
   },
@@ -47,7 +47,7 @@
       "data": {
         "cookiesession1": {
           "domain": "signalement.social-sante.gouv.fr",
-          "expires": "2026-03-17T16:51:44.000Z",
+          "expires": "2026-03-20T12:53:35.000Z",
           "httponly": true,
           "path": "/",
           "port": null
