@@ -9,7 +9,6 @@ operator:
 depth: 5
 tools:
   "404": true
-    depth: 5
   screenshot: true
   nmap: true
   zap: true
