@@ -1,25 +1,20 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "C",
+    "grade": "D",
     "error": null,
-    "score": 55,
+    "score": 30,
     "statusCode": 200,
-    "testsFailed": 2,
-    "testsPassed": 8,
+    "testsFailed": 4,
+    "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Mon, 17 Mar 2025 17:35:28 GMT",
-      "server": "Apache",
-      "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
-      "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
-      "last-modified": "Thu, 10 Oct 2024 07:34:19 GMT",
+      "date": "Thu, 20 Mar 2025 13:36:38 GMT",
+      "server": "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1g",
+      "last-modified": "Tue, 06 Aug 2024 14:42:46 GMT",
+      "etag": "\"1b99-61f04ce8de580\"",
       "accept-ranges": "bytes",
-      "content-length": "11208",
-      "x-xss-protection": "1;mode=block",
-      "x-content-type-options": "nosniff",
-      "x-webkit-csp": "default-src 'self'",
-      "x-permitted-cross-domain-policies": "master-only",
+      "content-length": "7065",
       "connection": "close",
       "content-type": "text/html; charset=UTF-8"
     }
@@ -72,13 +67,13 @@
     },
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
-      "pass": true,
-      "result": "hsts-implemented-max-age-at-least-six-months",
-      "scoreModifier": 0,
-      "data": "max-age=63072000; includeSubdomains; preload",
-      "includeSubDomains": true,
-      "maxAge": 63072000,
-      "preload": true,
+      "pass": false,
+      "result": "hsts-not-implemented",
+      "scoreModifier": -20,
+      "data": null,
+      "includeSubDomains": false,
+      "maxAge": null,
+      "preload": false,
       "preloaded": false
     },
     "subresource-integrity": {
@@ -103,17 +98,17 @@
     },
     "x-content-type-options": {
       "expectation": "x-content-type-options-nosniff",
-      "pass": true,
-      "result": "x-content-type-options-nosniff",
-      "scoreModifier": 0,
-      "data": "nosniff"
+      "pass": false,
+      "result": "x-content-type-options-not-implemented",
+      "scoreModifier": -5,
+      "data": null
     },
     "x-frame-options": {
       "expectation": "x-frame-options-sameorigin-or-deny",
       "pass": false,
-      "result": "x-frame-options-header-invalid",
+      "result": "x-frame-options-not-implemented",
       "scoreModifier": -20,
-      "data": "SAMEORIGIN, SAMEORIGIN"
+      "data": null
     },
     "cross-origin-resource-policy": {
       "expectation": "corp-implemented-with-same-site",

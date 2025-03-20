@@ -1,70 +1,70 @@
 [
          {
               "id"           : "service",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No 128 cipher limit bug"
           }
 ,         {
               "id"           : "SSLv2",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "SSLv3",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "TLS1_3",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered + downgraded to weaker protocol"
           }
 ,         {
               "id"           : "ALPN",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not offered"
+              "finding"      : "http/1.1"
           }
 ,         {
               "id"           : "cipherlist_NULL",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -72,7 +72,7 @@
           }
 ,         {
               "id"           : "cipherlist_aNULL",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -80,7 +80,7 @@
           }
 ,         {
               "id"           : "cipherlist_EXPORT",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -88,7 +88,7 @@
           }
 ,         {
               "id"           : "cipherlist_LOW",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -96,7 +96,7 @@
           }
 ,         {
               "id"           : "cipherlist_3DES_IDEA",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-310",
@@ -104,7 +104,7 @@
           }
 ,         {
               "id"           : "cipherlist_OBSOLETED",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "LOW",
               "cwe"          : "CWE-310",
@@ -112,455 +112,567 @@
           }
 ,         {
               "id"           : "cipherlist_STRONG_NOFS",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_FS",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "cipher_order-tls1_2",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1_2",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "NOT a cipher order configured"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9f",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x6b",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x39",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9d",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3d",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x35",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9e",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x67",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x33",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9c",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3c",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x2f",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "supportedciphers_TLSv1_2",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA AES256-GCM-SHA384 AES256-SHA256 AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA AES128-GCM-SHA256 AES128-SHA256 AES128-SHA"
           }
 ,         {
               "id"           : "cipher_order",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
+              "severity"     : "INFO",
+              "finding"      : "NOT a cipher order configured"
           }
 ,         {
               "id"           : "FS",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "FS_ciphers",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "secp256k1 prime256v1 secp384r1 secp521r1"
+              "finding"      : "prime256v1 secp384r1 secp521r1"
           }
 ,         {
               "id"           : "TLS_extensions",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'server name/#0' 'EC point formats/#11' 'heartbeat/#15' 'session ticket/#35' 'renegotiation info/#65281'"
+              "finding"      : "'server name/#0' 'max fragment length/#1' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23' 'session ticket/#35' 'renegotiation info/#65281'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 7200 seconds only (<daily)"
+              "finding"      : "valid for 300 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "yes"
           }
 ,         {
               "id"           : "sessionresumption_ticket",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "random"
           }
 ,         {
               "id"           : "cert_compression",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "N/A"
           }
 ,         {
               "id"           : "clientAuth",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "none"
           }
 ,         {
               "id"           : "cert_numbers",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1"
           }
 ,         {
               "id"           : "cert_signatureAlgorithm",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SHA256 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "RSA 2048 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Digital Signature, Key Encipherment"
           }
 ,         {
               "id"           : "cert_extKeyUsage",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
           }
 ,         {
               "id"           : "cert_serialNumber",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "0D39AF21520902DB09D7942B288AFE1C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "16"
           }
 ,         {
               "id"           : "cert_fingerprintSHA1",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "3FCB2637F0189AD1DC36496D6E223F72BF80F61D"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "B150B57372CC0EEC6992A50489A07FBD6F2C87AEDC9A09CA1A9C3BCF344643A8"
           }
 ,         {
               "id"           : "cert",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "-----BEGIN CERTIFICATE-----\nMIIGlzCCBX+gAwIBAgIQDTmvIVIJAtsJ15QrKIr+HDANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRUaGF3dGUgVExTIFJTQSBDQSBHMTAeFw0yNDA3MzAwMDAwMDBaFw0yNTA4MzAyMzU5NTlaMIGLMQswCQYDVQQGEwJGUjEXMBUGA1UECAwOw45sZS1kZS1GcmFuY2UxDjAMBgNVBAcTBVBBUklTMSkwJwYDVQQKEyBBR0VOQ0UgRFUgTlVNRVJJUVVFIEVOIFNBTlRFIEdJUDEoMCYGA1UEAxMfdmFsaWRhdGlvbi1lbnJlZy5lc2FudGUuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMv1YM0Ghzai4zrCVRZqbE+jp7hHqo1nmMljoFDCQiQpEEUNg4PRajaa7v7LiJIico5RgAwZjIN3FP+jfvisEj22zS+E7f0qW3LMwI4Q3cA9UjMhz9GXkpfRrIzaO4TuoewWJNK6MdQcC2J5EoVULL50PPQ9riOKnLVSs057SSJqZuiXwZIm8kl/1bWNYqU13voEHAMynbUDBFdOWcQ1TACFuJLqaGjIBhDTSKin8+Hy51j4dKKcZ24047ySy8HztvyZL91vFYMd63pFEjHwPErGktFUibedARJuMWLnJBUM7Ky97WWQpby6RQ4UgZWXcDNu3KHsvEKOBdGHUeaKpTECAwEAAaOCAyEwggMdMB8GA1UdIwQYMBaAFKWM/jLM6w8s1BnGCLgAJIhdw8W3MB0GA1UdDgQWBBQ4QhPYrDctKvvg79GFt5p/eF4ecDAqBgNVHREEIzAhgh92YWxpZGF0aW9uLWVucmVnLmVzYW50ZS5nb3V2LmZyMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMDsGA1UdHwQ0MDIwMKAuoCyGKmh0dHA6Ly9jZHAudGhhd3RlLmNvbS9UaGF3dGVUTFNSU0FDQUcxLmNybDBwBggrBgEFBQcBAQRkMGIwJAYIKwYBBQUHMAGGGGh0dHA6Ly9zdGF0dXMudGhhd3RlLmNvbTA6BggrBgEFBQcwAoYuaHR0cDovL2NhY2VydHMudGhhd3RlLmNvbS9UaGF3dGVUTFNSU0FDQUcxLmNydDAMBgNVHRMBAf8EAjAAMIIBgQYKKwYBBAHWeQIEAgSCAXEEggFtAWsAdwAS8U40vVNyTIQGGcOPP3oT+Oe1YoeInG0wBYTr5YYmOgAAAZEEvwE0AAAEAwBIMEYCIQDUpb9T1mxoTM58mVbAIsiqRfbmh/rkGwoTfKGyoRZZRAIhALJx1eM4Msp1UYE+JHsLsoOJWE01bBCzt5z5aY0ytkuLAHcAfVkeEuF4KnscYWd8Xv340IdcFKBOlZ65Ay/ZDowuebgAAAGRBL8BZAAABAMASDBGAiEAx/pZignWMDnXSqRNUQZYxXXZJdqQr56oVNG2T5rb+ucCIQDYNJ+am0ttYe7ihU9GiJiw0eshT3xif5V3BoNk4oxY8wB3AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2wAAABkQS/ATMAAAQDAEgwRgIhAJM69KcgKZn9yfwLPbJmRsuntIi+YrYAfUSJJOuSud4/AiEAqF9iMAFnAwS26lnqN0jZCuZl3YvNihSdRTNybYcc4jwwDQYJKoZIhvcNAQELBQADggEBAFOG2Ao/8dHispp3vvu2h2uyWoxiwQ87ZK6JIW/dC8I38rFBQ04Npa8lfQ6F1qiYZxD0lP51N069LiUIMsCvSFSfDkq7dDcyZZTky+j9+7XQ/zpVg6kb3eTTCSjco/OaH7sM3LA6jWeQs+Y3ISyqd/JG12SklSlo64JpyJF9OtmYw0Exk2h8TXNAHovX7BbugNTAIyIFU0t+Bozojl4WJWbQLAw6o9AbnYZq2e57cWdBOxydrEpotX1vmhFiAEJ6NpuzYN7liPjvqdYuFjhoOb6WfY70SnQ81p0oNQZg98Rmur5t71hUzU4nBrI4hVNBangSNLB9n0dRlfXVTneVFpo=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "validation-enreg.esante.gouv.fr"
           }
 ,         {
               "id"           : "cert_commonName_wo_SNI",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "validation-enreg.esante.gouv.fr"
+              "finding"      : "convergence.esante.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "validation-enreg.esante.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "Ok via SAN and CN (same w/o SNI)"
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_expirationStatus",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "166 >= 60 days"
+              "finding"      : "163 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2024-07-30 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "2025-08-30 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "certificate has no extended life time according to browser forum"
           }
 ,         {
               "id"           : "cert_eTLS",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not present"
           }
 ,         {
               "id"           : "cert_crlDistributionPoints",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http://cdp.thawte.com/ThawteTLSRSACAG1.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http://status.thawte.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "cert_mustStapleExtension",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "--"
           }
 ,         {
               "id"           : "DNS_CAArecord",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "--"
           }
 ,         {
               "id"           : "certificate_transparency",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "yes (certificate extension)"
           }
 ,         {
               "id"           : "certs_countServer",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_caIssuers",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Thawte TLS RSA CA G1 (DigiCert Inc from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEizCCA3OgAwIBAgIQCQ7oxd5b+mLSri/3CXxIVzANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xNzExMDIxMjI0MjVaFw0yNzExMDIxMjI0MjVaMF4xCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xHTAbBgNVBAMTFFRoYXd0ZSBUTFMgUlNBIENBIEcxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxjngmPhVetC0b/ozbYJdzOBUA1sMog47030cAP+P23ANUN8grXECL8NhDEF4F1R9tL0wY0mczHaR0a7lYanlxtwWo1s2uGnnyDs6mOCs66ew2w3YETr6Tb14xgjpu1gGFtAeewaikO9Fud8hxGJTSwn8xeNkfKVWpD2L4vFN36FNgxeilK6aE4ykgGAzNlokTp6hNOLAYpDySdLAPKzuJSQ7JCEZ6O+SDKywIdXLoMTnpxuBKGSG88NWTo3CHCOGmQECia2yqdPDjgLqnEiYNjwQL8uMqj8rOvlMgviBcHA7xty+7/uYLN6ZS7Vq1/F/lVhVOf5ej6jZdmB85szFbQIDAQABo4IBQDCCATwwHQYDVR0OBBYEFKWM/jLM6w8s1BnGCLgAJIhdw8W3MB8GA1UdIwQYMBaAFE4iVCAYlebjbuYP+vq5Eu0GF485MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBCBgNVHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290RzIuY3JsMD0GA1UdIAQ2MDQwMgYEVR0gADAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5jb20vQ1BTMA0GCSqGSIb3DQEBCwUAA4IBAQC6km0KA4sTb2VYpEBm/uL2HL/pZX9B7L/hbJ4NcoBe7V56oCnt7aeIo8sMjCRWTCWZD1dY0+2KZOC1dKj8d1VXXAtnjytDDuPPf6/iow0mYQTO/GAg/MLyL6CDm3FzDB8VtsH/aeMgP6pgD1XQqz+haDnfnJTKBuxhcpnx3Adbleue/QnPf1hHYa8L+Rv8Pi5Uh4V9FwHOfphdMXOxi14OqmsiTbc5cOs9/uukH+YVsuFdWTna6IVw1qh+tEtyH16Rvmi7pkqyZYULOPMIE7avrljVVBZuikwARtY8tCVV6Pp9l3VeagBqb2ffgqNJt3C0TYNYQI+BXG1R1cABlold\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "4BCC5E234FE81EDE4EAF883AA19C31335B0B26E85E066B9945E4CB6153EB20C2"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2017-11-02 12:24"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "2027-11-02 12:24"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "ok > 40 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#1>",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Thawte TLS RSA CA G1 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
               "id"           : "HTTP_status_code",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "302 Found ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742232968"
+              "finding"      : "1742477845"
           }
 ,         {
-              "id"           : "HSTS_time",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "id"           : "HSTS",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "730 days (=63072000 seconds) > 15552000 seconds"
-          }
-,         {
-              "id"           : "HSTS_subdomains",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "includes subdomains"
-          }
-,         {
-              "id"           : "HSTS_preload",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "domain IS marked for preloading"
+              "severity"     : "LOW",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "HPKP",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No support for HTTP Public Key Pinning"
           }
 ,         {
               "id"           : "banner_server",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Apache"
+              "finding"      : "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1g"
           }
 ,         {
               "id"           : "banner_application",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No application banner found"
           }
 ,         {
               "id"           : "cookie_count",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
           }
 ,         {
-              "id"           : "X-Frame-Options",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "id"           : "security_headers",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "SAMEORIGIN"
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
           }
 ,         {
               "id"           : "banner_reverseproxy",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
@@ -568,16 +680,16 @@
           }
 ,         {
               "id"           : "heartbleed",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0160",
               "cwe"          : "CWE-119",
-              "finding"      : "not vulnerable , timed out"
+              "finding"      : "not vulnerable, no heartbeat extension"
           }
 ,         {
               "id"           : "CCS",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0224",
@@ -586,7 +698,7 @@
           }
 ,         {
               "id"           : "ticketbleed",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
@@ -595,7 +707,7 @@
           }
 ,         {
               "id"           : "ROBOT",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -604,7 +716,7 @@
           }
 ,         {
               "id"           : "secure_renego",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-310",
@@ -612,7 +724,7 @@
           }
 ,         {
               "id"           : "secure_client_renego",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
@@ -621,7 +733,7 @@
           }
 ,         {
               "id"           : "CRIME_TLS",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
@@ -630,7 +742,7 @@
           }
 ,         {
               "id"           : "BREACH",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2013-3587",
@@ -639,7 +751,7 @@
           }
 ,         {
               "id"           : "POODLE_SSL",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-3566",
@@ -648,14 +760,14 @@
           }
 ,         {
               "id"           : "fallback_SCSV",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-2183 CVE-2016-6329",
@@ -664,7 +776,7 @@
           }
 ,         {
               "id"           : "FREAK",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-0204",
@@ -673,7 +785,7 @@
           }
 ,         {
               "id"           : "DROWN",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
@@ -682,7 +794,7 @@
           }
 ,         {
               "id"           : "DROWN_hint",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
@@ -691,7 +803,7 @@
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "cve"          : "CVE-2015-4000",
@@ -700,7 +812,7 @@
           }
 ,         {
               "id"           : "LOGJAM",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-4000",
@@ -709,7 +821,7 @@
           }
 ,         {
               "id"           : "BEAST",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
@@ -718,7 +830,7 @@
           }
 ,         {
               "id"           : "LUCKY13",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "LOW",
               "cve"          : "CVE-2013-0169",
@@ -727,7 +839,7 @@
           }
 ,         {
               "id"           : "winshock",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-6321",
@@ -736,7 +848,7 @@
           }
 ,         {
               "id"           : "RC4",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2013-2566 CVE-2015-2808",
@@ -745,324 +857,331 @@
           }
 ,         {
               "id"           : "clientsimulation-android_60",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_11",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_12",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_79_win10",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_101_win10",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_66_win81",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_100_win10",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_6_xp",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_win7",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win7",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA"
+              "finding"      : "TLSv1.2 AES128-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win10",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_101_win10_21h2",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_121_ios_122",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-safari_130_osx_10146",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-safari_154_osx_1231",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java_7u25",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1703",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-go_1178",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-libressl_283",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_303",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-apple_mail_16_0",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-thunderbird_91_9",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "rating_spec",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
           }
 ,         {
               "id"           : "rating_doc",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
           }
 ,         {
               "id"           : "protocol_support_score",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "90"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "27"
           }
 ,         {
               "id"           : "cipher_strength_score",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "60"
+              "finding"      : "90"
           }
 ,         {
               "id"           : "cipher_strength_score_weighted",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "24"
+              "finding"      : "36"
           }
 ,         {
               "id"           : "final_score",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "93"
           }
 ,         {
               "id"           : "overall_grade",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A+"
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
-              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.189",
+              "ip"           : "validation-enreg.esante.gouv.fr/80.78.2.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "82"
+              "finding"      : "81"
           }
 ]
