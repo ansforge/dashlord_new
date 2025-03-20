@@ -514,7 +514,7 @@
               "ip"           : "igc-sante.esante.gouv.fr/185.231.164.125",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742225012"
+              "finding"      : "1742469942"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -592,7 +592,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 29545696"
+              "finding"      : "X-Varnish: 26014429"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1112,6 +1112,6 @@
               "ip"           : "igc-sante.esante.gouv.fr/185.231.164.125",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "94"
+              "finding"      : "95"
           }
 ]
