@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 17 14:37:33 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln annuaire.sante.fr
+# Nmap 7.92 scan initiated Thu Mar 20 10:41:16 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln annuaire.sante.fr
 Host: 80.78.2.206 ()	Status: Up
 Host: 80.78.2.206 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/
-# Nmap done at Mon Mar 17 14:38:22 2025 -- 1 IP address (1 host up) scanned in 48.89 seconds
+# Nmap done at Thu Mar 20 10:42:05 2025 -- 1 IP address (1 host up) scanned in 49.26 seconds

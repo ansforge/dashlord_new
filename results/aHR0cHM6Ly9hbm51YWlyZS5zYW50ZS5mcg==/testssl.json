@@ -339,7 +339,7 @@
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "145 >= 60 days"
+              "finding"      : "142 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -472,7 +472,7 @@
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Thawte TLS RSA CA G1 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -493,14 +493,14 @@
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742222194"
+              "finding"      : "1742467216"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "annuaire.sante.fr/80.78.2.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "94"
+              "finding"      : "91"
           }
 ]

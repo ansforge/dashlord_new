@@ -1,6 +1,242 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null,
-  "endpoints": null
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.alloyui.com/1.5.1/aui/aui-min.js"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "LFR_SESSION_STATE_20119",
+      "value": "1742466298619",
+      "domain": "annuaire.sante.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "GUEST_LANGUAGE_ID",
+      "value": "fr_FR",
+      "domain": ".sante.fr",
+      "path": "/",
+      "expires": 1774002296.16882,
+      "size": 22,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "COOKIE_SUPPORT",
+      "value": "true",
+      "domain": "annuaire.sante.fr",
+      "path": "/",
+      "expires": 1774002296.168714,
+      "size": 18,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "72AAB7470E7563A1E794072C7C551F95",
+      "domain": "annuaire.sante.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    }
+  ],
+  "headers": {
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "connection": "Keep-Alive",
+    "content-type": "text/html;charset=UTF-8",
+    "date": "Thu, 20 Mar 2025 10:24:54 GMT",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "keep-alive": "timeout=5, max=100",
+    "liferay-portal": "Liferay Digital Experience Platform 7.0.10 GA1 (Wilberforce / Build 7010 / June 15, 2016)",
+    "pragma": "no-cache",
+    "server": "Apache",
+    "set-cookie": "JSESSIONID=72AAB7470E7563A1E794072C7C551F95; Path=/; Secure; HttpOnly;HttpOnly;Secure\nCOOKIE_SUPPORT=true; Expires=Fri, 20-Mar-2026 10:24:55 GMT; Path=/; Secure; HttpOnly;HttpOnly;Secure\nGUEST_LANGUAGE_ID=fr_FR; Domain=.sante.fr; Expires=Fri, 20-Mar-2026 10:24:55 GMT; Path=/; Secure; HttpOnly;HttpOnly;Secure",
+    "transfer-encoding": "chunked",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
+    "x-permitted-cross-domain-policies": "master-only",
+    "x-webkit-csp": "default-src 'self'",
+    "x-xss-protection": "1;mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "annuaire.sante.fr",
+      "ip": "80.78.2.206",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "cdn.alloyui.com",
+      "ip": "104.21.40.75",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
 }

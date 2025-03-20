@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://annuaire.sante.fr",
-        "size": 3184.977,
+        "size": 3184.979,
         "nodes": 328,
         "requests": 58,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.78,
         "water": 2.67,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-17 14:22:23.830218",
+        "date": "2025-03-20 10:26:04.901771",
         "page_type": null
     }
 ]
