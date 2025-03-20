@@ -339,7 +339,7 @@
               "ip"           : "ma-cps.esante.gouv.fr/80.78.2.155",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "279 >= 60 days"
+              "finding"      : "276 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -472,7 +472,7 @@
               "ip"           : "ma-cps.esante.gouv.fr/80.78.2.155",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "preprod.ma-cps.esante.gouv.fr <-- AC IGC-SANTE ELEMENTAIRE ORGANISATIONS"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert <#2>",
@@ -514,7 +514,7 @@
               "ip"           : "ma-cps.esante.gouv.fr/80.78.2.155",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AC IGC-SANTE ELEMENTAIRE ORGANISATIONS <-- AC RACINE IGC-SANTE ELEMENTAIRE"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert <#3>",
@@ -556,7 +556,7 @@
               "ip"           : "ma-cps.esante.gouv.fr/80.78.2.155",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AC RACINE IGC-SANTE ELEMENTAIRE <-- AC RACINE IGC-SANTE ELEMENTAIRE"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -584,7 +584,7 @@
               "ip"           : "ma-cps.esante.gouv.fr/80.78.2.155",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742226212"
+              "finding"      : "1742471666"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1182,6 +1182,6 @@
               "ip"           : "ma-cps.esante.gouv.fr/80.78.2.155",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "89"
+              "finding"      : "141"
           }
 ]
