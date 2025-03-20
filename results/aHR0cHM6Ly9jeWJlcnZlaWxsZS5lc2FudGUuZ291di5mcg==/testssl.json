@@ -346,7 +346,7 @@
               "ip"           : "cyberveille.esante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "166 >= 60 days"
+              "finding"      : "163 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -479,7 +479,7 @@
               "ip"           : "cyberveille.esante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Thawte TLS RSA CA G1 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -500,14 +500,14 @@
               "ip"           : "cyberveille.esante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-52549 seconds from localtime"
+              "finding"      : "-65290 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cyberveille.esante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742169689"
+              "finding"      : "1742401872"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "cyberveille.esante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "103"
+              "finding"      : "57"
           }
 ]
