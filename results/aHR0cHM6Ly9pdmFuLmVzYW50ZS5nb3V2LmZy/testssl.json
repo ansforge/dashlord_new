@@ -367,7 +367,7 @@
               "ip"           : "ivan.esante.gouv.fr/80.78.2.159",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "166 >= 60 days"
+              "finding"      : "163 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "ivan.esante.gouv.fr/80.78.2.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Thawte TLS RSA CA G1 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -528,7 +528,7 @@
               "ip"           : "ivan.esante.gouv.fr/80.78.2.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742225998"
+              "finding"      : "1742470944"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "ivan.esante.gouv.fr/80.78.2.159",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "68"
+              "finding"      : "71"
           }
 ]

@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Mon, 17 Mar 2025 15:38:42",
+	"@generated": "Thu, 20 Mar 2025 11:41:03",
 	"site":[ 
 		{
 			"@name": "https://ivan.esante.gouv.fr",
@@ -20,7 +20,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "103",
+							"id": "102",
 							"uri": "https://ivan.esante.gouv.fr/static/jquery.dataTables.min.js",
 							"method": "GET",
 							"param": "",
@@ -35,7 +35,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "62"
+					"sourceid": "72"
 				},
 				{
 					"pluginid": "10038",
@@ -57,7 +57,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "48",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -66,7 +66,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "61",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "",
@@ -75,7 +75,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "95",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "GET",
 							"param": "",
@@ -84,7 +84,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
+							"id": "87",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "POST",
 							"param": "",
@@ -112,7 +112,7 @@
 					"desc": "<p>X-Frame-Options (XFO) headers were found, a response with multiple XFO header entries may not be predictably treated by all user-agents.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "0",
 							"uri": "https://ivan.esante.gouv.fr",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -121,7 +121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "37",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -130,7 +130,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "56",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -139,7 +139,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "105",
+							"id": "104",
 							"uri": "https://ivan.esante.gouv.fr/password-reset-done/",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -148,7 +148,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "93",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -163,7 +163,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7034</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10003",
@@ -176,7 +176,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "84",
+							"id": "83",
 							"uri": "https://ivan.esante.gouv.fr/static/jquery-ui.min.js",
 							"method": "GET",
 							"param": "",
@@ -191,7 +191,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "61"
+					"sourceid": "63"
 				},
 				{
 					"pluginid": "10055",
@@ -213,7 +213,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "44",
+							"id": "50",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -222,7 +222,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "65",
+							"id": "63",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -240,7 +240,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "91",
+							"id": "97",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -267,7 +267,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "99",
+							"id": "89",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "POST",
 							"param": "X-WebKit-CSP",
@@ -276,7 +276,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "109",
+							"id": "105",
 							"uri": "https://ivan.esante.gouv.fr/password-reset-done/",
 							"method": "POST",
 							"param": "X-WebKit-CSP",
@@ -285,7 +285,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "94",
+							"id": "99",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "POST",
 							"param": "X-WebKit-CSP",
@@ -322,8 +322,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
-							"uri": "https://ivan.esante.gouv.fr/",
+							"id": "54",
+							"uri": "https://ivan.esante.gouv.fr/static/app.css",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -331,7 +331,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "44",
 							"uri": "https://ivan.esante.gouv.fr/static/calendar.min.css",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -340,7 +340,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "33",
 							"uri": "https://ivan.esante.gouv.fr/static/dataTables.semanticui.min.css",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -349,7 +349,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "52",
 							"uri": "https://ivan.esante.gouv.fr/static/favicon.ico",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -358,7 +358,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "46",
 							"uri": "https://ivan.esante.gouv.fr/static/main.css",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -367,7 +367,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "32",
 							"uri": "https://ivan.esante.gouv.fr/static/rowReorder.semanticui.min.css",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -376,7 +376,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "38",
 							"uri": "https://ivan.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -385,26 +385,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
-							"uri": "https://ivan.esante.gouv.fr/",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "41",
+							"id": "39",
 							"uri": "https://ivan.esante.gouv.fr",
-							"method": "GET",
-							"param": "Cross-Origin-Opener-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "58",
-							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -412,7 +394,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "9",
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy</p>",
@@ -431,7 +413,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "34",
 							"uri": "https://ivan.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -440,7 +422,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "59",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -449,7 +431,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "67",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "",
@@ -458,7 +440,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "71",
 							"uri": "https://ivan.esante.gouv.fr/static/dataTables.rowReorder.min.js",
 							"method": "GET",
 							"param": "",
@@ -467,7 +449,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "69",
 							"uri": "https://ivan.esante.gouv.fr/static/dataTables.semanticui.min.js",
 							"method": "GET",
 							"param": "",
@@ -476,7 +458,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "76",
 							"uri": "https://ivan.esante.gouv.fr/static/frenchCalendar.js",
 							"method": "GET",
 							"param": "",
@@ -485,8 +467,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
-							"uri": "https://ivan.esante.gouv.fr/static/moduleA_header.js",
+							"id": "81",
+							"uri": "https://ivan.esante.gouv.fr/static/jquery-3.5.1.min.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -512,7 +494,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "74",
 							"uri": "https://ivan.esante.gouv.fr/static/sticky.min.js",
 							"method": "GET",
 							"param": "",
@@ -521,7 +503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "82",
 							"uri": "https://ivan.esante.gouv.fr/static/tablesort.js",
 							"method": "GET",
 							"param": "",
@@ -549,7 +531,7 @@
 					"desc": "<p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to \"Auto-Detect\" then this rule will change the authentication to match the request identified.</p>",
 					"instances":[ 
 						{
-							"id": "95",
+							"id": "85",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "POST",
 							"param": "email",
@@ -564,7 +546,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "85"
+					"sourceid": "81"
 				},
 				{
 					"pluginid": "10094",
@@ -577,7 +559,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "27",
 							"uri": "https://ivan.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -586,7 +568,7 @@
 							"otherinfo": "r\uFFFD\uFFFDr\\x0016\uFFFD\uFFFD\uFFFDP'u\uFFFD\uFFFDS\uFFFD\\x0004\uFFFDTB\uFFFD\\x000b\uFFFD\\x001d#\\x0000"
 						},
 						{
-							"id": "52",
+							"id": "57",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -595,13 +577,13 @@
 							"otherinfo": "r\uFFFD\uFFFDr\\x0016\uFFFD\uFFFD\uFFFDP'u\uFFFD\uFFFDS\uFFFD\\x0004\uFFFDTB\uFFFD\\x000b\uFFFD\\x001d#\\x0000"
 						},
 						{
-							"id": "68",
+							"id": "66",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
-							"otherinfo": "A\uFFFD*\uFFFD^\\x0002\uFFFD\uFFFD^BI\uFFFD\uFFFDe\uFFFDNP\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD*\\x0007\\x0001\uFFFDOx!mx\u06DA=\uFFFD$\uFFFDjPx\\x0007D\uFFFD\uFFFDyq\uFFFD"
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
+							"otherinfo": "\uFFFD3\\x001a6@\uFFFD\uFFFD#\uFFFD\uFFFDP\\x000b\uFFFD\t\uFFFDR\uFFFD\\x000b\uFFFDDG\\x0011DG\uFFFDZ\uFFFD\uFFFD\uFFFD\\x0010=\uFFFD\u0631\\x001a\uFFFDQR\uFFFD\uFFFD\\x0019\\x001e\uFFFD1\uFFFD"
 						},
 						{
 							"id": "108",
@@ -609,20 +591,20 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
-							"otherinfo": "A\uFFFD*\uFFFD^\\x0002\uFFFD\uFFFD^BI\uFFFD\uFFFDe\uFFFDNP\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD*\\x0007\\x0001\uFFFDOx!mx\u06DA=\uFFFD$\uFFFDjPx\\x0007D\uFFFD\uFFFDyq\uFFFD"
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
+							"otherinfo": "\uFFFD3\\x001a6@\uFFFD\uFFFD#\uFFFD\uFFFDP\\x000b\uFFFD\t\uFFFDR\uFFFD\\x000b\uFFFDDG\\x0011DG\uFFFDZ\uFFFD\uFFFD\uFFFD\\x0010=\uFFFD\u0631\\x001a\uFFFDQR\uFFFD\uFFFD\\x0019\\x001e\uFFFD1\uFFFD"
 						},
 						{
-							"id": "92",
+							"id": "98",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
-							"otherinfo": "A\uFFFD*\uFFFD^\\x0002\uFFFD\uFFFD^BI\uFFFD\uFFFDe\uFFFDNP\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD*\\x0007\\x0001\uFFFDOx!mx\u06DA=\uFFFD$\uFFFDjPx\\x0007D\uFFFD\uFFFDyq\uFFFD"
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
+							"otherinfo": "\uFFFD3\\x001a6@\uFFFD\uFFFD#\uFFFD\uFFFDP\\x000b\uFFFD\t\uFFFDR\uFFFD\\x000b\uFFFDDG\\x0011DG\uFFFDZ\uFFFD\uFFFD\uFFFD\\x0010=\uFFFD\u0631\\x001a\uFFFDQR\uFFFD\uFFFD\\x0019\\x001e\uFFFD1\uFFFD"
 						},
 						{
-							"id": "102",
+							"id": "77",
 							"uri": "https://ivan.esante.gouv.fr/static/jquery-3.5.1.min.js",
 							"method": "GET",
 							"param": "",
@@ -631,7 +613,7 @@
 							"otherinfo": "\uFFFD\uFFFD?M\\x001f\uFFFD\uFFFD]D@\uFFFDr\uFFFD7\uFFFD\u01E5y\uFFFDh\uFFFD\u03F6\uFFFD]t\uFFFDo"
 						},
 						{
-							"id": "83",
+							"id": "64",
 							"uri": "https://ivan.esante.gouv.fr/static/jquery-ui.min.css",
 							"method": "GET",
 							"param": "",
@@ -640,7 +622,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0001D\\x0000;"
 						},
 						{
-							"id": "111",
+							"id": "91",
 							"uri": "https://ivan.esante.gouv.fr/static/LOGO_ANS_2020_Largeur.jpg",
 							"method": "GET",
 							"param": "",
@@ -649,7 +631,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\\x0000\\x0010JFIF\\x0000\\x0001\\x0002\\x0001\\x0001,\\x0001,\\x0000\\x0000\uFFFD\uFFFD\\x0000,Photoshop 3.0\\x00008BIM\\x0003\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\\x0010\\x0001,\\x0000\\x0000\\x0000\\x0001\\x0000"
 						},
 						{
-							"id": "110",
+							"id": "101",
 							"uri": "https://ivan.esante.gouv.fr/static/semantic/dist/semantic.css",
 							"method": "GET",
 							"param": "",
@@ -658,13 +640,13 @@
 							"otherinfo": "\uFFFDPNG\r\n\\x001a\n\\x0000\\x0000\\x0000\rIHDR\\x0000\\x0000\\x0005\uFFFD\\x0000\\x0000\\x0000\\x0002\\x0008\\x0006\\x0000\\x0000\\x0000\uFFFDL{\uFFFD\\x0000\\x0000\\x0000\\x0019tEXtSoftware\\x0000Adobe ImageReadyq\uFFFDe<\\x0000\\x0000\\x0003!iTXtXML:com.adobe.xmp\\x0000\\x0000\\x0000\\x0000\\x0000<?xpacket begin=\"\uFEFF\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?> <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"Adobe XMP Core 5.5-c014 79.151481, 2013/03/13-12:09:15        \"> <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"> <rdf:Description rdf:about=\"\" xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\" xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\" xmlns:stRef=\"http://ns.adobe.com/xap/1.0/sType/ResourceRef#\" xmp:CreatorTool=\"Adobe Photoshop CC (Windows)\" xmpMM:InstanceID=\"xmp.iid:598AD689CC1611E49A75EF8BC3332167\" xmpMM:DocumentID=\"xmp.did:598AD68ACC1611E49A75EF8BC3332167\"> <xmpMM:DerivedFrom stRef:instanceID=\"xmp.iid:598AD687CC1611E49A75EF8BC3332167\" stRef:documentID=\"xmp.did:598AD688CC1611E49A75EF8BC3332167\"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end=\"r\"?>UNu\uFFFD\\x0000\\x0000\\x00005IDATx\uFFFD\uFFFD\uFFFD1\r\\x0000 \\x0010\\x00040HX\uFFFD\uFFFD%\\x0006\uFFFD\uFFFDe\\x001c&~l%t&9\\x0003\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFDjk\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\\x0017`\\x0000\uFFFD:\\x0004En&\\x000c\uFFFD\\x0000\\x0000\\x0000\\x0000IEND\uFFFDB`\uFFFD"
 						},
 						{
-							"id": "100",
+							"id": "90",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "POST",
 							"param": "",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
-							"otherinfo": "A\uFFFD*\uFFFD^\\x0002\uFFFD\uFFFD^BI\uFFFD\uFFFDe\uFFFDNP\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD*\\x0007\\x0001\uFFFDOx!mx\u06DA=\uFFFD$\uFFFDjPx\\x0007D\uFFFD\uFFFDyq\uFFFD"
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
+							"otherinfo": "\uFFFD3\\x001a6@\uFFFD\uFFFD#\uFFFD\uFFFDP\\x000b\uFFFD\t\uFFFDR\uFFFD\\x000b\uFFFDDG\\x0011DG\uFFFDZ\uFFFD\uFFFD\uFFFD\\x0010=\uFFFD\u0631\\x001a\uFFFDQR\uFFFD\uFFFD\\x0019\\x001e\uFFFD1\uFFFD"
 						}
 					],
 					"count": "10",
@@ -686,7 +668,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "72",
+							"id": "70",
 							"uri": "https://ivan.esante.gouv.fr/static/dataTables.rowReorder.min.js",
 							"method": "GET",
 							"param": "",
@@ -695,7 +677,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"// User and defaults configuration object\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "67",
+							"id": "68",
 							"uri": "https://ivan.esante.gouv.fr/static/dataTables.semanticui.min.js",
 							"method": "GET",
 							"param": "",
@@ -704,7 +686,7 @@
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"// elements, focus is lost on the select button which is bad for\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "85",
+							"id": "79",
 							"uri": "https://ivan.esante.gouv.fr/static/dropdown.min.js",
 							"method": "GET",
 							"param": "",
@@ -722,7 +704,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//the user has chosen enough to consider a valid date/time has been chosen\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "101",
+							"id": "75",
 							"uri": "https://ivan.esante.gouv.fr/static/jquery-3.5.1.min.js",
 							"method": "GET",
 							"param": "",
@@ -731,7 +713,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"// For CommonJS and CommonJS-like environments where a proper `window`\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "81",
+							"id": "84",
 							"uri": "https://ivan.esante.gouv.fr/static/jquery.dataTables.min.js",
 							"method": "GET",
 							"param": "",
@@ -740,7 +722,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// Get the data from the first row in the table\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "93",
+							"id": "100",
 							"uri": "https://ivan.esante.gouv.fr/static/semantic/dist/semantic.js",
 							"method": "GET",
 							"param": "",
@@ -749,7 +731,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// verify luhn, adapted from  <https://gist.github.com/2134376>\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "74",
+							"id": "72",
 							"uri": "https://ivan.esante.gouv.fr/static/sticky.min.js",
 							"method": "GET",
 							"param": "",
@@ -764,7 +746,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "59"
+					"sourceid": "58"
 				},
 				{
 					"pluginid": "10049",
@@ -777,7 +759,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "13",
 							"uri": "https://ivan.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -786,7 +768,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "12",
 							"uri": "https://ivan.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -823,7 +805,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "49",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -832,7 +814,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "62",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "",
@@ -841,7 +823,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "96",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "GET",
 							"param": "",
@@ -850,7 +832,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "88",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "POST",
 							"param": "",
@@ -887,7 +869,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "47",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "cache-control",
@@ -896,7 +878,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "60",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "cache-control",
@@ -914,7 +896,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "94",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "GET",
 							"param": "cache-control",
@@ -942,7 +924,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "10",
 							"uri": "https://ivan.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -951,7 +933,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "7",
 							"uri": "https://ivan.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -960,7 +942,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "24",
 							"uri": "https://ivan.esante.gouv.fr/static/rowReorder.semanticui.min.css",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -988,7 +970,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "9",
 							"uri": "https://ivan.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -997,7 +979,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://ivan.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1006,7 +988,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "23",
 							"uri": "https://ivan.esante.gouv.fr/static/rowReorder.semanticui.min.css",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1034,7 +1016,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "4",
 							"uri": "https://ivan.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1043,7 +1025,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "5",
 							"uri": "https://ivan.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1052,7 +1034,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "22",
 							"uri": "https://ivan.esante.gouv.fr/static/rowReorder.semanticui.min.css",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1080,7 +1062,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "11",
 							"uri": "https://ivan.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1089,7 +1071,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "8",
 							"uri": "https://ivan.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1098,7 +1080,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "25",
 							"uri": "https://ivan.esante.gouv.fr/static/rowReorder.semanticui.min.css",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1126,52 +1108,43 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "60",
+							"id": "55",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "GET",
 							"param": "csrftoken",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
 							"otherinfo": "\ncookie:csrftoken"
 						},
 						{
-							"id": "104",
+							"id": "103",
 							"uri": "https://ivan.esante.gouv.fr/password-reset-done/",
 							"method": "GET",
 							"param": "csrftoken",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
 							"otherinfo": "\ncookie:csrftoken"
 						},
 						{
-							"id": "86",
+							"id": "92",
 							"uri": "https://ivan.esante.gouv.fr/password-reset/",
 							"method": "GET",
 							"param": "csrftoken",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
 							"otherinfo": "\ncookie:csrftoken"
 						},
 						{
-							"id": "96",
+							"id": "86",
 							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
 							"method": "POST",
 							"param": "csrftoken",
 							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
-							"otherinfo": "\ncookie:csrftoken"
-						},
-						{
-							"id": "66",
-							"uri": "https://ivan.esante.gouv.fr/password-reset-done/",
-							"method": "GET",
-							"param": "csrftoken",
-							"attack": "",
-							"evidence": "Qf0qvl4CvP5eQkmq1GWCTlCtefT0pJIqBwGoT3ghbXjbmj2HJLtqUHgHRMfbeXGQ",
+							"evidence": "5zMaNkCQnyPArFALvQnLUuYLukRHEURHwFrb4YLSED232LEa5ptRUp7wvxkeoDGL",
 							"otherinfo": "\ncookie:csrftoken"
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p></p><p>cookie:csrftoken</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
@@ -1190,7 +1163,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "31",
 							"uri": "https://ivan.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -1199,7 +1172,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "54",
+							"id": "58",
 							"uri": "https://ivan.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -1208,16 +1181,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "69",
-							"uri": "https://ivan.esante.gouv.fr/accounts/login/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "59",
+							"id": "53",
 							"uri": "https://ivan.esante.gouv.fr/static/app.css",
 							"method": "GET",
 							"param": "",
@@ -1226,7 +1190,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "47",
+							"id": "43",
 							"uri": "https://ivan.esante.gouv.fr/static/calendar.min.css",
 							"method": "GET",
 							"param": "",
@@ -1235,7 +1199,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "45",
+							"id": "30",
 							"uri": "https://ivan.esante.gouv.fr/static/dataTables.semanticui.min.css",
 							"method": "GET",
 							"param": "",
@@ -1253,7 +1217,16 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "49",
+							"id": "65",
+							"uri": "https://ivan.esante.gouv.fr/static/jquery-ui.min.css",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "45",
 							"uri": "https://ivan.esante.gouv.fr/static/main.css",
 							"method": "GET",
 							"param": "",
@@ -1262,7 +1235,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "28",
+							"id": "26",
 							"uri": "https://ivan.esante.gouv.fr/static/rowReorder.semanticui.min.css",
 							"method": "GET",
 							"param": "",
@@ -1277,7 +1250,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				}
 			]
 		}
