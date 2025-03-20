@@ -3,8 +3,13 @@ description: Supervision de différentes métriques
 entity: Ministères sociaux
 footer: ANS powered by SocialGouv
 marianne: false
+operator:
+  logo: https://github.com/ansforge/.github/blob/main/img/ans_logo.png?raw=true
+  name: Agence du Numérique en Santé
+depth: 5
 tools:
   "404": true
+    depth: 5
   screenshot: true
   nmap: true
   zap: true
@@ -22,14 +27,9 @@ tools:
   ecoindex: true
   dsfr: true
   betagouv: false
-depth: 5
 columns: # pour masquer des colonnes
   zap: false
   stats: false
-updownioStatusPage: https://updown.io/status_pages
-updownioRecipients:
-  - email:123456
-  - email:789987
 urls:
   - url: https://annuaire.sante.fr
   - url: https://convergence.esante.gouv.fr
