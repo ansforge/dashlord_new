@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Mon, 17 Mar 2025 16:34:23",
+	"@generated": "Thu, 20 Mar 2025 12:36:40",
 	"site":[ 
 		{
 			"@name": "https://sante.fr",
@@ -29,7 +29,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "8",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -131,7 +131,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "27",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -149,7 +149,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "28",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -167,7 +167,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "31",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -204,7 +204,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "26",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -232,7 +232,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "2",
 							"uri": "https://sante.fr",
 							"method": "GET",
 							"param": "",
@@ -241,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "18",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -250,7 +250,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "3",
 							"uri": "https://sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -265,7 +265,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10021",
@@ -293,7 +293,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -306,18 +306,18 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "29",
 							"uri": "https://sante.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ZVYVaIIawj4MYhoaGDE5QmPJAOdAsLuyRgzcBZAJ98SrgHEpdTjwwBTR5CnzOvefFnvHLGP2zvB15sCln3n16um7SzfP_QNQApxkw3yGKO7hc8yyHdkh4-l-u4UHP6lKHbpghsn1shOdHZN-6MnichBBzkdVsIJmdLnQdDUjSd97uHAmhhZjbguJPxymaHs-O9VrAKg2pSKQF6iuonDoxfvmw8a0VK76_jQU_wixmy21hpMGU8ItFLNo1ifeJ7UPOaHX0D2gS9gGtybuWkoDZjEfEt7Hcg3u4F-ecxoyAxg",
-							"otherinfo": "eV\\x0015h\uFFFD\\x001a\uFFFD>\\x000cb\\x001a\\x001a\\x001819Bc\uFFFD\\x0000\uFFFD@\uFFFD\uFFFD\uFFFDF\\x000c\uFFFD\\x0005\uFFFD\t\uFFFD\u012B\uFFFDq)u8\uFFFD\uFFFD\\x0014\uFFFD\uFFFD)\uFFFD:\uFFFD\uFFFD\\x0016{\uFFFD,c\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFDK7\uFFFD\uFFFD\\x0003P\\x0002\uFFFDd\uFFFD|\uFFFD(\uFFFD\uFFFDs\u0332\\x001d\uFFFD!\uFFFD\uFFFD~\uFFFD\uFFFD\\x0007?\uFFFDJ\\x001d\uFFFD`\uFFFD\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\\x001d\uFFFD~\uFFFD\uFFFD\uFFFDr\\x0010A\uFFFDGU\uFFFD\uFFFDft\uFFFD\uFFFDt5#I\uFFFD{\uFFFDp&\uFFFD\\x0016cn\\x000b\uFFFD?\\x001c\uFFFDh{>;\uFFFDk\\x0000\uFFFD6\uFFFD\"\uFFFD\\x0017\uFFFD\uFFFD\uFFFDp\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u01B4T\uFFFD\uFFFD\uFFFD4\\x0014\uFFFD\\x0008\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD\\x0006S\uFFFD-\\x0014\uFFFDh\uFFFD'\uFFFD'\uFFFD\\x000f9\uFFFD\uFFFD\uFFFD=\uFFFDK\uFFFD\\x0006\uFFFD&\uFFFDZJ\\x0003f1\\x001f\\x0012\uFFFD\uFFFDr\r\uFFFD\uFFFD_\uFFFDs\\x001a2\\x0003\\x0018"
+							"evidence": "fNjhbKTvQhPcCLVQXYOrENhXkMoOFqVA5qufTn4dYzdMA5bQ5mN0p02WHDrkenKkuSZ_o4Vg44HIE7r-mQGstw7oPyk9iBabniFbwaUnF-Sa18QYE-n1uRGPDyegQCpyy9qNi4aw5ojJLedqQa_kn4gwhKcVCRaf_YTYXDj8dpOmfIAxrnDXV1b2P_s3sfLUpVQF9Kj3IQKeQAdHeDdQpqsMIrVuCRqxGZfWrRErsEHwyjw0t1ApPOqZxbX-vxGOqxlE2klNUMQ3Q-bx4hhVX7B-thIxsgHceoBeRc7nz00",
+							"otherinfo": "|\uFFFD\uFFFDl\uFFFD\uFFFDB\\x0013\uFFFD\\x0008\uFFFDP]\uFFFD\uFFFD\\x0010\uFFFDW\uFFFD\uFFFD\\x000e\\x0016\uFFFD@\u6ADFN~\\x001dc7L\\x0003\uFFFD\uFFFD\uFFFDct\uFFFDM\uFFFD\\x001c:\uFFFDzr\uFFFD\uFFFD&\uFFFD\uFFFD`\uFFFD\uFFFD\\x0013\uFFFD\uFFFD\uFFFD\\x0001\uFFFD\uFFFD\\x000e\uFFFD?)=\uFFFD\\x0016\uFFFD\uFFFD![\uFFFD\uFFFD'\\x0017\uFFFD\uFFFD\uFFFD\\x0018\\x0013\uFFFD\uFFFD\uFFFD\\x0011\uFFFD\\x000f'\uFFFD@*r\uFFFD\u068D\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFDjA\uFFFD\u47C80\uFFFD\uFFFD\\x0015\t\\x0016\uFFFD\uFFFD\uFFFD\uFFFD\\8\uFFFDv\uFFFD\uFFFD|\uFFFD1\uFFFDp\uFFFDWV\uFFFD?\uFFFD7\uFFFD\uFFFD\u0525T\\x0005\uFFFD\uFFFD\uFFFD!\\x0002\uFFFD@\\x0007Gx7P\uFFFD\uFFFD\\x000c\"\uFFFDn\t\\x001a\uFFFD\\x0019\uFFFD\u05AD\\x0011+\uFFFDA\uFFFD\uFFFD<4\uFFFDP)<\uFFFD\u0175\uFFFD\uFFFD\\x0011\uFFFD\uFFFD\\x0019D\uFFFDIMP\uFFFD7C\uFFFD\uFFFD\uFFFD\\x0018U_\uFFFD~\uFFFD\\x00121\uFFFD\\x0001\uFFFDz\uFFFD^E\uFFFD\uFFFD\uFFFDM"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>eV\\x0015h\uFFFD\\x001a\uFFFD>\\x000cb\\x001a\\x001a\\x001819Bc\uFFFD\\x0000\uFFFD@\uFFFD\uFFFD\uFFFDF\\x000c\uFFFD\\x0005\uFFFD\t\uFFFD\u012B\uFFFDq)u8\uFFFD\uFFFD\\x0014\uFFFD\uFFFD)\uFFFD:\uFFFD\uFFFD\\x0016{\uFFFD,c\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFDK7\uFFFD\uFFFD\\x0003P\\x0002\uFFFDd\uFFFD|\uFFFD(\uFFFD\uFFFDs\u0332\\x001d\uFFFD!\uFFFD\uFFFD~\uFFFD\uFFFD\\x0007?\uFFFDJ\\x001d\uFFFD`\uFFFD\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\\x001d\uFFFD~\uFFFD\uFFFD\uFFFDr\\x0010A\uFFFDGU\uFFFD\uFFFDft\uFFFD\uFFFDt5#I\uFFFD{\uFFFDp&\uFFFD\\x0016cn\\x000b\uFFFD?\\x001c\uFFFDh{>;\uFFFDk\\x0000\uFFFD6\uFFFD\"\uFFFD\\x0017\uFFFD\uFFFD\uFFFDp\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u01B4T\uFFFD\uFFFD\uFFFD4\\x0014\uFFFD\\x0008\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD\\x0006S\uFFFD-\\x0014\uFFFDh\uFFFD'\uFFFD'\uFFFD\\x000f9\uFFFD\uFFFD\uFFFD=\uFFFDK\uFFFD\\x0006\uFFFD&\uFFFDZJ\\x0003f1\\x001f\\x0012\uFFFD\uFFFDr\r\uFFFD\uFFFD_\uFFFDs\\x001a2\\x0003\\x0018</p>",
+					"otherinfo": "<p>|\uFFFD\uFFFDl\uFFFD\uFFFDB\\x0013\uFFFD\\x0008\uFFFDP]\uFFFD\uFFFD\\x0010\uFFFDW\uFFFD\uFFFD\\x000e\\x0016\uFFFD@\u6ADFN~\\x001dc7L\\x0003\uFFFD\uFFFD\uFFFDct\uFFFDM\uFFFD\\x001c:\uFFFDzr\uFFFD\uFFFD&\uFFFD\uFFFD`\uFFFD\uFFFD\\x0013\uFFFD\uFFFD\uFFFD\\x0001\uFFFD\uFFFD\\x000e\uFFFD?)=\uFFFD\\x0016\uFFFD\uFFFD![\uFFFD\uFFFD'\\x0017\uFFFD\uFFFD\uFFFD\\x0018\\x0013\uFFFD\uFFFD\uFFFD\\x0011\uFFFD\\x000f'\uFFFD@*r\uFFFD\u068D\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFDjA\uFFFD\u47C80\uFFFD\uFFFD\\x0015\t\\x0016\uFFFD\uFFFD\uFFFD\uFFFD\\8\uFFFDv\uFFFD\uFFFD|\uFFFD1\uFFFDp\uFFFDWV\uFFFD?\uFFFD7\uFFFD\uFFFD\u0525T\\x0005\uFFFD\uFFFD\uFFFD!\\x0002\uFFFD@\\x0007Gx7P\uFFFD\uFFFD\\x000c\"\uFFFDn\t\\x001a\uFFFD\\x0019\uFFFD\u05AD\\x0011+\uFFFDA\uFFFD\uFFFD<4\uFFFDP)<\uFFFD\u0175\uFFFD\uFFFD\\x0011\uFFFD\uFFFD\\x0019D\uFFFDIMP\uFFFD7C\uFFFD\uFFFD\uFFFD\\x0018U_\uFFFD~\uFFFD\\x00121\uFFFD\\x0001\uFFFDz\uFFFD^E\uFFFD\uFFFD\uFFFDM</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -334,7 +334,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "22",
 							"uri": "https://sante.fr",
 							"method": "GET",
 							"param": "",
@@ -362,7 +362,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "14",
 							"uri": "https://sante.fr",
 							"method": "GET",
 							"param": "cache-control",
@@ -371,7 +371,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "4",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "cache-control",
@@ -408,7 +408,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "23",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -417,7 +417,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "11",
 							"uri": "https://sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -432,7 +432,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -478,7 +478,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -491,7 +491,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "6",
 							"uri": "https://sante.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -509,7 +509,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "5",
 							"uri": "https://sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -524,7 +524,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -537,7 +537,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "13",
 							"uri": "https://sante.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -546,7 +546,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "24",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -555,7 +555,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "12",
 							"uri": "https://sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -570,7 +570,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10049",
@@ -592,7 +592,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "24",
+							"id": "25",
 							"uri": "https://sante.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -601,7 +601,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "18",
+							"id": "16",
 							"uri": "https://sante.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -616,7 +616,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10049",
@@ -629,7 +629,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "30",
 							"uri": "https://sante.fr",
 							"method": "GET",
 							"param": "",
