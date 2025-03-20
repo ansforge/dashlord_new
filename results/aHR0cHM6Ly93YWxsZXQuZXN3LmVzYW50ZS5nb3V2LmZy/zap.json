@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Mon, 17 Mar 2025 17:41:10",
+	"@generated": "Thu, 20 Mar 2025 13:43:25",
 	"site":[ 
 		{
 			"@name": "https://wallet.esw.esante.gouv.fr",
@@ -20,7 +20,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "16",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -29,7 +29,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, font-src, media-src, manifest-src, worker-src, form-action\n\nThe directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						},
 						{
-							"id": "60",
+							"id": "64",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -38,7 +38,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, font-src, media-src, manifest-src, worker-src, form-action\n\nThe directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						},
 						{
-							"id": "34",
+							"id": "12",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -53,7 +53,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10055",
@@ -66,7 +66,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "17",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -75,7 +75,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "62",
+							"id": "65",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -84,7 +84,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "35",
+							"id": "13",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -99,7 +99,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10055",
@@ -112,7 +112,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "18",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -121,7 +121,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "63",
+							"id": "66",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -130,7 +130,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "36",
+							"id": "14",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -145,7 +145,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90003",
@@ -158,7 +158,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "57",
+							"id": "52",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -167,7 +167,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "79",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -176,7 +176,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "59",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -191,7 +191,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10054",
@@ -204,7 +204,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "19",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cookie-prd-esan-portail",
@@ -213,7 +213,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "5",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Cookie-prd-esan-portail",
@@ -222,7 +222,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "15",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cookie-prd-esan-portail",
@@ -237,7 +237,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90004",
@@ -250,7 +250,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "38",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -259,7 +259,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "75",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -268,7 +268,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "46",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -277,7 +277,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "39",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -286,7 +286,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "76",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -295,7 +295,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "47",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -310,7 +310,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10063",
@@ -323,7 +323,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "41",
+							"id": "37",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -332,7 +332,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "74",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -341,7 +341,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "72",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-2XJWJ7V3.js",
 							"method": "GET",
 							"param": "",
@@ -350,7 +350,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "70",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-3W73RNNX.js",
 							"method": "GET",
 							"param": "",
@@ -359,16 +359,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://wallet.esw.esante.gouv.fr/chunk-6MVPOWK4.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "79",
+							"id": "61",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-BPK7TNIY.js",
 							"method": "GET",
 							"param": "",
@@ -386,7 +377,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "63",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-LERLTJ3L.js",
 							"method": "GET",
 							"param": "",
@@ -395,7 +386,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "68",
+							"uri": "https://wallet.esw.esante.gouv.fr/chunk-LXNO6YFF.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "60",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-SLGB7ZWM.js",
 							"method": "GET",
 							"param": "",
@@ -404,7 +404,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "55",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-X5E7O5IV.js",
 							"method": "GET",
 							"param": "",
@@ -413,7 +413,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "44",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -428,7 +428,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "2",
@@ -441,7 +441,7 @@
 					"desc": "<p>A private IP (such as 10.x.x.x, 172.x.x.x, 192.168.x.x) or an Amazon EC2 private hostname (for example, ip-10-0-56-78) has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.</p>",
 					"instances":[ 
 						{
-							"id": "84",
+							"id": "83",
 							"uri": "https://wallet.esw.esante.gouv.fr/scripts-6ZPKHMXA.js",
 							"method": "GET",
 							"param": "",
@@ -469,25 +469,25 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "38",
+							"id": "45",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "04MT1BG07g9trwv4RPZxpswqPbuilf7WfZ26CzMya3ZJ94Z7WhGOAhqvtlIwkGeIBC3oUTa9klDOsB4=",
-							"otherinfo": "\u04C3\\x0013\uFFFD\\x0011\uFFFD\uFFFD\\x000fm\uFFFD\\x000b\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD\uFFFD\\x000b32kvI\uFFFD\uFFFD{Z\\x0011\uFFFD\\x0002\\x001a\uFFFD\uFFFDR0\uFFFDg\uFFFD\\x0004-\uFFFDQ6\uFFFD\uFFFDP\u03B0\\x001e"
+							"evidence": "5ARWbGILsYbYxej4RPZxpswqPbuilRhSHJ5/+s9bmcQi302mhoIGyhE+n5vTS5tEN4n3YVDra899Vuw=",
+							"otherinfo": "\uFFFD\\x0004Vlb\\x000b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\\x0018R\\x001c\uFFFD\uFFFD\uFFFD[\uFFFD\uFFFD\"\uFFFDM\uFFFD\uFFFD\uFFFD\\x0006\uFFFD\\x0011>\uFFFD\uFFFD\uFFFDK\uFFFDD7\uFFFD\uFFFDaP\uFFFDk\uFFFD}V\uFFFD"
 						},
 						{
-							"id": "40",
+							"id": "35",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "8kAN54btwvX56Tn4RPZxpswqPbuilXZ4g2v3Gm8zcQYSsAcbSoYM8vG+seXssCQVSknT5EGsqfedozc=",
-							"otherinfo": "\uFFFD@\r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD9\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFDvx\uFFFDk\uFFFD\\x001ao3q\\x0006\\x0012\uFFFD\\x0007\\x001bJ\uFFFD\\x000c\uFFFD\uFFFD\uFFFD\uFFFD$\\x0015JI\uFFFD\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7"
+							"evidence": "3zvyuWNcHVwTAAP4RPZxpswqPbuildHKeEJYfRdA9ykBWuQdeJSX3pfnLzkRkRPJWq5PRRAlBKddmWY=",
+							"otherinfo": "\uFFFD;\uFFFDc\\\\x001d\\\\x0013\\x0000\\x0003\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDxBX}\\x0017@\uFFFD)\\x0001Z\uFFFD\\x001dx\uFFFD\uFFFD\u0797\uFFFD/9\\x0011\uFFFD\\x0013\uFFFDZ\uFFFDOE\\x0010%\\x0004\uFFFD]\uFFFDf"
 						},
 						{
-							"id": "68",
+							"id": "73",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -496,7 +496,7 @@
 							"otherinfo": "\uFFFDg\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\u0782\uFFFDZ\uFFFD\uFFFD4\uFFFD\uFFFD\\x00125\uFFFDXE"
 						},
 						{
-							"id": "82",
+							"id": "81",
 							"uri": "https://wallet.esw.esante.gouv.fr/main-AVSPL72S.js",
 							"method": "GET",
 							"param": "",
@@ -505,16 +505,16 @@
 							"otherinfo": "j\uFFFD\\x001e\uFFFD\uFFFD\uFFFD\\x000f\uFFFD\n>j\u0229\uFFFD\uFFFD\uFFFD;\uFFFD\rK\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "l/y+dsqjQ3rTiGf4RPZxpswqPbuilbEvgBqgY0PctjdlwpKxMdd7uTTahijix1ZbfylmgU0LGFG8AJI=",
-							"otherinfo": "\uFFFD\uFFFD\uFFFDv\u02A3Cz\u04C8g\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\uFFFD/\uFFFD\\x001a\uFFFDcC\u07367e\u0092\uFFFD1\uFFFD{\uFFFD4\u0686(\uFFFD\uFFFDV[)f\uFFFDM\\x000b\\x0018Q\uFFFD\\x0000\uFFFD"
+							"evidence": "Lj7JVa9YS1NCnJf4RPZxpswqPbuilRmDdT8S3eIRSGcEG9sTapDjxaqCvmGxtt3IXWBy8T0UaGl7Mqg=",
+							"otherinfo": ".>\uFFFDU\uFFFDXKSB\uFFFD\uFFFD\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\\x0019\uFFFDu?\\x0012\uFFFD\uFFFD\\x0011Hg\\x0004\\x001b\uFFFD\\x0013j\uFFFD\uFFFD\u016A\uFFFD\uFFFDa\uFFFD\uFFFD\uFFFD\uFFFD]`r\uFFFD=\\x0014hi{2\uFFFD"
 						},
 						{
-							"id": "85",
+							"id": "84",
 							"uri": "https://wallet.esw.esante.gouv.fr/scripts-6ZPKHMXA.js",
 							"method": "GET",
 							"param": "",
@@ -523,16 +523,16 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\\x001dv\uFFFD]\uFFFD\uFFFD\\x001dv\uFFFD]v\uFFFD\\x001dv\uFFFD]\\x0007\uFFFD"
 						},
 						{
-							"id": "50",
+							"id": "42",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "9lUu18dKufzNSRv4RPZxpswqPbuilUF9D0mLmqX05NL9DQ1DDn4R//p6tRirp//QA+2KTypmoDu8xE4=",
-							"otherinfo": "\uFFFDU.\uFFFD\uFFFDJ\uFFFD\uFFFD\uFFFDI\\x001b\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFDA}\\x000fI\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\r\rC\\x000e~\\x0011\uFFFD\uFFFDz\uFFFD\\x0018\uFFFD\uFFFD\uFFFD\uFFFD\\x0003\uFFFDO*f\uFFFD;\uFFFD\uFFFDN"
+							"evidence": "GKnc8dZHi90P1Jj4RPZxpswqPbuilaCcYhRtwdLC5fILWo5kkZWT6stUD+cKGgM9JheBf+4om3qZ+Vo=",
+							"otherinfo": "\\x0018\uFFFD\uFFFD\uFFFD\uFFFDG\uFFFD\uFFFD\\x000f\u0518\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDb\\x0014m\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000bZ\uFFFDd\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\\x000f\uFFFD\n\\x001a\\x0003=&\\x0017\uFFFD\uFFFD(\uFFFDz\uFFFD\uFFFDZ"
 						},
 						{
-							"id": "83",
+							"id": "82",
 							"uri": "https://wallet.esw.esante.gouv.fr/styles-4VWD6ERT.css",
 							"method": "GET",
 							"param": "",
@@ -543,7 +543,7 @@
 					],
 					"count": "8",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\u04C3\\x0013\uFFFD\\x0011\uFFFD\uFFFD\\x000fm\uFFFD\\x000b\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD\uFFFD\\x000b32kvI\uFFFD\uFFFD{Z\\x0011\uFFFD\\x0002\\x001a\uFFFD\uFFFDR0\uFFFDg\uFFFD\\x0004-\uFFFDQ6\uFFFD\uFFFDP\u03B0\\x001e</p>",
+					"otherinfo": "<p>\uFFFD\\x0004Vlb\\x000b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDD\uFFFDq\uFFFD\uFFFD*=\uFFFD\uFFFD\uFFFD\\x0018R\\x001c\uFFFD\uFFFD\uFFFD[\uFFFD\uFFFD\"\uFFFDM\uFFFD\uFFFD\uFFFD\\x0006\uFFFD\\x0011>\uFFFD\uFFFD\uFFFDK\uFFFDD7\uFFFD\uFFFDaP\uFFFDk\uFFFD}V\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -560,7 +560,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "66",
+							"id": "78",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-6MVPOWK4.js",
 							"method": "GET",
 							"param": "",
@@ -569,7 +569,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//,gr=/:\\d+$/,ss=/^([a-z][a-z0-9.+-]*:)?(\\/\\/)?([\\\\/]+)?([\\S\\s]*)/i,os=/^[a-zA-Z]:/;function ut(t){return(t||\"\").toString().repl\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "75",
+							"id": "53",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-BPK7TNIY.js",
 							"method": "GET",
 							"param": "",
@@ -578,7 +578,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//momentjs.com/guides/#/warnings/define-locale/ for more info.\"),r=D[e]._config;else if(t.parentLocale!=null)if(D[t.parentLocale\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "81",
+							"id": "80",
 							"uri": "https://wallet.esw.esante.gouv.fr/main-AVSPL72S.js",
 							"method": "GET",
 							"param": "",
@@ -593,7 +593,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "31"
+					"sourceid": "40"
 				},
 				{
 					"pluginid": "10109",
@@ -606,7 +606,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "34",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -615,7 +615,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "64",
+							"id": "71",
 							"uri": "https://wallet.esw.esante.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -624,7 +624,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "48",
+							"id": "40",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -639,7 +639,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10049",
@@ -652,7 +652,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "36",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -661,8 +661,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
-							"uri": "https://wallet.esw.esante.gouv.fr/",
+							"id": "33",
+							"uri": "https://wallet.esw.esante.gouv.fr/.well-known/assetlinks.json",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -670,7 +670,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "11",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -679,7 +679,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "43",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -694,7 +694,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10015",
@@ -707,7 +707,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "4",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "cache-control",
@@ -722,7 +722,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "23"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -735,8 +735,8 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "27",
-							"uri": "https://wallet.esw.esante.gouv.fr/chunk-X5E7O5IV.js",
+							"id": "31",
+							"uri": "https://wallet.esw.esante.gouv.fr/.well-known/assetlinks.json",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -744,7 +744,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "22",
 							"uri": "https://wallet.esw.esante.gouv.fr/favicon.ico",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -753,7 +753,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "9",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -768,7 +768,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "26"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -781,8 +781,8 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "26",
-							"uri": "https://wallet.esw.esante.gouv.fr/chunk-X5E7O5IV.js",
+							"id": "30",
+							"uri": "https://wallet.esw.esante.gouv.fr/.well-known/assetlinks.json",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -790,7 +790,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "21",
 							"uri": "https://wallet.esw.esante.gouv.fr/favicon.ico",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -799,7 +799,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "8",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -814,7 +814,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "26"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -827,8 +827,8 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "25",
-							"uri": "https://wallet.esw.esante.gouv.fr/chunk-X5E7O5IV.js",
+							"id": "29",
+							"uri": "https://wallet.esw.esante.gouv.fr/.well-known/assetlinks.json",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -836,7 +836,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "20",
 							"uri": "https://wallet.esw.esante.gouv.fr/favicon.ico",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -845,7 +845,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "7",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -860,7 +860,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "26"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -873,8 +873,8 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "28",
-							"uri": "https://wallet.esw.esante.gouv.fr/chunk-X5E7O5IV.js",
+							"id": "32",
+							"uri": "https://wallet.esw.esante.gouv.fr/.well-known/assetlinks.json",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -882,7 +882,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "23",
 							"uri": "https://wallet.esw.esante.gouv.fr/favicon.ico",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -891,7 +891,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "10",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -906,7 +906,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "26"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "10112",
@@ -919,39 +919,39 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "3",
 							"uri": "https://wallet.esw.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cookie-prd-esan-portail",
 							"attack": "",
-							"evidence": "!04MT1BG07g9trwv4RPZxpswqPbuilf7WfZ26CzMya3ZJ94Z7WhGOAhqvtlIwkGeIBC3oUTa9klDOsB4=",
+							"evidence": "!3zvyuWNcHVwTAAP4RPZxpswqPbuildHKeEJYfRdA9ykBWuQdeJSX3pfnLzkRkRPJWq5PRRAlBKddmWY=",
 							"otherinfo": "\ncookie:Cookie-prd-esan-portail"
 						},
 						{
 							"id": "2",
+							"uri": "https://wallet.esw.esante.gouv.fr",
+							"method": "GET",
+							"param": "Cookie-prd-esan-portail",
+							"attack": "",
+							"evidence": "!5ARWbGILsYbYxej4RPZxpswqPbuilRhSHJ5/+s9bmcQi302mhoIGyhE+n5vTS5tEN4n3YVDra899Vuw=",
+							"otherinfo": "\ncookie:Cookie-prd-esan-portail"
+						},
+						{
+							"id": "0",
 							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Cookie-prd-esan-portail",
 							"attack": "",
-							"evidence": "!l/y+dsqjQ3rTiGf4RPZxpswqPbuilbEvgBqgY0PctjdlwpKxMdd7uTTahijix1ZbfylmgU0LGFG8AJI=",
+							"evidence": "!Lj7JVa9YS1NCnJf4RPZxpswqPbuilRmDdT8S3eIRSGcEG9sTapDjxaqCvmGxtt3IXWBy8T0UaGl7Mqg=",
 							"otherinfo": "\ncookie:Cookie-prd-esan-portail"
 						},
 						{
-							"id": "31",
+							"id": "1",
 							"uri": "https://wallet.esw.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cookie-prd-esan-portail",
 							"attack": "",
-							"evidence": "!9lUu18dKufzNSRv4RPZxpswqPbuilUF9D0mLmqX05NL9DQ1DDn4R//p6tRirp//QA+2KTypmoDu8xE4=",
-							"otherinfo": "\ncookie:Cookie-prd-esan-portail"
-						},
-						{
-							"id": "11",
-							"uri": "https://wallet.esw.esante.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "Cookie-prd-esan-portail",
-							"attack": "",
-							"evidence": "!l/y+dsqjQ3rTiGf4RPZxpswqPbuilbEvgBqgY0PctjdlwpKxMdd7uTTahijix1ZbfylmgU0LGFG8AJI=",
+							"evidence": "!GKnc8dZHi90P1Jj4RPZxpswqPbuilaCcYhRtwdLC5fILWo5kkZWT6stUD+cKGgM9JheBf+4om3qZ+Vo=",
 							"otherinfo": "\ncookie:Cookie-prd-esan-portail"
 						}
 					],
@@ -961,7 +961,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10049",
@@ -974,16 +974,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "65",
-							"uri": "https://wallet.esw.esante.gouv.fr/chunk-2XJWJ7V3.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "59",
+							"id": "69",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-3W73RNNX.js",
 							"method": "GET",
 							"param": "",
@@ -992,8 +983,8 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "76",
-							"uri": "https://wallet.esw.esante.gouv.fr/chunk-EXFRYYOH.js",
+							"id": "57",
+							"uri": "https://wallet.esw.esante.gouv.fr/chunk-BPK7TNIY.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1001,7 +992,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "73",
+							"id": "62",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-LERLTJ3L.js",
 							"method": "GET",
 							"param": "",
@@ -1010,7 +1001,16 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "42",
+							"id": "67",
+							"uri": "https://wallet.esw.esante.gouv.fr/chunk-LXNO6YFF.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "58",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-SLGB7ZWM.js",
 							"method": "GET",
 							"param": "",
@@ -1019,7 +1019,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "29",
+							"id": "54",
 							"uri": "https://wallet.esw.esante.gouv.fr/chunk-X5E7O5IV.js",
 							"method": "GET",
 							"param": "",
@@ -1028,7 +1028,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "16",
+							"id": "24",
 							"uri": "https://wallet.esw.esante.gouv.fr/favicon.ico",
 							"method": "GET",
 							"param": "",
@@ -1043,7 +1043,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "33"
+					"sourceid": "35"
 				}
 			]
 		}

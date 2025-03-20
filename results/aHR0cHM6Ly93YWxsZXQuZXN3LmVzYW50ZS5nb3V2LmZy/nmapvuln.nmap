@@ -1,7 +1,7 @@
-# Nmap 7.92 scan initiated Mon Mar 17 17:42:44 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln wallet.esw.esante.gouv.fr
-Nmap scan report for wallet.esw.esante.gouv.fr (23.4.186.150)
+# Nmap 7.92 scan initiated Thu Mar 20 13:44:54 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln wallet.esw.esante.gouv.fr
+Nmap scan report for wallet.esw.esante.gouv.fr (23.207.152.68)
 Host is up (0.0058s latency).
-rDNS record for 23.4.186.150: a23-4-186-150.deploy.static.akamaitechnologies.com
+rDNS record for 23.207.152.68: a23-207-152-68.deploy.static.akamaitechnologies.com
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE  VERSION
 80/tcp  open  http     AkamaiGHost (Akamai's HTTP Acceleration/Mirror service)
@@ -9,4 +9,4 @@ PORT    STATE SERVICE  VERSION
 |_http-server-header: Apache
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Mar 17 17:43:02 2025 -- 1 IP address (1 host up) scanned in 17.66 seconds
+# Nmap done at Thu Mar 20 13:45:11 2025 -- 1 IP address (1 host up) scanned in 17.43 seconds

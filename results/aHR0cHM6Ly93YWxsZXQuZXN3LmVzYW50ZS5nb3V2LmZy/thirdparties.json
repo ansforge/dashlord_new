@@ -1,6 +1,195 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null,
-  "endpoints": null
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://www.datadoghq-browser-agent.com/datadog-rum.js"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "Cookie-prd-esan-portail",
+      "value": "!PPQYQeSRtvrDLR/4RPZxpswqPbuilbzVNPNoV6iR7YMy8rBf16dTQ5trLm+dtwuMlaFy9pzqHPFbh58=",
+      "domain": "wallet.esw.esante.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 104,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    }
+  ],
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-SSL-CLIENT-CERT,content-type",
+    "access-control-allow-origin": "https://wallet.esw.esante.gouv.fr",
+    "access-control-expose-headers": "X-SSL-CLIENT-CERT,content-type",
+    "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-length": "8852",
+    "content-security-policy": "frame-src 'self';frame-ancestors 'self'; object-src 'none';",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Thu, 20 Mar 2025 13:41:13 GMT",
+    "etag": "\"c260-62c5fc8d23ac0\"",
+    "expires": "Wed, 09 Aug 1991 11:15:00 GMT",
+    "last-modified": "Thu, 23 Jan 2025 13:42:43 GMT",
+    "pragma": "no-cache",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server": "Apache",
+    "set-cookie": "Cookie-prd-esan-portail=!PPQYQeSRtvrDLR/4RPZxpswqPbuilbzVNPNoV6iR7YMy8rBf16dTQ5trLm+dtwuMlaFy9pzqHPFbh58=; path=/; Httponly; Secure",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-ssl-client-cert": "none",
+    "x-ua-compatible": "IE=edge",
+    "x-xss-protection": "1; mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "wallet.esw.esante.gouv.fr",
+      "ip": "23.207.152.68",
+      "geoip": {
+        "city": {
+          "geoname_id": 4744870,
+          "names": {
+            "de": "Ashburn",
+            "en": "Ashburn",
+            "es": "Ashburn",
+            "fr": "Ashburn",
+            "ja": "アッシュバーン",
+            "pt-BR": "Ashburn",
+            "ru": "Ашберн",
+            "zh-CN": "阿什本"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "20149"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 6254928,
+            "iso_code": "VA",
+            "names": {
+              "de": "Virginia",
+              "en": "Virginia",
+              "es": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "www.datadoghq-browser-agent.com",
+      "ip": "3.167.121.76",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
 }
