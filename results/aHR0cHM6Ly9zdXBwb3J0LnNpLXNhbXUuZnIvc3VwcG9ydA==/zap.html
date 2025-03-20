@@ -212,7 +212,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Mon, 17 Mar 2025 17:09:14
+		Generated on Thu, 20 Mar 2025 13:12:39
 	</h3>
 
 	<h3>
@@ -298,7 +298,7 @@ td {
 			<tr>
 				<td><a href="#10202">Absence of Anti-CSRF Tokens</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">9</td>
+				<td align="center">10</td>
 			</tr>
 			<tr>
 				<td><a href="#10038">Content Security Policy (CSP) Header Not Set</a></td>
@@ -353,7 +353,7 @@ td {
 			<tr>
 				<td><a href="#90004">Insufficient Site Isolation Against Spectre Vulnerability</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">10</td>
+				<td align="center">9</td>
 			</tr>
 			<tr>
 				<td><a href="#10063">Permissions Policy Header Not Set</a></td>
@@ -373,7 +373,7 @@ td {
 			<tr>
 				<td><a href="#10096">Timestamp Disclosure - Unix</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">4</td>
+				<td align="center">2</td>
 			</tr>
 			<tr>
 				<td><a href="#10021">X-Content-Type-Options Header Missing</a></td>
@@ -403,7 +403,7 @@ td {
 			<tr>
 				<td><a href="#10049">Non-Storable Content</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">8</td>
+				<td align="center">7</td>
 			</tr>
 			<tr>
 				<td><a href="#10015">Re-examine Cache-control Directives</a></td>
@@ -413,22 +413,22 @@ td {
 			<tr>
 				<td><a href="#90005">Sec-Fetch-Dest Header is Missing</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">4</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#90005">Sec-Fetch-Mode Header is Missing</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">4</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#90005">Sec-Fetch-Site Header is Missing</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">4</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#90005">Sec-Fetch-User Header is Missing</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">4</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10112">Session Management Response Identified</a></td>
@@ -438,7 +438,7 @@ td {
 			<tr>
 				<td><a href="#10049">Storable and Cacheable Content</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10031">User Controllable HTML Element Attribute (Potential XSS)</a></td>
@@ -584,7 +584,38 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/course/index.php?categoryid=3">https://support.si-samu.fr/course/index.php?categoryid=3</a></td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/index.php">https://support.si-samu.fr/course/index.php</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;form id=&quot;pre-login-form&quot; class=&quot;form-inline my-2 my-lg-0&quot; action=&quot;https://support.si-samu.fr/login/index.php&quot; method=&quot;post&quot;&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: &quot;logintoken&quot; ].</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/index.php?categoryid=5">https://support.si-samu.fr/course/index.php?categoryid=5</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -769,7 +800,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">9</td>
+					<td width="80%">10</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1959,37 +1990,6 @@ Response Body Length: 1,528.</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/admin/tool/dataprivacy/summary.php">https://support.si-samu.fr/admin/tool/dataprivacy/summary.php</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/course/info.php?id=37">https://support.si-samu.fr/course/info.php?id=37</a></td>
 					</tr>
 					<tr>
@@ -2022,6 +2022,68 @@ Response Body Length: 1,528.</td>
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/course/info.php?id=55">https://support.si-samu.fr/course/info.php?id=55</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=36">https://support.si-samu.fr/course/view.php?id=36</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=37">https://support.si-samu.fr/course/view.php?id=37</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2115,37 +2177,6 @@ Response Body Length: 1,528.</td>
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=55">https://support.si-samu.fr/course/view.php?id=55</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/formation">https://support.si-samu.fr/formation</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2437,37 +2468,6 @@ Response Body Length: 1,528.</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/admin/tool/dataprivacy/summary.php">https://support.si-samu.fr/admin/tool/dataprivacy/summary.php</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/course/info.php?id=37">https://support.si-samu.fr/course/info.php?id=37</a></td>
 					</tr>
 					<tr>
@@ -2500,6 +2500,68 @@ Response Body Length: 1,528.</td>
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/course/info.php?id=55">https://support.si-samu.fr/course/info.php?id=55</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=36">https://support.si-samu.fr/course/view.php?id=36</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=37">https://support.si-samu.fr/course/view.php?id=37</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2593,37 +2655,6 @@ Response Body Length: 1,528.</td>
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=55">https://support.si-samu.fr/course/view.php?id=55</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/formation">https://support.si-samu.fr/formation</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3328,37 +3359,6 @@ Response Body Length: 1,528.</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css">https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Cross-Origin-Resource-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
 					</tr>
 					<tr>
@@ -3544,7 +3544,7 @@ Response Body Length: 1,528.</td>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">10</td>
+					<td width="80%">9</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -3855,7 +3855,7 @@ Response Body Length: 1,528.</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/theme/jquery.php/core/jquery-3.5.1.min.js">https://support.si-samu.fr/theme/jquery.php/core/jquery-3.5.1.min.js</a></td>
+						<td width="80%"><a href="https://support.si-samu.fr/theme/jquery.php/theme_adaptable/pace-min.js">https://support.si-samu.fr/theme/jquery.php/theme_adaptable/pace-min.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3886,7 +3886,7 @@ Response Body Length: 1,528.</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js">https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js</a></td>
+						<td width="80%"><a href="https://support.si-samu.fr/theme/jquery.php/theme_adaptable/tickerme.js">https://support.si-samu.fr/theme/jquery.php/theme_adaptable/tickerme.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4503,6 +4503,37 @@ Response Body Length: 1,528.</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/lib/javascript.php/1653123294/lib/babel-polyfill/polyfill.min.js">https://support.si-samu.fr/lib/javascript.php/1653123294/lib/babel-polyfill/polyfill.min.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js">https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js</a></td>
 					</tr>
 					<tr>
@@ -4566,37 +4597,6 @@ Response Body Length: 1,528.</td>
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/support">https://support.si-samu.fr/support</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js">https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4723,68 +4723,6 @@ Response Body Length: 1,528.</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">1653123294</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">1653123294, which evaluates to: 2022-05-21 08:54:54.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">1653132927</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">1653132927, which evaluates to: 2022-05-21 11:35:27.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/support">https://support.si-samu.fr/support</a></td>
 					</tr>
 					<tr>
@@ -4846,7 +4784,7 @@ Response Body Length: 1,528.</td>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">2</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -5060,6 +4998,38 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/lib/javascript.php/1653123294/lib/babel-polyfill/polyfill.min.js">https://support.si-samu.fr/lib/javascript.php/1653123294/lib/babel-polyfill/polyfill.min.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">x-content-type-options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js">https://support.si-samu.fr/lib/javascript.php/1653123294/lib/polyfills/polyfill.js</a></td>
 					</tr>
 					<tr>
@@ -5125,38 +5095,6 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/support">https://support.si-samu.fr/support</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">x-content-type-options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
-At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js">https://support.si-samu.fr/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5305,7 +5243,7 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">userParam=logintoken
-userValue=au07fTV3n8rxBm8H3zbeBQSYpxiB8nXe
+userValue=LzR1OjiMsxaPb6oGkF6mBm0DCKD0sh7q
 passwordParam=password
 referer=https://support.si-samu.fr/login/index.php</td>
 					</tr>
@@ -5339,7 +5277,7 @@ referer=https://support.si-samu.fr/login/index.php</td>
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">userParam=logintoken
-userValue=DfGKYdBHxxqhk7DM3RmjDMY18J9hcAsK
+userValue=UVpZWVHhpBSxikXixhF9JOPTrBtFnw2L
 passwordParam=password
 referer=https://support.si-samu.fr/login/index.php</td>
 					</tr>
@@ -5835,37 +5773,6 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/course/search.php?context=1&amp;q=ZAP">https://support.si-samu.fr/course/search.php?context=1&amp;q=ZAP</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">bug</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bBUG\b and was detected in likely comment: &quot;// Stub module for &#39;process&#39;. This is a workaround for a bug in MathJax (see MDL-60458).&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/formation">https://support.si-samu.fr/formation</a></td>
 					</tr>
 					<tr>
@@ -6047,6 +5954,37 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">The following pattern was used: \bLATER\b and was detected in likely comment: &quot;//yui.yahooapis.com/&quot;,s=&quot;yui3-js-enabled&quot;,o=&quot;yui3-css-stamp&quot;,u=function(){},a=Array.prototype.slice,f={&quot;io.xdrReady&quot;:1,&quot;io.xdrRe&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/login/index.php">https://support.si-samu.fr/login/index.php</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">POST</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">bug</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bBUG\b and was detected in likely comment: &quot;// Stub module for &#39;process&#39;. This is a workaround for a bug in MathJax (see MDL-60458).&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 				<tr>
@@ -6589,37 +6527,6 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/admin/tool/dataprivacy/summary.php">https://support.si-samu.fr/admin/tool/dataprivacy/summary.php</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">private</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=50">https://support.si-samu.fr/course/view.php?id=50</a></td>
 					</tr>
 					<tr>
@@ -6774,7 +6681,7 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">8</td>
+					<td width="80%">7</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -7298,37 +7205,6 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Sec-Fetch-Dest</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/robots.txt">https://support.si-samu.fr/robots.txt</a></td>
 					</tr>
 					<tr>
@@ -7421,7 +7297,7 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -7475,37 +7351,6 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Sec-Fetch-Mode</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/robots.txt">https://support.si-samu.fr/robots.txt</a></td>
 					</tr>
 					<tr>
@@ -7598,7 +7443,7 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -7652,37 +7497,6 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Sec-Fetch-Site</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/robots.txt">https://support.si-samu.fr/robots.txt</a></td>
 					</tr>
 					<tr>
@@ -7775,7 +7589,7 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -7829,37 +7643,6 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Sec-Fetch-User</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/robots.txt">https://support.si-samu.fr/robots.txt</a></td>
 					</tr>
 					<tr>
@@ -7952,7 +7735,7 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -8026,7 +7809,7 @@ aï¿½$ï¿½ï¿½ï¿½ï¿½gQ9ï¿½ï¿½=ï¿½ ï¿½QQ9ï¿½È—^\Pï¿½ï¿½_[ï¿½Wï¿½ï¿½Eï¿½Rï¿½ï¿
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">61093f8f0530e0b660a8d6a71bb9720f</td>
+						<td width="80%">25a5f8312a084285e6776ff10e636dd2</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8038,7 +7821,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/admin/tool/dataprivacy/summary.php">https://support.si-samu.fr/admin/tool/dataprivacy/summary.php</a></td>
+						<td width="80%"><a href="https://support.si-samu.fr/">https://support.si-samu.fr/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8058,7 +7841,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2509eea9856fc29522946978e5b7ffc4</td>
+						<td width="80%">98037c675a47de489fff97170dd40476</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8090,7 +7873,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">df31fe3f2e3e28222155b692039bf568</td>
+						<td width="80%">ffa1ab162fc9a528b9a10fef23b60c7b</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8122,7 +7905,39 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">05dedc223cff654b11c5bed1a5600687</td>
+						<td width="80%">20933790ae0ff63709030bb2b3f31fef</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:MoodleSession</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/view.php?id=36">https://support.si-samu.fr/course/view.php?id=36</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">MoodleSession</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">291246bca10a939177f6a56353fb35fe</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8154,7 +7969,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">a396de4dca7bed831e8fed1d3a92337b</td>
+						<td width="80%">b9d14f708102beec2b390b2dbaa5bc88</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8186,7 +8001,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">964ee0bb973b84ff9a26ab89d84dac05</td>
+						<td width="80%">fa96d965d9f68540600f0e2618a31860</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8218,7 +8033,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">dc174fe09b925d92b8d4d3a8dc910a0f</td>
+						<td width="80%">a9e9405771e79bbe90168cb5eaa655cc</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8250,39 +8065,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">aa2c5cfd309569c73681a521f10ccbcb</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">
-cookie:MoodleSession</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/formation">https://support.si-samu.fr/formation</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">MoodleSession</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">967954c5851717a5aff44226174e43c6</td>
+						<td width="80%">73d87b413f3f1c4c8ae7b4ce6af37244</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8314,7 +8097,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1757fcc7dfe299ca57a1fd6488d25791</td>
+						<td width="80%">2a2e2410641bc3dc76c257e1ec3a5ff4</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8346,7 +8129,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">7a7692ac2759939ee5f532b3f29744ac</td>
+						<td width="80%">08d75ad0bd8017482762c50aa4f6b445</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8378,7 +8161,7 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">fdcfba1be7a72010eff664b58c38d65c</td>
+						<td width="80%">3e35ea3be0fd141db7f6d3d72ca1c3e0</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8473,6 +8256,37 @@ cookie:MoodleSession</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico">https://support.si-samu.fr/pluginfile.php/1/theme_adaptable/favicon/1653132927/LOGO_ANS_2020_Principal.ico</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">max-age=5184000</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css">https://support.si-samu.fr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css</a></td>
 					</tr>
 					<tr>
@@ -8503,7 +8317,7 @@ cookie:MoodleSession</td>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -8571,6 +8385,48 @@ cookie:MoodleSession</td>
 				<TR vAlign="top">
 					<TD colspan="2"></TD>
 				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://support.si-samu.fr/course/info.php?id=34">https://support.si-samu.fr/course/info.php?id=34</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">id</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+https://support.si-samu.fr/course/info.php?id=34
+
+appears to include user input in:
+a(n) [div] tag [data-courseid] attribute
+
+The user input found was:
+id=34
+
+The user-controlled value was:
+34</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -8738,48 +8594,6 @@ id=41
 
 The user-controlled value was:
 41</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://support.si-samu.fr/course/info.php?id=47">https://support.si-samu.fr/course/info.php?id=47</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">id</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
-
-https://support.si-samu.fr/course/info.php?id=47
-
-appears to include user input in:
-a(n) [div] tag [data-courseid] attribute
-
-The user input found was:
-id=47
-
-The user-controlled value was:
-47</td>
 					</tr>
 				
 					<tr>
@@ -9070,10 +8884,10 @@ appears to include user input in:
 a(n) [input] tag [value] attribute
 
 The user input found was:
-logintoken=au07fTV3n8rxBm8H3zbeBQSYpxiB8nXe
+logintoken=LzR1OjiMsxaPb6oGkF6mBm0DCKD0sh7q
 
 The user-controlled value was:
-au07ftv3n8rxbm8h3zbebqsypxib8nxe</td>
+lzr1ojimsxapb6ogkf6mbm0dckd0sh7q</td>
 					</tr>
 				
 				<tr>

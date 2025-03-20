@@ -9,9 +9,9 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Mon, 17 Mar 2025 17:10:01 GMT",
+      "date": "Thu, 20 Mar 2025 13:13:29 GMT",
       "content-type": "text/html; charset=utf-8",
-      "content-length": "8152",
+      "content-length": "8148",
       "connection": "close",
       "server": "OVHcloud",
       "x-powered-by": "PHP/7.4",
@@ -19,7 +19,7 @@
       "cache-control": "no-store, no-cache, must-revalidate",
       "pragma": "no-cache",
       "set-cookie": [
-        "MoodleSession=bedcce5e2aec435456443e45e00c7b36; path=/; secure"
+        "MoodleSession=7125f6492e224151dccb9129d7ab77f9; path=/; secure"
       ],
       "vary": "Accept-Encoding"
     }
