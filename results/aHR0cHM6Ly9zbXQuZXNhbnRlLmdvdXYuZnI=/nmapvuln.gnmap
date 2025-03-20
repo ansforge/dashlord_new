@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 17 17:11:12 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln smt.esante.gouv.fr
-Host: 3.167.183.75 (server-3-167-183-75.ord58.r.cloudfront.net)	Status: Up
-Host: 3.167.183.75 (server-3-167-183-75.ord58.r.cloudfront.net)	Ports: 80/open/tcp//http//Amazon CloudFront httpd/, 443/open/tcp//ssl|http//Amazon CloudFront httpd/	Ignored State: filtered (998)
-# Nmap done at Mon Mar 17 17:11:31 2025 -- 1 IP address (1 host up) scanned in 18.64 seconds
+# Nmap 7.92 scan initiated Thu Mar 20 13:11:08 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln smt.esante.gouv.fr
+Host: 108.138.85.91 (server-108-138-85-91.iad12.r.cloudfront.net)	Status: Up
+Host: 108.138.85.91 (server-108-138-85-91.iad12.r.cloudfront.net)	Ports: 80/open/tcp//http//Amazon CloudFront httpd/, 443/open/tcp//ssl|http//Amazon CloudFront httpd/	Ignored State: filtered (998)
+# Nmap done at Thu Mar 20 13:11:26 2025 -- 1 IP address (1 host up) scanned in 18.05 seconds
