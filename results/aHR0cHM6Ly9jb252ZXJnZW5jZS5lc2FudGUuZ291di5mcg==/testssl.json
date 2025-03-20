@@ -367,7 +367,7 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "206 >= 60 days"
+              "finding"      : "203 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Thawte TLS RSA CA G1 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -528,7 +528,7 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742221549"
+              "finding"      : "1742466658"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -619,7 +619,7 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "max-age=22"
+              "finding"      : "max-age=59"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -1126,6 +1126,6 @@
               "ip"           : "convergence.esante.gouv.fr/80.78.2.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66"
+              "finding"      : "70"
           }
 ]

@@ -1,6 +1,124 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null,
-  "endpoints": null
+  "trackers": [],
+  "cookies": [
+    {
+      "name": "sessionid",
+      "value": "7gmb2j4tg260jco9xaif9rumy0efn3ya",
+      "domain": "convergence.esante.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "csrftoken",
+      "value": "svQxhbqUQB7weKmWL7HbEVI5VCotUOFU4evWY4PdSCMnbhuwRzms0v3b5EMMhxIe",
+      "domain": "convergence.esante.gouv.fr",
+      "path": "/",
+      "expires": 1773915901.363229,
+      "size": 73,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "django_language",
+      "value": "fr",
+      "domain": "convergence.esante.gouv.fr",
+      "path": "/",
+      "expires": 1774002300.093074,
+      "size": 17,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    }
+  ],
+  "headers": {
+    "cache-control": "max-age=36",
+    "connection": "Keep-Alive",
+    "content-language": "fr",
+    "content-length": "54302",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Thu, 20 Mar 2025 10:25:00 GMT",
+    "expires": "Thu, 20 Mar 2025 10:25:36 GMT",
+    "keep-alive": "timeout=5, max=100",
+    "referrer-policy": "same-origin",
+    "server": "Apache",
+    "set-cookie": "django_language=fr; expires=Fri, 20 Mar 2026 10:25:00 GMT; Max-Age=31536000; Path=/;HttpOnly;Secure\ncsrftoken=svQxhbqUQB7weKmWL7HbEVI5VCotUOFU4evWY4PdSCMnbhuwRzms0v3b5EMMhxIe; expires=Thu, 19 Mar 2026 10:25:00 GMT; Max-Age=31449600; Path=/; SameSite=Lax;HttpOnly;Secure\nsessionid=7gmb2j4tg260jco9xaif9rumy0efn3ya; HttpOnly; Path=/; SameSite=Lax;HttpOnly;Secure",
+    "strict-transport-security": "max-age=63072000; includeSubdomains;",
+    "vary": "Accept-Language,Cookie",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "sameorigin"
+  },
+  "endpoints": [
+    {
+      "hostname": "convergence.esante.gouv.fr",
+      "ip": "80.78.2.184",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    }
+  ]
 }

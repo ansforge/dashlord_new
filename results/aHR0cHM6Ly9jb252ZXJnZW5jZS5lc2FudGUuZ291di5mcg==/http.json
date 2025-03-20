@@ -1,30 +1,30 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "C",
+    "grade": "B",
     "error": null,
-    "score": 55,
+    "score": 75,
     "statusCode": 200,
-    "testsFailed": 2,
-    "testsPassed": 8,
+    "testsFailed": 1,
+    "testsPassed": 9,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Mon, 17 Mar 2025 14:25:10 GMT",
+      "date": "Thu, 20 Mar 2025 10:30:18 GMT",
       "server": "Apache",
       "strict-transport-security": "max-age=63072000; includeSubdomains;",
-      "x-frame-options": "sameorigin, DENY",
+      "x-frame-options": "sameorigin",
       "content-length": "54302",
-      "expires": "Mon, 17 Mar 2025 14:26:10 GMT",
-      "cache-control": "max-age=60",
+      "expires": "Thu, 20 Mar 2025 10:30:43 GMT",
+      "cache-control": "max-age=26",
       "vary": "Accept-Language,Cookie",
       "content-language": "fr",
       "x-content-type-options": "nosniff",
       "referrer-policy": "same-origin",
       "content-type": "text/html; charset=utf-8",
       "set-cookie": [
-        "django_language=fr; expires=Tue, 17 Mar 2026 14:25:10 GMT; Max-Age=31536000; Path=/;HttpOnly;Secure",
-        "csrftoken=MbGk2dQ8c1b1EitXntLO5HssM0NFKuruoJ692HIJZFAEtqM1ak9g9N2SxNgF82I1; expires=Mon, 16 Mar 2026 14:25:10 GMT; Max-Age=31449600; Path=/; SameSite=Lax;HttpOnly;Secure",
-        "sessionid=yp0gwxi9ur5m85r2ki0uaj7eg62op07c; HttpOnly; Path=/; SameSite=Lax;HttpOnly;Secure"
+        "django_language=fr; expires=Fri, 20 Mar 2026 10:30:18 GMT; Max-Age=31536000; Path=/;HttpOnly;Secure",
+        "csrftoken=50Q8rq2aSrOkUaebavIE2YNPrkgHCAcvU72eA0i98DaEEZR9Y8QPNlZdsgtM8tpF; expires=Thu, 19 Mar 2026 10:30:18 GMT; Max-Age=31449600; Path=/; SameSite=Lax;HttpOnly;Secure",
+        "sessionid=sx8eigml2vz97jfgf98mshz145bti10o; HttpOnly; Path=/; SameSite=Lax;HttpOnly;Secure"
       ],
       "connection": "close"
     }
@@ -49,7 +49,7 @@
       "data": {
         "django_language": {
           "domain": "convergence.esante.gouv.fr",
-          "expires": "2026-03-17T14:25:10.000Z",
+          "expires": "2026-03-20T10:30:18.000Z",
           "httponly": true,
           "max-age": 31536000,
           "path": "/",
@@ -58,7 +58,7 @@
         },
         "csrftoken": {
           "domain": "convergence.esante.gouv.fr",
-          "expires": "2026-03-16T14:25:10.000Z",
+          "expires": "2026-03-19T10:30:18.000Z",
           "httponly": true,
           "max-age": 31449600,
           "path": "/",
@@ -130,10 +130,10 @@
     },
     "x-frame-options": {
       "expectation": "x-frame-options-sameorigin-or-deny",
-      "pass": false,
-      "result": "x-frame-options-header-invalid",
-      "scoreModifier": -20,
-      "data": "sameorigin, DENY"
+      "pass": true,
+      "result": "x-frame-options-sameorigin-or-deny",
+      "scoreModifier": 0,
+      "data": "sameorigin"
     },
     "cross-origin-resource-policy": {
       "expectation": "corp-implemented-with-same-site",
