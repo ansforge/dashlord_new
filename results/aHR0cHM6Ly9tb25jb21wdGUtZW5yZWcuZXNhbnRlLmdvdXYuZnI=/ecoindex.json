@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://moncompte-enreg.esante.gouv.fr",
-        "size": 857.291,
-        "nodes": 127,
-        "requests": 25,
+        "size": 766.471,
+        "nodes": 87,
+        "requests": 22,
         "grade": "A",
-        "score": 83.0,
-        "ges": 1.34,
-        "water": 2.01,
+        "score": 85.0,
+        "ges": 1.3,
+        "water": 1.95,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-17 15:59:54.437257",
+        "date": "2025-03-20 12:08:58.680829",
         "page_type": null
     }
 ]
