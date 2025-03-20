@@ -339,7 +339,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "214 >= 60 days"
+              "finding"      : "211 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -472,7 +472,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "thawte SHA256 SSL CA <-- thawte Primary Root CA - G3"
+              "finding"      : "thawte SHA256 SSL CA <--"
           }
 ,         {
               "id"           : "intermediate_cert <#2>",
@@ -514,7 +514,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "thawte Primary Root CA - G3 <-- thawte Primary Root CA - G3"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert <#3>",
@@ -556,7 +556,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DigiCert Global Root G2 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert <#4>",
@@ -598,7 +598,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Thawte TLS RSA CA G1 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -626,7 +626,7 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742232349"
+              "finding"      : "1742477307"
           }
 ,         {
               "id"           : "HSTS",
@@ -1182,6 +1182,6 @@
               "ip"           : "tom.eservices.esante.gouv.fr/80.78.2.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "87"
+              "finding"      : "91"
           }
 ]

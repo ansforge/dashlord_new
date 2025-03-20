@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://tom.eservices.esante.gouv.fr",
-        "size": 395.439,
+        "size": 395.438,
         "nodes": 59,
         "requests": 17,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.2,
         "water": 1.8,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-17 17:20:14.806548",
+        "date": "2025-03-20 13:22:42.783979",
         "page_type": null
     }
 ]
