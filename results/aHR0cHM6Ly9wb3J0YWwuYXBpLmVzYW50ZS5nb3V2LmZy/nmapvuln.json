@@ -1,1 +1,1 @@
-{"host":"portal.api.esante.gouv.fr","protocol":"tcp","closed_ports":"942","open_ports":[{"service":{"name":"https","id":"443","vulnerabilities":[]}}],"grade":"A"}
+{"host":"portal.api.esante.gouv.fr","protocol":"tcp","closed_ports":"973","open_ports":[{"service":{"name":"https","id":"443","vulnerabilities":[]}}],"grade":"A"}

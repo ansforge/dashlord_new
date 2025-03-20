@@ -346,7 +346,7 @@
               "ip"           : "portal.api.esante.gouv.fr/80.78.2.231",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "117 >= 60 days"
+              "finding"      : "114 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -479,7 +479,7 @@
               "ip"           : "portal.api.esante.gouv.fr/80.78.2.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Thawte TLS RSA CA G1 <-- DigiCert Global Root G2"
+              "finding"      : "<--"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -507,7 +507,7 @@
               "ip"           : "portal.api.esante.gouv.fr/80.78.2.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742228559"
+              "finding"      : "1742473720"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "portal.api.esante.gouv.fr/80.78.2.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "96"
+              "finding"      : "55"
           }
 ]
