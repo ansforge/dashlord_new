@@ -1,6 +1,176 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null,
-  "endpoints": null
+  "trackers": [],
+  "cookies": [
+    {
+      "name": "pfcng_base_fontsize",
+      "value": "11px",
+      "domain": "pfc.eservices.esante.gouv.fr",
+      "path": "/",
+      "expires": 1745065832,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "cookie-prd-asip",
+      "value": "!MCHbzyYhyh73mLv4RPZxpswqPbuilWgMokh5cUKdVpzzPXyFiy8dZsNCHxvDalpGYLD+CglOqfbC7dQ=",
+      "domain": "pfc.eservices.esante.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 96,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "pfcng_checkOS",
+      "value": "0",
+      "domain": "pfc.eservices.esante.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "C373ECCC0B1140A1524249264D9F7B0B.routePWASIPAPPT01IN",
+      "domain": "pfc.eservices.esante.gouv.fr",
+      "path": "/pfcng-ihm",
+      "expires": -1,
+      "size": 62,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    }
+  ],
+  "headers": {
+    "cache-control": "private",
+    "connection": "keep-alive",
+    "content-length": "6213",
+    "content-type": "text/html;charset=UTF-8",
+    "date": "Thu, 20 Mar 2025 12:30:31 GMT",
+    "keep-alive": "timeout=20",
+    "server": "PFCNG",
+    "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-xss-protection": "1; mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "pfc.eservices.esante.gouv.fr",
+      "ip": "212.234.100.215",
+      "geoip": {
+        "city": {
+          "geoname_id": 2972350,
+          "names": {
+            "de": "Toul",
+            "en": "Toul",
+            "fr": "Toul",
+            "ja": "トゥール",
+            "pt-BR": "Toul",
+            "ru": "Туль",
+            "zh-CN": "图勒"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 200,
+          "latitude": 48.6737,
+          "longitude": 5.8978,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "54200"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071622,
+            "iso_code": "GES",
+            "names": {
+              "de": "Grand Est",
+              "en": "Grand Est",
+              "es": "Gran Este",
+              "fr": "Grand Est",
+              "ja": "グラン・テスト地域圏",
+              "pt-BR": "Grande Leste",
+              "ru": "Гранд-Эст"
+            }
+          },
+          {
+            "geoname_id": 2994111,
+            "iso_code": "54",
+            "names": {
+              "de": "Meurthe-et-Moselle",
+              "en": "Meurthe et Moselle",
+              "es": "Meurthe y Mosela",
+              "fr": "Meurthe-et-Moselle",
+              "ja": "ムルト＝エ＝モゼル県",
+              "pt-BR": "Meurthe-et-Moselle",
+              "ru": "Мёрт и Мозель",
+              "zh-CN": "默尔特-摩泽尔省"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
