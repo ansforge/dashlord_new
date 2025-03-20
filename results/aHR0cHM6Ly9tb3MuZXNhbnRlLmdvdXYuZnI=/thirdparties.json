@@ -1,6 +1,230 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null,
-  "endpoints": null
+  "trackers": [
+    {
+      "type": "at-internet",
+      "url": "https://tag.aticdn.net/piano-analytics.js",
+      "details": {
+        "id": "at-internet",
+        "message": "Ensure your TOS notify the AT internet usage"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://fqjnnsg.pa-cd.com/event?s=639611&idclient=m8hbgdhtz77hdks2"
+    }
+  ],
+  "cookies": [],
+  "headers": {
+    "accept-ranges": "bytes",
+    "content-encoding": "gzip",
+    "content-length": "239",
+    "content-type": "text/html",
+    "date": "Thu, 20 Mar 2025 12:17:13 GMT",
+    "etag": "\"15f-62f80735c1d80-gzip\"",
+    "last-modified": "Tue, 04 Mar 2025 08:56:38 GMT",
+    "server": "Apache",
+    "strict-transport-security": "max-age=31536000; preload",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-permitted-cross-domain-policies": "none",
+    "x-xss-protection": "1; mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "mos.esante.gouv.fr",
+      "ip": "37.59.26.43",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "tag.aticdn.net",
+      "ip": "18.160.18.104",
+      "geoip": {
+        "city": {
+          "geoname_id": 5809844,
+          "names": {
+            "de": "Seattle",
+            "en": "Seattle",
+            "es": "Seattle",
+            "fr": "Seattle",
+            "ja": "シアトル",
+            "pt-BR": "Seattle",
+            "ru": "Сиэтл"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 47.6109,
+          "longitude": -122.3303,
+          "metro_code": 819,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "98101"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5815135,
+            "iso_code": "WA",
+            "names": {
+              "de": "Washington",
+              "en": "Washington",
+              "es": "Washington",
+              "fr": "Washington",
+              "ja": "ワシントン州",
+              "pt-BR": "Washington",
+              "ru": "Вашингтон",
+              "zh-CN": "华盛顿州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "fqjnnsg.pa-cd.com",
+      "ip": "18.67.74.200",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
 }
