@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mssante.fr",
-        "size": 2217.457,
+        "size": 2217.444,
         "nodes": 293,
         "requests": 49,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.66,
         "water": 2.49,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-17 16:16:47.119925",
+        "date": "2025-03-20 12:19:07.369576",
         "page_type": null
     }
 ]

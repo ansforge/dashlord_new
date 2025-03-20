@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln mssante.fr</pre>
-<p class="lead">Mon Mar 17 16:20:53 2025 – Mon Mar 17 16:21:18 2025<br>1 hosts scanned.
+<p class="lead">Thu Mar 20 12:23:06 2025 – Thu Mar 20 12:23:31 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -126,7 +126,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 302 Found
-    date: Mon, 17 Mar 2025 16:21:07 GMT
+    date: Thu, 20 Mar 2025 12:23:20 GMT
     server: Apache
     location: https:///nice%20ports,/Trinity.txt.bak
     content-length: 222
@@ -140,25 +140,9 @@
     &lt;h1&gt;Found&lt;/h1&gt;
     &lt;p&gt;The document has moved &lt;a href="https:///nice%20ports,/Trinity.txt.bak"&gt;here&lt;/a&gt;.&lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
+  GetRequest, HTTPOptions: 
     HTTP/1.1 302 Found
-    date: Mon, 17 Mar 2025 16:21:06 GMT
-    server: Apache
-    location: https:///
-    content-length: 193
-    keep-alive: timeout=5, max=100
-    content-type: text/html; charset=iso-8859-1
-    connection: close
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;302 Found&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Found&lt;/h1&gt;
-    &lt;p&gt;The document has moved &lt;a href="https:///"&gt;here&lt;/a&gt;.&lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 302 Found
-    date: Mon, 17 Mar 2025 16:21:07 GMT
+    date: Thu, 20 Mar 2025 12:23:19 GMT
     server: Apache
     location: https:///
     content-length: 193
