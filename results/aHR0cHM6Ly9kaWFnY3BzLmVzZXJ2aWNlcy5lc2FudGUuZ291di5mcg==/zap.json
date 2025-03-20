@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Mon, 17 Mar 2025 14:41:07",
+	"@generated": "Thu, 20 Mar 2025 10:46:13",
 	"site":[ 
 		{
 			"@name": "https://diagcps.eservices.esante.gouv.fr",
@@ -20,7 +20,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "117",
+							"id": "113",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/js/ua-parser.min.js",
 							"method": "GET",
 							"param": "",
@@ -35,7 +35,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "50"
+					"sourceid": "49"
 				},
 				{
 					"pluginid": "10038",
@@ -48,7 +48,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "2",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -57,7 +57,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "53",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/'%20+%20dataIHM.getServerComponentLink()%20+%20'",
 							"method": "GET",
 							"param": "",
@@ -66,7 +66,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "75",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ASIP/",
 							"method": "GET",
 							"param": "",
@@ -75,7 +75,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "84",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "",
@@ -84,7 +84,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "20",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "",
@@ -93,7 +93,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "62",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DMP/",
 							"method": "GET",
 							"param": "",
@@ -102,7 +102,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "112",
+							"id": "111",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "",
@@ -111,7 +111,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "58",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/MSS/",
 							"method": "GET",
 							"param": "",
@@ -120,7 +120,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "46",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/oa_cps/",
 							"method": "GET",
 							"param": "",
@@ -129,7 +129,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "19",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -138,7 +138,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "49",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "",
@@ -153,7 +153,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "16"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -166,7 +166,16 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "73",
+							"id": "0",
+							"uri": "https://diagcps.eservices.esante.gouv.fr",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "77",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -175,7 +184,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
+							"id": "103",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -184,7 +193,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "126",
+							"id": "129",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ODI_PS/php/download_asip.php?installeur=url_interne_xpi_installation_pkcs11",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -193,13 +202,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "41"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10003",
@@ -212,7 +221,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "129",
+							"id": "131",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/js/jquery-3.2.0.min.js",
 							"method": "GET",
 							"param": "",
@@ -227,7 +236,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "54"
+					"sourceid": "56"
 				},
 				{
 					"pluginid": "90004",
@@ -240,7 +249,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "75",
+							"id": "16",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -249,7 +258,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "100",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -258,7 +267,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "97",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/diagcps_css.php",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -267,7 +276,25 @@
 							"otherinfo": ""
 						},
 						{
+							"id": "107",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/images/informations32.png",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"id": "114",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/images/preHelper/iconeKO.png",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "105",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/js/ua-parser.min.js",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -276,7 +303,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "48",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -285,7 +312,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "17",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -294,7 +321,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "103",
+							"id": "101",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -303,7 +330,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "18",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -312,7 +339,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "104",
+							"id": "102",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -321,13 +348,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "9",
+					"count": "11",
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "16"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -340,7 +367,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "74",
+							"id": "15",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -349,7 +376,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "66",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/'%20+%20dataIHM.getServerComponentLink()%20+%20'",
 							"method": "GET",
 							"param": "",
@@ -358,7 +385,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "80",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ASIP/",
 							"method": "GET",
 							"param": "",
@@ -367,7 +394,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
+							"id": "99",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "",
@@ -376,7 +403,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "42",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "",
@@ -385,7 +412,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "73",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DMP/",
 							"method": "GET",
 							"param": "",
@@ -394,7 +421,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "113",
+							"id": "104",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/js/ua-parser.min.js",
 							"method": "GET",
 							"param": "",
@@ -403,7 +430,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
+							"id": "71",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/MSS/",
 							"method": "GET",
 							"param": "",
@@ -412,7 +439,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "57",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/oa_cps/",
 							"method": "GET",
 							"param": "",
@@ -421,7 +448,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "44",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -430,7 +457,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "60",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "",
@@ -445,7 +472,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "16"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10037",
@@ -458,7 +485,7 @@
 					"desc": "<p>The web/application server is leaking information via one or more \"X-Powered-By\" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "8",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -467,7 +494,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "94",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "",
@@ -476,7 +503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "86",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/diagcps_css.php",
 							"method": "GET",
 							"param": "",
@@ -485,7 +512,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "120",
+							"id": "125",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "",
@@ -494,7 +521,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "130",
+							"id": "132",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ODI_PS/php/download_asip.php?installeur=url_interne_xpi_installation_pkcs11",
 							"method": "GET",
 							"param": "",
@@ -522,7 +549,7 @@
 					"desc": "<p>The web/application server is leaking version information via the \"Server\" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "5",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -531,7 +558,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "54",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/'%20+%20dataIHM.getServerComponentLink()%20+%20'",
 							"method": "GET",
 							"param": "",
@@ -540,7 +567,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "76",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ASIP/",
 							"method": "GET",
 							"param": "",
@@ -549,7 +576,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
+							"id": "87",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "",
@@ -558,7 +585,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "21",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "",
@@ -567,7 +594,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "81",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/diagcps_css.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Apache/2.4.37 (centos) OpenSSL/1.1.1g",
+							"otherinfo": ""
+						},
+						{
+							"id": "67",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DMP/",
 							"method": "GET",
 							"param": "",
@@ -576,7 +612,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
+							"id": "63",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/MSS/",
 							"method": "GET",
 							"param": "",
@@ -585,7 +621,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "50",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/oa_cps/",
 							"method": "GET",
 							"param": "",
@@ -594,7 +630,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "26",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -603,7 +639,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "22",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -612,7 +648,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "52",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "",
@@ -621,7 +657,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress the \"Server\" header or provide generic details.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://httpd.apache.org/docs/current/mod/core.html#servertokens</p><p>https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)</p><p>https://www.troyhunt.com/shhh-dont-let-your-response-headers/</p>",
@@ -640,7 +676,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "50",
+							"id": "6",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -649,7 +685,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "61",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/'%20+%20dataIHM.getServerComponentLink()%20+%20'",
 							"method": "GET",
 							"param": "",
@@ -658,7 +694,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "78",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ASIP/",
 							"method": "GET",
 							"param": "",
@@ -667,7 +703,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
+							"id": "88",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "",
@@ -676,7 +712,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "25",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "",
@@ -685,7 +721,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "82",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/diagcps_css.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "69",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DMP/",
 							"method": "GET",
 							"param": "",
@@ -694,7 +739,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "64",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/MSS/",
 							"method": "GET",
 							"param": "",
@@ -703,7 +748,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "51",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/oa_cps/",
 							"method": "GET",
 							"param": "",
@@ -712,7 +757,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "28",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -721,7 +766,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "27",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -730,7 +775,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "55",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "",
@@ -739,13 +784,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "16"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10021",
@@ -758,7 +803,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "54",
+							"id": "7",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -767,7 +812,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "97",
+							"id": "93",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -776,7 +821,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "105",
+							"id": "85",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/diagcps_css.php",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -785,7 +830,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "123",
+							"id": "127",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/images/favicon.ico",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -794,7 +839,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "118",
+							"id": "106",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/images/informations32.png",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -803,8 +848,17 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "122",
-							"uri": "https://diagcps.eservices.esante.gouv.fr/images/preHelper/iconeOK.png",
+							"id": "123",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/images/logo-ministere.svg",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "109",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/images/preHelper/iconeKO.png",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -813,24 +867,6 @@
 						},
 						{
 							"id": "124",
-							"uri": "https://diagcps.eservices.esante.gouv.fr/images/preHelper/notificationsBar.png",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "125",
-							"uri": "https://diagcps.eservices.esante.gouv.fr/images/preHelper/notificationsParameters.png",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "119",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -839,7 +875,16 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "110",
+							"id": "128",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/js/jquery-3.2.0.min.js",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "96",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/js/ua-parser.min.js",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -848,7 +893,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "6",
+							"id": "29",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -876,7 +921,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "58",
+							"id": "9",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -885,7 +930,7 @@
 							"otherinfo": "\uFFFD\uFFFD?M\\x001f\uFFFD\u0665\uFFFD\uFFFD\uFFFD\\x000f\uFFFDa\uFFFDiu\uFFFD\uFFFDk\uFFFD\uFFFD"
 						},
 						{
-							"id": "99",
+							"id": "95",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "",
@@ -894,7 +939,7 @@
 							"otherinfo": "\uFFFD\uFFFD?M\\x001f\uFFFD\u0665\uFFFD\uFFFD\uFFFD\\x000f\uFFFDa\uFFFDiu\uFFFD\uFFFDk\uFFFD\uFFFD"
 						},
 						{
-							"id": "121",
+							"id": "126",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "",
@@ -922,7 +967,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "4",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -931,7 +976,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// Initialization Javascript from PHP\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "25",
+							"id": "3",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -940,7 +985,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"// User Agent\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "116",
+							"id": "121",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "",
@@ -949,7 +994,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// Initialization Javascript from PHP\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "115",
+							"id": "120",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "",
@@ -958,7 +1003,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"// User Agent\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "128",
+							"id": "122",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/js/jquery-3.2.0.min.js",
 							"method": "GET",
 							"param": "",
@@ -967,7 +1012,7 @@
 							"otherinfo": "The following pattern was used: \\bDB\\b and was detected in likely comment: \"//,Ib={},Jb={},Kb=\"*/\".concat(\"*\"),Lb=d.createElement(\"a\");Lb.href=tb.href;function Mb(a){return function(b,c){\"string\"!=typeof \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "109",
+							"id": "91",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/js/ua-parser.min.js",
 							"method": "GET",
 							"param": "",
@@ -982,7 +1027,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "16"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10015",
@@ -995,7 +1040,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "1",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "cache-control",
@@ -1004,7 +1049,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "83",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "cache-control",
@@ -1013,7 +1058,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "111",
+							"id": "110",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/index.php",
 							"method": "GET",
 							"param": "cache-control",
@@ -1022,7 +1067,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "127",
+							"id": "130",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ODI_PS/php/download_asip.php?installeur=url_interne_xpi_installation_pkcs11",
 							"method": "GET",
 							"param": "cache-control",
@@ -1031,7 +1076,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "24",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "cache-control",
@@ -1046,7 +1091,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "16"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1059,7 +1104,16 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "12",
+							"uri": "https://diagcps.eservices.esante.gouv.fr",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "32",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1068,7 +1122,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "43",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1077,17 +1131,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "36",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "42",
-							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1101,7 +1146,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "20"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1114,7 +1159,16 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "11",
+							"uri": "https://diagcps.eservices.esante.gouv.fr",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "31",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1123,7 +1177,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "39",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1132,17 +1186,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "35",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "40",
-							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1156,7 +1201,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "20"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1169,7 +1214,16 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "10",
+							"uri": "https://diagcps.eservices.esante.gouv.fr",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "30",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1178,7 +1232,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "37",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1187,17 +1241,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "34",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "38",
-							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1211,7 +1256,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "20"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1224,7 +1269,16 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "13",
+							"uri": "https://diagcps.eservices.esante.gouv.fr",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "33",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1233,7 +1287,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "45",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1242,17 +1296,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "38",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "44",
-							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1266,7 +1311,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "20"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1279,7 +1324,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "60",
+							"id": "14",
 							"uri": "https://diagcps.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -1288,7 +1333,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "61",
+							"id": "65",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/'%20+%20dataIHM.getServerComponentLink()%20+%20'",
 							"method": "GET",
 							"param": "",
@@ -1297,7 +1342,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "86",
+							"id": "79",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/ASIP/",
 							"method": "GET",
 							"param": "",
@@ -1306,7 +1351,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "100",
+							"id": "98",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/copyright.php",
 							"method": "GET",
 							"param": "",
@@ -1315,7 +1360,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "41",
+							"id": "40",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DIAGCPS/",
 							"method": "GET",
 							"param": "",
@@ -1324,7 +1369,16 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "77",
+							"id": "92",
+							"uri": "https://diagcps.eservices.esante.gouv.fr/diagcps_css.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "70",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/DMP/",
 							"method": "GET",
 							"param": "",
@@ -1333,7 +1387,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "93",
+							"id": "68",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/MSS/",
 							"method": "GET",
 							"param": "",
@@ -1342,7 +1396,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "67",
+							"id": "56",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/oa_cps/",
 							"method": "GET",
 							"param": "",
@@ -1351,7 +1405,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "17",
+							"id": "47",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1360,7 +1414,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "19",
+							"id": "41",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1369,7 +1423,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "45",
+							"id": "59",
 							"uri": "https://diagcps.eservices.esante.gouv.fr/TESTSSL/",
 							"method": "GET",
 							"param": "",
@@ -1378,7 +1432,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",

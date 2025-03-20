@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://diagcps.eservices.esante.gouv.fr",
-        "size": 424.287,
+        "size": 424.288,
         "nodes": 152,
         "requests": 17,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.28,
         "water": 1.92,
         "ecoindex_version": "5.4.2",
-        "date": "2025-03-17 14:39:37.571274",
+        "date": "2025-03-20 10:44:43.826512",
         "page_type": null
     }
 ]

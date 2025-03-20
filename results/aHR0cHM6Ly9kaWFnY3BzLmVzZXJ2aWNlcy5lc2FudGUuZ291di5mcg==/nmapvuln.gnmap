@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 17 14:43:22 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln diagcps.eservices.esante.gouv.fr
+# Nmap 7.92 scan initiated Thu Mar 20 10:48:35 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln diagcps.eservices.esante.gouv.fr
 Host: 135.125.232.117 (vps-c4a3f657.vps.ovh.net)	Status: Up
 Host: 135.125.232.117 (vps-c4a3f657.vps.ovh.net)	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1g)/, 389/closed/tcp//ldap///, 443/open/tcp//ssl|http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1g)/, 636/closed/tcp//ldapssl///, 9090/closed/tcp//zeus-admin///	Ignored State: filtered (994)
-# Nmap done at Mon Mar 17 14:43:45 2025 -- 1 IP address (1 host up) scanned in 22.41 seconds
+# Nmap done at Thu Mar 20 10:49:01 2025 -- 1 IP address (1 host up) scanned in 25.45 seconds

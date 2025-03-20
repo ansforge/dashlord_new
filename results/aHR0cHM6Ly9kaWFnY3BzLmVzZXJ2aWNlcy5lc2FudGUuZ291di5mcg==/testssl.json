@@ -367,7 +367,7 @@
               "ip"           : "diagcps.eservices.esante.gouv.fr/135.125.232.117",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "67 >= 30 days"
+              "finding"      : "64 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -521,14 +521,14 @@
               "ip"           : "diagcps.eservices.esante.gouv.fr/135.125.232.117",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "diagcps.eservices.esante.gouv.fr/135.125.232.117",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742222563"
+              "finding"      : "1742467673"
           }
 ,         {
               "id"           : "HSTS",
@@ -1084,6 +1084,6 @@
               "ip"           : "diagcps.eservices.esante.gouv.fr/135.125.232.117",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "83"
+              "finding"      : "91"
           }
 ]
