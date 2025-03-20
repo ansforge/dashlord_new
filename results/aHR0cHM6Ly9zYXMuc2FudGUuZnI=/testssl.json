@@ -346,7 +346,7 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "77 >= 60 days"
+              "finding"      : "74 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -479,7 +479,7 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Certigna Services CA <-- Certigna"
+              "finding"      : "<-- Certigna"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -507,7 +507,7 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1742229707"
+              "finding"      : "1742474687"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "sas.sante.fr/185.231.164.110",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99"
+              "finding"      : "59"
           }
 ]
