@@ -1,6 +1,76 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null,
-  "endpoints": null
+  "trackers": [],
+  "cookies": [],
+  "headers": {
+    "accept-ranges": "bytes",
+    "connection": "Keep-Alive",
+    "content-length": "119",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Thu, 20 Mar 2025 11:00:01 GMT",
+    "etag": "W/\"119-1710862038000\"",
+    "keep-alive": "timeout=5, max=298",
+    "last-modified": "Tue, 19 Mar 2024 15:27:18 GMT",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=31536000; includesubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "endpoints": [
+    {
+      "hostname": "finess.esante.gouv.fr",
+      "ip": "80.78.2.234",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    }
+  ]
 }

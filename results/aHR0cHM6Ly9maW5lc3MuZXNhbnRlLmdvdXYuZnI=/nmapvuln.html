@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln finess.esante.gouv.fr</pre>
-<p class="lead">Mon Mar 17 14:59:13 2025 – Mon Mar 17 15:01:56 2025<br>1 hosts scanned.
+<p class="lead">Thu Mar 20 11:05:12 2025 – Thu Mar 20 11:09:30 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -121,7 +121,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    Date: Mon, 17 Mar 2025 14:59:54 GMT
+    Date: Thu, 20 Mar 2025 11:07:26 GMT
     Content-Length: 199
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -132,9 +132,9 @@
     &lt;h1&gt;Forbidden&lt;/h1&gt;
     &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;
-  Help: 
+  Help, SSLSessionReq: 
     HTTP/1.1 400 Bad Request
-    Date: Mon, 17 Mar 2025 15:00:25 GMT
+    Date: Thu, 20 Mar 2025 11:07:58 GMT
     Content-Length: 226
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -148,21 +148,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Mon, 17 Mar 2025 14:59:55 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  SSLSessionReq: 
-    HTTP/1.1 400 Bad Request
-    Date: Mon, 17 Mar 2025 15:00:26 GMT
+    Date: Thu, 20 Mar 2025 11:07:27 GMT
     Content-Length: 226
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -175,6 +161,15 @@
     &lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
+<tr class="active">
+<td>113</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>ident</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
@@ -189,9 +184,24 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, GetRequest, HTTPOptions: 
+  FourOhFourRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Mon, 17 Mar 2025 15:00:01 GMT
+    Date: Thu, 20 Mar 2025 11:07:34 GMT
+    Strict-Transport-Security: max-age=3600; includeSubDomains; preload
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    Date: Thu, 20 Mar 2025 11:07:33 GMT
     Strict-Transport-Security: max-age=3600; includeSubDomains; preload
     Content-Length: 226
     Connection: close
@@ -206,7 +216,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Mon, 17 Mar 2025 15:00:12 GMT
+    Date: Thu, 20 Mar 2025 11:07:45 GMT
     Strict-Transport-Security: max-age=3600; includeSubDomains; preload
     Content-Length: 226
     Connection: close
