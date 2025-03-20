@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.0",
-	"@generated": "Mon, 17 Mar 2025 17:34:52",
+	"@generated": "Thu, 20 Mar 2025 13:40:26",
 	"site":[ 
 		{
 			"@name": "https://tops.eservices.esante.gouv.fr",
@@ -29,7 +29,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "52",
 							"uri": "https://tops.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -38,7 +38,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "55",
 							"uri": "https://tops.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -47,7 +47,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "75",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionUtilisateur.action",
 							"method": "GET",
 							"param": "",
@@ -56,7 +56,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "6",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "",
@@ -65,16 +65,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
-							"uri": "https://tops.eservices.esante.gouv.fr/tops/parametrage.action",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "43",
+							"id": "5",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "",
@@ -83,7 +74,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "7",
+					"count": "6",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
@@ -102,8 +93,8 @@
 					"desc": "<p>X-Frame-Options (XFO) headers were found, a response with multiple XFO header entries may not be predictably treated by all user-agents.</p>",
 					"instances":[ 
 						{
-							"id": "0",
-							"uri": "https://tops.eservices.esante.gouv.fr",
+							"id": "1",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -111,7 +102,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "74",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/mentionsLegales.html",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -120,7 +111,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "2",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -129,7 +120,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "82",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/politiqueDeConfidentialite.html",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -144,7 +135,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7034</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10003",
@@ -157,7 +148,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "99",
+							"id": "101",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/jquery-1.9.1.js",
 							"method": "GET",
 							"param": "",
@@ -185,7 +176,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "14",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -194,7 +185,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "49",
+							"id": "54",
 							"uri": "https://tops.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -203,7 +194,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "40",
+							"id": "57",
 							"uri": "https://tops.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -212,7 +203,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "89",
+							"id": "93",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionContenu.action",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -221,7 +212,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "75",
+							"id": "77",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionUtilisateur.action",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -239,7 +230,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "76",
+							"id": "81",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/parametrage.action",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -248,7 +239,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "81",
+							"id": "84",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/mentionsLegales.html",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -257,7 +248,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "45",
+							"id": "12",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -266,7 +257,7 @@
 							"otherinfo": "The header X-WebKit-CSP was found on this response. While it is a good sign that CSP is implemented to some degree the policy specified in this header has not been analyzed by ZAP. To ensure full support by modern browsers ensure that the Content-Security-Policy header is defined and attached to responses."
 						},
 						{
-							"id": "90",
+							"id": "88",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/politiqueDeConfidentialite.html",
 							"method": "GET",
 							"param": "X-WebKit-CSP",
@@ -294,7 +285,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "45",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -303,7 +294,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "49",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -312,7 +303,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "72",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main.css",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "63",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main_ie7.css",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -321,7 +321,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "62",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main_ie9.css",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -330,16 +330,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
-							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/jscrollpane/jquery.jscrollpane.css",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "62",
+							"id": "31",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -348,7 +339,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "46",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -357,7 +348,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "50",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -366,7 +357,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "32",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -375,7 +366,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "47",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -384,7 +375,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "51",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -393,7 +384,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "33",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -421,7 +412,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "42",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -430,7 +421,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "69",
 							"uri": "https://tops.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -439,7 +430,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "67",
 							"uri": "https://tops.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -448,7 +439,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
+							"id": "96",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionContenu.action",
 							"method": "GET",
 							"param": "",
@@ -457,7 +448,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "90",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionUtilisateur.action",
 							"method": "GET",
 							"param": "",
@@ -466,7 +457,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "48",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "",
@@ -475,7 +466,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "91",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/parametrage.action",
 							"method": "GET",
 							"param": "",
@@ -484,7 +475,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
+							"id": "95",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/ssl/test_ssl_connexion.js",
 							"method": "GET",
 							"param": "",
@@ -493,7 +484,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
+							"id": "98",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/traitementPageAccueil.js",
 							"method": "GET",
 							"param": "",
@@ -502,7 +493,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
+							"id": "92",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/mentionsLegales.html",
 							"method": "GET",
 							"param": "",
@@ -511,7 +502,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "30",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "",
@@ -520,7 +511,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "94",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/politiqueDeConfidentialite.html",
 							"method": "GET",
 							"param": "",
@@ -548,7 +539,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "28",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -557,7 +548,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "64",
 							"uri": "https://tops.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -566,7 +557,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "65",
 							"uri": "https://tops.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -575,7 +566,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "85",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionUtilisateur.action",
 							"method": "GET",
 							"param": "",
@@ -584,7 +575,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "23",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "",
@@ -593,7 +584,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "86",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/parametrage.action",
 							"method": "GET",
 							"param": "",
@@ -602,7 +593,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "78",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/jquery_tops.css",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "70",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main.css",
 							"method": "GET",
 							"param": "",
@@ -611,7 +611,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "58",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main_ie7.css",
 							"method": "GET",
 							"param": "",
@@ -620,7 +620,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "59",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main_ie9.css",
 							"method": "GET",
 							"param": "",
@@ -629,7 +629,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "73",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/jscrollpane/jquery.jscrollpane.css",
 							"method": "GET",
 							"param": "",
@@ -638,16 +638,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
-							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/mentionsLegales.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "55",
+							"id": "22",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "",
@@ -675,7 +666,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "98",
+							"id": "100",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/jquery-1.9.1.js",
 							"method": "GET",
 							"param": "",
@@ -703,7 +694,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "97",
+							"id": "99",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/jquery-1.9.1.js",
 							"method": "GET",
 							"param": "",
@@ -712,7 +703,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"// Handle the case where IE and Opera return items\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "95",
+							"id": "97",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/traitementPageAccueil.js",
 							"method": "GET",
 							"param": "",
@@ -740,7 +731,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "21",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -749,7 +740,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "15",
+							"id": "19",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "",
@@ -777,7 +768,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "20",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -805,7 +796,7 @@
 					"desc": "<p>The \"X-Content-Security-Policy\" and \"X-WebKit-CSP\" headers are no longer recommended.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "13",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -814,7 +805,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "53",
 							"uri": "https://tops.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -823,7 +814,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "56",
 							"uri": "https://tops.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -832,7 +823,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "76",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionUtilisateur.action",
 							"method": "GET",
 							"param": "",
@@ -841,7 +832,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "8",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "",
@@ -850,16 +841,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
-							"uri": "https://tops.eservices.esante.gouv.fr/tops/parametrage.action",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "44",
+							"id": "7",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "",
@@ -868,7 +850,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "7",
+					"count": "6",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
@@ -887,7 +869,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "9",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "cache-control",
@@ -896,7 +878,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "4",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "cache-control",
@@ -905,7 +887,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "83",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/mentionsLegales.html",
 							"method": "GET",
 							"param": "cache-control",
@@ -914,7 +896,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "3",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "cache-control",
@@ -923,7 +905,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "87",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/politiqueDeConfidentialite.html",
 							"method": "GET",
 							"param": "cache-control",
@@ -951,7 +933,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "17",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -960,8 +942,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "40",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "26",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -969,7 +960,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
@@ -988,7 +979,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "16",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -997,8 +988,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "38",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "25",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1006,7 +1006,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
@@ -1025,7 +1025,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "15",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1034,8 +1034,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "35",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "24",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1043,7 +1052,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
@@ -1062,7 +1071,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "18",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1071,8 +1080,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "43",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "27",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1080,7 +1098,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
@@ -1099,7 +1117,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "41",
 							"uri": "https://tops.eservices.esante.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -1108,7 +1126,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "60",
+							"id": "68",
 							"uri": "https://tops.eservices.esante.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1117,7 +1135,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "57",
+							"id": "66",
 							"uri": "https://tops.eservices.esante.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1126,7 +1144,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "83",
+							"id": "89",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/gestionUtilisateur.action",
 							"method": "GET",
 							"param": "",
@@ -1135,7 +1153,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "32",
+							"id": "44",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/pageAccueil/accueil.html",
 							"method": "GET",
 							"param": "",
@@ -1144,8 +1162,8 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "85",
-							"uri": "https://tops.eservices.esante.gouv.fr/tops/parametrage.action",
+							"id": "79",
+							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/jquery_tops.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1153,7 +1171,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "77",
+							"id": "71",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main.css",
 							"method": "GET",
 							"param": "",
@@ -1162,7 +1180,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "50",
+							"id": "61",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main_ie7.css",
 							"method": "GET",
 							"param": "",
@@ -1171,7 +1189,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "54",
+							"id": "60",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/css/main_ie9.css",
 							"method": "GET",
 							"param": "",
@@ -1180,7 +1198,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "67",
+							"id": "80",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/js/jscrollpane/jquery.jscrollpane.css",
 							"method": "GET",
 							"param": "",
@@ -1189,7 +1207,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "58",
+							"id": "29",
 							"uri": "https://tops.eservices.esante.gouv.fr/tops/resources/pagesPubliques/planDuSite.html",
 							"method": "GET",
 							"param": "",
