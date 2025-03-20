@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 17 16:02:56 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln meshabilitations.esante.gouv.fr
+# Nmap 7.92 scan initiated Thu Mar 20 12:06:08 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln meshabilitations.esante.gouv.fr
 Host: 80.78.2.228 ()	Status: Up
-Host: 80.78.2.228 ()	Ports: 443/open/tcp//ssl|http//Apache httpd/
-# Nmap done at Mon Mar 17 16:04:43 2025 -- 1 IP address (1 host up) scanned in 106.97 seconds
+Host: 80.78.2.228 ()	Ports: 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
+# Nmap done at Thu Mar 20 12:07:03 2025 -- 1 IP address (1 host up) scanned in 55.13 seconds
