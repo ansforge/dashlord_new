@@ -12,7 +12,7 @@
       "content-type": "text/html",
       "content-length": "4543",
       "connection": "close",
-      "date": "Sun, 16 Mar 2025 02:39:47 GMT",
+      "date": "Thu, 20 Mar 2025 11:43:15 GMT",
       "x-frame-options": "SAMEORIGIN",
       "strict-transport-security": "max-age=63072000; includeSubdomains;",
       "vary": "x-webfence-id,Accept-Encoding",
@@ -20,9 +20,9 @@
       "etag": "\"4719-62ee5e64f5b8d-gzip\"",
       "accept-ranges": "bytes",
       "x-cache": "Miss from cloudfront",
-      "via": "1.1 68d323cfd4a0f1ae252f92c083654190.cloudfront.net (CloudFront)",
-      "x-amz-cf-pop": "IAD89-P2",
-      "x-amz-cf-id": "VkU6OCAyFCK3TLQz8EbsTNnCQ27mMzJVsfMBHgDNGjl6BR_ha3zurA=="
+      "via": "1.1 d34c1f3bde73ba74acaa2d8cb0ec40b2.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "LAX50-P1",
+      "x-amz-cf-id": "5E3-pmZW4i3VfwWGD5MZ_sYfAB7THTJ-cdD69744NKr7gZCFcbxASA=="
     }
   },
   "tests": {
