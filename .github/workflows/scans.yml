@@ -153,6 +153,7 @@ jobs:
         with:
           url: ${{ matrix.sites.url }}
           output: scans/404.json
+          depth: 5
 
       - name: Betagouv API scan
         if: ${{ matrix.sites.tools.betagouv }}
